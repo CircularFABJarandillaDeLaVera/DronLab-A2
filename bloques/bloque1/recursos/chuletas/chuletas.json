@@ -1,0 +1,92 @@
+{
+  "curso": "DronLab A2",
+  "bloque": "Bloque 1: Requisitos Legales y Tramites para la Subcategoria A2",
+  "titulo": "Chuletas Bloque 1 A2",
+  "chuletas": [
+    {
+      "id": "B1-CH-001",
+      "titulo": "Resumen del Bloque 1",
+      "tipo": "resumen",
+      "items": [
+        "A2 no empieza por el examen: empieza por acreditar requisitos.",
+        "A1/A3 es base formativa y requisito administrativo previo.",
+        "La autoformacion debe seguir la Guia FOR-UAS-P01-GU07.",
+        "La declaracion confirma practicas completadas.",
+        "La matriculacion depende de firma electronica y certificado digital.",
+        "El examen A2 es online, telematico y televigilado."
+      ]
+    },
+    {
+      "id": "B1-CH-002",
+      "titulo": "Linea temporal A2",
+      "tipo": "linea_temporal",
+      "items": ["A1/A3", "Autoformacion", "Declaracion", "Inscripcion", "Examen", "Certificado A2"]
+    },
+    {
+      "id": "B1-CH-003",
+      "titulo": "Requisitos previos",
+      "tipo": "esquema",
+      "items": [
+        "Prueba de superacion A1/A3.",
+        "Practicas en condiciones A3.",
+        "Conocimiento de instrucciones del fabricante.",
+        "Declaracion de conclusion de autoformacion.",
+        "Firma electronica y certificado digital.",
+        "Identificador de piloto ESP-RP-0000000XXXXX."
+      ]
+    },
+    {
+      "id": "B1-CH-004",
+      "titulo": "Flujo administrativo completo",
+      "tipo": "flujo",
+      "items": ["A1/A3", "Autoformacion", "Declaracion", "Inscripcion", "Examen", "Certificado A2"]
+    },
+    {
+      "id": "B1-CH-005",
+      "titulo": "Datos criticos",
+      "tipo": "tabla",
+      "items": [
+        {"dato": "A1/A3", "valor": "40 preguntas", "uso": "Requisito previo"},
+        {"dato": "Examen A2", "valor": "30 preguntas", "uso": "Prueba teorica adicional"},
+        {"dato": "Duracion A2", "valor": "30 minutos", "uso": "Tiempo de examen"},
+        {"dato": "Aprobado", "valor": "75%", "uso": "Umbral minimo"},
+        {"dato": "Plazo", "valor": "30 dias habiles", "uso": "Tras notificacion de acceso"},
+        {"dato": "Vigencia", "valor": "5 anos", "uso": "Desde emision"},
+        {"dato": "Identificador", "valor": "ESP-RP-0000000XXXXX", "uso": "Piloto"},
+        {"dato": "Practicas A3", "valor": "Mas de 150 m", "uso": "Respecto a zonas urbanas"}
+      ]
+    },
+    {
+      "id": "B1-CH-006",
+      "titulo": "Errores habituales",
+      "tipo": "tabla",
+      "items": [
+        {"error": "Saltar A1/A3", "evita": "Comprobar requisito previo"},
+        {"error": "Practicar sin guia", "evita": "Usar FOR-UAS-P01-GU07"},
+        {"error": "Practicar cerca de zonas urbanas", "evita": "Condiciones A3"},
+        {"error": "Firmar antes de practicar", "evita": "Declarar solo practicas completadas"},
+        {"error": "Confundir ESP-RP y operador", "evita": "Separar piloto y operador"},
+        {"error": "No tener firma", "evita": "Preparar firma y certificado digital"},
+        {"error": "Confundir plazos", "evita": "Separar 30 min, 30 dias, 5 anos"},
+        {"error": "Consultar manual en examen", "evita": "Mesa limpia y sin ayudas"}
+      ]
+    },
+    {
+      "id": "B1-CH-007",
+      "titulo": "Checklist final",
+      "tipo": "checklist",
+      "items": [
+        "A1/A3 localizado.",
+        "Autoformacion completada.",
+        "Practicas realizadas en condiciones A3.",
+        "Instrucciones del fabricante revisadas.",
+        "Declaracion preparada despues de practicar.",
+        "ESP-RP identificado.",
+        "Firma electronica operativa.",
+        "Certificado digital operativo.",
+        "Webcam, microfono y pantalla comprobados.",
+        "Plazo de 30 dias habiles controlado tras notificacion."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mapa mental - Bloque 3 A2</title>
+<style>
+:root{--bg:#031327;--panel:#07192f;--card:#fff;--ink:#10243a;--muted:#587082;--line:#d8e4eb;--green:#16a47d;--blue:#0d4564;--amber:#f0a928;--red:#df4b5f}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%}body{font-family:Inter,Arial,sans-serif;background:linear-gradient(145deg,#061426,#0d3656);color:#fff}.app{min-height:100vh;display:grid;grid-template-rows:auto 1fr}.top{display:flex;align-items:center;gap:16px;padding:16px 22px;background:#07192fee;border-bottom:1px solid #ffffff18}.top img{width:54px;height:54px;object-fit:contain}.brand b{letter-spacing:.1em;font-size:13px}.brand h1{margin:2px 0 0;font-size:22px}.actions{margin-left:auto;display:flex;gap:10px;flex-wrap:wrap}.actions button,.actions a{border:0;border-radius:8px;background:var(--green);color:#fff;font-weight:900;padding:10px 14px;cursor:pointer;text-decoration:none}.actions .secondary{background:#ffffff18}.workspace{display:grid;grid-template-columns:1fr 360px;gap:16px;padding:16px}.map-wrap{position:relative;background:#eef4f7;border-radius:18px;min-height:calc(100vh - 118px);overflow:auto;color:var(--ink);box-shadow:0 24px 70px #0003}.map-scale{transform-origin:0 0;transition:transform .18s}.map{position:relative;width:1560px;min-height:980px;padding:34px}.links{position:absolute;inset:0;pointer-events:none}.node{position:absolute;width:210px;min-height:74px;border:2px solid var(--line);border-radius:16px;background:#fff;color:var(--ink);box-shadow:0 12px 30px #07192f18;padding:13px 14px;cursor:pointer;transition:.2s;text-align:left}.node:hover{transform:translateY(-2px)}.node.active{border-color:var(--green);box-shadow:0 0 0 4px #16a47d22,0 16px 38px #07192f26}.node.hidden{display:none}.node.center{width:310px;min-height:132px;background:var(--panel);color:#fff;border-color:var(--green);text-align:center}.node .type{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--green);font-weight:900}.node.center .type{color:#80f0cf}.node h2{font-size:17px;margin:6px 0 5px;line-height:1.08}.node.center h2{font-size:26px}.node p{margin:0;color:var(--muted);font-size:12px}.node.center p{color:#b8d2e4}.toggle{position:absolute;right:8px;top:8px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:#eef5f3;color:var(--green);font-weight:900}.detail{background:#fff;color:var(--ink);border-radius:18px;padding:20px;box-shadow:0 24px 70px #0003;align-self:start;position:sticky;top:16px}.detail .kicker{color:var(--green);font-weight:900;letter-spacing:.12em;text-transform:uppercase;font-size:12px}.detail h2{margin:8px 0 12px;font-size:24px}.detail section{border-top:1px solid var(--line);padding-top:12px;margin-top:12px}.detail h3{margin:0 0 8px;font-size:14px;color:var(--blue);text-transform:uppercase;letter-spacing:.08em}.detail p{margin:0;color:#28445d;line-height:1.45}.legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.pill{border-radius:99px;padding:7px 10px;font-size:12px;font-weight:900;color:#fff}.green{background:var(--green)}.blue{background:var(--blue)}.amber{background:var(--amber);color:#3f2b00}.red{background:var(--red)}.print-note{display:none}@media(max-width:1000px){.workspace{grid-template-columns:1fr}.detail{position:static}.map-wrap{min-height:720px}.top{flex-wrap:wrap}.actions{margin-left:0}.map{width:1420px}}@page{size:A3 landscape;margin:8mm}@media print{body{background:#fff}.top,.detail,.actions{display:none}.workspace{display:block;padding:0}.map-wrap{box-shadow:none;border-radius:0;overflow:visible;min-height:0}.map-scale{transform:none!important}.map{width:390mm;min-height:265mm;padding:8mm}.node{box-shadow:none;border-radius:4mm;width:56mm;min-height:19mm;padding:3mm;break-inside:avoid}.node h2{font-size:12pt}.node p{font-size:7pt}.node.center{width:72mm}.toggle{display:none}.print-note{display:block;position:absolute;left:8mm;bottom:6mm;color:#587082;font-size:8pt}}
+</style>
+</head>
+<body>
+<main class="app">
+  <header class="top">
+    <img src="../../../../assets/branding/logo-circular-fab.png" alt="Circular FAB">
+    <div class="brand"><b>CIRCULAR FAB - DRONLAB A2</b><h1>Mapa mental interactivo - Bloque 3</h1></div>
+    <div class="actions">
+      <a class="secondary" href="../index.html">Recursos</a>
+      <button id="zoomOut" class="secondary">-</button>
+      <button id="zoomReset" class="secondary">100%</button>
+      <button id="zoomIn" class="secondary">+</button>
+      <button id="expandAll" class="secondary">Expandir todo</button>
+      <button id="collapseAll" class="secondary">Contraer ramas</button>
+      <button id="fullscreen" class="secondary">Pantalla completa</button>
+      <button id="printMode">Imprimir</button>
+    </div>
+  </header>
+  <section class="workspace">
+    <div id="mapWrap" class="map-wrap">
+      <div id="mapScale" class="map-scale">
+        <div id="map" class="map">
+          <svg id="links" class="links" aria-hidden="true"></svg>
+          <div class="print-note">DronLab A2 - Bloque 3 - Operaciones en Subcategoria A2</div>
+        </div>
+      </div>
+    </div>
+    <aside id="detail" class="detail">
+      <div class="kicker">Nodo seleccionado</div>
+      <h2>BLOQUE 3</h2>
+      <section><h3>Definicion</h3><p>Operaciones en Subcategoria A2 centradas en distancias de seguridad y reglas de sobrevuelo.</p></section>
+      <section><h3>Idea clave</h3><p>La operacion A2 exige identificar personas no participantes, aplicar 30 m, reducir solo con modo lento y mantener la regla 1:1.</p></section>
+      <section><h3>Error habitual</h3><p>Creer que un UAS C2 permite sobrevolar personas ajenas de forma deliberada.</p></section>
+      <div class="legend"><span class="pill blue">Distancia</span><span class="pill green">Condicion</span><span class="pill amber">Aplicacion</span><span class="pill red">Riesgo</span></div>
+    </aside>
+  </section>
+</main>
+<script>
+const nodes=[
+{id:'root',parent:null,x:625,y:400,type:'central',title:'BLOQUE 3',subtitle:'Operaciones en Subcategoria A2',def:'Gestion de distancias de seguridad y reglas de sobrevuelo en A2.',key:'A2 permite operar cerca de personas solo con C2, certificado A2 y medidas estrictas.',err:'Tratar A2 como permiso para volar libremente sobre terceros.'},
+{id:'personas',parent:'root',x:585,y:35,type:'rama',title:'Personas',subtitle:'Participantes / no participantes',def:'Distincion necesaria para decidir que distancia aplicar.',key:'Sin identificar personas no participantes no puede aplicarse correctamente A2.',err:'Creer que clientes o personal propio son participantes sin instrucciones previas.'},
+{id:'participantes',parent:'personas',x:345,y:90,type:'sub',title:'Participantes',subtitle:'Instruidos',def:'Personas que han recibido instrucciones de seguridad previas.',key:'La participacion exige informacion, no solo pertenecer al equipo o al cliente.',err:'Llamar participante a quien no conoce el riesgo ni las instrucciones.'},
+{id:'nopart',parent:'personas',x:835,y:90,type:'sub',title:'No participantes',subtitle:'Terceros ajenos',def:'Personas ajenas a la operacion a las que se aplican distancias de seguridad.',key:'Son el centro de la evaluacion A2.',err:'No actualizar la distancia si entran en el volumen cercano.'},
+{id:'c2',parent:'root',x:200,y:240,type:'rama',title:'UAS Clase C2',subtitle:'Dependencia tecnica',def:'Marcado de clase requerido para operar cerca de personas en A2 segun la ingenieria.',key:'El UAS C2 conecta el diseno del equipo con la reduccion de riesgo.',err:'Aplicar reglas A2 sin comprobar la clase del UAS.'},
+{id:'cert',parent:'c2',x:45,y:410,type:'sub',title:'Certificado A2',subtitle:'Dependencia formativa',def:'Competencia necesaria para operar en subcategoria A2.',key:'La operacion cerca de personas depende de competencia A2 y C2.',err:'Confundir experiencia practica con habilitacion A2.'},
+{id:'rps',parent:'c2',x:300,y:410,type:'sub',title:'Indicador RPS',subtitle:'Verificacion',def:'La ingenieria indica comprobar el indicador del modo lento en la estacion de control.',key:'La reduccion a 5 m no debe asumirse: debe verificarse.',err:'Confiar en que el modo lento esta activo sin mirarlo.'},
+{id:'dist30',parent:'root',x:980,y:235,type:'rama',title:'30 metros',subtitle:'Distancia general',def:'Distancia minima de seguridad horizontal entre dron y persona no participante.',key:'Es la regla general de planificacion operativa A2.',err:'Pensar que 30 m es solo una recomendacion.'},
+{id:'visual',parent:'dist30',x:1220,y:120,type:'sub',title:'Estimacion visual',subtitle:'Variable',def:'La percepcion de 30 m o 5 m varia por iluminacion y tamano del UAS.',key:'El piloto debe mantener consciencia situacional y margen.',err:'Medir a ojo sin considerar condiciones visuales.'},
+{id:'entorno',parent:'dist30',x:1230,y:315,type:'sub',title:'Entorno',subtitle:'Densidad y reaccion',def:'El riesgo en tierra depende de densidad de personas y capacidad de reaccion ante rafagas.',key:'A2 se decide durante el vuelo, no solo en el plan inicial.',err:'Ignorar rafagas que pueden desplazar el UAS.'},
+{id:'modo',parent:'root',x:1015,y:650,type:'rama',title:'Modo baja velocidad',subtitle:'<= 3 m/s',def:'Condicion tecnica obligatoria para reducir la distancia frente a personas no participantes.',key:'Rompe la barrera de los 30 m solo si esta activo y verificado.',err:'Acercarse a menos de 30 m sin activar o verificar modo lento.'},
+{id:'dist5',parent:'modo',x:1240,y:790,type:'sub',title:'5 metros',subtitle:'Minimo absoluto',def:'Distancia reducida permitida con modo de baja velocidad.',key:'5 m no sustituye automaticamente a todas las demas reglas.',err:'Aplicar 5 m aunque la regla 1:1 exija mayor separacion.'},
+{id:'vel3',parent:'modo',x:1040,y:820,type:'sub',title:'3 m/s',subtitle:'Limite del modo lento',def:'Velocidad maxima indicada para modo de baja velocidad en UAS C2.',key:'Dato critico estable del bloque.',err:'Recordar el modo lento pero olvidar el valor.'},
+{id:'regla',parent:'root',x:620,y:750,type:'rama',title:'Regla 1:1',subtitle:'Altura / distancia',def:'La distancia horizontal a personas ajenas no debe ser inferior a la altura del dron.',key:'Si el dron sube, la distancia horizontal necesaria tambien puede aumentar.',err:'Usar una distancia fija y olvidar que 1:1 es dinamica.'},
+{id:'ejemplo',parent:'regla',x:470,y:885,type:'sub',title:'Ejemplo',subtitle:'20 m = 20 m',def:'Si vuela a 20 m de altura, debe estar al menos a 20 m horizontales de la persona.',key:'Ejemplo numerico central de aplicacion.',err:'Contestar 5 m solo porque esta activo el modo lento.'},
+{id:'agl',parent:'regla',x:725,y:885,type:'sub',title:'Altura AGL',subtitle:'Telemetria',def:'La regla 1:1 depende de telemetria de altura sobre el terreno.',key:'Sin altura AGL no puede aplicarse con rigor.',err:'Usar altura aproximada sin controlar telemetria.'},
+{id:'sobrevuelo',parent:'root',x:320,y:650,type:'rama',title:'Sobrevuelo',subtitle:'Limite A2',def:'En A2 no se debe sobrevolar deliberadamente a personas ajenas.',key:'El UAS C2 no convierte el sobrevuelo de terceros en permitido.',err:'Responder en examen que C2 puede volar sobre personas ajenas.'},
+{id:'multitudes',parent:'sobrevuelo',x:80,y:785,type:'sub',title:'Concentraciones',subtitle:'Prohibido',def:'Nunca se vuela sobre multitudes en categoria abierta.',key:'Concepto estable y critico.',err:'Tratar concentraciones como una distancia reducible.'},
+{id:'prioridad',parent:'sobrevuelo',x:300,y:840,type:'sub',title:'Aeronaves tripuladas',subtitle:'Preferencia',def:'Las aeronaves tripuladas siempre tienen preferencia.',key:'Prioridad de paso estable.',err:'Centrarse solo en personas en tierra y olvidar trafico tripulado.'},
+{id:'datos',parent:'root',x:210,y:55,type:'rama',title:'Datos criticos',subtitle:'Memoria operativa',def:'Valores que deben memorizarse y aplicarse sin mezclarlos.',key:'30 m, 5 m, <= 3 m/s, regla 1:1, prohibicion de concentraciones.',err:'Mezclar distancias operativas con distancias geograficas.'},
+{id:'fuera',parent:'datos',x:35,y:175,type:'sub',title:'Fuera de alcance',subtitle:'No desarrollar',def:'STS, SORA, categoria Especifica, Certificada y Radiofonista quedan fuera del curso A2.',key:'No usar conceptos de otros escenarios para resolver A2.',err:'Aplicar buferes STS o EARO al bloque A2.'},
+{id:'escenarios',parent:'root',x:1150,y:455,type:'rama',title:'Escenarios reales',subtitle:'Aplicacion',def:'Grabacion de oficinas con peatones e inspeccion de antena con operarios cercanos.',key:'Elegir 30 m o modo lento y 5 m segun personas, entorno y altura.',err:'Resolver el escenario sin revisar 1:1 ni entrada de personas.'}
+];
+const expanded=new Set(nodes.filter(n=>!n.parent||n.type==='rama').map(n=>n.id));let active='root';let zoom=1;
+const map=document.getElementById('map'),scaleEl=document.getElementById('mapScale'),wrap=document.getElementById('mapWrap'),links=document.getElementById('links'),detail=document.getElementById('detail');
+function children(id){return nodes.filter(n=>n.parent===id)}
+function visible(n){if(!n.parent)return true;let p=nodes.find(x=>x.id===n.parent);while(p){if(!expanded.has(p.id))return false;p=nodes.find(x=>x.id===p.parent)}return true}
+function render(){map.querySelectorAll('.node').forEach(n=>n.remove());nodes.forEach(n=>{const el=document.createElement('button');el.className=`node ${n.type==='central'?'center':''} ${n.id===active?'active':''} ${visible(n)?'':'hidden'}`;el.style.left=n.x+'px';el.style.top=n.y+'px';const hasKids=children(n.id).length>0;el.innerHTML=`${hasKids?`<span class="toggle">${expanded.has(n.id)?'-':'+'}</span>`:''}<div class="type">${n.type==='central'?'central':hasKids?'rama':'subrama'}</div><h2>${n.title}</h2><p>${n.subtitle}</p>`;el.onclick=()=>{active=n.id;if(hasKids){expanded.has(n.id)?expanded.delete(n.id):expanded.add(n.id)}updateDetail(n);render()};map.appendChild(el)});drawLinks();applyZoom()}
+function drawLinks(){links.setAttribute('width',map.scrollWidth);links.setAttribute('height',map.scrollHeight);links.innerHTML='';nodes.filter(n=>n.parent&&visible(n)).forEach(n=>{const p=nodes.find(x=>x.id===n.parent);if(!p||!visible(p))return;const x1=p.x+(p.type==='central'?155:105),y1=p.y+(p.type==='central'?66:37),x2=n.x+105,y2=n.y+37;const path=document.createElementNS('http://www.w3.org/2000/svg','path');const dx=(x2-x1)*.45;path.setAttribute('d',`M ${x1} ${y1} C ${x1+dx} ${y1}, ${x2-dx} ${y2}, ${x2} ${y2}`);path.setAttribute('fill','none');path.setAttribute('stroke',n.type==='rama'?'#0d4564':'#16a47d');path.setAttribute('stroke-width',n.type==='rama'?4:2.5);path.setAttribute('stroke-linecap','round');path.setAttribute('opacity','.75');links.appendChild(path)})}
+function updateDetail(n){detail.innerHTML=`<div class="kicker">Nodo seleccionado</div><h2>${n.title}</h2><section><h3>Definicion</h3><p>${n.def}</p></section><section><h3>Idea clave</h3><p>${n.key}</p></section><section><h3>Error habitual</h3><p>${n.err}</p></section><div class="legend"><span class="pill blue">Distancia</span><span class="pill green">Condicion</span><span class="pill amber">Aplicacion</span><span class="pill red">Riesgo</span></div>`}
+function applyZoom(){scaleEl.style.transform=`scale(${zoom})`;scaleEl.style.width=(1560*zoom)+'px';scaleEl.style.height=(980*zoom)+'px';document.getElementById('zoomReset').textContent=Math.round(zoom*100)+'%'}
+document.getElementById('expandAll').onclick=()=>{nodes.forEach(n=>{if(children(n.id).length)expanded.add(n.id)});render()};
+document.getElementById('collapseAll').onclick=()=>{expanded.clear();expanded.add('root');render()};
+document.getElementById('zoomIn').onclick=()=>{zoom=Math.min(1.6,+(zoom+.1).toFixed(2));applyZoom()};
+document.getElementById('zoomOut').onclick=()=>{zoom=Math.max(.55,+(zoom-.1).toFixed(2));applyZoom()};
+document.getElementById('zoomReset').onclick=()=>{zoom=1;applyZoom()};
+document.getElementById('fullscreen').onclick=()=>{if(!document.fullscreenElement)wrap.requestFullscreen?.();else document.exitFullscreen?.()};
+document.getElementById('printMode').onclick=()=>{nodes.forEach(n=>{if(children(n.id).length)expanded.add(n.id)});zoom=1;render();setTimeout(()=>print(),120)};
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+﻿{
+  "sdk_component": "circularfab-edusdk-evaluation-engine",
+  "version": "1.0",
+  "course": {
+    "id": "curso-id",
+    "title": "Titulo del curso",
+    "subtitle": "Examen final del curso",
+    "home_url": "../inicio.html",
+    "logo_url": "../branding/logo-circular-fab.png"
+  },
+  "exam": {
+    "question_count": 30,
+    "time_minutes": 30,
+    "pass_percent": 75,
+    "pass_correct": 23,
+    "answers_per_question": 4,
+    "correct_answers": 1,
+    "simulated_attempts": 2,
+    "penalize_errors": false
+  },
+  "study_mode": {
+    "unlimited_attempts": true,
+    "time_limit_enabled": false,
+    "immediate_feedback": true,
+    "final_feedback": true
+  },
+  "selection": {
+    "avoid_recent_questions": true,
+    "recent_memory": 80,
+    "difficulty_distribution": {
+      "facil": 0.4,
+      "media": 0.4,
+      "dificil": 0.2
+    },
+    "block_distribution": {}
+  },
+  "messages": {
+    "simulation_notice": "Este simulacro reproduce condiciones de examen, pero no sustituye al examen oficial.",
+    "new_enrollment": "Nueva inscripcion (simulada)",
+    "attempts_exhausted": "Has agotado los dos intentos simulados. En el procedimiento oficial deberias realizar una nueva inscripcion para disponer de otros dos intentos. Deseas iniciar una nueva simulacion?"
+  },
+  "question_banks": [
+    {
+      "block": 1,
+      "title": "Bloque 1",
+      "url": "../bloques/bloque1/recursos/test/test.json"
+    }
+  ],
+  "block_links": [
+    {
+      "block": 1,
+      "title": "Bloque 1",
+      "url": "../bloques/bloque1/inicio.html"
+    }
+  ]
+}

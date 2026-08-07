@@ -1,0 +1,153 @@
+{
+  "version": "1.1",
+  "descripcion": "Esquema docente Profesor Plus reutilizable para DronLab",
+  "plantillas": [
+    {
+      "id": "bloque1-a2",
+      "titulo": "Bloque 1 A2",
+      "descripcion": "Contenido docente especifico del Bloque 1: requisitos legales y tramites A2.",
+      "icon": "B1",
+      "file": "plantillas/bloque1-a2.md",
+      "category": "bloques"
+    },
+    {
+      "id": "bloque2-a2",
+      "titulo": "Bloque 2 A2",
+      "descripcion": "Contenido docente especifico del Bloque 2: sistema UAS de clase C2.",
+      "icon": "B2",
+      "file": "plantillas/bloque2-a2.md",
+      "category": "bloques"
+    },
+    {
+      "id": "bloque3-a2",
+      "titulo": "Bloque 3 A2",
+      "descripcion": "Contenido docente base del Bloque 3: operaciones en subcategoria A2.",
+      "icon": "B3",
+      "file": "plantillas/bloque3-a2.md",
+      "category": "bloques"
+    },
+    {
+      "id": "bloque4-a2",
+      "titulo": "Bloque 4 A2",
+      "descripcion": "Contenido docente completo del Bloque 4: meteorologia aplicada a operaciones A2.",
+      "icon": "B4",
+      "file": "plantillas/bloque4-a2.md",
+      "category": "bloques"
+    },
+    {
+      "id": "bloque5-a2",
+      "titulo": "Bloque 5 A2",
+      "descripcion": "Contenido docente completo del Bloque 5: rendimiento de vuelo del UAS.",
+      "icon": "B5",
+      "file": "plantillas/bloque5-a2.md",
+      "category": "bloques"
+    },
+    {
+      "id": "bloque6-a2",
+      "titulo": "Bloque 6 A2",
+      "descripcion": "Contenido docente base del Bloque 6: atenuaciones tecnicas y operacionales.",
+      "icon": "B6",
+      "file": "plantillas/bloque6-a2.md",
+      "category": "bloques"
+    },
+    {
+      "id": "bloque7-a2",
+      "titulo": "Bloque 7 A2",
+      "descripcion": "Contenido docente completo del Bloque 7: autoformacion practica y declaracion A2.",
+      "icon": "B7",
+      "file": "plantillas/bloque7-a2.md",
+      "category": "bloques"
+    },
+    {
+      "id": "bloque8-a2",
+      "titulo": "Bloque 8 A2",
+      "descripcion": "Contenido docente completo del Bloque 8: examen teorico oficial A2 y televigilancia.",
+      "icon": "B8",
+      "file": "plantillas/bloque8-a2.md",
+      "category": "bloques"
+    },
+    {
+      "id": "guion-completo",
+      "titulo": "Guion completo",
+      "descripcion": "Estructura para dirigir la clase, narrar la sesion y coordinar transiciones.",
+      "icon": "G",
+      "file": "plantillas/guion-completo.md",
+      "category": "guiones"
+    },
+    {
+      "id": "frases-clave",
+      "titulo": "Frases clave",
+      "descripcion": "Frases de apertura, participacion, reconduccion y cierre.",
+      "icon": "F",
+      "file": "plantillas/frases-clave.md",
+      "category": "frases"
+    },
+    {
+      "id": "preguntas-para-la-clase",
+      "titulo": "Preguntas para la clase",
+      "descripcion": "Preguntas activadoras, comparativas, de aplicacion y de examen.",
+      "icon": "?",
+      "file": "plantillas/preguntas-para-la-clase.md",
+      "category": "preguntas"
+    },
+    {
+      "id": "respuestas-esperadas",
+      "titulo": "Respuestas esperadas",
+      "descripcion": "Patrones de respuesta correcta, incompleta e intuitiva.",
+      "icon": "R",
+      "file": "plantillas/respuestas-esperadas.md",
+      "category": "respuestas"
+    },
+    {
+      "id": "errores-que-deben-aparecer",
+      "titulo": "Errores utiles",
+      "descripcion": "Errores provocadores para preguntar, justificar y corregir.",
+      "icon": "!",
+      "file": "plantillas/errores-que-deben-aparecer.md",
+      "category": "errores"
+    },
+    {
+      "id": "mesa-material",
+      "titulo": "Mesa del instructor",
+      "descripcion": "Lista de materiales, dispositivos y preparacion para la sesion.",
+      "icon": "M",
+      "file": "plantillas/mesa-material.md",
+      "category": "mesa"
+    },
+    {
+      "id": "dinamicas",
+      "titulo": "Dinamicas",
+      "descripcion": "Diez dinamicas reutilizables para enganchar al grupo.",
+      "icon": "D",
+      "file": "plantillas/dinamicas.md",
+      "category": "dinamicas"
+    },
+    {
+      "id": "adaptaciones",
+      "titulo": "Adaptaciones temporales",
+      "descripcion": "Formatos para 150, 90, 60 y 30 minutos.",
+      "icon": "T",
+      "file": "plantillas/adaptaciones.md",
+      "category": "adaptaciones"
+    }
+  ],
+  "pantalla": {
+    "id": "",
+    "titulo": "",
+    "objetivo": "",
+    "guion": "",
+    "preguntas": [],
+    "respuestas_esperadas": [],
+    "errores_que_deben_aparecer": [],
+    "como_reconducir": "",
+    "demostracion": "",
+    "material": [],
+    "dinamica": "",
+    "versiones": {
+      "150_min": "",
+      "90_min": "",
+      "60_min": "",
+      "30_min": ""
+    }
+  }
+}

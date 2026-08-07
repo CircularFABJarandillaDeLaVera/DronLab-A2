@@ -1,0 +1,1715 @@
+﻿window.DRONLAB_BLOQUE3 = {
+    "curso":  "DronLab A2",
+    "bloque":  "Bloque 3: Operaciones en Subcategoria A2",
+    "duracion":  "2 h 30 min",
+    "metodologia":  [
+                        "Ver",
+                        "Entender",
+                        "Probar",
+                        "Aplicar",
+                        "Recordar"
+                    ],
+    "datos_criticos":  [
+                           "Distancia horizontal minima general: 30 metros.",
+                           "Distancia con modo lento: 5 metros como minimo absoluto.",
+                           "Velocidad en modo lento: menor o igual a 3 m/s.",
+                           "Proporcion altura/distancia: regla 1:1.",
+                           "Sobrevuelo de concentraciones: prohibido.",
+                           "Las aeronaves tripuladas siempre tienen preferencia."
+                       ],
+    "fuera_alcance":  "Buffer de riesgo en tierra para STS-01, atenuaciones estrategicas EARO de 60 m para CTR, STS, SORA, Categoria Especifica, Categoria Certificada y radiofonista UAS: fuera del alcance del curso A2.",
+    "slides":  [
+                   {
+                       "id":  1,
+                       "titulo":  "Bienvenida a las operaciones A2",
+                       "tipo":  "inicio",
+                       "duracion":  "5 min",
+                       "objetivo":  "Situar el Bloque 3 como bloque operativo de distancias, sobrevuelo y gestion de personas en A2.",
+                       "explicacion":  "La subcategoria A2 permite operar cerca de personas no participantes con drones de clase C2, siempre bajo distancias y condiciones estrictas de seguridad.",
+                       "contenido":  "El bloque transforma los requisitos administrativos y tecnicos previos en decisiones operativas: donde situar el dron, a que distancia mantenerlo y cuando alejarse.",
+                       "ideas_clave":  [
+                                           "A2 permite reducir distancia respecto a A3.",
+                                           "El dron debe ser de clase C2.",
+                                           "El piloto debe mantener distancias horizontales.",
+                                           "El sobrevuelo deliberado de personas ajenas no es el objetivo de A2."
+                                       ],
+                       "resumen":  "A2 es gestion practica de proximidad, no libertad para volar sobre personas.",
+                       "guion":  "Conecta el bloque con los anteriores: ya sabemos tramites y sistema C2; ahora decidimos como operar cerca de personas sin salirnos de A2.",
+                       "material":  "Portada del bloque y esquema 30 m / 5 m / regla 1:1.",
+                       "pregunta":  "Que cambia entre saber que un UAS es C2 y operar realmente en A2?",
+                       "respuestas_esperadas":  [
+                                                    "Aplicar distancias.",
+                                                    "Distinguir personas no participantes.",
+                                                    "Verificar modo lento y entorno."
+                                                ],
+                       "error":  "Creer que tener C2 autoriza automaticamente cualquier operacion cerca de personas.",
+                       "como_reconducir":  "Separar requisito tecnico de decision operacional.",
+                       "demostracion":  "Dibujar una calle con peatones y marcar zonas 30 m y 5 m.",
+                       "dinamica":  "Pregunta rapida inicial sobre que distancia recordarian antes de despegar.",
+                       "no_explicar":  "STS, SORA, Categoria Especifica, Categoria Certificada y radiofonista UAS: fuera del alcance del curso A2.",
+                       "enlace":  "Empezamos definiendo la operacion cerca de personas.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Este bloque es donde A2 deja de ser teoria y se convierte en gestion de distancias.",
+                                             "preguntas":  [
+                                                               "Que personas condicionan la distancia?",
+                                                               "Que dato recordais del modo lento?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Personas no participantes.",
+                                                                          "3 m/s."
+                                                                      ],
+                                             "error_habitual":  "Pensar que A2 equivale a poder volar encima de personas.",
+                                             "sugerencias_metodologicas":  "Usar siempre mapas sencillos de suelo, no solo definiciones.",
+                                             "material_necesario":  "Pizarra o esquema de calle.",
+                                             "dinamica":  "Lluvia de ideas breve sobre situaciones urbanas.",
+                                             "objetivos_docentes":  [
+                                                                        "Situar el Bloque 3 como bloque operativo de distancias, sobrevuelo y gestion de personas en A2.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "A2 permite reducir distancia respecto a A3.",
+                                                                          "El dron debe ser de clase C2.",
+                                                                          "El piloto debe mantener distancias horizontales.",
+                                                                          "El sobrevuelo deliberado de personas ajenas no es el objetivo de A2."
+                                                                      ],
+                                             "explicacion_ampliada":  "La subcategoria A2 permite operar cerca de personas no participantes con drones de clase C2, siempre bajo distancias y condiciones estrictas de seguridad. El bloque transforma los requisitos administrativos y tecnicos previos en decisiones operativas: donde situar el dron, a que distancia mantenerlo y cuando alejarse. A2 es gestion practica de proximidad, no libertad para volar sobre personas.",
+                                             "memorizar":  [
+                                                               "A2 permite reducir distancia respecto a A3.",
+                                                               "El dron debe ser de clase C2."
+                                                           ],
+                                             "comprender":  [
+                                                                "Situar el Bloque 3 como bloque operativo de distancias, sobrevuelo y gestion de personas en A2.",
+                                                                "A2 es gestion practica de proximidad, no libertad para volar sobre personas."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Dibujar una calle con peatones y marcar zonas 30 m y 5 m.",
+                                                             "Pregunta rapida inicial sobre que distancia recordarian antes de despegar."
+                                                         ],
+                                             "como_reconducir":  "Separar requisito tecnico de decision operacional.",
+                                             "ejemplos_practicos":  [
+                                                                        "Dibujar una calle con peatones y marcar zonas 30 m y 5 m."
+                                                                    ],
+                                             "tiempo_recomendado":  "5 min",
+                                             "nivel_dificultad":  "baja",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Creer que tener C2 autoriza automaticamente cualquier operacion cerca de personas.",
+                                                                  "STS, SORA, Categoria Especifica, Categoria Certificada y radiofonista UAS: fuera del alcance del curso A2."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  2,
+                       "titulo":  "Vuelo cerca de personas en A2",
+                       "tipo":  "concepto",
+                       "duracion":  "7 min",
+                       "objetivo":  "Definir la operacion A2 cerca de personas segun la ingenieria del bloque.",
+                       "explicacion":  "Es una operacion en categoria abierta que permite reducir la distancia a personas no participantes respecto a A3, usando drones de clase C2.",
+                       "contenido":  "La finalidad es permitir usos en entornos urbanos o con presencia de terceros bajo medidas estrictas de seguridad.",
+                       "ideas_clave":  [
+                                           "Categoria abierta.",
+                                           "Reduccion de distancia respecto a A3.",
+                                           "Personas no participantes.",
+                                           "Dron de clase C2."
+                                       ],
+                       "resumen":  "A2 existe para operar cerca de terceros con limites claros.",
+                       "guion":  "Subraya que la palabra importante no es cerca, sino bajo condiciones.",
+                       "material":  "Diagrama A3 mas alejado frente a A2 mas cercano.",
+                       "pregunta":  "Que dos dependencias aparecen antes de operar en A2?",
+                       "respuestas_esperadas":  [
+                                                    "Certificado A2.",
+                                                    "UAS con marcado de clase C2."
+                                                ],
+                       "error":  "Confundir A2 con una autorizacion ilimitada para entorno urbano.",
+                       "como_reconducir":  "Volver al concepto de bajo riesgo y distancia horizontal.",
+                       "demostracion":  "Comparar una operacion alejada A3 con una operacion A2 cercana.",
+                       "dinamica":  "Pedir al alumnado que identifique quien es tercero en un escenario.",
+                       "no_explicar":  "STS y SORA: fuera del alcance del curso A2.",
+                       "enlace":  "La primera distancia que hay que recordar es la general de 30 m.",
+                       "profesor_plus":  {
+                                             "que_decir":  "A2 no elimina el riesgo; lo controla mediante distancias, equipo y comportamiento.",
+                                             "preguntas":  [
+                                                               "Por que A2 interesa en ciudad?",
+                                                               "Que persona nos obliga a medir distancia?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Porque puede haber terceros.",
+                                                                          "La persona no participante."
+                                                                      ],
+                                             "error_habitual":  "Asociar A2 a ciudad sin hablar de distancias.",
+                                             "sugerencias_metodologicas":  "Mantener siempre visible la palabra no participante.",
+                                             "material_necesario":  "Esquema de entorno urbano.",
+                                             "dinamica":  "Debate breve con ejemplos de clientes, peatones y operarios.",
+                                             "objetivos_docentes":  [
+                                                                        "Definir la operacion A2 cerca de personas segun la ingenieria del bloque.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "Categoria abierta.",
+                                                                          "Reduccion de distancia respecto a A3.",
+                                                                          "Personas no participantes.",
+                                                                          "Dron de clase C2."
+                                                                      ],
+                                             "explicacion_ampliada":  "Es una operacion en categoria abierta que permite reducir la distancia a personas no participantes respecto a A3, usando drones de clase C2. La finalidad es permitir usos en entornos urbanos o con presencia de terceros bajo medidas estrictas de seguridad. A2 existe para operar cerca de terceros con limites claros.",
+                                             "memorizar":  [
+                                                               "Categoria abierta.",
+                                                               "Reduccion de distancia respecto a A3."
+                                                           ],
+                                             "comprender":  [
+                                                                "Definir la operacion A2 cerca de personas segun la ingenieria del bloque.",
+                                                                "A2 existe para operar cerca de terceros con limites claros."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Comparar una operacion alejada A3 con una operacion A2 cercana.",
+                                                             "Pedir al alumnado que identifique quien es tercero en un escenario."
+                                                         ],
+                                             "como_reconducir":  "Volver al concepto de bajo riesgo y distancia horizontal.",
+                                             "ejemplos_practicos":  [
+                                                                        "Comparar una operacion alejada A3 con una operacion A2 cercana."
+                                                                    ],
+                                             "tiempo_recomendado":  "7 min",
+                                             "nivel_dificultad":  "media",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Confundir A2 con una autorizacion ilimitada para entorno urbano.",
+                                                                  "STS y SORA: fuera del alcance del curso A2."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  3,
+                       "titulo":  "Personas participantes y no participantes",
+                       "tipo":  "puente",
+                       "duracion":  "8 min",
+                       "objetivo":  "Distinguir el tipo de persona para decidir que distancia aplicar.",
+                       "explicacion":  "La distincion conecta las reglas de operacion con el factor humano: si una persona no ha sido instruida y es ajena, el piloto debe tratarla como no participante.",
+                       "contenido":  "Sin distinguir quien ha recibido instrucciones de seguridad y quien es ajeno, el piloto no puede saber si aplica la logica de proteccion frente a personas no participantes.",
+                       "ideas_clave":  [
+                                           "Participante implica instruccion previa.",
+                                           "No participante es ajeno a la operacion.",
+                                           "Clientes o personal propio no son participantes automaticamente.",
+                                           "La distancia se decide respecto a personas no participantes."
+                                       ],
+                       "resumen":  "Antes de medir metros, hay que clasificar personas.",
+                       "guion":  "Usa ejemplos sencillos: cliente, peaton, operario y acompanante.",
+                       "material":  "Lista de personas en un escenario.",
+                       "pregunta":  "Que error evita comprender esta distincion?",
+                       "respuestas_esperadas":  [
+                                                    "Volar sobre clientes creyendo que son participantes.",
+                                                    "Tratar personal propio como participante sin instrucciones."
+                                                ],
+                       "error":  "Pensar que cualquier persona relacionada con el trabajo es participante.",
+                       "como_reconducir":  "Preguntar si ha recibido instrucciones de seguridad previas.",
+                       "demostracion":  "Clasificar personas de una escena de rodaje.",
+                       "dinamica":  "Trabajo por parejas: participante o no participante.",
+                       "no_explicar":  "Factor humano avanzado: se vera en otro bloque.",
+                       "enlace":  "Cuando hay no participantes, aparece la distancia general.",
+                       "profesor_plus":  {
+                                             "que_decir":  "La etiqueta de persona no participante es la que dispara las distancias de seguridad.",
+                                             "preguntas":  [
+                                                               "Un cliente informado de la hora del vuelo es participante?",
+                                                               "Que instruccion minima deberia existir?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "No necesariamente.",
+                                                                          "Instrucciones de seguridad previas."
+                                                                      ],
+                                             "error_habitual":  "Confundir relacion laboral con participacion segura.",
+                                             "sugerencias_metodologicas":  "No resolver por intuicion; pedir evidencias de instruccion.",
+                                             "material_necesario":  "Tarjetas de roles.",
+                                             "dinamica":  "Clasificacion rapida de roles.",
+                                             "objetivos_docentes":  [
+                                                                        "Distinguir el tipo de persona para decidir que distancia aplicar.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "Participante implica instruccion previa.",
+                                                                          "No participante es ajeno a la operacion.",
+                                                                          "Clientes o personal propio no son participantes automaticamente.",
+                                                                          "La distancia se decide respecto a personas no participantes."
+                                                                      ],
+                                             "explicacion_ampliada":  "La distincion conecta las reglas de operacion con el factor humano: si una persona no ha sido instruida y es ajena, el piloto debe tratarla como no participante. Sin distinguir quien ha recibido instrucciones de seguridad y quien es ajeno, el piloto no puede saber si aplica la logica de proteccion frente a personas no participantes. Antes de medir metros, hay que clasificar personas.",
+                                             "memorizar":  [
+                                                               "Participante implica instruccion previa.",
+                                                               "No participante es ajeno a la operacion."
+                                                           ],
+                                             "comprender":  [
+                                                                "Distinguir el tipo de persona para decidir que distancia aplicar.",
+                                                                "Antes de medir metros, hay que clasificar personas."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Clasificar personas de una escena de rodaje.",
+                                                             "Trabajo por parejas: participante o no participante."
+                                                         ],
+                                             "como_reconducir":  "Preguntar si ha recibido instrucciones de seguridad previas.",
+                                             "ejemplos_practicos":  [
+                                                                        "Clasificar personas de una escena de rodaje."
+                                                                    ],
+                                             "tiempo_recomendado":  "8 min",
+                                             "nivel_dificultad":  "media",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Pensar que cualquier persona relacionada con el trabajo es participante.",
+                                                                  "Factor humano avanzado: se vera en otro bloque."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  4,
+                       "titulo":  "Distancia horizontal general: 30 metros",
+                       "tipo":  "dato critico",
+                       "duracion":  "8 min",
+                       "objetivo":  "Memorizar y aplicar la distancia horizontal general en A2.",
+                       "explicacion":  "La distancia minima general que el piloto debe mantener entre el dron y cualquier persona no participante es de 30 metros.",
+                       "contenido":  "Los 30 metros proporcionan margen ante fallo tecnico o error de pilotaje para evitar un impacto directo.",
+                       "ideas_clave":  [
+                                           "30 metros horizontales.",
+                                           "Se mide respecto a personas no participantes.",
+                                           "Debe mantenerse en todo momento.",
+                                           "Es troncal para examen y planificacion."
+                                       ],
+                       "resumen":  "La regla general A2 es 30 m horizontales a personas no participantes.",
+                       "guion":  "Repite horizontal y en todo momento; son las palabras que evitan errores.",
+                       "material":  "Cinta o esquema con escala 30 m.",
+                       "pregunta":  "La distancia de 30 m es vertical u horizontal?",
+                       "respuestas_esperadas":  [
+                                                    "Horizontal."
+                                                ],
+                       "error":  "Recordar el numero pero no que se mide horizontalmente.",
+                       "como_reconducir":  "Dibujar planta vista desde arriba.",
+                       "demostracion":  "Marcar el dron y una persona en un plano de suelo.",
+                       "dinamica":  "Estimacion visual de 30 metros.",
+                       "no_explicar":  "Distancias geograficas de aerodromos: complementario, no mezclar.",
+                       "enlace":  "La excepcion controlada aparece con el modo lento.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Si solo recordaran una distancia al empezar A2, que sea 30 m como regla general.",
+                                             "preguntas":  [
+                                                               "A quien protege esta distancia?",
+                                                               "Que pasa si la persona se mueve?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "A la persona no participante.",
+                                                                          "El piloto debe mantener la distancia."
+                                                                      ],
+                                             "error_habitual":  "Medir desde la trayectoria prevista y no desde la posicion real.",
+                                             "sugerencias_metodologicas":  "Usar siempre vista cenital.",
+                                             "material_necesario":  "Plano simple.",
+                                             "dinamica":  "Preguntas rapidas con distancias.",
+                                             "objetivos_docentes":  [
+                                                                        "Memorizar y aplicar la distancia horizontal general en A2.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "30 metros horizontales.",
+                                                                          "Se mide respecto a personas no participantes.",
+                                                                          "Debe mantenerse en todo momento.",
+                                                                          "Es troncal para examen y planificacion."
+                                                                      ],
+                                             "explicacion_ampliada":  "La distancia minima general que el piloto debe mantener entre el dron y cualquier persona no participante es de 30 metros. Los 30 metros proporcionan margen ante fallo tecnico o error de pilotaje para evitar un impacto directo. La regla general A2 es 30 m horizontales a personas no participantes.",
+                                             "memorizar":  [
+                                                               "30 metros horizontales.",
+                                                               "Se mide respecto a personas no participantes."
+                                                           ],
+                                             "comprender":  [
+                                                                "Memorizar y aplicar la distancia horizontal general en A2.",
+                                                                "La regla general A2 es 30 m horizontales a personas no participantes."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Marcar el dron y una persona en un plano de suelo.",
+                                                             "Estimacion visual de 30 metros."
+                                                         ],
+                                             "como_reconducir":  "Dibujar planta vista desde arriba.",
+                                             "ejemplos_practicos":  [
+                                                                        "Marcar el dron y una persona en un plano de suelo."
+                                                                    ],
+                                             "tiempo_recomendado":  "8 min",
+                                             "nivel_dificultad":  "media",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Recordar el numero pero no que se mide horizontalmente.",
+                                                                  "Distancias geograficas de aerodromos: complementario, no mezclar."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  5,
+                       "titulo":  "Distancia reducida: 5 metros",
+                       "tipo":  "excepcion",
+                       "duracion":  "8 min",
+                       "objetivo":  "Comprender la excepcion que permite aproximarse hasta 5 metros.",
+                       "explicacion":  "La distancia reducida permite acercarse a personas no participantes hasta 5 metros horizontales como minimo absoluto.",
+                       "contenido":  "Esta reduccion facilita operaciones en espacios confinados o inspecciones detalladas, pero depende del modo de baja velocidad.",
+                       "ideas_clave":  [
+                                           "5 metros horizontales.",
+                                           "Minimo absoluto.",
+                                           "Excepcion a los 30 metros.",
+                                           "Requiere modo de baja velocidad."
+                                       ],
+                       "resumen":  "Los 5 m solo tienen sentido como excepcion condicionada.",
+                       "guion":  "No presentes 5 m como una segunda regla igual de libre; presentalo como excepcion.",
+                       "material":  "Esquema 30 m frente a 5 m.",
+                       "pregunta":  "Que condicion tecnica desbloquea la aproximacion a 5 m?",
+                       "respuestas_esperadas":  [
+                                                    "Modo de baja velocidad.",
+                                                    "Velocidad maxima de 3 m/s."
+                                                ],
+                       "error":  "Aplicar 5 m sin comprobar el modo lento.",
+                       "como_reconducir":  "Preguntar donde se verifica el modo antes de acercarse.",
+                       "demostracion":  "Simular una inspeccion con peatones a distintas distancias.",
+                       "dinamica":  "Resolver si se puede acercar o debe mantenerse a 30 m.",
+                       "no_explicar":  "Atenuaciones estrategicas EARO de 60 m para CTR: fuera del alcance.",
+                       "enlace":  "El modo de baja velocidad es el puente tecnico.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Cinco metros no es permiso automatico; es una puerta que solo se abre con modo lento.",
+                                             "preguntas":  [
+                                                               "Que debe estar activo?",
+                                                               "Es 5 m una distancia recomendada o un minimo absoluto?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Modo de baja velocidad.",
+                                                                          "Minimo absoluto."
+                                                                      ],
+                                             "error_habitual":  "Recordar 5 m y olvidar 3 m/s.",
+                                             "sugerencias_metodologicas":  "Vincular siempre 5 m y 3 m/s.",
+                                             "material_necesario":  "Tarjetas 5 m y 3 m/s.",
+                                             "dinamica":  "Parejas: condicion y consecuencia.",
+                                             "objetivos_docentes":  [
+                                                                        "Comprender la excepcion que permite aproximarse hasta 5 metros.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "5 metros horizontales.",
+                                                                          "Minimo absoluto.",
+                                                                          "Excepcion a los 30 metros.",
+                                                                          "Requiere modo de baja velocidad."
+                                                                      ],
+                                             "explicacion_ampliada":  "La distancia reducida permite acercarse a personas no participantes hasta 5 metros horizontales como minimo absoluto. Esta reduccion facilita operaciones en espacios confinados o inspecciones detalladas, pero depende del modo de baja velocidad. Los 5 m solo tienen sentido como excepcion condicionada.",
+                                             "memorizar":  [
+                                                               "5 metros horizontales.",
+                                                               "Minimo absoluto."
+                                                           ],
+                                             "comprender":  [
+                                                                "Comprender la excepcion que permite aproximarse hasta 5 metros.",
+                                                                "Los 5 m solo tienen sentido como excepcion condicionada."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Simular una inspeccion con peatones a distintas distancias.",
+                                                             "Resolver si se puede acercar o debe mantenerse a 30 m."
+                                                         ],
+                                             "como_reconducir":  "Preguntar donde se verifica el modo antes de acercarse.",
+                                             "ejemplos_practicos":  [
+                                                                        "Simular una inspeccion con peatones a distintas distancias."
+                                                                    ],
+                                             "tiempo_recomendado":  "8 min",
+                                             "nivel_dificultad":  "media",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Aplicar 5 m sin comprobar el modo lento.",
+                                                                  "Atenuaciones estrategicas EARO de 60 m para CTR: fuera del alcance."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  6,
+                       "titulo":  "Modo de baja velocidad",
+                       "tipo":  "puente tecnico",
+                       "duracion":  "8 min",
+                       "objetivo":  "Relacionar el modo lento con la reduccion de riesgo en A2.",
+                       "explicacion":  "El modo de baja velocidad es la condicion tecnica necesaria para reducir la distancia de 30 m a 5 m en un UAS C2.",
+                       "contenido":  "La velocidad en modo lento debe ser menor o igual a 3 m/s. El piloto debe verificar que el modo esta activo antes de acercarse a personas.",
+                       "ideas_clave":  [
+                                           "Modo lento obligatorio para 5 m.",
+                                           "Velocidad menor o igual a 3 m/s.",
+                                           "Debe verificarse en la estacion de control.",
+                                           "Conecta Bloque 2 y operacion real."
+                                       ],
+                       "resumen":  "Sin modo lento verificado, no se rompe la barrera de 30 m.",
+                       "guion":  "Haz que el alumnado diga en voz alta la pareja 5 m / 3 m/s.",
+                       "material":  "Pantalla simulada de RPS.",
+                       "pregunta":  "Que error operacional cita la ingenieria sobre el modo lento?",
+                       "respuestas_esperadas":  [
+                                                    "Confiar en que esta activo sin verificar el indicador en la RPS."
+                                                ],
+                       "error":  "Dar por activo el modo lento sin comprobacion.",
+                       "como_reconducir":  "Convertir la verificacion en checklist previo a la aproximacion.",
+                       "demostracion":  "Mostrar un indicador simulado de modo lento activo/inactivo.",
+                       "dinamica":  "Demostracion corta con decision antes de acercarse.",
+                       "no_explicar":  "Detalles tecnicos no incluidos en la ingenieria.",
+                       "enlace":  "La altura tambien cambia la distancia mediante la regla 1:1.",
+                       "profesor_plus":  {
+                                             "que_decir":  "El modo lento es un control operativo, no un detalle del menu.",
+                                             "preguntas":  [
+                                                               "Donde lo verificarias?",
+                                                               "Que velocidad maxima aparece?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "En la RPS o estacion de control.",
+                                                                          "3 m/s."
+                                                                      ],
+                                             "error_habitual":  "Recordar que existe pero no verificarlo antes de acercarse.",
+                                             "sugerencias_metodologicas":  "Usar lenguaje de checklist.",
+                                             "material_necesario":  "RPS simulada.",
+                                             "dinamica":  "Decision go/no-go.",
+                                             "objetivos_docentes":  [
+                                                                        "Relacionar el modo lento con la reduccion de riesgo en A2.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "Modo lento obligatorio para 5 m.",
+                                                                          "Velocidad menor o igual a 3 m/s.",
+                                                                          "Debe verificarse en la estacion de control.",
+                                                                          "Conecta Bloque 2 y operacion real."
+                                                                      ],
+                                             "explicacion_ampliada":  "El modo de baja velocidad es la condicion tecnica necesaria para reducir la distancia de 30 m a 5 m en un UAS C2. La velocidad en modo lento debe ser menor o igual a 3 m/s. El piloto debe verificar que el modo esta activo antes de acercarse a personas. Sin modo lento verificado, no se rompe la barrera de 30 m.",
+                                             "memorizar":  [
+                                                               "Modo lento obligatorio para 5 m.",
+                                                               "Velocidad menor o igual a 3 m/s."
+                                                           ],
+                                             "comprender":  [
+                                                                "Relacionar el modo lento con la reduccion de riesgo en A2.",
+                                                                "Sin modo lento verificado, no se rompe la barrera de 30 m."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Mostrar un indicador simulado de modo lento activo/inactivo.",
+                                                             "Demostracion corta con decision antes de acercarse."
+                                                         ],
+                                             "como_reconducir":  "Convertir la verificacion en checklist previo a la aproximacion.",
+                                             "ejemplos_practicos":  [
+                                                                        "Mostrar un indicador simulado de modo lento activo/inactivo."
+                                                                    ],
+                                             "tiempo_recomendado":  "8 min",
+                                             "nivel_dificultad":  "media",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Dar por activo el modo lento sin comprobacion.",
+                                                                  "Detalles tecnicos no incluidos en la ingenieria."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  7,
+                       "titulo":  "Regla 1:1",
+                       "tipo":  "regla",
+                       "duracion":  "10 min",
+                       "objetivo":  "Comprender y aplicar la proporcionalidad altura/distancia.",
+                       "explicacion":  "La regla 1:1 indica que la distancia horizontal a personas ajenas no debe ser inferior a la altura a la que vuela el dron.",
+                       "contenido":  "Si el dron vuela a 20 metros de altura, debe estar al menos a 20 metros de distancia horizontal de la persona.",
+                       "ideas_clave":  [
+                                           "Distancia horizontal no inferior a la altura.",
+                                           "Depende de la altura AGL.",
+                                           "Funciona como cupula de seguridad.",
+                                           "Es dinamica: si subes, debes alejarte."
+                                       ],
+                       "resumen":  "A mas altura, mas distancia horizontal minima por regla 1:1.",
+                       "guion":  "Trabaja con numeros sencillos: 10 m de altura, 10 m horizontales; 20 y 20.",
+                       "material":  "Dibujo de triangulo altura/distancia.",
+                       "pregunta":  "Si vuelas a 20 m de altura, que distancia horizontal minima exige el ejemplo?",
+                       "respuestas_esperadas":  [
+                                                    "20 metros."
+                                                ],
+                       "error":  "Olvidar que la regla cambia si cambia la altura.",
+                       "como_reconducir":  "Pedir que recalculen cada vez que cambie la altura.",
+                       "demostracion":  "Animar en pizarra una subida del dron y la ampliacion de distancia.",
+                       "dinamica":  "Mini calculos orales con alturas diferentes.",
+                       "no_explicar":  "Calculos de buffer STS-01: fuera del alcance del curso A2.",
+                       "enlace":  "La regla 1:1 se suma a la gestion de 30 m y 5 m.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Esta regla se entiende mejor como una cupula: si el dron sube, la cupula crece.",
+                                             "preguntas":  [
+                                                               "Que ocurre al subir de altura?",
+                                                               "Que dato necesitas medir?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Aumenta la distancia horizontal exigible.",
+                                                                          "Altura AGL."
+                                                                      ],
+                                             "error_habitual":  "Tratar la regla como una cifra fija.",
+                                             "sugerencias_metodologicas":  "Usar dibujo, no solo formula.",
+                                             "material_necesario":  "Pizarra o diagrama.",
+                                             "dinamica":  "Resolucion colectiva de ejemplos.",
+                                             "objetivos_docentes":  [
+                                                                        "Comprender y aplicar la proporcionalidad altura/distancia.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "Distancia horizontal no inferior a la altura.",
+                                                                          "Depende de la altura AGL.",
+                                                                          "Funciona como cupula de seguridad.",
+                                                                          "Es dinamica: si subes, debes alejarte."
+                                                                      ],
+                                             "explicacion_ampliada":  "La regla 1:1 indica que la distancia horizontal a personas ajenas no debe ser inferior a la altura a la que vuela el dron. Si el dron vuela a 20 metros de altura, debe estar al menos a 20 metros de distancia horizontal de la persona. A mas altura, mas distancia horizontal minima por regla 1:1.",
+                                             "memorizar":  [
+                                                               "Distancia horizontal no inferior a la altura.",
+                                                               "Depende de la altura AGL."
+                                                           ],
+                                             "comprender":  [
+                                                                "Comprender y aplicar la proporcionalidad altura/distancia.",
+                                                                "A mas altura, mas distancia horizontal minima por regla 1:1."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Animar en pizarra una subida del dron y la ampliacion de distancia.",
+                                                             "Mini calculos orales con alturas diferentes."
+                                                         ],
+                                             "como_reconducir":  "Pedir que recalculen cada vez que cambie la altura.",
+                                             "ejemplos_practicos":  [
+                                                                        "Animar en pizarra una subida del dron y la ampliacion de distancia."
+                                                                    ],
+                                             "tiempo_recomendado":  "10 min",
+                                             "nivel_dificultad":  "media",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Olvidar que la regla cambia si cambia la altura.",
+                                                                  "Calculos de buffer STS-01: fuera del alcance del curso A2."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  8,
+                       "titulo":  "La regla 1:1 es dinamica",
+                       "tipo":  "aplicacion",
+                       "duracion":  "7 min",
+                       "objetivo":  "Evitar el error habitual de mantener una distancia fija mientras cambia la altura.",
+                       "explicacion":  "La ingenieria senala como error habitual olvidar que si el dron sube, el piloto debe alejarse mas de la persona.",
+                       "contenido":  "La distancia segura no se decide una vez al despegar: se monitoriza de forma constante durante la operacion.",
+                       "ideas_clave":  [
+                                           "La altura cambia durante el vuelo.",
+                                           "La distancia debe reevaluarse.",
+                                           "Subir puede obligar a alejarse.",
+                                           "La monitorizacion es continua."
+                                       ],
+                       "resumen":  "La regla 1:1 acompana todo el vuelo, no solo el despegue.",
+                       "guion":  "Plantea una trayectoria donde el dron pasa de 5 a 20 m de altura.",
+                       "material":  "Secuencia de tres posiciones.",
+                       "pregunta":  "Que debe hacer el piloto si aumenta altura cerca de una persona?",
+                       "respuestas_esperadas":  [
+                                                    "Revisar la distancia horizontal.",
+                                                    "Alejarse si la distancia queda por debajo de la altura."
+                                                ],
+                       "error":  "Mantener la misma distancia al subir.",
+                       "como_reconducir":  "Usar la frase: si sube, revisa.",
+                       "demostracion":  "Tres posiciones del dron y distancia minima asociada.",
+                       "dinamica":  "Calculo rapido por grupos.",
+                       "no_explicar":  "Modelos balisticos no incluidos en la ingenieria.",
+                       "enlace":  "Ademas de distancias, A2 tiene limites de sobrevuelo.",
+                       "profesor_plus":  {
+                                             "que_decir":  "El examen suele castigar la regla fija: aqui todo depende de altura y personas.",
+                                             "preguntas":  [
+                                                               "La distancia se calcula una vez o durante todo el vuelo?",
+                                                               "Que frase mnemotecnica nos sirve?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Durante todo el vuelo.",
+                                                                          "Si sube, revisa."
+                                                                      ],
+                                             "error_habitual":  "Olvidar el caracter dinamico.",
+                                             "sugerencias_metodologicas":  "Hacer tres ejemplos seguidos.",
+                                             "material_necesario":  "Tabla altura/distancia.",
+                                             "dinamica":  "Preguntas rapidas.",
+                                             "objetivos_docentes":  [
+                                                                        "Evitar el error habitual de mantener una distancia fija mientras cambia la altura.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "La altura cambia durante el vuelo.",
+                                                                          "La distancia debe reevaluarse.",
+                                                                          "Subir puede obligar a alejarse.",
+                                                                          "La monitorizacion es continua."
+                                                                      ],
+                                             "explicacion_ampliada":  "La ingenieria senala como error habitual olvidar que si el dron sube, el piloto debe alejarse mas de la persona. La distancia segura no se decide una vez al despegar: se monitoriza de forma constante durante la operacion. La regla 1:1 acompana todo el vuelo, no solo el despegue.",
+                                             "memorizar":  [
+                                                               "La altura cambia durante el vuelo.",
+                                                               "La distancia debe reevaluarse."
+                                                           ],
+                                             "comprender":  [
+                                                                "Evitar el error habitual de mantener una distancia fija mientras cambia la altura.",
+                                                                "La regla 1:1 acompana todo el vuelo, no solo el despegue."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Tres posiciones del dron y distancia minima asociada.",
+                                                             "Calculo rapido por grupos."
+                                                         ],
+                                             "como_reconducir":  "Usar la frase: si sube, revisa.",
+                                             "ejemplos_practicos":  [
+                                                                        "Tres posiciones del dron y distancia minima asociada."
+                                                                    ],
+                                             "tiempo_recomendado":  "7 min",
+                                             "nivel_dificultad":  "media",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Mantener la misma distancia al subir.",
+                                                                  "Modelos balisticos no incluidos en la ingenieria."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  9,
+                       "titulo":  "Sobrevuelo en A2",
+                       "tipo":  "limite",
+                       "duracion":  "8 min",
+                       "objetivo":  "Aclarar que A2 no permite volar deliberadamente sobre personas ajenas.",
+                       "explicacion":  "La ingenieria recoge como error de examen creer que un dron C2 puede volar sobre personas ajenas de forma deliberada.",
+                       "contenido":  "En A2 deben mantenerse distancias de 30 m o 5 m segun proceda. El sobrevuelo de concentraciones esta prohibido en categoria abierta.",
+                       "ideas_clave":  [
+                                           "A2 no es sobrevuelo deliberado de personas ajenas.",
+                                           "Deben mantenerse 30 m o 5 m.",
+                                           "Concentraciones: prohibido.",
+                                           "La subcategoria A1 se cita como dependencia del sobrevuelo, pero no se desarrolla aqui."
+                                       ],
+                       "resumen":  "C2 y A2 no convierten el sobrevuelo de personas ajenas en practica normal.",
+                       "guion":  "Distingue acercarse a personas de sobrevolarlas deliberadamente.",
+                       "material":  "Esquema dron al lado frente a dron encima.",
+                       "pregunta":  "Que respuesta de examen seria peligrosa sobre C2 y personas ajenas?",
+                       "respuestas_esperadas":  [
+                                                    "Que puede volar sobre ellas de forma deliberada."
+                                                ],
+                       "error":  "Confundir proximidad autorizada con sobrevuelo.",
+                       "como_reconducir":  "Volver a la distancia horizontal.",
+                       "demostracion":  "Vista cenital con trayectoria lateral segura.",
+                       "dinamica":  "Verdadero/falso con tres frases de sobrevuelo.",
+                       "no_explicar":  "Subcategoria A1 en detalle: fuera del bloque, salvo contraste.",
+                       "enlace":  "El caso mas claro de prohibicion son las concentraciones.",
+                       "profesor_plus":  {
+                                             "que_decir":  "La pregunta clave no es si el dron es C2, sino donde esta respecto a la persona.",
+                                             "preguntas":  [
+                                                               "A2 permite acercarse o sobrevolar deliberadamente?",
+                                                               "Que distancia vuelve a aparecer?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Acercarse bajo condiciones.",
+                                                                          "30 m o 5 m."
+                                                                      ],
+                                             "error_habitual":  "Confundir cerca con encima.",
+                                             "sugerencias_metodologicas":  "Usar un dibujo con planta, nunca solo texto.",
+                                             "material_necesario":  "Esquema de trayectorias.",
+                                             "dinamica":  "Resolucion colectiva de frases de examen.",
+                                             "objetivos_docentes":  [
+                                                                        "Aclarar que A2 no permite volar deliberadamente sobre personas ajenas.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "A2 no es sobrevuelo deliberado de personas ajenas.",
+                                                                          "Deben mantenerse 30 m o 5 m.",
+                                                                          "Concentraciones: prohibido.",
+                                                                          "La subcategoria A1 se cita como dependencia del sobrevuelo, pero no se desarrolla aqui."
+                                                                      ],
+                                             "explicacion_ampliada":  "La ingenieria recoge como error de examen creer que un dron C2 puede volar sobre personas ajenas de forma deliberada. En A2 deben mantenerse distancias de 30 m o 5 m segun proceda. El sobrevuelo de concentraciones esta prohibido en categoria abierta. C2 y A2 no convierten el sobrevuelo de personas ajenas en practica normal.",
+                                             "memorizar":  [
+                                                               "A2 no es sobrevuelo deliberado de personas ajenas.",
+                                                               "Deben mantenerse 30 m o 5 m."
+                                                           ],
+                                             "comprender":  [
+                                                                "Aclarar que A2 no permite volar deliberadamente sobre personas ajenas.",
+                                                                "C2 y A2 no convierten el sobrevuelo de personas ajenas en practica normal."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Vista cenital con trayectoria lateral segura.",
+                                                             "Verdadero/falso con tres frases de sobrevuelo."
+                                                         ],
+                                             "como_reconducir":  "Volver a la distancia horizontal.",
+                                             "ejemplos_practicos":  [
+                                                                        "Vista cenital con trayectoria lateral segura."
+                                                                    ],
+                                             "tiempo_recomendado":  "8 min",
+                                             "nivel_dificultad":  "alta",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Confundir proximidad autorizada con sobrevuelo.",
+                                                                  "Subcategoria A1 en detalle: fuera del bloque, salvo contraste."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  10,
+                       "titulo":  "Concentraciones de personas",
+                       "tipo":  "prohibicion",
+                       "duracion":  "7 min",
+                       "objetivo":  "Fijar la prohibicion estable de sobrevolar concentraciones en categoria abierta.",
+                       "explicacion":  "La ingenieria marca como concepto estable que nunca se vuela sobre multitudes en categoria abierta.",
+                       "contenido":  "La prohibicion de concentraciones no se compensa con modo lento ni con clase C2 dentro del alcance de este bloque.",
+                       "ideas_clave":  [
+                                           "Concepto estable.",
+                                           "Nunca sobre multitudes en categoria abierta.",
+                                           "No se compensa con modo lento.",
+                                           "Es un limite critico de seguridad."
+                                       ],
+                       "resumen":  "Concentraciones: prohibido.",
+                       "guion":  "Hazlo breve y contundente: no es una zona gris del bloque.",
+                       "material":  "Tarjeta roja: concentraciones.",
+                       "pregunta":  "Que palabra debe asociarse a concentraciones?",
+                       "respuestas_esperadas":  [
+                                                    "Prohibido."
+                                                ],
+                       "error":  "Creer que C2 o modo lento permiten operar sobre multitudes.",
+                       "como_reconducir":  "Repetir que el dato estable es nunca en categoria abierta.",
+                       "demostracion":  "Comparar peaton aislado con concentracion.",
+                       "dinamica":  "Respuesta coral: concentraciones, prohibido.",
+                       "no_explicar":  "Categoria Especifica: fuera del alcance del curso A2.",
+                       "enlace":  "En operaciones reales, el entorno puede cambiar.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Aqui no buscamos matices: concentraciones en categoria abierta es prohibido.",
+                                             "preguntas":  [
+                                                               "Puede el modo lento justificarlo?",
+                                                               "Puede C2 justificarlo?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "No.",
+                                                                          "No."
+                                                                      ],
+                                             "error_habitual":  "Buscar excepciones no presentes en la fuente.",
+                                             "sugerencias_metodologicas":  "No desarrollar Categoria Especifica.",
+                                             "material_necesario":  "Tarjeta de prohibicion.",
+                                             "dinamica":  "Preguntas rapidas.",
+                                             "objetivos_docentes":  [
+                                                                        "Fijar la prohibicion estable de sobrevolar concentraciones en categoria abierta.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "Concepto estable.",
+                                                                          "Nunca sobre multitudes en categoria abierta.",
+                                                                          "No se compensa con modo lento.",
+                                                                          "Es un limite critico de seguridad."
+                                                                      ],
+                                             "explicacion_ampliada":  "La ingenieria marca como concepto estable que nunca se vuela sobre multitudes en categoria abierta. La prohibicion de concentraciones no se compensa con modo lento ni con clase C2 dentro del alcance de este bloque. Concentraciones: prohibido.",
+                                             "memorizar":  [
+                                                               "Concepto estable.",
+                                                               "Nunca sobre multitudes en categoria abierta."
+                                                           ],
+                                             "comprender":  [
+                                                                "Fijar la prohibicion estable de sobrevolar concentraciones en categoria abierta.",
+                                                                "Concentraciones: prohibido."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Comparar peaton aislado con concentracion.",
+                                                             "Respuesta coral: concentraciones, prohibido."
+                                                         ],
+                                             "como_reconducir":  "Repetir que el dato estable es nunca en categoria abierta.",
+                                             "ejemplos_practicos":  [
+                                                                        "Comparar peaton aislado con concentracion."
+                                                                    ],
+                                             "tiempo_recomendado":  "7 min",
+                                             "nivel_dificultad":  "media",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Creer que C2 o modo lento permiten operar sobre multitudes.",
+                                                                  "Categoria Especifica: fuera del alcance del curso A2."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  11,
+                       "titulo":  "Evaluacion del riesgo en tierra",
+                       "tipo":  "variable",
+                       "duracion":  "8 min",
+                       "objetivo":  "Reconocer los factores variables que afectan a la decision operacional.",
+                       "explicacion":  "La evaluacion del riesgo en tierra depende de la densidad de personas y de la capacidad del piloto para reaccionar ante rafagas de viento que puedan desplazar el UAS.",
+                       "contenido":  "La misma distancia puede resultar mas o menos gestionable segun densidad de personas, viento y capacidad de reaccion.",
+                       "ideas_clave":  [
+                                           "Densidad de personas.",
+                                           "Rafagas de viento.",
+                                           "Capacidad de reaccion.",
+                                           "Monitorizacion constante."
+                                       ],
+                       "resumen":  "La norma aporta limites; el entorno obliga a reevaluar.",
+                       "guion":  "Presenta esto como criterio operativo, no como sustituto de los valores 30/5.",
+                       "material":  "Escenarios con distintas densidades.",
+                       "pregunta":  "Que dos variables cita la ingenieria para el riesgo en tierra?",
+                       "respuestas_esperadas":  [
+                                                    "Densidad de personas.",
+                                                    "Rafagas de viento o capacidad de reaccion."
+                                                ],
+                       "error":  "Aplicar numeros sin mirar el entorno.",
+                       "como_reconducir":  "Preguntar que ha cambiado en tierra.",
+                       "demostracion":  "Comparar acera vacia y acera densa.",
+                       "dinamica":  "Lluvia de riesgos visibles en una escena.",
+                       "no_explicar":  "Metodologias SORA: fuera del alcance.",
+                       "enlace":  "La estimacion visual tambien introduce variabilidad.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Los metros son imprescindibles, pero el piloto no vuela dentro de una tabla: vuela en un entorno cambiante.",
+                                             "preguntas":  [
+                                                               "Que cambia si aumenta la densidad?",
+                                                               "Que cambia si hay rafagas?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Aumenta la exigencia de vigilancia.",
+                                                                          "Puede desplazar el UAS."
+                                                                      ],
+                                             "error_habitual":  "Confiar solo en cumplir un numero.",
+                                             "sugerencias_metodologicas":  "Pedir observaciones de entorno.",
+                                             "material_necesario":  "Imagen o plano de acera.",
+                                             "dinamica":  "Lluvia de ideas.",
+                                             "objetivos_docentes":  [
+                                                                        "Reconocer los factores variables que afectan a la decision operacional.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "Densidad de personas.",
+                                                                          "Rafagas de viento.",
+                                                                          "Capacidad de reaccion.",
+                                                                          "Monitorizacion constante."
+                                                                      ],
+                                             "explicacion_ampliada":  "La evaluacion del riesgo en tierra depende de la densidad de personas y de la capacidad del piloto para reaccionar ante rafagas de viento que puedan desplazar el UAS. La misma distancia puede resultar mas o menos gestionable segun densidad de personas, viento y capacidad de reaccion. La norma aporta limites; el entorno obliga a reevaluar.",
+                                             "memorizar":  [
+                                                               "Densidad de personas.",
+                                                               "Rafagas de viento."
+                                                           ],
+                                             "comprender":  [
+                                                                "Reconocer los factores variables que afectan a la decision operacional.",
+                                                                "La norma aporta limites; el entorno obliga a reevaluar."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Comparar acera vacia y acera densa.",
+                                                             "Lluvia de riesgos visibles en una escena."
+                                                         ],
+                                             "como_reconducir":  "Preguntar que ha cambiado en tierra.",
+                                             "ejemplos_practicos":  [
+                                                                        "Comparar acera vacia y acera densa."
+                                                                    ],
+                                             "tiempo_recomendado":  "8 min",
+                                             "nivel_dificultad":  "media",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Aplicar numeros sin mirar el entorno.",
+                                                                  "Metodologias SORA: fuera del alcance."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  12,
+                       "titulo":  "Estimacion visual de distancias",
+                       "tipo":  "variable",
+                       "duracion":  "7 min",
+                       "objetivo":  "Identificar la estimacion visual como fuente de error operativo.",
+                       "explicacion":  "La percepcion de 30 m o 5 m varia segun iluminacion y tamano del UAS.",
+                       "contenido":  "El piloto debe ser consciente de que las distancias percibidas pueden enganarle y afectar a la separacion real con personas no participantes.",
+                       "ideas_clave":  [
+                                           "La percepcion visual varia.",
+                                           "Influyen iluminacion y tamano del UAS.",
+                                           "30 m y 5 m deben estimarse con prudencia.",
+                                           "La consciencia situacional es dependencia."
+                                       ],
+                       "resumen":  "La distancia que parece segura puede no serlo.",
+                       "guion":  "No conviertas esto en tecnica avanzada; quedate en prudencia y consciencia situacional.",
+                       "material":  "Ejemplos de distancia aparente.",
+                       "pregunta":  "Que factores pueden alterar la percepcion de distancia?",
+                       "respuestas_esperadas":  [
+                                                    "Iluminacion.",
+                                                    "Tamano del UAS."
+                                                ],
+                       "error":  "Confiar totalmente en la sensacion visual.",
+                       "como_reconducir":  "Usar margenes conservadores y vigilancia constante.",
+                       "demostracion":  "Comparar objetos de distinto tamano a distancia similar.",
+                       "dinamica":  "Estimacion visual rapida si el aula lo permite.",
+                       "no_explicar":  "Instrumentos o tecnicas no presentes en la ingenieria.",
+                       "enlace":  "La prioridad de paso tambien condiciona la operacion.",
+                       "profesor_plus":  {
+                                             "que_decir":  "La distancia no solo se sabe: se estima en condiciones reales, y esa estimacion puede fallar.",
+                                             "preguntas":  [
+                                                               "Por que 5 m es especialmente delicado?",
+                                                               "Que hariais con poca luz?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Porque es el minimo absoluto.",
+                                                                          "Ser mas conservadores."
+                                                                      ],
+                                             "error_habitual":  "Asumir que se calcula visualmente con exactitud.",
+                                             "sugerencias_metodologicas":  "Relacionar con margen de seguridad.",
+                                             "material_necesario":  "Ejemplo visual.",
+                                             "dinamica":  "Reflexion individual.",
+                                             "objetivos_docentes":  [
+                                                                        "Identificar la estimacion visual como fuente de error operativo.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "La percepcion visual varia.",
+                                                                          "Influyen iluminacion y tamano del UAS.",
+                                                                          "30 m y 5 m deben estimarse con prudencia.",
+                                                                          "La consciencia situacional es dependencia."
+                                                                      ],
+                                             "explicacion_ampliada":  "La percepcion de 30 m o 5 m varia segun iluminacion y tamano del UAS. El piloto debe ser consciente de que las distancias percibidas pueden enganarle y afectar a la separacion real con personas no participantes. La distancia que parece segura puede no serlo.",
+                                             "memorizar":  [
+                                                               "La percepcion visual varia.",
+                                                               "Influyen iluminacion y tamano del UAS."
+                                                           ],
+                                             "comprender":  [
+                                                                "Identificar la estimacion visual como fuente de error operativo.",
+                                                                "La distancia que parece segura puede no serlo."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Comparar objetos de distinto tamano a distancia similar.",
+                                                             "Estimacion visual rapida si el aula lo permite."
+                                                         ],
+                                             "como_reconducir":  "Usar margenes conservadores y vigilancia constante.",
+                                             "ejemplos_practicos":  [
+                                                                        "Comparar objetos de distinto tamano a distancia similar."
+                                                                    ],
+                                             "tiempo_recomendado":  "7 min",
+                                             "nivel_dificultad":  "media",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Confiar totalmente en la sensacion visual.",
+                                                                  "Instrumentos o tecnicas no presentes en la ingenieria."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  13,
+                       "titulo":  "Prioridad de paso",
+                       "tipo":  "concepto estable",
+                       "duracion":  "6 min",
+                       "objetivo":  "Recordar que las aeronaves tripuladas siempre tienen preferencia.",
+                       "explicacion":  "La ingenieria marca como concepto estable que las aeronaves tripuladas siempre tienen preferencia.",
+                       "contenido":  "Aunque el bloque se centra en personas en tierra, el piloto A2 no puede olvidar que debe ceder prioridad a aeronaves tripuladas.",
+                       "ideas_clave":  [
+                                           "Aeronaves tripuladas siempre tienen preferencia.",
+                                           "La operacion A2 no elimina vigilancia aerea.",
+                                           "Es un concepto estable.",
+                                           "Debe integrarse en la monitorizacion."
+                                       ],
+                       "resumen":  "Personas en tierra importan, pero el aire tambien se vigila.",
+                       "guion":  "Introduce este punto como recordatorio operativo estable.",
+                       "material":  "Tarjeta de prioridad.",
+                       "pregunta":  "Quien tiene preferencia frente al UAS?",
+                       "respuestas_esperadas":  [
+                                                    "Las aeronaves tripuladas."
+                                                ],
+                       "error":  "Centrarse solo en peatones y olvidar trafico tripulado.",
+                       "como_reconducir":  "Volver a vigilancia constante del entorno.",
+                       "demostracion":  "Insertar un helicoptero en el esquema del escenario.",
+                       "dinamica":  "Pregunta rapida.",
+                       "no_explicar":  "Radiofonista UAS: fuera del alcance del curso A2.",
+                       "enlace":  "Veamos los escenarios reales implicitos.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Aunque hoy miramos mucho al suelo, el piloto no deja de mirar al aire.",
+                                             "preguntas":  [
+                                                               "Que prioridad es estable?",
+                                                               "Por que aparece en operaciones A2?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Tripuladas primero.",
+                                                                          "Porque la vigilancia del entorno es completa."
+                                                                      ],
+                                             "error_habitual":  "Separar distancias en tierra de seguridad general del vuelo.",
+                                             "sugerencias_metodologicas":  "No abrir una clase de espacio aereo.",
+                                             "material_necesario":  "Esquema simple.",
+                                             "dinamica":  "Pregunta directa.",
+                                             "objetivos_docentes":  [
+                                                                        "Recordar que las aeronaves tripuladas siempre tienen preferencia.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "Aeronaves tripuladas siempre tienen preferencia.",
+                                                                          "La operacion A2 no elimina vigilancia aerea.",
+                                                                          "Es un concepto estable.",
+                                                                          "Debe integrarse en la monitorizacion."
+                                                                      ],
+                                             "explicacion_ampliada":  "La ingenieria marca como concepto estable que las aeronaves tripuladas siempre tienen preferencia. Aunque el bloque se centra en personas en tierra, el piloto A2 no puede olvidar que debe ceder prioridad a aeronaves tripuladas. Personas en tierra importan, pero el aire tambien se vigila.",
+                                             "memorizar":  [
+                                                               "Aeronaves tripuladas siempre tienen preferencia.",
+                                                               "La operacion A2 no elimina vigilancia aerea."
+                                                           ],
+                                             "comprender":  [
+                                                                "Recordar que las aeronaves tripuladas siempre tienen preferencia.",
+                                                                "Personas en tierra importan, pero el aire tambien se vigila."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Insertar un helicoptero en el esquema del escenario.",
+                                                             "Pregunta rapida."
+                                                         ],
+                                             "como_reconducir":  "Volver a vigilancia constante del entorno.",
+                                             "ejemplos_practicos":  [
+                                                                        "Insertar un helicoptero en el esquema del escenario."
+                                                                    ],
+                                             "tiempo_recomendado":  "6 min",
+                                             "nivel_dificultad":  "media",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Centrarse solo en peatones y olvidar trafico tripulado.",
+                                                                  "Radiofonista UAS: fuera del alcance del curso A2."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  14,
+                       "titulo":  "Escenario: edificio con peatones",
+                       "tipo":  "escenario",
+                       "duracion":  "8 min",
+                       "objetivo":  "Aplicar la distancia general de 30 m a una grabacion urbana.",
+                       "explicacion":  "La ingenieria propone la grabacion de un edificio de oficinas con peatones en la acera de enfrente como escenario implicito de uso de 30 m.",
+                       "contenido":  "El piloto debe identificar peatones como personas no participantes y planificar trayectoria manteniendo distancia horizontal general.",
+                       "ideas_clave":  [
+                                           "Peatones en acera.",
+                                           "Personas no participantes.",
+                                           "Uso de 30 m.",
+                                           "Planificacion de trayectoria segura."
+                                       ],
+                       "resumen":  "En ciudad, los peatones convierten la distancia en decision constante.",
+                       "guion":  "Pide que no salten al modo lento de entrada: primero regla general.",
+                       "material":  "Plano de edificio y acera.",
+                       "pregunta":  "Que distancia aparece como referencia en este escenario?",
+                       "respuestas_esperadas":  [
+                                                    "30 metros."
+                                                ],
+                       "error":  "Tratar la acera como espacio vacio aunque haya peatones.",
+                       "como_reconducir":  "Marcar personas no participantes antes de trazar la ruta.",
+                       "demostracion":  "Dibujar una ruta lateral que mantenga distancia.",
+                       "dinamica":  "Resolucion colectiva del plano.",
+                       "no_explicar":  "Permisos urbanos no incluidos en la ingenieria.",
+                       "enlace":  "Otro escenario reduce distancia con modo lento.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Este es el escenario donde 30 m deja de ser teoria y se convierte en una ruta.",
+                                             "preguntas":  [
+                                                               "Quien condiciona el vuelo?",
+                                                               "Que debes planificar?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Los peatones no participantes.",
+                                                                          "Trayectoria segura."
+                                                                      ],
+                                             "error_habitual":  "Mirar solo al edificio.",
+                                             "sugerencias_metodologicas":  "Dibujar primero personas, despues dron.",
+                                             "material_necesario":  "Plano de calle.",
+                                             "dinamica":  "Resolucion colectiva.",
+                                             "objetivos_docentes":  [
+                                                                        "Aplicar la distancia general de 30 m a una grabacion urbana.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "Peatones en acera.",
+                                                                          "Personas no participantes.",
+                                                                          "Uso de 30 m.",
+                                                                          "Planificacion de trayectoria segura."
+                                                                      ],
+                                             "explicacion_ampliada":  "La ingenieria propone la grabacion de un edificio de oficinas con peatones en la acera de enfrente como escenario implicito de uso de 30 m. El piloto debe identificar peatones como personas no participantes y planificar trayectoria manteniendo distancia horizontal general. En ciudad, los peatones convierten la distancia en decision constante.",
+                                             "memorizar":  [
+                                                               "Peatones en acera.",
+                                                               "Personas no participantes."
+                                                           ],
+                                             "comprender":  [
+                                                                "Aplicar la distancia general de 30 m a una grabacion urbana.",
+                                                                "En ciudad, los peatones convierten la distancia en decision constante."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Dibujar una ruta lateral que mantenga distancia.",
+                                                             "Resolucion colectiva del plano."
+                                                         ],
+                                             "como_reconducir":  "Marcar personas no participantes antes de trazar la ruta.",
+                                             "ejemplos_practicos":  [
+                                                                        "Dibujar una ruta lateral que mantenga distancia."
+                                                                    ],
+                                             "tiempo_recomendado":  "8 min",
+                                             "nivel_dificultad":  "media",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Tratar la acera como espacio vacio aunque haya peatones.",
+                                                                  "Permisos urbanos no incluidos en la ingenieria."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  15,
+                       "titulo":  "Escenario: antena con operarios a 10 m",
+                       "tipo":  "escenario",
+                       "duracion":  "8 min",
+                       "objetivo":  "Aplicar modo lento y distancia reducida en una inspeccion detallada.",
+                       "explicacion":  "La ingenieria propone la inspeccion de una antena en una azotea con operarios no relacionados a 10 metros como escenario implicito de modo lento y 5 m.",
+                       "contenido":  "El piloto debe identificar a los operarios no relacionados, verificar modo lento y respetar el minimo absoluto de 5 metros.",
+                       "ideas_clave":  [
+                                           "Operarios no relacionados.",
+                                           "Modo lento.",
+                                           "Distancia minima 5 m.",
+                                           "Verificacion antes de aproximarse."
+                                       ],
+                       "resumen":  "A 10 m puede haber margen, pero solo si el modo lento esta verificado.",
+                       "guion":  "Haz que el alumnado diga que falta verificar antes de acercarse.",
+                       "material":  "Plano de azotea.",
+                       "pregunta":  "Que debe comprobarse antes de operar cerca en este escenario?",
+                       "respuestas_esperadas":  [
+                                                    "Modo de baja velocidad activo.",
+                                                    "Distancia a operarios no participantes."
+                                                ],
+                       "error":  "Ver 10 m y asumir que todo es seguro sin verificar modo lento.",
+                       "como_reconducir":  "Recordar que el puente tecnico es modo lento.",
+                       "demostracion":  "Marcar antena, operarios, dron y radio de 5 m.",
+                       "dinamica":  "Trabajo por parejas con decision operativa.",
+                       "no_explicar":  "Trabajo en altura o coordinacion laboral no incluida en la ingenieria.",
+                       "enlace":  "Veamos que ocurre si alguien entra en el radio de 5 m.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Este escenario muestra por que 5 m no se decide de memoria sino desde la posicion real de personas.",
+                                             "preguntas":  [
+                                                               "Los operarios son participantes?",
+                                                               "Que radio no se debe invadir?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "No si no estan relacionados/instruidos.",
+                                                                          "5 metros."
+                                                                      ],
+                                             "error_habitual":  "Suponer que operario en la zona equivale a participante.",
+                                             "sugerencias_metodologicas":  "Relacionar roles y distancia.",
+                                             "material_necesario":  "Plano de azotea.",
+                                             "dinamica":  "Trabajo por parejas.",
+                                             "objetivos_docentes":  [
+                                                                        "Aplicar modo lento y distancia reducida en una inspeccion detallada.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "Operarios no relacionados.",
+                                                                          "Modo lento.",
+                                                                          "Distancia minima 5 m.",
+                                                                          "Verificacion antes de aproximarse."
+                                                                      ],
+                                             "explicacion_ampliada":  "La ingenieria propone la inspeccion de una antena en una azotea con operarios no relacionados a 10 metros como escenario implicito de modo lento y 5 m. El piloto debe identificar a los operarios no relacionados, verificar modo lento y respetar el minimo absoluto de 5 metros. A 10 m puede haber margen, pero solo si el modo lento esta verificado.",
+                                             "memorizar":  [
+                                                               "Operarios no relacionados.",
+                                                               "Modo lento."
+                                                           ],
+                                             "comprender":  [
+                                                                "Aplicar modo lento y distancia reducida en una inspeccion detallada.",
+                                                                "A 10 m puede haber margen, pero solo si el modo lento esta verificado."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Marcar antena, operarios, dron y radio de 5 m.",
+                                                             "Trabajo por parejas con decision operativa."
+                                                         ],
+                                             "como_reconducir":  "Recordar que el puente tecnico es modo lento.",
+                                             "ejemplos_practicos":  [
+                                                                        "Marcar antena, operarios, dron y radio de 5 m."
+                                                                    ],
+                                             "tiempo_recomendado":  "8 min",
+                                             "nivel_dificultad":  "media",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Ver 10 m y asumir que todo es seguro sin verificar modo lento.",
+                                                                  "Trabajo en altura o coordinacion laboral no incluida en la ingenieria."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  16,
+                       "titulo":  "Intrusion en el radio de 5 metros",
+                       "tipo":  "decision",
+                       "duracion":  "8 min",
+                       "objetivo":  "Preparar una respuesta ante una persona no participante que entra en la zona minima.",
+                       "explicacion":  "La ingenieria plantea que hacer si una persona no participante entra corriendo en el radio de 5 metros mientras el dron esta en modo lento.",
+                       "contenido":  "La situacion obliga al piloto a tomar una decision inmediata para recuperar margen de seguridad y no confiar solo en que el modo lento esta activo.",
+                       "ideas_clave":  [
+                                           "El entorno cambia.",
+                                           "5 m es minimo absoluto.",
+                                           "Modo lento no elimina necesidad de reaccionar.",
+                                           "La monitorizacion debe ser constante."
+                                       ],
+                       "resumen":  "Si una persona entra en zona critica, la prioridad es recuperar distancia.",
+                       "guion":  "No inventes procedimiento detallado; quedate en decision de seguridad y recuperacion de distancia.",
+                       "material":  "Escenario dinamico con persona entrando.",
+                       "pregunta":  "Que idea debe guiar la respuesta del piloto?",
+                       "respuestas_esperadas":  [
+                                                    "Recuperar distancia de seguridad.",
+                                                    "Mantener vigilancia constante."
+                                                ],
+                       "error":  "Pensar que modo lento permite permanecer dentro de 5 m.",
+                       "como_reconducir":  "Recordar que 5 m es minimo absoluto, no zona confortable.",
+                       "demostracion":  "Mover una ficha de persona hacia el dron en un plano.",
+                       "dinamica":  "Decision rapida: mantener, alejar o reevaluar.",
+                       "no_explicar":  "Procedimientos no presentes en la ingenieria.",
+                       "enlace":  "Los errores de examen se parecen a estas decisiones mal entendidas.",
+                       "profesor_plus":  {
+                                             "que_decir":  "El modo lento no congela el mundo: si una persona entra, la decision cambia.",
+                                             "preguntas":  [
+                                                               "El modo lento basta por si solo?",
+                                                               "Que significa minimo absoluto?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "No.",
+                                                                          "No bajar de esa distancia."
+                                                                      ],
+                                             "error_habitual":  "Quedarse en 5 m aunque el entorno se cierre.",
+                                             "sugerencias_metodologicas":  "No exigir procedimiento exacto no documentado.",
+                                             "material_necesario":  "Plano con fichas.",
+                                             "dinamica":  "Decision rapida.",
+                                             "objetivos_docentes":  [
+                                                                        "Preparar una respuesta ante una persona no participante que entra en la zona minima.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "El entorno cambia.",
+                                                                          "5 m es minimo absoluto.",
+                                                                          "Modo lento no elimina necesidad de reaccionar.",
+                                                                          "La monitorizacion debe ser constante."
+                                                                      ],
+                                             "explicacion_ampliada":  "La ingenieria plantea que hacer si una persona no participante entra corriendo en el radio de 5 metros mientras el dron esta en modo lento. La situacion obliga al piloto a tomar una decision inmediata para recuperar margen de seguridad y no confiar solo en que el modo lento esta activo. Si una persona entra en zona critica, la prioridad es recuperar distancia.",
+                                             "memorizar":  [
+                                                               "El entorno cambia.",
+                                                               "5 m es minimo absoluto."
+                                                           ],
+                                             "comprender":  [
+                                                                "Preparar una respuesta ante una persona no participante que entra en la zona minima.",
+                                                                "Si una persona entra en zona critica, la prioridad es recuperar distancia."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Mover una ficha de persona hacia el dron en un plano.",
+                                                             "Decision rapida: mantener, alejar o reevaluar."
+                                                         ],
+                                             "como_reconducir":  "Recordar que 5 m es minimo absoluto, no zona confortable.",
+                                             "ejemplos_practicos":  [
+                                                                        "Mover una ficha de persona hacia el dron en un plano."
+                                                                    ],
+                                             "tiempo_recomendado":  "8 min",
+                                             "nivel_dificultad":  "media",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Pensar que modo lento permite permanecer dentro de 5 m.",
+                                                                  "Procedimientos no presentes en la ingenieria."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  17,
+                       "titulo":  "Errores habituales",
+                       "tipo":  "errores",
+                       "duracion":  "8 min",
+                       "objetivo":  "Reconocer errores frecuentes que comprometen la operacion A2.",
+                       "explicacion":  "Los errores principales son olvidar el caracter dinamico de la regla 1:1, creer que C2 permite sobrevolar personas ajenas y no verificar modo lento.",
+                       "contenido":  "Estos errores mezclan memoria de datos con aplicacion real: saber 30, 5 o 3 m/s no sirve si se aplican fuera de contexto.",
+                       "ideas_clave":  [
+                                           "Regla 1:1 dinamica.",
+                                           "C2 no autoriza sobrevuelo deliberado.",
+                                           "Modo lento debe verificarse.",
+                                           "Los numeros deben aplicarse en contexto."
+                                       ],
+                       "resumen":  "Los fallos mas peligrosos nacen de recordar datos sin condiciones.",
+                       "guion":  "Convierte cada error en una frase de examen para detectar trampas.",
+                       "material":  "Tabla error / correccion.",
+                       "pregunta":  "Que error operacional aparece sobre el modo lento?",
+                       "respuestas_esperadas":  [
+                                                    "Confiar en que esta activo sin verificarlo."
+                                                ],
+                       "error":  "Memorizar datos sueltos.",
+                       "como_reconducir":  "Unir cada dato a su condicion.",
+                       "demostracion":  "Mapa de errores: 30 m, 5 m, 3 m/s y 1:1.",
+                       "dinamica":  "El alumnado corrige frases erroneas.",
+                       "no_explicar":  "Errores de otros bloques salvo conexion directa.",
+                       "enlace":  "Cerramos con el grafo de conocimiento.",
+                       "profesor_plus":  {
+                                             "que_decir":  "El examen no solo pregunta numeros; pregunta si sabeis cuando usarlos.",
+                                             "preguntas":  [
+                                                               "Que dato suele aislarse mal?",
+                                                               "Que condicion se olvida con 5 m?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "La regla 1:1 o los 5 m.",
+                                                                          "Modo lento a 3 m/s."
+                                                                      ],
+                                             "error_habitual":  "Separar dato y condicion.",
+                                             "sugerencias_metodologicas":  "Usar correccion de errores.",
+                                             "material_necesario":  "Frases erroneas.",
+                                             "dinamica":  "Correccion colectiva.",
+                                             "objetivos_docentes":  [
+                                                                        "Reconocer errores frecuentes que comprometen la operacion A2.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "Regla 1:1 dinamica.",
+                                                                          "C2 no autoriza sobrevuelo deliberado.",
+                                                                          "Modo lento debe verificarse.",
+                                                                          "Los numeros deben aplicarse en contexto."
+                                                                      ],
+                                             "explicacion_ampliada":  "Los errores principales son olvidar el caracter dinamico de la regla 1:1, creer que C2 permite sobrevolar personas ajenas y no verificar modo lento. Estos errores mezclan memoria de datos con aplicacion real: saber 30, 5 o 3 m/s no sirve si se aplican fuera de contexto. Los fallos mas peligrosos nacen de recordar datos sin condiciones.",
+                                             "memorizar":  [
+                                                               "Regla 1:1 dinamica.",
+                                                               "C2 no autoriza sobrevuelo deliberado."
+                                                           ],
+                                             "comprender":  [
+                                                                "Reconocer errores frecuentes que comprometen la operacion A2.",
+                                                                "Los fallos mas peligrosos nacen de recordar datos sin condiciones."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Mapa de errores: 30 m, 5 m, 3 m/s y 1:1.",
+                                                             "El alumnado corrige frases erroneas."
+                                                         ],
+                                             "como_reconducir":  "Unir cada dato a su condicion.",
+                                             "ejemplos_practicos":  [
+                                                                        "Mapa de errores: 30 m, 5 m, 3 m/s y 1:1."
+                                                                    ],
+                                             "tiempo_recomendado":  "8 min",
+                                             "nivel_dificultad":  "alta",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Memorizar datos sueltos.",
+                                                                  "Errores de otros bloques salvo conexion directa."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  18,
+                       "titulo":  "Grafo operativo del bloque",
+                       "tipo":  "sintesis",
+                       "duracion":  "8 min",
+                       "objetivo":  "Organizar los conceptos desde identificacion inicial hasta aplicacion.",
+                       "explicacion":  "El grafo parte de identificar personas no participantes y volumen operacional; pasa por evaluacion del entorno y 30 m; culmina en modo lento, regla 1:1, limite de 5 m y planificacion de trayectorias.",
+                       "contenido":  "El aprendizaje avanza de reconocer personas y entorno a monitorizar distancias durante la operacion.",
+                       "ideas_clave":  [
+                                           "Iniciales: personas no participantes y volumen operacional.",
+                                           "Intermedios: entorno y 30 m.",
+                                           "Centrales: 3 m/s, 1:1 y 5 m.",
+                                           "Aplicacion: trayectorias y monitorizacion."
+                                       ],
+                       "resumen":  "El bloque se entiende como una cadena de decision operacional.",
+                       "guion":  "Recorre el grafo como si fuera una checklist mental antes y durante el vuelo.",
+                       "material":  "Grafo en cuatro niveles.",
+                       "pregunta":  "Que desbloquea entender los conceptos centrales?",
+                       "respuestas_esperadas":  [
+                                                    "Planificar trayectorias seguras.",
+                                                    "Monitorizar distancias."
+                                                ],
+                       "error":  "Saltar directamente a 5 m sin identificar personas y entorno.",
+                       "como_reconducir":  "Volver al orden: persona, entorno, distancia, condicion, aplicacion.",
+                       "demostracion":  "Dibujar flechas del grafo en pizarra.",
+                       "dinamica":  "Ordenar tarjetas del grafo.",
+                       "no_explicar":  "Contenido fuera del alcance citado en la auditoria C.",
+                       "enlace":  "Terminamos con datos criticos y cierre.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Si siguen este orden, reducen mucho los errores de examen y de operacion.",
+                                             "preguntas":  [
+                                                               "Que va antes: 5 m o identificar personas?",
+                                                               "Que va al final?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Identificar personas.",
+                                                                          "Aplicacion y monitorizacion."
+                                                                      ],
+                                             "error_habitual":  "Memorizar el final sin las dependencias.",
+                                             "sugerencias_metodologicas":  "Usar tarjetas ordenables.",
+                                             "material_necesario":  "Tarjetas de conceptos.",
+                                             "dinamica":  "Ordenar el grafo.",
+                                             "objetivos_docentes":  [
+                                                                        "Organizar los conceptos desde identificacion inicial hasta aplicacion.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "Iniciales: personas no participantes y volumen operacional.",
+                                                                          "Intermedios: entorno y 30 m.",
+                                                                          "Centrales: 3 m/s, 1:1 y 5 m.",
+                                                                          "Aplicacion: trayectorias y monitorizacion."
+                                                                      ],
+                                             "explicacion_ampliada":  "El grafo parte de identificar personas no participantes y volumen operacional; pasa por evaluacion del entorno y 30 m; culmina en modo lento, regla 1:1, limite de 5 m y planificacion de trayectorias. El aprendizaje avanza de reconocer personas y entorno a monitorizar distancias durante la operacion. El bloque se entiende como una cadena de decision operacional.",
+                                             "memorizar":  [
+                                                               "Iniciales: personas no participantes y volumen operacional.",
+                                                               "Intermedios: entorno y 30 m."
+                                                           ],
+                                             "comprender":  [
+                                                                "Organizar los conceptos desde identificacion inicial hasta aplicacion.",
+                                                                "El bloque se entiende como una cadena de decision operacional."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Dibujar flechas del grafo en pizarra.",
+                                                             "Ordenar tarjetas del grafo."
+                                                         ],
+                                             "como_reconducir":  "Volver al orden: persona, entorno, distancia, condicion, aplicacion.",
+                                             "ejemplos_practicos":  [
+                                                                        "Dibujar flechas del grafo en pizarra."
+                                                                    ],
+                                             "tiempo_recomendado":  "8 min",
+                                             "nivel_dificultad":  "media",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Saltar directamente a 5 m sin identificar personas y entorno.",
+                                                                  "Contenido fuera del alcance citado en la auditoria C."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  19,
+                       "titulo":  "Datos criticos de operaciones A2",
+                       "tipo":  "recordar",
+                       "duracion":  "7 min",
+                       "objetivo":  "Fijar los valores y condiciones que aparecen en la ingenieria.",
+                       "explicacion":  "Los datos criticos son 30 m general, 5 m con modo lento, velocidad menor o igual a 3 m/s, regla 1:1 y prohibicion de sobrevolar concentraciones.",
+                       "contenido":  "Estos valores deben recordarse unidos a su condicion: 30 m general, 5 m como minimo absoluto con modo lento, 3 m/s como velocidad del modo lento y 1:1 como proporcion altura/distancia.",
+                       "ideas_clave":  [
+                                           "30 m general.",
+                                           "5 m minimo absoluto con modo lento.",
+                                           "Menor o igual a 3 m/s.",
+                                           "Regla 1:1.",
+                                           "Concentraciones prohibidas."
+                                       ],
+                       "resumen":  "Los datos criticos funcionan por parejas: valor y condicion.",
+                       "guion":  "Haz una ronda de memoria: dato, condicion, error que evita.",
+                       "material":  "Tabla de datos criticos.",
+                       "pregunta":  "Que pareja debe recordarse siempre junta?",
+                       "respuestas_esperadas":  [
+                                                    "5 m y modo lento.",
+                                                    "3 m/s y modo lento.",
+                                                    "Altura y distancia en regla 1:1."
+                                                ],
+                       "error":  "Recordar valores sin condicion.",
+                       "como_reconducir":  "Pedir que cada valor se explique con su uso.",
+                       "demostracion":  "Tabla valor / condicion.",
+                       "dinamica":  "Ronda rapida de datos.",
+                       "no_explicar":  "Valores no presentes en la ingenieria.",
+                       "enlace":  "Cierre del Bloque 3.",
+                       "profesor_plus":  {
+                                             "que_decir":  "No basta con saber el numero; hay que saber cuando aplica.",
+                                             "preguntas":  [
+                                                               "Que significa 30 m?",
+                                                               "Que significa 5 m?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Distancia general horizontal.",
+                                                                          "Minimo absoluto con modo lento."
+                                                                      ],
+                                             "error_habitual":  "Usar un dato correcto en una situacion incorrecta.",
+                                             "sugerencias_metodologicas":  "Cerrar con parejas valor-condicion.",
+                                             "material_necesario":  "Tabla proyectada.",
+                                             "dinamica":  "Preguntas rapidas.",
+                                             "objetivos_docentes":  [
+                                                                        "Fijar los valores y condiciones que aparecen en la ingenieria.",
+                                                                        "Asegurar que el alumnado relaciona el concepto con decisiones operativas A2.",
+                                                                        "Preparar al alumnado para reconocer errores de examen y de operacion vinculados a esta pantalla."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "30 m general.",
+                                                                          "5 m minimo absoluto con modo lento.",
+                                                                          "Menor o igual a 3 m/s.",
+                                                                          "Regla 1:1.",
+                                                                          "Concentraciones prohibidas."
+                                                                      ],
+                                             "explicacion_ampliada":  "Los datos criticos son 30 m general, 5 m con modo lento, velocidad menor o igual a 3 m/s, regla 1:1 y prohibicion de sobrevolar concentraciones. Estos valores deben recordarse unidos a su condicion: 30 m general, 5 m como minimo absoluto con modo lento, 3 m/s como velocidad del modo lento y 1:1 como proporcion altura/distancia. Los datos criticos funcionan por parejas: valor y condicion.",
+                                             "memorizar":  [
+                                                               "30 m general.",
+                                                               "5 m minimo absoluto con modo lento."
+                                                           ],
+                                             "comprender":  [
+                                                                "Fijar los valores y condiciones que aparecen en la ingenieria.",
+                                                                "Los datos criticos funcionan por parejas: valor y condicion."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Tabla valor / condicion.",
+                                                             "Ronda rapida de datos."
+                                                         ],
+                                             "como_reconducir":  "Pedir que cada valor se explique con su uso.",
+                                             "ejemplos_practicos":  [
+                                                                        "Tabla valor / condicion."
+                                                                    ],
+                                             "tiempo_recomendado":  "7 min",
+                                             "nivel_dificultad":  "baja",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Recordar valores sin condicion.",
+                                                                  "Valores no presentes en la ingenieria."
+                                                              ]
+                                         }
+                   },
+                   {
+                       "id":  20,
+                       "titulo":  "Cierre del Bloque 3",
+                       "tipo":  "cierre",
+                       "duracion":  "6 min",
+                       "objetivo":  "Cerrar la sesion y consolidar el Bloque 3 como bloque operativo completo pendiente de validacion por experto.",
+                       "explicacion":  "El Bloque 3 queda centrado en distancias de 30 m y 5 m, regla 1:1, modo lento, personas no participantes, concentraciones y riesgos operacionales.",
+                       "contenido":  "El alumno debe salir con una pregunta operativa clara: quien hay alrededor, a que distancia esta, a que altura vuelo y que condicion tecnica tengo activa.",
+                       "ideas_clave":  [
+                                           "Identificar personas.",
+                                           "Aplicar 30 m.",
+                                           "Usar 5 m solo con modo lento.",
+                                           "Aplicar regla 1:1.",
+                                           "No sobrevolar concentraciones."
+                                       ],
+                       "resumen":  "Operar A2 es monitorizar personas, distancias, altura y modo lento con recursos finales ya integrados.",
+                       "guion":  "Cierra con una checklist oral de cuatro preguntas operativas.",
+                       "material":  "Resumen de cierre.",
+                       "pregunta":  "Que cuatro preguntas deberia hacerse el piloto antes de acercarse?",
+                       "respuestas_esperadas":  [
+                                                    "Quien hay alrededor?",
+                                                    "A que distancia esta?",
+                                                    "A que altura vuelo?",
+                                                    "Esta activo el modo lento si quiero reducir distancia?"
+                                                ],
+                       "error":  "Cerrar el bloque como teoria de numeros sin decision operativa.",
+                       "como_reconducir":  "Volver a la checklist mental.",
+                       "demostracion":  "Checklist final proyectada.",
+                       "dinamica":  "Reflexion individual de cierre.",
+                       "no_explicar":  "STS, SORA, Categoria Especifica, Categoria Certificada y radiofonista UAS: fuera del alcance del curso A2.",
+                       "enlace":  "Bloque 3 integrado y listo para validacion por experto.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Si el alumno puede responder estas cuatro preguntas, ha entendido la logica operativa del bloque.",
+                                             "preguntas":  [
+                                                               "Que dato es general?",
+                                                               "Que dato es minimo absoluto?",
+                                                               "Que regla depende de la altura?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "30 m.",
+                                                                          "5 m.",
+                                                                          "Regla 1:1."
+                                                                      ],
+                                             "error_habitual":  "Separar resumen de aplicacion.",
+                                             "sugerencias_metodologicas":  "Cerrar con checklist verbal.",
+                                             "material_necesario":  "Pantalla de cierre.",
+                                             "dinamica":  "Reflexion individual.",
+                                             "objetivos_docentes":  [
+                                                                        "Cerrar la sesion y consolidar el Bloque 3 como bloque operativo completo pendiente de validacion por experto.",
+                                                                        "Asegurar que el alumnado conserva la checklist mental de personas, distancia, altura y modo lento.",
+                                                                        "Cerrar el bloque sin abrir contenidos fuera del alcance A2."
+                                                                    ],
+                                             "ideas_clave_docentes":  [
+                                                                          "Identificar personas.",
+                                                                          "Aplicar 30 m.",
+                                                                          "Usar 5 m solo con modo lento.",
+                                                                          "Aplicar regla 1:1.",
+                                                                          "No sobrevolar concentraciones."
+                                                                      ],
+                                             "explicacion_ampliada":  "El Bloque 3 queda centrado en distancias de 30 m y 5 m, regla 1:1, modo lento, personas no participantes, concentraciones y riesgos operacionales. El alumno debe salir con una pregunta operativa clara: quien hay alrededor, a que distancia esta, a que altura vuelo y que condicion tecnica tengo activa. Operar A2 es monitorizar personas, distancias, altura y modo lento.",
+                                             "memorizar":  [
+                                                               "Identificar personas.",
+                                                               "Aplicar 30 m."
+                                                           ],
+                                             "comprender":  [
+                                                                "Cerrar la sesion y consolidar el Bloque 3 como bloque operativo completo pendiente de validacion por experto.",
+                                                                "Operar A2 es monitorizar personas, distancias, altura y modo lento con recursos finales ya integrados."
+                                                            ],
+                                             "aplicar":  [
+                                                             "Checklist final proyectada.",
+                                                             "Reflexion individual de cierre."
+                                                         ],
+                                             "como_reconducir":  "Volver a la checklist mental.",
+                                             "ejemplos_practicos":  [
+                                                                        "Checklist final proyectada."
+                                                                    ],
+                                             "tiempo_recomendado":  "6 min",
+                                             "nivel_dificultad":  "baja",
+                                             "competencias_trabajadas":  [
+                                                                             "Identificacion de personas no participantes",
+                                                                             "Aplicacion de distancias de seguridad A2",
+                                                                             "Monitorizacion operativa y toma de decisiones",
+                                                                             "Prevencion de errores de examen y operacionales"
+                                                                         ],
+                                             "advertencias":  [
+                                                                  "Cerrar el bloque como teoria de numeros sin decision operativa.",
+                                                                  "STS, SORA, Categoria Especifica, Categoria Certificada y radiofonista UAS: fuera del alcance del curso A2."
+                                                              ]
+                                         }
+                   }
+               ],
+    "recursos_estado":  "integrado",
+    "recursos":  {
+                     "flashcards":  "recursos/flashcards/flashcards.json",
+                     "test":  "recursos/test/test.json",
+                     "casos":  "recursos/casos/casos.json",
+                     "practicas":  "recursos/practicas/practicas.json",
+                     "chuletas":  "recursos/chuletas/chuletas.json",
+                     "mapa":  "recursos/mapas/index.html",
+                     "prompts":  "recursos/prompts/prompts-bloque3.md"
+                 }
+};

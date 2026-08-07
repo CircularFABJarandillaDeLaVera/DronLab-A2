@@ -1,0 +1,143 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Chuletas Bloque 5 A2 - DronLab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <img src="../../../../assets/branding/logo-circular-fab.png" alt="Circular FAB">
+    <div>
+      <b>DRONLAB A2 - BLOQUE 5</b>
+      <h1>Chuletas de rendimiento de vuelo</h1>
+    </div>
+    <a class="print-link" href="print-a3.html">A3</a>
+    <button onclick="window.print()">Imprimir A4</button>
+  </header>
+
+  <main class="sheet">
+    <section class="hero card">
+      <div>
+        <p class="kicker">Resumen rapido</p>
+        <h2>Rendimiento A2 es cruzar fisica, masa, aire y sensores</h2>
+      </div>
+      <div class="hero-grid">
+        <span><b>4F</b>fuerzas</span>
+        <span><b>CG</b>equilibrio</span>
+        <span><b>3</b>ejes</span>
+        <span><b>&lt;4</b>kg C2</span>
+        <span><b>K&lt;4</b>seguridad</span>
+        <span><b>120m</b>AGL</span>
+      </div>
+    </section>
+
+    <section class="card compact">
+      <p class="kicker">Chuleta 1</p>
+      <h2>Resumen del Bloque 5</h2>
+      <div class="tiles six">
+        <article><span class="ico">01</span><b>Fuerzas</b><p>Sustentacion, peso, empuje y resistencia.</p></article>
+        <article><span class="ico">02</span><b>Ejes</b><p>Roll, pitch y yaw alrededor del CG.</p></article>
+        <article><span class="ico">03</span><b>CG</b><p>Punto de equilibrio de la masa.</p></article>
+        <article><span class="ico">04</span><b>MTOM</b><p>Aeronave mas carga; C2 &lt; 4 kg.</p></article>
+        <article><span class="ico">05</span><b>Aire</b><p>Densidad: altitud, temperatura, humedad.</p></article>
+        <article><span class="ico">06</span><b>Sensores</b><p>Calibracion, barometria e Indice K.</p></article>
+      </div>
+    </section>
+
+    <section class="card">
+      <p class="kicker">Chuleta 2</p>
+      <h2>Flujo de rendimiento</h2>
+      <div class="flow">
+        <div><span>1</span><b>Fuerzas</b><small>4 fuerzas</small></div>
+        <i></i>
+        <div><span>2</span><b>Ejes</b><small>CG y actitud</small></div>
+        <i></i>
+        <div><span>3</span><b>Carga</b><small>Payload + MTOM</small></div>
+        <i></i>
+        <div><span>4</span><b>Aire</b><small>Densidad</small></div>
+        <i></i>
+        <div><span>5</span><b>Sensores</b><small>Calibracion</small></div>
+        <i></i>
+        <div><span>6</span><b>Datos</b><small>Criticos</small></div>
+      </div>
+    </section>
+
+    <section class="grid two">
+      <article class="card">
+        <p class="kicker">Chuleta 3</p>
+        <h2>Ejes y CG</h2>
+        <ul class="check">
+          <li>Longitudinal: alabeo / roll.</li>
+          <li>Lateral o transversal: cabeceo / pitch.</li>
+          <li>Vertical: guinada / yaw.</li>
+          <li>Los tres ejes se cruzan en el CG.</li>
+          <li>El CG concentra la masa del dron.</li>
+          <li>CG fuera de limites compromete control.</li>
+        </ul>
+      </article>
+      <article class="card accent">
+        <p class="kicker">Chuleta 4</p>
+        <h2>MTOM + payload</h2>
+        <div class="idbox"><small>Dato C2</small><b>&lt; 4 kg</b></div>
+        <p class="note">La carga util debe comprobarse frente a MTOM y Centro de Gravedad.</p>
+      </article>
+    </section>
+
+    <section class="card">
+      <p class="kicker">Chuleta 5</p>
+      <h2>Tabla de datos criticos</h2>
+      <table>
+        <thead><tr><th>Dato</th><th>Valor / requisito</th><th>Uso</th></tr></thead>
+        <tbody>
+          <tr><td>Masa Maxima C2</td><td><b>&lt; 4 kg</b></td><td>Legalidad y seguridad estructural</td></tr>
+          <tr><td>Altura Maxima AGL</td><td><b>120 m (400 ft)</b></td><td>Dato critico de operacion</td></tr>
+          <tr><td>Indice K Planetario</td><td><b>&lt; 4</b></td><td>Seguridad de posicionamiento</td></tr>
+          <tr><td>Asistencia Barometrica</td><td><b>Requerida</b></td><td>Precision en altura</td></tr>
+          <tr><td>Umbral de aprobado</td><td><b>75%</b></td><td>Aciertos de examen</td></tr>
+          <tr><td>Densidad del aire</td><td><b>Variable</b></td><td>Rendimiento de helices</td></tr>
+          <tr><td>Calibracion</td><td><b>IMU + brujula</b></td><td>Ejes y estabilidad</td></tr>
+          <tr><td>Autonomia</td><td><b>Variable</b></td><td>Carga util y viento enfrentado</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="grid two">
+      <article class="card">
+        <p class="kicker">Chuleta 6</p>
+        <h2>Errores habituales</h2>
+        <table class="small-table">
+          <tbody>
+            <tr><td>Solo bateria</td><td>Revisar masa, aire, sensores y configuracion.</td></tr>
+            <tr><td>Ejes mezclados</td><td>Pitch es eje lateral/transversal.</td></tr>
+            <tr><td>Payload inocuo</td><td>Comprobar MTOM y CG.</td></tr>
+            <tr><td>MTOM flexible</td><td>No debe superarse nunca.</td></tr>
+            <tr><td>Calor ignorado</td><td>Afecta densidad y potencia disponible.</td></tr>
+            <tr><td>Autonomia nominal</td><td>Considerar carga y viento enfrentado.</td></tr>
+            <tr><td>Sensores secundarios</td><td>IMU/brujula afectan percepcion de ejes.</td></tr>
+            <tr><td>BVLOS avanzado</td><td>Fuera del alcance del curso A2.</td></tr>
+          </tbody>
+        </table>
+      </article>
+      <article class="card">
+        <p class="kicker">Chuleta 7</p>
+        <h2>Checklist final</h2>
+        <ul class="check final">
+          <li>Cuatro fuerzas identificadas.</li>
+          <li>Roll, pitch y yaw asociados correctamente.</li>
+          <li>Centro de Gravedad revisado.</li>
+          <li>Payload comprobado frente a MTOM.</li>
+          <li>Masa Maxima C2 &lt; 4 kg recordada.</li>
+          <li>Altura Maxima AGL 120 m / 400 ft recordada.</li>
+          <li>Densidad valorada por altitud, temperatura y humedad.</li>
+          <li>Calibracion IMU/brujula considerada.</li>
+          <li>Indice K Planetario &lt; 4 comprobado si aplica.</li>
+          <li>Autonomia valorada segun carga y viento.</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+  <script src="chuletas.js"></script>
+</body>
+</html>

@@ -1,0 +1,809 @@
+﻿window.DRONLAB_BLOQUE1 = {
+    "curso":  "DronLab A2",
+    "bloque":  "Bloque 1: Requisitos Legales y Tramites para la Subcategoria A2",
+    "duracion":  "2 h 30 min",
+    "metodologia":  [
+                        "Ver",
+                        "Entender",
+                        "Probar",
+                        "Aplicar",
+                        "Recordar"
+                    ],
+    "slides":  [
+                   {
+                       "id":  1,
+                       "titulo":  "Bienvenida al Bloque 1 A2",
+                       "tipo":  "inicio",
+                       "duracion":  "5 min",
+                       "objetivo":  "Situar el bloque como la puerta administrativa y legal de acceso al nivel A2.",
+                       "contenido":  "El Bloque 1 ordena la cadena de acceso: prueba A1/A3, autoformacion practica, declaracion de conclusion, matriculacion telematica, examen A2 televigilado y certificado de competencia.",
+                       "resumen":  "A2 no empieza por el examen: empieza por demostrar requisitos previos y completar tramites.",
+                       "guion":  "Abre con la idea de escalera: A1/A3 es el primer peldaño, la practica y la declaracion son el puente, y el examen A2 es la puerta al certificado.",
+                       "material":  "Portal del curso, pizarra o pantalla con la cadena A1/A3 -\u003e practicas -\u003e declaracion -\u003e examen A2.",
+                       "pregunta":  "Que creeis que se necesita antes de poder presentarse al examen A2?",
+                       "respuestas_esperadas":  [
+                                                    "Haber superado A1/A3.",
+                                                    "Realizar autoformacion practica.",
+                                                    "Presentar una declaracion de practicas."
+                                                ],
+                       "error":  "Pensar que A2 es solo un examen aislado.",
+                       "como_reconducir":  "Volver a la cadena de dependencias y preguntar que paso desbloquea el siguiente.",
+                       "demostracion":  "Dibujar seis cajas conectadas: A1/A3, autoformacion, declaracion, matriculacion, examen, certificado.",
+                       "dinamica":  "Votacion rapida: requisito, tramite o examen.",
+                       "no_explicar":  "STS, SORA, categoria Especifica, Certificada y radiofonista UAS: fuera del alcance del curso A2.",
+                       "enlace":  "Empezamos por el requisito previo: A1/A3.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Hoy no vamos a memorizar tramites sueltos; vamos a entender la secuencia que permite llegar legalmente al certificado A2.",
+                                             "preguntas":  [
+                                                               "Que paso va antes del examen A2?",
+                                                               "Que documento demuestra que se han hecho practicas?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "A1/A3 y declaracion de practicas.",
+                                                                          "La declaracion de conclusion de autoformacion."
+                                                                      ],
+                                             "error_habitual":  "Creer que basta con querer hacer el examen A2.",
+                                             "como_reconducir":  "Pedir que reconstruyan la cadena completa en voz alta.",
+                                             "demostracion":  "Cadena visual de seis pasos.",
+                                             "material":  "Pizarra, pantalla y esquema de flujo.",
+                                             "dinamica":  "Mapa inicial construido por el grupo."
+                                         }
+                   },
+                   {
+                       "id":  2,
+                       "titulo":  "La prueba A1/A3 como base",
+                       "tipo":  "requisito",
+                       "duracion":  "7 min",
+                       "objetivo":  "Comprender que la prueba de superacion A1/A3 es requisito administrativo previo para A2.",
+                       "contenido":  "La prueba de superacion de formacion en linea A1/A3 es el documento acreditativo obtenido tras superar el curso y examen inicial de las subcategorias A1/A3.",
+                       "resumen":  "Sin A1/A3 no se desbloquea el itinerario A2.",
+                       "guion":  "Presenta A1/A3 como cimiento formativo y administrativo, no como contenido a repetir en detalle.",
+                       "material":  "Ficha con el concepto \u0027Prueba de superacion A1/A3\u0027.",
+                       "pregunta":  "Por que A1/A3 aparece antes que A2 en la cadena?",
+                       "respuestas_esperadas":  [
+                                                    "Porque es requisito previo.",
+                                                    "Porque aporta la base aeronautica basica."
+                                                ],
+                       "error":  "Tratar A1/A3 como un curso alternativo sin relacion con A2.",
+                       "como_reconducir":  "Usar la imagen de sistema piramidal EASA/AESA.",
+                       "demostracion":  "Marcar A1/A3 como casilla obligatoria antes de matriculacion A2.",
+                       "dinamica":  "Ordenar tarjetas de requisitos.",
+                       "no_explicar":  "Contenido normativo completo A1/A3.",
+                       "enlace":  "El siguiente paso es entrenar habilidades practicas.",
+                       "profesor_plus":  {
+                                             "que_decir":  "A1/A3 no es decorativo: es el cimiento que permite subir a A2.",
+                                             "preguntas":  [
+                                                               "Que acredita A1/A3?",
+                                                               "Cuantas preguntas tiene el examen online A1/A3 segun la fuente?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "La formacion inicial superada.",
+                                                                          "40 preguntas."
+                                                                      ],
+                                             "error_habitual":  "Pensar que el tramite A2 empieza directamente en la sede electronica.",
+                                             "como_reconducir":  "Pedir que identifiquen que documento demostrarian primero.",
+                                             "demostracion":  "Check de requisito previo.",
+                                             "material":  "Tarjeta A1/A3.",
+                                             "dinamica":  "Antes/despues con tarjetas."
+                                         }
+                   },
+                   {
+                       "id":  3,
+                       "titulo":  "A1/A3: finalidad e importancia",
+                       "tipo":  "explicacion",
+                       "duracion":  "6 min",
+                       "objetivo":  "Explicar la finalidad de A1/A3 dentro del itinerario A2.",
+                       "contenido":  "A1/A3 sirve como base de conocimiento aeronautico basica y requisito administrativo previo para acceder al nivel A2. Su importancia es critica porque sostiene el sistema formativo piramidal EASA/AESA.",
+                       "resumen":  "A1/A3 es conocimiento base y llave administrativa.",
+                       "guion":  "Diferencia dos capas: lo que el piloto sabe y lo que administrativamente puede solicitar despues.",
+                       "material":  "Diagrama de dos capas: conocimiento y tramite.",
+                       "pregunta":  "A1/A3 es conocimiento, tramite o ambas cosas?",
+                       "respuestas_esperadas":  [
+                                                    "Ambas cosas.",
+                                                    "Base de conocimiento y requisito previo."
+                                                ],
+                       "error":  "Reducir A1/A3 a un papel sin valor formativo.",
+                       "como_reconducir":  "Preguntar que pasaria si alguien llega a A2 sin base previa.",
+                       "demostracion":  "Dos columnas: saber / poder tramitar.",
+                       "dinamica":  "Clasificacion de funciones.",
+                       "no_explicar":  "Temario A1/A3 fuera del Bloque 1 A2.",
+                       "enlace":  "Con esa base, el piloto debe practicar.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Este certificado previo cumple dos funciones: demuestra base y habilita el siguiente paso.",
+                                             "preguntas":  [
+                                                               "Que funcion formativa tiene?",
+                                                               "Que funcion administrativa tiene?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Base aeronautica.",
+                                                                          "Acceso al nivel A2."
+                                                                      ],
+                                             "error_habitual":  "Memorizar el nombre sin entender su funcion.",
+                                             "como_reconducir":  "Separar finalidad e importancia en pizarra.",
+                                             "demostracion":  "Doble etiqueta sobre A1/A3.",
+                                             "material":  "Pizarra.",
+                                             "dinamica":  "Parejas: explicar en una frase."
+                                         }
+                   },
+                   {
+                       "id":  4,
+                       "titulo":  "Autoformacion de habilidades practicas",
+                       "tipo":  "practica",
+                       "duracion":  "8 min",
+                       "objetivo":  "Entender que A2 exige entrenamiento autonomo previo segun el syllabus oficial.",
+                       "contenido":  "La autoformacion de habilidades practicas es el entrenamiento autonomo realizado por el piloto siguiendo el syllabus oficial Guia FOR-UAS-P01-GU07.",
+                       "resumen":  "La practica A2 se prepara de forma autonoma antes del examen.",
+                       "guion":  "Aclara que no se trata de improvisar vuelos; la fuente habla de entrenamiento autonomo guiado por syllabus.",
+                       "material":  "Referencia escrita: Guia FOR-UAS-P01-GU07.",
+                       "pregunta":  "Autoformacion significa practicar sin criterio?",
+                       "respuestas_esperadas":  [
+                                                    "No.",
+                                                    "Debe seguir un syllabus oficial."
+                                                ],
+                       "error":  "Confundir autoformacion con practica libre sin estructura.",
+                       "como_reconducir":  "Subrayar las palabras autonomo y syllabus.",
+                       "demostracion":  "Mostrar una lista de practicas como checklist conceptual, sin desarrollarlas.",
+                       "dinamica":  "El grupo define que significa \u0027autonomo\u0027 sin decir \u0027sin reglas\u0027.",
+                       "no_explicar":  "Practicas detalladas fuera de esta pantalla; usar el recurso final de practicas cuando corresponda.",
+                       "enlace":  "Ahora vemos donde deben hacerse esas practicas.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Autoformacion no significa \u0027me voy a volar donde quiera\u0027; significa entrenar siguiendo una guia.",
+                                             "preguntas":  [
+                                                               "Que guia aparece en la fuente?",
+                                                               "Que sustituye esta autoformacion?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "FOR-UAS-P01-GU07.",
+                                                                          "La formacion practica con examinador en categoria abierta."
+                                                                      ],
+                                             "error_habitual":  "Entender autoformacion como ausencia de requisitos.",
+                                             "como_reconducir":  "Volver al termino syllabus oficial.",
+                                             "demostracion":  "Checklist conceptual.",
+                                             "material":  "Referencia de guia.",
+                                             "dinamica":  "Frase correcta/frase incorrecta."
+                                         }
+                   },
+                   {
+                       "id":  5,
+                       "titulo":  "Practicar en condiciones A3",
+                       "tipo":  "seguridad",
+                       "duracion":  "8 min",
+                       "objetivo":  "Relacionar la subcategoria A3 con el entorno seguro de practicas para A2.",
+                       "contenido":  "La subcategoria A3 conecta A1/A3 con A2 como entorno de practicas de bajo riesgo. La fuente indica practicar a mas de 150 m de zonas urbanas y evitar personas ajenas.",
+                       "resumen":  "A3 funciona como espacio puente de bajo riesgo para preparar A2.",
+                       "guion":  "No desarrolles A3 como curso propio; usalo solo como entorno puente de practicas.",
+                       "material":  "Esquema \u0027bajo riesgo A3 -\u003e riesgo medio A2\u0027.",
+                       "pregunta":  "Por que no se debe practicar A2 directamente en entorno urbano?",
+                       "respuestas_esperadas":  [
+                                                    "Porque aun no se tiene el nivel A2.",
+                                                    "Porque la practica debe hacerse en condiciones A3."
+                                                ],
+                       "error":  "Realizar practicas en entornos urbanos o con personas ajenas sin estar titulado.",
+                       "como_reconducir":  "Volver a la funcion puente de A3.",
+                       "demostracion":  "Mapa simple: zona aislada frente a zona urbana.",
+                       "dinamica":  "Clasificar escenarios como aptos/no aptos para practicar.",
+                       "no_explicar":  "Operaciones A3 completas.",
+                       "enlace":  "Tras practicar, hay que declararlo.",
+                       "profesor_plus":  {
+                                             "que_decir":  "A3 aqui no es el tema principal; es el entorno seguro que permite entrenar antes de A2.",
+                                             "preguntas":  [
+                                                               "Que distancia aparece respecto a zonas urbanas?",
+                                                               "Que error operacional evita este concepto?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Mas de 150 m.",
+                                                                          "Practicar en entornos no permitidos."
+                                                                      ],
+                                             "error_habitual":  "Confundir entrenamiento A2 con permiso para volar cerca de personas.",
+                                             "como_reconducir":  "Dibujar A3 como puente, no como destino.",
+                                             "demostracion":  "Dos escenarios comparados.",
+                                             "material":  "Pizarra o mapa conceptual.",
+                                             "dinamica":  "Semaforo de escenarios."
+                                         }
+                   },
+                   {
+                       "id":  6,
+                       "titulo":  "Instrucciones del fabricante",
+                       "tipo":  "dependencia",
+                       "duracion":  "6 min",
+                       "objetivo":  "Reconocer que la autoformacion depende de conocer las instrucciones del fabricante.",
+                       "contenido":  "La fuente indica que la autoformacion depende de estar familiarizado con las instrucciones del fabricante y operar en una zona aislada.",
+                       "resumen":  "No hay practica responsable sin conocer el equipo.",
+                       "guion":  "Une el tramite con la realidad operacional: antes de declarar practicas, el piloto debe haber entrenado con conocimiento del equipo.",
+                       "material":  "Manual o instrucciones del UAS usado para ejemplo.",
+                       "pregunta":  "Que riesgo aparece si practico sin conocer el manual?",
+                       "respuestas_esperadas":  [
+                                                    "No gestionar emergencias.",
+                                                    "No conocer limites o configuraciones."
+                                                ],
+                       "error":  "Separar los requisitos administrativos de la seguridad real.",
+                       "como_reconducir":  "Preguntar que haria el piloto ante una contingencia sin haber leido instrucciones.",
+                       "demostracion":  "Señalar manual/instrucciones como requisito previo de practica.",
+                       "dinamica":  "Checklist: antes de practicar.",
+                       "no_explicar":  "Mantenimiento tecnico en profundidad.",
+                       "enlace":  "El paso administrativo siguiente es la declaracion.",
+                       "profesor_plus":  {
+                                             "que_decir":  "La declaracion no puede ser un papel vacio: debe apoyarse en practica real y conocimiento del equipo.",
+                                             "preguntas":  [
+                                                               "Que documento tecnico debe conocer el piloto?",
+                                                               "Que desbloquea la practica?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Instrucciones del fabricante.",
+                                                                          "Habilidad para gestionar emergencias."
+                                                                      ],
+                                             "error_habitual":  "Practicar sin revisar el manual.",
+                                             "como_reconducir":  "Conectar manual con emergencias.",
+                                             "demostracion":  "Checklist previa.",
+                                             "material":  "Manual o instrucciones.",
+                                             "dinamica":  "Lista rapida por equipos."
+                                         }
+                   },
+                   {
+                       "id":  7,
+                       "titulo":  "Declaracion de conclusion de autoformacion",
+                       "tipo":  "tramite",
+                       "duracion":  "8 min",
+                       "objetivo":  "Comprender que la declaracion acredita haber completado las practicas requeridas.",
+                       "contenido":  "La declaracion de conclusion de autoformacion es un documento jurado en el que el piloto confirma haber completado las practicas requeridas.",
+                       "resumen":  "La declaracion conecta la practica realizada con la matriculacion A2.",
+                       "guion":  "Explica que no sustituye la practica: la declara. Es critica para la legalidad del certificado.",
+                       "material":  "Tarjeta \u0027declaracion jurada\u0027.",
+                       "pregunta":  "Que confirma exactamente esta declaracion?",
+                       "respuestas_esperadas":  [
+                                                    "Que se han completado las practicas requeridas.",
+                                                    "Que existe aptitud practica para matricularse."
+                                                ],
+                       "error":  "Firmar o entender la declaracion como un formalismo sin contenido real.",
+                       "como_reconducir":  "Subrayar que su falsedad puede causar revocacion.",
+                       "demostracion":  "Ubicar la declaracion despues de practicas y antes de examen.",
+                       "dinamica":  "Ordenar la secuencia de nuevo.",
+                       "no_explicar":  "Modelos concretos no cargados.",
+                       "enlace":  "Con la declaracion aparece la matriculacion telematica.",
+                       "profesor_plus":  {
+                                             "que_decir":  "La declaracion no crea la practica: certifica que la practica ya se hizo.",
+                                             "preguntas":  [
+                                                               "Que depende de la declaracion?",
+                                                               "Que riesgo tiene falsearla?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "La matriculacion al examen A2.",
+                                                                          "Revocacion."
+                                                                      ],
+                                             "error_habitual":  "Tratarla como un simple clic administrativo.",
+                                             "como_reconducir":  "Repetir: primero practica, despues declaracion.",
+                                             "demostracion":  "Linea temporal.",
+                                             "material":  "Tarjetas de flujo.",
+                                             "dinamica":  "Antes/despues."
+                                         }
+                   },
+                   {
+                       "id":  8,
+                       "titulo":  "Matriculacion telematica A2",
+                       "tipo":  "tramite",
+                       "duracion":  "7 min",
+                       "objetivo":  "Identificar los elementos administrativos que desbloquean el acceso al examen.",
+                       "contenido":  "La matriculacion A2 depende de firma electronica y certificado digital, y desbloquea el acceso a la plataforma de examen.",
+                       "resumen":  "Sin medios de identificacion electronica, el tramite puede quedar bloqueado.",
+                       "guion":  "Enfatiza que la competencia tecnica no basta si el tramite no puede finalizarse.",
+                       "material":  "Diagrama de matriculacion: firma electronica + certificado digital -\u003e acceso examen.",
+                       "pregunta":  "Que requisito administrativo puede impedir finalizar la inscripcion?",
+                       "respuestas_esperadas":  [
+                                                    "No disponer de firma electronica.",
+                                                    "No disponer de certificado digital."
+                                                ],
+                       "error":  "Llegar al tramite sin medios de firma.",
+                       "como_reconducir":  "Separar requisitos formativos de requisitos administrativos.",
+                       "demostracion":  "Dos candados: firma y certificado.",
+                       "dinamica":  "Checklist administrativo.",
+                       "no_explicar":  "Guia tecnica completa de instalacion.",
+                       "enlace":  "Tambien hay que usar bien el identificador de piloto.",
+                       "profesor_plus":  {
+                                             "que_decir":  "A2 tambien tiene una puerta administrativa: si no puedes firmar, no puedes cerrar el proceso.",
+                                             "preguntas":  [
+                                                               "Que desbloquea la matriculacion?",
+                                                               "Que dos elementos aparecen como dependencia?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Acceso a la plataforma de examen.",
+                                                                          "Firma electronica y certificado digital."
+                                                                      ],
+                                             "error_habitual":  "Preparar el examen y olvidar la firma.",
+                                             "como_reconducir":  "Checklist de tramite.",
+                                             "demostracion":  "Candados administrativos.",
+                                             "material":  "Pizarra.",
+                                             "dinamica":  "Completar lista de requisitos."
+                                         }
+                   },
+                   {
+                       "id":  9,
+                       "titulo":  "Numero de Identificacion de Piloto",
+                       "tipo":  "concepto-puente",
+                       "duracion":  "7 min",
+                       "objetivo":  "Distinguir el identificador de piloto del numero de operador.",
+                       "contenido":  "El Numero de Identificacion de Piloto ESP-RP-... conecta al individuo con su registro en AESA. La fuente advierte no confundirlo con el numero de operador del UAS.",
+                       "resumen":  "Piloto y operador no son el mismo identificador.",
+                       "guion":  "Presenta este punto como un error administrativo frecuente que puede afectar tramites de examen.",
+                       "material":  "Dos tarjetas: piloto ESP-RP-... y operador.",
+                       "pregunta":  "Que se confunde habitualmente al hacer tramites?",
+                       "respuestas_esperadas":  [
+                                                    "Numero de piloto y numero de operador."
+                                                ],
+                       "error":  "Usar el numero de operador donde corresponde el identificador de piloto.",
+                       "como_reconducir":  "Volver a la pregunta: persona piloto o operador del UAS?",
+                       "demostracion":  "Separar tarjetas en dos columnas.",
+                       "dinamica":  "Clasificar identificadores.",
+                       "no_explicar":  "Registro de operador en detalle.",
+                       "enlace":  "Una vez matriculado, llega el examen A2.",
+                       "profesor_plus":  {
+                                             "que_decir":  "El identificador ESP-RP-... habla del piloto, no del operador del UAS.",
+                                             "preguntas":  [
+                                                               "Que formato aparece en la fuente?",
+                                                               "Que error evita este concepto?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "ESP-RP-0000000XXXXX.",
+                                                                          "Confundir piloto y operador."
+                                                                      ],
+                                             "error_habitual":  "Copiar el numero equivocado en una declaracion.",
+                                             "como_reconducir":  "Preguntar de quien habla el tramite: persona o operador.",
+                                             "demostracion":  "Dos tarjetas separadas.",
+                                             "material":  "Tarjetas de identificador.",
+                                             "dinamica":  "Juego de correspondencias."
+                                         }
+                   },
+                   {
+                       "id":  10,
+                       "titulo":  "Examen teorico adicional A2",
+                       "tipo":  "examen",
+                       "duracion":  "8 min",
+                       "objetivo":  "Conocer la definicion y finalidad del examen A2.",
+                       "contenido":  "El examen de conocimientos teoricos adicional A2 es una prueba de 30 preguntas sobre materias especificas: meteorologia, rendimiento y atenuaciones.",
+                       "resumen":  "El examen certifica competencia especifica A2.",
+                       "guion":  "No desarrolles las materias; solo situa que son las areas especificas que justifican la prueba adicional.",
+                       "material":  "Tarjeta: meteorologia, rendimiento, atenuaciones.",
+                       "pregunta":  "Que tres materias aparecen asociadas al examen A2?",
+                       "respuestas_esperadas":  [
+                                                    "Meteorologia.",
+                                                    "Rendimiento.",
+                                                    "Atenuaciones."
+                                                ],
+                       "error":  "Creer que el examen A2 repite solo A1/A3.",
+                       "como_reconducir":  "Subrayar la palabra adicional.",
+                       "demostracion":  "Tres bloques tematicos.",
+                       "dinamica":  "Completar materias.",
+                       "no_explicar":  "Contenido completo de meteorologia, rendimiento y atenuaciones.",
+                       "enlace":  "Veamos sus datos criticos.",
+                       "profesor_plus":  {
+                                             "que_decir":  "A2 añade una prueba especifica: no sustituye la base A1/A3, la completa.",
+                                             "preguntas":  [
+                                                               "Cuantas preguntas tiene?",
+                                                               "Sobre que materias?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "30 preguntas.",
+                                                                          "Meteorologia, rendimiento y atenuaciones."
+                                                                      ],
+                                             "error_habitual":  "Pensar que A2 solo valida practicas.",
+                                             "como_reconducir":  "Separar practica, declaracion y examen.",
+                                             "demostracion":  "Tres bloques de contenido.",
+                                             "material":  "Pantalla de materias.",
+                                             "dinamica":  "Pregunta coral."
+                                         }
+                   },
+                   {
+                       "id":  11,
+                       "titulo":  "Datos criticos del examen",
+                       "tipo":  "datos",
+                       "duracion":  "8 min",
+                       "objetivo":  "Memorizar valores esenciales del examen A2.",
+                       "contenido":  "La fuente indica: 30 preguntas, 30 minutos, aprobado con 75% de aciertos y plazo de 30 dias habiles tras la notificacion de acceso.",
+                       "resumen":  "30 preguntas, 30 minutos, 75%, 30 dias habiles.",
+                       "guion":  "Haz que el grupo repita la secuencia numerica y la asocie a cada dato.",
+                       "material":  "Pantalla con cuatro numeros: 30, 30, 75, 30.",
+                       "pregunta":  "Que significa cada 30 en este bloque?",
+                       "respuestas_esperadas":  [
+                                                    "30 preguntas.",
+                                                    "30 minutos.",
+                                                    "30 dias habiles de plazo."
+                                                ],
+                       "error":  "Confundir preguntas, minutos y plazo.",
+                       "como_reconducir":  "Relacionar cada numero con su sustantivo.",
+                       "demostracion":  "Tabla de datos criticos.",
+                       "dinamica":  "Memoria relampago.",
+                       "no_explicar":  "Banco de preguntas completo fuera de esta pantalla; usar el recurso final de test cuando corresponda.",
+                       "enlace":  "El examen se realiza con televigilancia.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Estos datos son de examen y tramite: deben quedar limpios, sin mezclarse.",
+                                             "preguntas":  [
+                                                               "Cual es el umbral de aprobado?",
+                                                               "Cual es el plazo tras la notificacion?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "75% de aciertos.",
+                                                                          "30 dias habiles."
+                                                                      ],
+                                             "error_habitual":  "Recordar el numero pero no su significado.",
+                                             "como_reconducir":  "Pedir numero + unidad + contexto.",
+                                             "demostracion":  "Tabla 30/30/75/30.",
+                                             "material":  "Pantalla de datos.",
+                                             "dinamica":  "Ronda de memoria."
+                                         }
+                   },
+                   {
+                       "id":  12,
+                       "titulo":  "Televigilancia o proctoring",
+                       "tipo":  "examen",
+                       "duracion":  "8 min",
+                       "objetivo":  "Comprender la funcion de la televigilancia durante el examen.",
+                       "contenido":  "La televigilancia es un sistema de monitorizacion remota, SMOWL segun la fuente, que utiliza webcam, microfono y pantalla durante el examen.",
+                       "resumen":  "La televigilancia protege la integridad del examen.",
+                       "guion":  "Presenta el proctoring como condicion tecnica y de conducta, no como un detalle menor.",
+                       "material":  "Iconos: webcam, microfono y pantalla.",
+                       "pregunta":  "Que elementos monitoriza el sistema?",
+                       "respuestas_esperadas":  [
+                                                    "Webcam.",
+                                                    "Microfono.",
+                                                    "Pantalla."
+                                                ],
+                       "error":  "Pensar que el examen online no tiene control.",
+                       "como_reconducir":  "Explicar que su finalidad es evitar fraudes.",
+                       "demostracion":  "Checklist tecnico previo al examen.",
+                       "dinamica":  "El grupo enumera condiciones de examen limpio.",
+                       "no_explicar":  "Instalacion tecnica paso a paso.",
+                       "enlace":  "Si el comportamiento no es correcto, hay riesgos.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Online no significa sin vigilancia: el sistema comprueba identidad, entorno y uso del equipo.",
+                                             "preguntas":  [
+                                                               "Que software aparece?",
+                                                               "Que hardware o permisos implica?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "SMOWL o herramienta vigente.",
+                                                                          "Webcam, microfono y pantalla."
+                                                                      ],
+                                             "error_habitual":  "Preparar temario y olvidar entorno tecnico.",
+                                             "como_reconducir":  "Checklist antes del examen.",
+                                             "demostracion":  "Tres iconos tecnicos.",
+                                             "material":  "Pantalla, webcam, microfono.",
+                                             "dinamica":  "Checklist de puesto de examen."
+                                         }
+                   },
+                   {
+                       "id":  13,
+                       "titulo":  "Conductas que invalidan",
+                       "tipo":  "riesgo",
+                       "duracion":  "7 min",
+                       "objetivo":  "Identificar errores de examen asociados al proctoring.",
+                       "contenido":  "La fuente cita desviar la mirada, presencia de terceros o uso de dispositivos no autorizados durante el proctoring como motivos de revocacion.",
+                       "resumen":  "La conducta durante el examen tambien forma parte del cumplimiento.",
+                       "guion":  "No dramatices: convierte la lista en normas de entorno controlado.",
+                       "material":  "Lista de tres conductas de riesgo.",
+                       "pregunta":  "Que situaciones pueden activar una irregularidad?",
+                       "respuestas_esperadas":  [
+                                                    "Desviar la mirada.",
+                                                    "Terceros presentes.",
+                                                    "Dispositivos no autorizados."
+                                                ],
+                       "error":  "Consultar un manual fisico durante el examen.",
+                       "como_reconducir":  "Recordar que el objetivo es integridad academica.",
+                       "demostracion":  "Escenario correcto vs incorrecto.",
+                       "dinamica":  "Detectar errores en una escena simulada.",
+                       "no_explicar":  "Banco de preguntas completo fuera de esta pantalla; usar el recurso final de test cuando corresponda.",
+                       "enlace":  "Tambien hay riesgos administrativos.",
+                       "profesor_plus":  {
+                                             "que_decir":  "El examen se aprueba con conocimientos y con conducta compatible con la televigilancia.",
+                                             "preguntas":  [
+                                                               "Puede haber terceros?",
+                                                               "Puede consultarse un manual fisico?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "No.",
+                                                                          "No, segun el escenario de irregularidad de la fuente."
+                                                                      ],
+                                             "error_habitual":  "Tratar el examen online como una consulta abierta.",
+                                             "como_reconducir":  "Hablar de integridad, no de castigo.",
+                                             "demostracion":  "Escena de mesa limpia.",
+                                             "material":  "Checklist visual.",
+                                             "dinamica":  "Encontrar el fallo."
+                                         }
+                   },
+                   {
+                       "id":  14,
+                       "titulo":  "Riesgos administrativos",
+                       "tipo":  "riesgo",
+                       "duracion":  "8 min",
+                       "objetivo":  "Reconocer los fallos administrativos mas probables del bloque.",
+                       "contenido":  "La fuente destaca dos riesgos: confundir el numero de piloto con el numero de operador, y no disponer de firma electronica para finalizar la inscripcion.",
+                       "resumen":  "Los errores administrativos bloquean el tramite aunque el alumno sepa la teoria.",
+                       "guion":  "Vuelve a los dos candados: identificador correcto y firma disponible.",
+                       "material":  "Tarjetas: ESP-RP, operador, firma electronica.",
+                       "pregunta":  "Que dos errores administrativos aparecen en la fuente?",
+                       "respuestas_esperadas":  [
+                                                    "Confundir identificadores.",
+                                                    "No tener firma electronica."
+                                                ],
+                       "error":  "Completar una declaracion con el identificador equivocado.",
+                       "como_reconducir":  "Separar persona piloto, operador y medio de firma.",
+                       "demostracion":  "Triangulo administrativo.",
+                       "dinamica":  "Seleccionar el dato correcto para cada casilla.",
+                       "no_explicar":  "Guia de configuracion completa.",
+                       "enlace":  "La vigencia del certificado tambien debe memorizarse.",
+                       "profesor_plus":  {
+                                             "que_decir":  "El tramite falla por cosas pequeñas: numero equivocado o firma no preparada.",
+                                             "preguntas":  [
+                                                               "Que identificador empieza por ESP-RP?",
+                                                               "Que falta bloquea la inscripcion?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "El numero de piloto.",
+                                                                          "Firma electronica/certificado digital."
+                                                                      ],
+                                             "error_habitual":  "Copiar el numero de operador.",
+                                             "como_reconducir":  "Volver a la funcion de cada identificador.",
+                                             "demostracion":  "Formulario ficticio sin datos reales.",
+                                             "material":  "Tarjetas de identificadores.",
+                                             "dinamica":  "Casillas correctas."
+                                         }
+                   },
+                   {
+                       "id":  15,
+                       "titulo":  "Certificado de competencia A2",
+                       "tipo":  "certificado",
+                       "duracion":  "7 min",
+                       "objetivo":  "Entender que el examen desbloquea el certificado de competencia A2.",
+                       "contenido":  "El certificado A2 depende del 75% de aciertos en examen televigilado y desbloquea operaciones con UAS C2 a 5m/30m, segun la fuente.",
+                       "resumen":  "El certificado es el resultado de superar la cadena, no un paso inicial.",
+                       "guion":  "Situa el certificado al final del flujo y evita desarrollar operaciones C2 fuera de este bloque.",
+                       "material":  "Flujo completo terminado en certificado.",
+                       "pregunta":  "Que desbloquea el certificado A2 segun la fuente?",
+                       "respuestas_esperadas":  [
+                                                    "Operaciones con UAS C2 a 5m/30m."
+                                                ],
+                       "error":  "Hablar de operaciones C2 antes de cerrar requisitos y tramites.",
+                       "como_reconducir":  "Decir que aqui solo se identifica el resultado, no se desarrolla la operacion.",
+                       "demostracion":  "Ultima casilla del flujo.",
+                       "dinamica":  "Completar requisito -\u003e resultado.",
+                       "no_explicar":  "Operativa detallada C2.",
+                       "enlace":  "Memoricemos la vigencia y estabilidad de datos.",
+                       "profesor_plus":  {
+                                             "que_decir":  "El certificado aparece al final de una cadena validada: requisito, practica, declaracion, examen.",
+                                             "preguntas":  [
+                                                               "Que porcentaje se exige?",
+                                                               "Cuanto dura la vigencia?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "75%.",
+                                                                          "5 anos."
+                                                                      ],
+                                             "error_habitual":  "Confundir certificado con declaracion.",
+                                             "como_reconducir":  "Ubicar cada documento en el flujo.",
+                                             "demostracion":  "Linea temporal final.",
+                                             "material":  "Flujo completo.",
+                                             "dinamica":  "Ordenar documentos."
+                                         }
+                   },
+                   {
+                       "id":  16,
+                       "titulo":  "Conceptos estables",
+                       "tipo":  "repaso",
+                       "duracion":  "7 min",
+                       "objetivo":  "Fijar los datos que la fuente presenta como estables.",
+                       "contenido":  "Nota minima del 75%, validez de 5 anos desde la emision, gratuidad del proceso de formacion y examen en AESA, y formato online y telematico.",
+                       "resumen":  "75%, 5 anos, gratuito, online y telematico.",
+                       "guion":  "Haz que el alumno asocie cada dato con su categoria: nota, vigencia, coste y formato.",
+                       "material":  "Cuatro tarjetas de datos estables.",
+                       "pregunta":  "Que dato pertenece a vigencia y cual a aprobado?",
+                       "respuestas_esperadas":  [
+                                                    "5 anos es vigencia.",
+                                                    "75% es aprobado."
+                                                ],
+                       "error":  "Mezclar datos estables con variables.",
+                       "como_reconducir":  "Crear dos columnas: estable / variable.",
+                       "demostracion":  "Tabla estable-variable.",
+                       "dinamica":  "Clasificacion rapida.",
+                       "no_explicar":  "Cambios normativos no cargados.",
+                       "enlace":  "Ahora distinguimos lo que puede cambiar.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Estos cuatro datos son anclas para el bloque.",
+                                             "preguntas":  [
+                                                               "Tiene coste el proceso en AESA segun la fuente?",
+                                                               "Cual es el formato del examen?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "No tiene coste.",
+                                                                          "Online y telematico."
+                                                                      ],
+                                             "error_habitual":  "No diferenciar vigencia de plazo de examen.",
+                                             "como_reconducir":  "Pedir frase completa para cada dato.",
+                                             "demostracion":  "Cuatro tarjetas.",
+                                             "material":  "Tarjetas numericas.",
+                                             "dinamica":  "Memoria por parejas."
+                                         }
+                   },
+                   {
+                       "id":  17,
+                       "titulo":  "Conceptos variables",
+                       "tipo":  "alerta",
+                       "duracion":  "6 min",
+                       "objetivo":  "Identificar los elementos que pueden actualizarse o depender del entorno tecnico.",
+                       "contenido":  "La fuente marca como variables: syllabus de materias, actualmente Ed. 06 para A2; software de televigilancia segun Windows, Mac o Linux; y plazos de examen de 30 dias habiles desde la notificacion.",
+                       "resumen":  "Algunos datos deben verificarse cuando se tramite.",
+                       "guion":  "Explica que variable no significa falso: significa que debe comprobarse en la fuente vigente.",
+                       "material":  "Lista de conceptos variables.",
+                       "pregunta":  "Que significa que el syllabus pueda actualizarse?",
+                       "respuestas_esperadas":  [
+                                                    "Que hay que comprobar la edicion vigente.",
+                                                    "Que no debe memorizarse como eterno."
+                                                ],
+                       "error":  "Tratar datos variables como inmutables.",
+                       "como_reconducir":  "Separar datos de examen del estado actualizado de guias/software.",
+                       "demostracion":  "Sello \u0027verificar vigente\u0027.",
+                       "dinamica":  "Estable o variable.",
+                       "no_explicar":  "Actualizaciones no presentes en la fuente.",
+                       "enlace":  "Veamos dos escenarios reales.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Un buen piloto no solo memoriza: sabe que documentos y herramientas pueden cambiar.",
+                                             "preguntas":  [
+                                                               "Que edicion aparece para A2?",
+                                                               "De que depende la guia de instalacion del software?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Ed. 06.",
+                                                                          "Del sistema operativo."
+                                                                      ],
+                                             "error_habitual":  "Convertir una edicion en verdad permanente.",
+                                             "como_reconducir":  "Usar la palabra vigente.",
+                                             "demostracion":  "Sello de verificacion.",
+                                             "material":  "Lista estable/variable.",
+                                             "dinamica":  "Clasificacion."
+                                         }
+                   },
+                   {
+                       "id":  18,
+                       "titulo":  "Escenario: piloto que se profesionaliza",
+                       "tipo":  "caso-base",
+                       "duracion":  "8 min",
+                       "objetivo":  "Aplicar la cadena a un caso real implicito como demostracion guiada del flujo.",
+                       "contenido":  "Un piloto con certificado A1/A3 desea profesionalizarse para grabar en entornos urbanos y debe inscribirse en la sede electronica de AESA.",
+                       "resumen":  "El caso exige ordenar requisitos antes de pensar en volar.",
+                       "guion":  "No lo conviertas en caso evaluable; usalo como demostracion guiada del flujo.",
+                       "material":  "Tarjetas de flujo.",
+                       "pregunta":  "Que deberia comprobar primero este piloto?",
+                       "respuestas_esperadas":  [
+                                                    "Que tiene A1/A3.",
+                                                    "Que ha hecho practicas.",
+                                                    "Que puede declarar y matricularse."
+                                                ],
+                       "error":  "Saltar directamente a operar en urbano.",
+                       "como_reconducir":  "Volver al flujo antes de hablar de operacion.",
+                       "demostracion":  "Ordenar pasos del piloto.",
+                       "dinamica":  "Flujo en grupo.",
+                       "no_explicar":  "Operacion urbana detallada.",
+                       "enlace":  "Otro escenario aparece durante el examen.",
+                       "profesor_plus":  {
+                                             "que_decir":  "El objetivo profesional no elimina los pasos administrativos.",
+                                             "preguntas":  [
+                                                               "Que requisito previo tiene?",
+                                                               "Que debe tramitar?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "A1/A3.",
+                                                                          "Declaracion, matriculacion y examen."
+                                                                      ],
+                                             "error_habitual":  "Pasar de intencion profesional a vuelo sin certificado.",
+                                             "como_reconducir":  "Reconstruir la cadena.",
+                                             "demostracion":  "Flujo de tarjetas.",
+                                             "material":  "Tarjetas.",
+                                             "dinamica":  "Secuencia colaborativa."
+                                         }
+                   },
+                   {
+                       "id":  19,
+                       "titulo":  "Escenario: irregularidad en examen",
+                       "tipo":  "caso-base",
+                       "duracion":  "8 min",
+                       "objetivo":  "Reconocer el impacto de una irregularidad detectada por televigilancia.",
+                       "contenido":  "Durante un examen, el sistema de televigilancia detecta que el piloto consulta un manual fisico, activando una fase de alegaciones por irregularidades.",
+                       "resumen":  "El entorno de examen debe estar preparado para evitar irregularidades.",
+                       "guion":  "Usa el escenario para reforzar conducta de examen, no para desarrollar procedimientos juridicos.",
+                       "material":  "Mesa limpia vs mesa con manual.",
+                       "pregunta":  "Que deberia haber hecho el piloto antes de empezar?",
+                       "respuestas_esperadas":  [
+                                                    "Preparar entorno limpio.",
+                                                    "No usar dispositivos o materiales no autorizados."
+                                                ],
+                       "error":  "Consultar materiales durante el proctoring.",
+                       "como_reconducir":  "Hablar de preparacion previa, no de improvisacion durante el examen.",
+                       "demostracion":  "Comparar dos mesas de examen.",
+                       "dinamica":  "Detectar elementos no permitidos.",
+                       "no_explicar":  "Alegaciones en detalle.",
+                       "enlace":  "Cerramos delimitando alcance.",
+                       "profesor_plus":  {
+                                             "que_decir":  "La tecnologia no solo vigila: obliga a preparar el entorno antes.",
+                                             "preguntas":  [
+                                                               "Que detecta el sistema?",
+                                                               "Que conducta seria correcta?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Consulta de manual fisico.",
+                                                                          "Mesa limpia y sin ayudas no autorizadas."
+                                                                      ],
+                                             "error_habitual":  "Confiar en poder consultar durante el examen.",
+                                             "como_reconducir":  "Checklist previo.",
+                                             "demostracion":  "Mesa correcta/incorrecta.",
+                                             "material":  "Mesa, manual ficticio.",
+                                             "dinamica":  "Busca el error."
+                                         }
+                   },
+                   {
+                       "id":  20,
+                       "titulo":  "Alcance y cierre del Bloque 1",
+                       "tipo":  "cierre",
+                       "duracion":  "8 min",
+                       "objetivo":  "Cerrar el Bloque Base separando imprescindible, complementario y fuera de alcance.",
+                       "contenido":  "Imprescindible: requisitos A1/A3 previos, autoformacion practica, declaracion de practicas, matriculacion telematica y televigilancia. Complementario: diferencia entre numero de piloto y operador; guias de configuracion de firma electronica. Fuera del alcance del curso A2: STS, SORA, categoria Especifica, Certificada y radiofonista UAS.",
+                       "resumen":  "El Bloque 1 queda cerrado, integrado y pendiente unicamente de validacion por experto.",
+                       "guion":  "Cierra evitando abrir temas superiores. Si aparecen STS o SORA, etiqueta: fuera del alcance del curso A2.",
+                       "material":  "Tabla de alcance A/B/C.",
+                       "pregunta":  "Que parte no debemos desarrollar en este curso A2?",
+                       "respuestas_esperadas":  [
+                                                    "STS.",
+                                                    "SORA.",
+                                                    "Categoria Especifica.",
+                                                    "Certificada.",
+                                                    "Radiofonista UAS."
+                                                ],
+                       "error":  "Desviar la clase hacia escenarios estandar o categoria especifica.",
+                       "como_reconducir":  "Usar la frase exacta: fuera del alcance del curso A2.",
+                       "demostracion":  "Tabla de auditoria.",
+                       "dinamica":  "Clasificacion final: imprescindible, complementario, fuera de alcance.",
+                       "no_explicar":  "STS, SORA, categoria Especifica, Certificada y radiofonista UAS.",
+                       "enlace":  "Siguiente paso del proyecto: validacion experta antes de comenzar Bloque 2.",
+                       "profesor_plus":  {
+                                             "que_decir":  "Un buen bloque tambien sabe donde termina. Lo que no es A2 se marca y no se desarrolla.",
+                                             "preguntas":  [
+                                                               "Que es imprescindible?",
+                                                               "Que queda fuera de alcance?"
+                                                           ],
+                                             "respuestas_esperadas":  [
+                                                                          "Cadena A1/A3-practicas-declaracion-matriculacion-examen.",
+                                                                          "STS, SORA, Especifica, Certificada y radiofonista UAS."
+                                                                      ],
+                                             "error_habitual":  "Abrir temas avanzados para parecer mas completo.",
+                                             "como_reconducir":  "Volver a la auditoria A/B/C.",
+                                             "demostracion":  "Tabla de alcance.",
+                                             "material":  "Tabla A/B/C.",
+                                             "dinamica":  "Cierre con clasificacion."
+                                         }
+                   }
+               ],
+    "datos_criticos":  [
+                           "Examen A1/A3 previo: 40 preguntas.",
+                           "Examen A2: 30 preguntas / 30 minutos.",
+                           "Umbral de aprobado: 75% de aciertos.",
+                           "Plazo para examen: 30 dias habiles tras la notificacion de acceso.",
+                           "Vigencia del certificado: 5 anos.",
+                           "Identificador del piloto: ESP-RP-0000000XXXXX.",
+                           "Software obligatorio: SMOWL o herramienta de televigilancia vigente.",
+                           "Practicas en condiciones A3: mas de 150 m de zonas urbanas."
+                       ],
+    "fuera_alcance":  [
+                          "STS",
+                          "SORA",
+                          "Categoria Especifica",
+                          "Categoria Certificada",
+                          "Radiofonista UAS"
+                      ],
+    "recursos_estado":  "finales_en_carpetas_especificas",
+    "recursos":  {
+                     "flashcards":  "recursos/flashcards/flashcards.json",
+                     "test":  "recursos/test/test.json",
+                     "casos":  "recursos/casos/casos.json",
+                     "practicas":  "recursos/practicas/practicas.json",
+                     "chuletas":  "recursos/chuletas/chuletas.json",
+                     "mapa":  "recursos/mapas/index.html",
+                     "prompts":  "recursos/prompts/prompts-bloque1.md",
+                     "profesor_plus":  "../../profesor-plus/viewer.html?doc=bloque1-a2"
+                 }
+};

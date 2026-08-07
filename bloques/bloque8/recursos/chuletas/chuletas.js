@@ -1,0 +1,95 @@
+window.DRONLAB_A2_BLOQUE8_CHULETAS = {
+  "titulo": "Guias rapidas Bloque 8 A2",
+  "bloque": "Bloque 8",
+  "total": 7,
+  "chuletas": [
+    {
+      "id": "B8-CH-01",
+      "titulo": "Resumen del Bloque 8",
+      "tipo": "resumen",
+      "items": [
+        "Matriculacion AESA",
+        "ESP-RP correcto",
+        "SMOWL o designado",
+        "Integridad",
+        "30 preguntas / 30 minutos / 75%"
+      ]
+    },
+    {
+      "id": "B8-CH-02",
+      "titulo": "Flujo del examen A2",
+      "tipo": "flujo",
+      "items": [
+        "A1/A3 + declaracion + firma",
+        "Inscripcion telematica",
+        "Credenciales + SMOWL",
+        "Identidad + examen",
+        "75% + certificado"
+      ]
+    },
+    {
+      "id": "B8-CH-03",
+      "titulo": "Checklist tecnico",
+      "tipo": "checklist",
+      "items": [
+        "Webcam",
+        "Microfono",
+        "Pantalla",
+        "Internet estable",
+        "Software instalado"
+      ]
+    },
+    {
+      "id": "B8-CH-04",
+      "titulo": "Datos criticos",
+      "tipo": "tabla",
+      "items": [
+        "Preguntas totales del examen A2: 30.",
+        "Tiempo de examen: 30 minutos.",
+        "Nota de aprobado: 75% de aciertos.",
+        "Equivalencia indicada: 23 preguntas correctas.",
+        "Plazo post-inscripcion: 30 dias habiles segun guias de examen.",
+        "Intentos estandar: 2 intentos.",
+        "Software obligatorio: SMOWL u otro designado.",
+        "Materias: meteorologia, rendimiento de vuelo y atenuaciones del riesgo en tierra."
+      ]
+    },
+    {
+      "id": "B8-CH-05",
+      "titulo": "Errores habituales",
+      "tipo": "errores",
+      "items": [
+        "Numero operador en vez de ESP-RP",
+        "Movil cerca",
+        "Terceros en sala",
+        "Mirada desviada",
+        "Webcam/micro sin probar"
+      ]
+    },
+    {
+      "id": "B8-CH-06",
+      "titulo": "Estructura examen",
+      "tipo": "esquema",
+      "items": [
+        "30 preguntas",
+        "30 minutos",
+        "75%",
+        "23 correctas",
+        "Meteorologia, rendimiento y atenuaciones"
+      ]
+    },
+    {
+      "id": "B8-CH-07",
+      "titulo": "Checklist final",
+      "tipo": "checklist",
+      "items": [
+        "Requisitos previos",
+        "Credenciales",
+        "Entorno limpio",
+        "Equipo probado",
+        "Normas de conducta",
+        "Plazo e intentos revisados"
+      ]
+    }
+  ]
+};

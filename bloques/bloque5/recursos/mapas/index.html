@@ -1,0 +1,93 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mapa mental - Bloque 5 A2</title>
+<style>
+:root{--bg:#031327;--panel:#07192f;--card:#fff;--ink:#10243a;--muted:#587082;--line:#d8e4eb;--green:#16a47d;--blue:#0d4564;--amber:#f0a928;--red:#df4b5f}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%}body{font-family:Inter,Arial,sans-serif;background:linear-gradient(145deg,#061426,#0d3656);color:#fff}.app{min-height:100vh;display:grid;grid-template-rows:auto 1fr}.top{display:flex;align-items:center;gap:16px;padding:16px 22px;background:#07192fee;border-bottom:1px solid #ffffff18}.top img{width:54px;height:54px;object-fit:contain}.brand b{letter-spacing:.1em;font-size:13px}.brand h1{margin:2px 0 0;font-size:22px}.actions{margin-left:auto;display:flex;gap:10px;flex-wrap:wrap}.actions button,.actions a{border:0;border-radius:8px;background:var(--green);color:#fff;font-weight:900;padding:10px 14px;cursor:pointer;text-decoration:none}.actions .secondary{background:#ffffff18}.workspace{display:grid;grid-template-columns:1fr 360px;gap:16px;padding:16px}.map-wrap{position:relative;background:#eef4f7;border-radius:18px;min-height:calc(100vh - 118px);overflow:auto;color:var(--ink);box-shadow:0 24px 70px #0003}.map-scale{transform-origin:0 0;transition:transform .18s}.map{position:relative;width:1560px;min-height:980px;padding:34px}.links{position:absolute;inset:0;pointer-events:none}.node{position:absolute;width:210px;min-height:74px;border:2px solid var(--line);border-radius:16px;background:#fff;color:var(--ink);box-shadow:0 12px 30px #07192f18;padding:13px 14px;cursor:pointer;transition:.2s;text-align:left}.node:hover{transform:translateY(-2px)}.node.active{border-color:var(--green);box-shadow:0 0 0 4px #16a47d22,0 16px 38px #07192f26}.node.hidden{display:none}.node.center{width:310px;min-height:132px;background:var(--panel);color:#fff;border-color:var(--green);text-align:center}.node .type{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--green);font-weight:900}.node.center .type{color:#80f0cf}.node h2{font-size:17px;margin:6px 0 5px;line-height:1.08}.node.center h2{font-size:26px}.node p{margin:0;color:var(--muted);font-size:12px}.node.center p{color:#b8d2e4}.toggle{position:absolute;right:8px;top:8px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:#eef5f3;color:var(--green);font-weight:900}.detail{background:#fff;color:var(--ink);border-radius:18px;padding:20px;box-shadow:0 24px 70px #0003;align-self:start;position:sticky;top:16px}.detail .kicker{color:var(--green);font-weight:900;letter-spacing:.12em;text-transform:uppercase;font-size:12px}.detail h2{margin:8px 0 12px;font-size:24px}.detail section{border-top:1px solid var(--line);padding-top:12px;margin-top:12px}.detail h3{margin:0 0 8px;font-size:14px;color:var(--blue);text-transform:uppercase;letter-spacing:.08em}.detail p{margin:0;color:#28445d;line-height:1.45}.legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.pill{border-radius:99px;padding:7px 10px;font-size:12px;font-weight:900;color:#fff}.green{background:var(--green)}.blue{background:var(--blue)}.amber{background:var(--amber);color:#3f2b00}.red{background:var(--red)}.print-note{display:none}@media(max-width:1000px){.workspace{grid-template-columns:1fr}.detail{position:static}.map-wrap{min-height:720px}.top{flex-wrap:wrap}.actions{margin-left:0}.map{width:1420px}}@page{size:A3 landscape;margin:8mm}@media print{body{background:#fff}.top,.detail,.actions{display:none}.workspace{display:block;padding:0}.map-wrap{box-shadow:none;border-radius:0;overflow:visible;min-height:0}.map-scale{transform:none!important}.map{width:390mm;min-height:265mm;padding:8mm}.node{box-shadow:none;border-radius:4mm;width:56mm;min-height:19mm;padding:3mm;break-inside:avoid}.node h2{font-size:12pt}.node p{font-size:7pt}.node.center{width:72mm}.toggle{display:none}.print-note{display:block;position:absolute;left:8mm;bottom:6mm;color:#587082;font-size:8pt}}
+</style>
+</head>
+<body>
+<main class="app">
+  <header class="top">
+    <img src="../../../../assets/branding/logo-circular-fab.png" alt="Circular FAB">
+    <div class="brand"><b>CIRCULAR FAB - DRONLAB A2</b><h1>Mapa mental interactivo - Bloque 5</h1></div>
+    <div class="actions">
+      <a class="secondary" href="../index.html">Recursos</a>
+      <button id="zoomOut" class="secondary">-</button>
+      <button id="zoomReset" class="secondary">100%</button>
+      <button id="zoomIn" class="secondary">+</button>
+      <button id="expandAll" class="secondary">Expandir todo</button>
+      <button id="collapseAll" class="secondary">Contraer ramas</button>
+      <button id="fullscreen" class="secondary">Pantalla completa</button>
+      <button id="printMode">Imprimir</button>
+    </div>
+  </header>
+  <section class="workspace">
+    <div id="mapWrap" class="map-wrap">
+      <div id="mapScale" class="map-scale">
+        <div id="map" class="map">
+          <svg id="links" class="links" aria-hidden="true"></svg>
+          <div class="print-note">DronLab A2 - Bloque 5 - Rendimiento de Vuelo del UAS</div>
+        </div>
+      </div>
+    </div>
+    <aside id="detail" class="detail">
+      <div class="kicker">Nodo seleccionado</div>
+      <h2>BLOQUE 5</h2>
+      <section><h3>Definicion</h3><p>Rendimiento de vuelo del UAS C2 basado en fisica, masa, aire, sensores y configuracion.</p></section>
+      <section><h3>Idea clave</h3><p>El rendimiento real no es fijo: depende de fuerzas, CG, MTOM, densidad del aire, calibracion y variables de operacion.</p></section>
+      <section><h3>Error habitual</h3><p>Reducir el rendimiento a autonomia de bateria e ignorar masa, aire, sensores y carga util.</p></section>
+      <div class="legend"><span class="pill blue">Fisica</span><span class="pill green">Control</span><span class="pill amber">Datos</span><span class="pill red">Riesgo</span></div>
+    </aside>
+  </section>
+</main>
+<script>
+const nodes=[
+{id:'root',parent:null,x:625,y:400,type:'central',title:'BLOQUE 5',subtitle:'Rendimiento de Vuelo del UAS',def:'Analisis de la fisica del vuelo y factores que afectan la performance de un UAS C2 en A2.',key:'El rendimiento depende de fuerzas, ejes, CG, MTOM, densidad del aire, sensores y configuracion.',err:'Pensar que rendimiento equivale solo a bateria.'},
+{id:'fuerzas',parent:'root',x:590,y:35,type:'rama',title:'4 fuerzas',subtitle:'Base fisica',def:'Interaccion de sustentacion, peso, empuje y resistencia durante el desplazamiento.',key:'Mantienen el equilibrio aerodinamico necesario para vuelo controlado.',err:'Confundir empuje con sustentacion u olvidar resistencia.'},
+{id:'sustentacion',parent:'fuerzas',x:350,y:95,type:'sub',title:'Sustentacion',subtitle:'Carga y ascenso',def:'Depende del perfil aerodinamico y del aire.',key:'Desbloquea capacidad de carga y ascenso.',err:'Responder solo motores.'},
+{id:'peso',parent:'fuerzas',x:835,y:95,type:'sub',title:'Peso',subtitle:'Masa total',def:'Fuerza gravitatoria relacionada con aeronave y carga.',key:'Si aumenta la carga, cambia el equilibrio del rendimiento.',err:'Olvidar que la carga util cuenta.'},
+{id:'perfil',parent:'root',x:190,y:210,type:'rama',title:'Perfil y Bernoulli',subtitle:'Presiones',def:'Forma transversal de ala o pala que genera sustentacion mediante diferencia de presiones.',key:'Explica la eficiencia segun la velocidad del aire sobre las palas.',err:'Convertir Bernoulli en formula sin aplicacion al UAS.'},
+{id:'presiones',parent:'perfil',x:35,y:355,type:'sub',title:'Presiones',subtitle:'Complementario',def:'Diferencia detallada entre presion estatica y dinamica.',key:'Sirve como apoyo para entender sustentacion.',err:'Convertirlo en contenido principal.'},
+{id:'palas',parent:'perfil',x:290,y:385,type:'sub',title:'Palas',subtitle:'Aire sobre rotor',def:'El aire sobre las palas condiciona eficiencia y sustentacion.',key:'El perfil aerodinamico no se limita a ala fija.',err:'Olvidar las palas del UAS.'},
+{id:'ejes',parent:'root',x:980,y:215,type:'rama',title:'Ejes y CG',subtitle:'Actitud y equilibrio',def:'Tres lineas imaginarias que se cruzan en el Centro de Gravedad.',key:'Permiten describir roll, pitch y yaw y ejecutar correcciones de rumbo.',err:'Asociar cabeceo al eje vertical.'},
+{id:'roll',parent:'ejes',x:1210,y:75,type:'sub',title:'Longitudinal',subtitle:'Alabeo / roll',def:'Eje longitudinal asociado al alabeo o roll.',key:'Dato estable para examen y maniobra.',err:'Confundir roll con yaw.'},
+{id:'pitch',parent:'ejes',x:1245,y:245,type:'sub',title:'Lateral',subtitle:'Cabeceo / pitch',def:'Eje lateral o transversal asociado al cabeceo.',key:'Evita el error de examen citado por la ingenieria.',err:'Asociar pitch al eje vertical.'},
+{id:'yaw',parent:'ejes',x:1215,y:420,type:'sub',title:'Vertical',subtitle:'Guinada / yaw',def:'Eje vertical asociado a guinada.',key:'Permite correcciones de rumbo.',err:'Mezclar yaw y pitch.'},
+{id:'cg',parent:'ejes',x:1030,y:560,type:'sub',title:'CG',subtitle:'Centro de masa',def:'Punto imaginario donde se considera concentrada toda la masa del dron.',key:'Un CG fuera de limites impide el control y puede causar caida.',err:'Confundir CG con centro geometrico.'},
+{id:'mtom',parent:'root',x:1010,y:675,type:'rama',title:'MTOM y payload',subtitle:'Masa y configuracion',def:'MTOM es el limite de peso total aeronave mas carga establecido por fabricante.',key:'En C2 la masa maxima indicada es < 4 kg y no debe superarse nunca.',err:'Tratar MTOM como recomendacion.'},
+{id:'payload',parent:'mtom',x:1230,y:760,type:'sub',title:'Carga util',subtitle:'Payload',def:'Conecta configuracion tecnica con rendimiento real.',key:'Debe evaluarse frente a MTOM y posible efecto negativo sobre CG.',err:'Comprobar solo que la carga esta sujeta.'},
+{id:'autonomia',parent:'mtom',x:1030,y:850,type:'sub',title:'Autonomia',subtitle:'Variable',def:'Varia segun peso de carga util y resistencia al viento enfrentada.',key:'La autonomia nominal puede no representar autonomia real.',err:'Culpar solo a la bateria.'},
+{id:'aire',parent:'root',x:580,y:755,type:'rama',title:'Densidad del aire',subtitle:'Altitud, temperatura, humedad',def:'Cambia con altitud, temperatura y humedad.',key:'Afecta directamente al rendimiento de las helices.',err:'Pensar que el aire siempre ofrece el mismo rendimiento.'},
+{id:'calor',parent:'aire',x:390,y:890,type:'sub',title:'Calor extremo',subtitle:'Potencia disponible',def:'Puede reducir la potencia disponible de los motores al afectar a la densidad.',key:'No basta con mirar si hay viento.',err:'Ignorar temperatura.'},
+{id:'altitud',parent:'aire',x:660,y:900,type:'sub',title:'Gran altitud',subtitle:'Menor densidad',def:'Escenario real implicito de perdida de rendimiento a gran altitud sobre nivel del mar.',key:'Menor densidad reduce rendimiento.',err:'Olvidar la altitud como variable.'},
+{id:'sensores',parent:'root',x:310,y:635,type:'rama',title:'Sensores y sistema',subtitle:'Calibracion',def:'La calibracion conecta electronica de a bordo y estabilidad de vuelo.',key:'IMU y brujula mal calibradas distorsionan la percepcion de los ejes.',err:'Tratar calibracion como aviso secundario.'},
+{id:'rps',parent:'sensores',x:55,y:760,type:'sub',title:'RPS + dron',subtitle:'Software compatible',def:'Las versiones de software compatibles ayudan a garantizar rendimiento de vuelo.',key:'El UAS C2 funciona como sistema coherente.',err:'Separar software de rendimiento.'},
+{id:'barometria',parent:'sensores',x:270,y:835,type:'sub',title:'Barometria',subtitle:'Altura precisa',def:'La asistencia barometrica es requerida para precision en altura.',key:'El control de altura depende de asistencia barometrica.',err:'No relacionar sensores con altura.'},
+{id:'datos',parent:'root',x:205,y:45,type:'rama',title:'Datos criticos',subtitle:'Memoria operativa',def:'Valores y requisitos presentes en la ingenieria.',key:'C2 < 4 kg, AGL 120 m / 400 ft, Indice K < 4, asistencia barometrica requerida y 75% de aciertos.',err:'Inventar valores no presentes.'},
+{id:'k',parent:'datos',x:35,y:165,type:'sub',title:'Indice K',subtitle:'< 4',def:'La actividad geomagnetica puede degradar posicionamiento si es >= 4.',key:'Indice K Planetario < 4 para operar con seguridad.',err:'Invertir el umbral.'},
+{id:'fuera',parent:'datos',x:30,y:310,type:'sub',title:'Fuera de alcance',subtitle:'No desarrollar',def:'Performances BVLOS y calculos avanzados de centro de presiones para ala fija.',key:'Se marca como fuera del alcance del curso A2.',err:'Desarrollar BVLOS en este bloque.'},
+{id:'escenarios',parent:'root',x:1140,y:500,type:'rama',title:'Escenarios reales',subtitle:'Aplicacion',def:'Vuelo de precision a baja altura y operacion a gran altitud sobre el nivel del mar.',key:'Obligan a interpretar estabilidad, efecto suelo y densidad del aire.',err:'Resolver solo con bateria o modelo de dron.'}
+];
+const expanded=new Set(nodes.filter(n=>!n.parent||n.type==='rama').map(n=>n.id));let active='root';let zoom=1;
+const map=document.getElementById('map'),scaleEl=document.getElementById('mapScale'),wrap=document.getElementById('mapWrap'),links=document.getElementById('links'),detail=document.getElementById('detail');
+function children(id){return nodes.filter(n=>n.parent===id)}
+function visible(n){if(!n.parent)return true;let p=nodes.find(x=>x.id===n.parent);while(p){if(!expanded.has(p.id))return false;p=nodes.find(x=>x.id===p.parent)}return true}
+function render(){map.querySelectorAll('.node').forEach(n=>n.remove());nodes.forEach(n=>{const el=document.createElement('button');el.className=`node ${n.type==='central'?'center':''} ${n.id===active?'active':''} ${visible(n)?'':'hidden'}`;el.style.left=n.x+'px';el.style.top=n.y+'px';const hasKids=children(n.id).length>0;el.innerHTML=`${hasKids?`<span class="toggle">${expanded.has(n.id)?'-':'+'}</span>`:''}<div class="type">${n.type==='central'?'central':hasKids?'rama':'subrama'}</div><h2>${n.title}</h2><p>${n.subtitle}</p>`;el.onclick=()=>{active=n.id;if(hasKids){expanded.has(n.id)?expanded.delete(n.id):expanded.add(n.id)}updateDetail(n);render()};map.appendChild(el)});drawLinks();applyZoom()}
+function drawLinks(){links.setAttribute('width',map.scrollWidth);links.setAttribute('height',map.scrollHeight);links.innerHTML='';nodes.filter(n=>n.parent&&visible(n)).forEach(n=>{const p=nodes.find(x=>x.id===n.parent);if(!p||!visible(p))return;const x1=p.x+(p.type==='central'?155:105),y1=p.y+(p.type==='central'?66:37),x2=n.x+105,y2=n.y+37;const path=document.createElementNS('http://www.w3.org/2000/svg','path');const dx=(x2-x1)*.45;path.setAttribute('d',`M ${x1} ${y1} C ${x1+dx} ${y1}, ${x2-dx} ${y2}, ${x2} ${y2}`);path.setAttribute('fill','none');path.setAttribute('stroke',n.type==='rama'?'#0d4564':'#16a47d');path.setAttribute('stroke-width',n.type==='rama'?4:2.5);path.setAttribute('stroke-linecap','round');path.setAttribute('opacity','.75');links.appendChild(path)})}
+function updateDetail(n){detail.innerHTML=`<div class="kicker">Nodo seleccionado</div><h2>${n.title}</h2><section><h3>Definicion</h3><p>${n.def}</p></section><section><h3>Idea clave</h3><p>${n.key}</p></section><section><h3>Error habitual</h3><p>${n.err}</p></section><div class="legend"><span class="pill blue">Fisica</span><span class="pill green">Control</span><span class="pill amber">Datos</span><span class="pill red">Riesgo</span></div>`}
+function applyZoom(){scaleEl.style.transform=`scale(${zoom})`;scaleEl.style.width=(1560*zoom)+'px';scaleEl.style.height=(980*zoom)+'px';document.getElementById('zoomReset').textContent=Math.round(zoom*100)+'%'}
+document.getElementById('expandAll').onclick=()=>{nodes.forEach(n=>{if(children(n.id).length)expanded.add(n.id)});render()};
+document.getElementById('collapseAll').onclick=()=>{expanded.clear();expanded.add('root');render()};
+document.getElementById('zoomIn').onclick=()=>{zoom=Math.min(1.6,+(zoom+.1).toFixed(2));applyZoom()};
+document.getElementById('zoomOut').onclick=()=>{zoom=Math.max(.55,+(zoom-.1).toFixed(2));applyZoom()};
+document.getElementById('zoomReset').onclick=()=>{zoom=1;applyZoom()};
+document.getElementById('fullscreen').onclick=()=>{if(!document.fullscreenElement)wrap.requestFullscreen?.();else document.exitFullscreen?.()};
+document.getElementById('printMode').onclick=()=>{nodes.forEach(n=>{if(children(n.id).length)expanded.add(n.id)});zoom=1;render();setTimeout(()=>print(),120)};
+render();
+</script>
+</body>
+</html>

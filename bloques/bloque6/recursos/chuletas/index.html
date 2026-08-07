@@ -1,0 +1,141 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Chuletas Bloque 6 A2 - DronLab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <img src="../../../../assets/branding/logo-circular-fab.png" alt="Circular FAB">
+    <div>
+      <b>DRONLAB A2 - BLOQUE 6</b>
+      <h1>Chuletas de atenuaciones tecnicas y operacionales</h1>
+    </div>
+    <a class="print-link" href="print-a3.html">A3</a>
+    <button onclick="window.print()">Imprimir A4</button>
+  </header>
+
+  <main class="sheet">
+    <section class="hero card">
+      <div>
+        <p class="kicker">Resumen rapido</p>
+        <h2>Mitigar en A2 es combinar sistema, piloto, entorno y datos criticos</h2>
+      </div>
+      <div class="hero-grid">
+        <span><b>30m</b>normal</span>
+        <span><b>5m</b>modo lento</span>
+        <span><b>3m/s</b>max.</span>
+        <span><b>1:1</b>altura</span>
+        <span><b>120m</b>AGL</span>
+        <span><b>75%</b>examen</span>
+      </div>
+    </section>
+
+    <section class="card compact">
+      <p class="kicker">Chuleta 1</p>
+      <h2>Resumen del Bloque 6</h2>
+      <div class="tiles six">
+        <article><span class="ico">01</span><b>Tecnicas</b><p>Funciones o dispositivos integrados en el UAS C2.</p></article>
+        <article><span class="ico">02</span><b>Operacionales</b><p>Procedimientos y maniobras del piloto.</p></article>
+        <article><span class="ico">03</span><b>Modo lento</b><p>Permite pasar de 30 m a 5 m.</p></article>
+        <article><span class="ico">04</span><b>Lugar</b><p>Personas, obstaculos y zonas de prevencion.</p></article>
+        <article><span class="ico">05</span><b>Geo</b><p>Planificacion conectada con contencion.</p></article>
+        <article><span class="ico">06</span><b>Manual</b><p>Recuperar control si fallan automaticos.</p></article>
+      </div>
+    </section>
+
+    <section class="card">
+      <p class="kicker">Chuleta 2</p>
+      <h2>Flujo de mitigacion</h2>
+      <div class="flow">
+        <div><span>1</span><b>Detectar</b><small>Personas y obstaculos</small></div>
+        <i></i>
+        <div><span>2</span><b>Tecnica</b><small>Modo lento, limites</small></div>
+        <i></i>
+        <div><span>3</span><b>Operar</b><small>30m/5m + 1:1</small></div>
+        <i></i>
+        <div><span>4</span><b>Contener</b><small>Geo + volumen</small></div>
+        <i></i>
+        <div><span>5</span><b>Reaccionar</b><small>Manual / terminacion</small></div>
+      </div>
+    </section>
+
+    <section class="grid two">
+      <article class="card">
+        <p class="kicker">Chuleta 3</p>
+        <h2>Tecnica vs operacional</h2>
+        <ul class="check">
+          <li>Tecnica: funciones o dispositivos del UAS C2.</li>
+          <li>Tecnica: limita altura, velocidad o energia.</li>
+          <li>Depende de marcado C2 y software configurado.</li>
+          <li>Operacional: procedimientos y maniobras del piloto.</li>
+          <li>Operacional: margenes dinamicos segun entorno.</li>
+          <li>Error de examen: mezclar hardware/software con maniobras/distancias.</li>
+        </ul>
+      </article>
+      <article class="card accent">
+        <p class="kicker">Chuleta 4</p>
+        <h2>Modo lento</h2>
+        <div class="idbox"><small>Desbloquea</small><b>5 m</b></div>
+        <p class="note">Vuelo a 5 m depende de modo baja velocidad <= 3 m/s.</p>
+      </article>
+    </section>
+
+    <section class="card">
+      <p class="kicker">Chuleta 5</p>
+      <h2>Tabla de datos criticos</h2>
+      <table>
+        <thead><tr><th>Dato</th><th>Valor / requisito</th><th>Uso</th></tr></thead>
+        <tbody>
+          <tr><td>Distancia A2 normal</td><td><b>&gt;= 30 m</b></td><td>Referencia general</td></tr>
+          <tr><td>Distancia A2 modo lento</td><td><b>&gt;= 5 m</b></td><td>Distancia reducida</td></tr>
+          <tr><td>Velocidad modo lento</td><td><b>&lt;= 3 m/s</b></td><td>Condicion del modo lento</td></tr>
+          <tr><td>Regla 1:1</td><td><b>Altura &lt;= distancia horizontal</b></td><td>Altura proporcional</td></tr>
+          <tr><td>Altura general</td><td><b>120 m AGL</b></td><td>Limitacion de altura</td></tr>
+          <tr><td>Examen A2</td><td><b>75%</b></td><td>Umbral de aprobado</td></tr>
+          <tr><td>Concentraciones</td><td><b>Nunca</b></td><td>Categoria abierta</td></tr>
+          <tr><td>Volumen operacional</td><td><b>Variable</b></td><td>Segun mision, topografia y objetivos</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="grid two">
+      <article class="card">
+        <p class="kicker">Chuleta 6</p>
+        <h2>Errores habituales</h2>
+        <table class="small-table">
+          <tbody>
+            <tr><td>Confiar solo en automaticos</td><td>Preparar recuperacion manual.</td></tr>
+            <tr><td>Tecnica = operacional</td><td>Separar sistema y piloto.</td></tr>
+            <tr><td>5 m sin modo lento</td><td>Recordar <= 3 m/s.</td></tr>
+            <tr><td>Datos geo obsoletos</td><td>Actualizar geoconsciencia.</td></tr>
+            <tr><td>Volumen fijo</td><td>Adaptar a mision/topografia/objetivos.</td></tr>
+            <tr><td>Ignorar terceros</td><td>Reevaluar margenes dinamicos.</td></tr>
+            <tr><td>Terminacion sin comprobar</td><td>Comprobar antes del despegue.</td></tr>
+            <tr><td>Desarrollar SORA/EAS</td><td>Fuera del alcance del curso A2.</td></tr>
+          </tbody>
+        </table>
+      </article>
+      <article class="card">
+        <p class="kicker">Chuleta 7</p>
+        <h2>Checklist final</h2>
+        <ul class="check final">
+          <li>Personas no participantes identificadas.</li>
+          <li>Obstaculos y zonas de prevencion marcados.</li>
+          <li>Volumen operacional adaptado a la mision.</li>
+          <li>Modo lento configurado si se usa 5 m.</li>
+          <li>Velocidad <= 3 m/s recordada.</li>
+          <li>Regla 1:1 aplicada.</li>
+          <li>Geoconsciencia/geofencing revisados.</li>
+          <li>Datos geograficos actualizados.</li>
+          <li>Sistema de terminacion comprobado antes del despegue.</li>
+          <li>Recuperacion manual preparada ante fallo.</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+  <script src="chuletas.js"></script>
+</body>
+</html>

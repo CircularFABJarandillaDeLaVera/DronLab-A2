@@ -1,0 +1,1870 @@
+window.DRONLAB_BLOQUE8 = {
+  "curso": "DronLab A2",
+  "bloque": "Bloque 8: Examen Teorico Oficial A2 y Televigilancia",
+  "duracion": "2 h 30 min",
+  "metodologia": [
+    "Ver",
+    "Entender",
+    "Probar",
+    "Aplicar",
+    "Recordar"
+  ],
+  "datos_criticos": [
+    "Preguntas totales del examen A2: 30.",
+    "Tiempo de examen: 30 minutos.",
+    "Nota de aprobado: 75% de aciertos.",
+    "Equivalencia indicada: 23 preguntas correctas.",
+    "Plazo post-inscripcion: 30 dias habiles segun guias de examen.",
+    "Intentos estandar: 2 intentos.",
+    "Software obligatorio: SMOWL u otro designado.",
+    "Materias: meteorologia, rendimiento de vuelo y atenuaciones del riesgo en tierra."
+  ],
+  "fuera_alcance": "Examenes para categoria especifica (STS), que requieren formacion en entidades designadas y no se realizan mediante este sistema de auto-matriculacion simple: fuera del alcance del curso A2.",
+  "recursos_estado": "integracion_final_completada",
+  "recursos": {
+    "flashcards": "recursos/flashcards/flashcards.json",
+    "test": "recursos/test/test.json",
+    "casos": "recursos/casos/casos.json",
+    "practicas": "recursos/practicas/practicas.json",
+    "chuletas": "recursos/chuletas/chuletas.json",
+    "mapa": "recursos/mapas/index.html",
+    "prompts": "recursos/prompts/prompts-bloque8.md"
+  },
+  "slides": [
+    {
+      "id": 1,
+      "titulo": "Bienvenida al Bloque 8",
+      "tipo": "inicio",
+      "duracion": "5 min",
+      "objetivo": "Situar el bloque final como preparacion administrativa, tecnica y de integridad para el examen A2.",
+      "explicacion": "Este bloque organiza los requisitos administrativos, tecnicos y de integridad necesarios para superar la prueba teorica oficial A2 ante AESA.",
+      "contenido": "El alumno debe llegar al examen con requisitos previos, inscripcion, televigilancia y normas de conducta correctamente preparados.",
+      "ideas_clave": [
+        "Examen A2",
+        "AESA",
+        "Preparacion final"
+      ],
+      "resumen": "El alumno debe llegar al examen con requisitos previos, inscripcion, televigilancia y normas de conducta correctamente preparados.",
+      "guion": "Este bloque organiza los requisitos administrativos, tecnicos y de integridad necesarios para superar la prueba teorica oficial A2 ante AESA.",
+      "material": "Esquema del flujo A2.",
+      "pregunta": "Que debe recordar el alumno sobre bienvenida al bloque 8?",
+      "respuestas_esperadas": [
+        "Examen A2",
+        "AESA",
+        "Preparacion final"
+      ],
+      "error": "Pensar que el bloque es solo repaso teorico.",
+      "como_reconducir": "Presentar el bloque como cierre operativo del proceso A2.",
+      "demostracion": "Presentar el bloque como cierre operativo del proceso A2.",
+      "dinamica": "Lluvia de ideas inicial.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Matriculacion en el examen A2.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Situar el bloque final como preparacion administrativa, tecnica y de integridad para el examen A2."
+        ],
+        "ideas_clave_docentes": [
+          "Examen A2",
+          "AESA",
+          "Preparacion final"
+        ],
+        "explicacion_ampliada": "Este bloque organiza los requisitos administrativos, tecnicos y de integridad necesarios para superar la prueba teorica oficial A2 ante AESA. El alumno debe llegar al examen con requisitos previos, inscripcion, televigilancia y normas de conducta correctamente preparados.",
+        "que_decir": "Este bloque organiza los requisitos administrativos, tecnicos y de integridad necesarios para superar la prueba teorica oficial A2 ante AESA.",
+        "memorizar": [
+          "Examen A2",
+          "AESA",
+          "Preparacion final"
+        ],
+        "comprender": [
+          "Este bloque organiza los requisitos administrativos, tecnicos y de integridad necesarios para superar la prueba teorica oficial A2 ante AESA.",
+          "El alumno debe llegar al examen con requisitos previos, inscripcion, televigilancia y normas de conducta correctamente preparados."
+        ],
+        "aplicar": [
+          "Situar el bloque final como preparacion administrativa, tecnica y de integridad para el examen A2.",
+          "Presentar el bloque como cierre operativo del proceso A2."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en bienvenida al bloque 8?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "Examen A2, AESA, Preparacion final",
+          "Pensar que el bloque es solo repaso teorico."
+        ],
+        "error_habitual": "Pensar que el bloque es solo repaso teorico.",
+        "como_reconducir": "Presentar el bloque como cierre operativo del proceso A2.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Presentar el bloque como cierre operativo del proceso A2.",
+        "material_necesario": "Esquema del flujo de examen A2.",
+        "dinamica": "Lluvia de ideas inicial.",
+        "tiempo_recomendado": "5 min",
+        "nivel_dificultad": "baja",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Pensar que el bloque es solo repaso teorico.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Matriculacion en el examen A2",
+      "tipo": "concepto principal",
+      "duracion": "7 min",
+      "objetivo": "Definir la matriculacion como tramite telematico oficial.",
+      "explicacion": "Es un tramite telematico a traves de la Sede Electronica de AESA para solicitar acceso a la prueba de conocimientos teoricos adicionales.",
+      "contenido": "Su finalidad es validar que el solicitante cumple los requisitos previos para ser evaluado.",
+      "ideas_clave": [
+        "Sede Electronica",
+        "Matriculacion",
+        "Prueba teorica"
+      ],
+      "resumen": "Su finalidad es validar que el solicitante cumple los requisitos previos para ser evaluado.",
+      "guion": "Es un tramite telematico a traves de la Sede Electronica de AESA para solicitar acceso a la prueba de conocimientos teoricos adicionales.",
+      "material": "Esquema del flujo A2.",
+      "pregunta": "Que debe recordar el alumno sobre matriculacion en el examen a2?",
+      "respuestas_esperadas": [
+        "Sede Electronica",
+        "Matriculacion",
+        "Prueba teorica"
+      ],
+      "error": "Confundir estudiar con activar el expediente de certificacion.",
+      "como_reconducir": "Separar preparacion academica y tramite telematico.",
+      "demostracion": "Separar preparacion academica y tramite telematico.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Dependencias de acceso.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Definir la matriculacion como tramite telematico oficial."
+        ],
+        "ideas_clave_docentes": [
+          "Sede Electronica",
+          "Matriculacion",
+          "Prueba teorica"
+        ],
+        "explicacion_ampliada": "Es un tramite telematico a traves de la Sede Electronica de AESA para solicitar acceso a la prueba de conocimientos teoricos adicionales. Su finalidad es validar que el solicitante cumple los requisitos previos para ser evaluado.",
+        "que_decir": "Es un tramite telematico a traves de la Sede Electronica de AESA para solicitar acceso a la prueba de conocimientos teoricos adicionales.",
+        "memorizar": [
+          "Sede Electronica",
+          "Matriculacion",
+          "Prueba teorica"
+        ],
+        "comprender": [
+          "Es un tramite telematico a traves de la Sede Electronica de AESA para solicitar acceso a la prueba de conocimientos teoricos adicionales.",
+          "Su finalidad es validar que el solicitante cumple los requisitos previos para ser evaluado."
+        ],
+        "aplicar": [
+          "Definir la matriculacion como tramite telematico oficial.",
+          "Separar preparacion academica y tramite telematico."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en matriculacion en el examen a2?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "Sede Electronica, Matriculacion, Prueba teorica",
+          "Confundir estudiar con activar el expediente de certificacion."
+        ],
+        "error_habitual": "Confundir estudiar con activar el expediente de certificacion.",
+        "como_reconducir": "Separar preparacion academica y tramite telematico.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Separar preparacion academica y tramite telematico.",
+        "material_necesario": "Esquema del flujo de examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "baja",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Confundir estudiar con activar el expediente de certificacion.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Dependencias de acceso",
+      "tipo": "dependencia",
+      "duracion": "7 min",
+      "objetivo": "Identificar los requisitos que desbloquean el acceso al examen.",
+      "explicacion": "El acceso al examen depende de haber superado A1/A3 y haber presentado la declaracion de autoformacion practica.",
+      "contenido": "Sin esas dependencias no se debe plantear la convocatoria de examen A2.",
+      "ideas_clave": [
+        "A1/A3",
+        "Declaracion practicas",
+        "Acceso examen"
+      ],
+      "resumen": "Sin esas dependencias no se debe plantear la convocatoria de examen A2.",
+      "guion": "El acceso al examen depende de haber superado A1/A3 y haber presentado la declaracion de autoformacion practica.",
+      "material": "Esquema del flujo A2.",
+      "pregunta": "Que debe recordar el alumno sobre dependencias de acceso?",
+      "respuestas_esperadas": [
+        "A1/A3",
+        "Declaracion practicas",
+        "Acceso examen"
+      ],
+      "error": "Intentar acceder sin declaracion de practicas.",
+      "como_reconducir": "Usar la cadena A1/A3 + declaracion -> acceso examen.",
+      "demostracion": "Usar la cadena A1/A3 + declaracion -> acceso examen.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Identificador de piloto ESP-RP.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Identificar los requisitos que desbloquean el acceso al examen."
+        ],
+        "ideas_clave_docentes": [
+          "A1/A3",
+          "Declaracion practicas",
+          "Acceso examen"
+        ],
+        "explicacion_ampliada": "El acceso al examen depende de haber superado A1/A3 y haber presentado la declaracion de autoformacion practica. Sin esas dependencias no se debe plantear la convocatoria de examen A2.",
+        "que_decir": "El acceso al examen depende de haber superado A1/A3 y haber presentado la declaracion de autoformacion practica.",
+        "memorizar": [
+          "A1/A3",
+          "Declaracion practicas",
+          "Acceso examen"
+        ],
+        "comprender": [
+          "El acceso al examen depende de haber superado A1/A3 y haber presentado la declaracion de autoformacion practica.",
+          "Sin esas dependencias no se debe plantear la convocatoria de examen A2."
+        ],
+        "aplicar": [
+          "Identificar los requisitos que desbloquean el acceso al examen.",
+          "Usar la cadena A1/A3 + declaracion -> acceso examen."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en dependencias de acceso?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "A1/A3, Declaracion practicas, Acceso examen",
+          "Intentar acceder sin declaracion de practicas."
+        ],
+        "error_habitual": "Intentar acceder sin declaracion de practicas.",
+        "como_reconducir": "Usar la cadena A1/A3 + declaracion -> acceso examen.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Usar la cadena A1/A3 + declaracion -> acceso examen.",
+        "material_necesario": "Esquema del flujo de examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "baja",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Intentar acceder sin declaracion de practicas.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Identificador de piloto ESP-RP",
+      "tipo": "concepto puente",
+      "duracion": "7 min",
+      "objetivo": "Distinguir el identificador de piloto del numero de operador UAS.",
+      "explicacion": "El identificador ESP-RP conecta la identidad del alumno con su expediente academico.",
+      "contenido": "La ingenieria recalca que no debe confundirse con el numero de operador del UAS al inscribirse.",
+      "ideas_clave": [
+        "ESP-RP",
+        "Identidad",
+        "Expediente academico"
+      ],
+      "resumen": "La ingenieria recalca que no debe confundirse con el numero de operador del UAS al inscribirse.",
+      "guion": "El identificador ESP-RP conecta la identidad del alumno con su expediente academico.",
+      "material": "Esquema del flujo A2.",
+      "pregunta": "Que debe recordar el alumno sobre identificador de piloto esp-rp?",
+      "respuestas_esperadas": [
+        "ESP-RP",
+        "Identidad",
+        "Expediente academico"
+      ],
+      "error": "Introducir el numero de operador en lugar del ESP-RP.",
+      "como_reconducir": "Pedir al alumno que nombre ambos y diga cual se usa en matriculacion.",
+      "demostracion": "Pedir al alumno que nombre ambos y diga cual se usa en matriculacion.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Firma electronica.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Distinguir el identificador de piloto del numero de operador UAS."
+        ],
+        "ideas_clave_docentes": [
+          "ESP-RP",
+          "Identidad",
+          "Expediente academico"
+        ],
+        "explicacion_ampliada": "El identificador ESP-RP conecta la identidad del alumno con su expediente academico. La ingenieria recalca que no debe confundirse con el numero de operador del UAS al inscribirse.",
+        "que_decir": "El identificador ESP-RP conecta la identidad del alumno con su expediente academico.",
+        "memorizar": [
+          "ESP-RP",
+          "Identidad",
+          "Expediente academico"
+        ],
+        "comprender": [
+          "El identificador ESP-RP conecta la identidad del alumno con su expediente academico.",
+          "La ingenieria recalca que no debe confundirse con el numero de operador del UAS al inscribirse."
+        ],
+        "aplicar": [
+          "Distinguir el identificador de piloto del numero de operador UAS.",
+          "Pedir al alumno que nombre ambos y diga cual se usa en matriculacion."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en identificador de piloto esp-rp?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "ESP-RP, Identidad, Expediente academico",
+          "Introducir el numero de operador en lugar del ESP-RP."
+        ],
+        "error_habitual": "Introducir el numero de operador en lugar del ESP-RP.",
+        "como_reconducir": "Pedir al alumno que nombre ambos y diga cual se usa en matriculacion.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Pedir al alumno que nombre ambos y diga cual se usa en matriculacion.",
+        "material_necesario": "Esquema del flujo de examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "baja",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Introducir el numero de operador en lugar del ESP-RP.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Firma electronica",
+      "tipo": "concepto inicial",
+      "duracion": "7 min",
+      "objetivo": "Ubicar la firma electronica dentro del grafo inicial del bloque.",
+      "explicacion": "El grafo situa la firma electronica junto al certificado A1/A3 y la declaracion de practicas como concepto inicial.",
+      "contenido": "Forma parte del punto de partida administrativo antes de la inscripcion telematica.",
+      "ideas_clave": [
+        "Firma electronica",
+        "Inicio",
+        "Inscripcion telematica"
+      ],
+      "resumen": "Forma parte del punto de partida administrativo antes de la inscripcion telematica.",
+      "guion": "El grafo situa la firma electronica junto al certificado A1/A3 y la declaracion de practicas como concepto inicial.",
+      "material": "Esquema del flujo A2.",
+      "pregunta": "Que debe recordar el alumno sobre firma electronica?",
+      "respuestas_esperadas": [
+        "Firma electronica",
+        "Inicio",
+        "Inscripcion telematica"
+      ],
+      "error": "Olvidar preparar los elementos administrativos iniciales.",
+      "como_reconducir": "Volver al grafo: A1/A3, declaracion y firma electronica.",
+      "demostracion": "Volver al grafo: A1/A3, declaracion y firma electronica.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Inscripcion telematica.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Ubicar la firma electronica dentro del grafo inicial del bloque."
+        ],
+        "ideas_clave_docentes": [
+          "Firma electronica",
+          "Inicio",
+          "Inscripcion telematica"
+        ],
+        "explicacion_ampliada": "El grafo situa la firma electronica junto al certificado A1/A3 y la declaracion de practicas como concepto inicial. Forma parte del punto de partida administrativo antes de la inscripcion telematica.",
+        "que_decir": "El grafo situa la firma electronica junto al certificado A1/A3 y la declaracion de practicas como concepto inicial.",
+        "memorizar": [
+          "Firma electronica",
+          "Inicio",
+          "Inscripcion telematica"
+        ],
+        "comprender": [
+          "El grafo situa la firma electronica junto al certificado A1/A3 y la declaracion de practicas como concepto inicial.",
+          "Forma parte del punto de partida administrativo antes de la inscripcion telematica."
+        ],
+        "aplicar": [
+          "Ubicar la firma electronica dentro del grafo inicial del bloque.",
+          "Volver al grafo: A1/A3, declaracion y firma electronica."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en firma electronica?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "Firma electronica, Inicio, Inscripcion telematica",
+          "Olvidar preparar los elementos administrativos iniciales."
+        ],
+        "error_habitual": "Olvidar preparar los elementos administrativos iniciales.",
+        "como_reconducir": "Volver al grafo: A1/A3, declaracion y firma electronica.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Volver al grafo: A1/A3, declaracion y firma electronica.",
+        "material_necesario": "Esquema del flujo de examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "baja",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Olvidar preparar los elementos administrativos iniciales.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Inscripcion telematica",
+      "tipo": "proceso",
+      "duracion": "7 min",
+      "objetivo": "Conectar los requisitos iniciales con la solicitud oficial.",
+      "explicacion": "Tras los conceptos iniciales aparece la inscripcion telematica como fase intermedia.",
+      "contenido": "La inscripcion activa el expediente y conduce a la recepcion de credenciales e instalacion de SMOWL.",
+      "ideas_clave": [
+        "Inscripcion",
+        "Expediente",
+        "Credenciales"
+      ],
+      "resumen": "La inscripcion activa el expediente y conduce a la recepcion de credenciales e instalacion de SMOWL.",
+      "guion": "Tras los conceptos iniciales aparece la inscripcion telematica como fase intermedia.",
+      "material": "Esquema del flujo A2.",
+      "pregunta": "Que debe recordar el alumno sobre inscripcion telematica?",
+      "respuestas_esperadas": [
+        "Inscripcion",
+        "Expediente",
+        "Credenciales"
+      ],
+      "error": "Tratar la inscripcion como un formulario aislado.",
+      "como_reconducir": "Explicar la inscripcion como puente hacia el examen vigilado.",
+      "demostracion": "Explicar la inscripcion como puente hacia el examen vigilado.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Recepcion de credenciales.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Conectar los requisitos iniciales con la solicitud oficial."
+        ],
+        "ideas_clave_docentes": [
+          "Inscripcion",
+          "Expediente",
+          "Credenciales"
+        ],
+        "explicacion_ampliada": "Tras los conceptos iniciales aparece la inscripcion telematica como fase intermedia. La inscripcion activa el expediente y conduce a la recepcion de credenciales e instalacion de SMOWL.",
+        "que_decir": "Tras los conceptos iniciales aparece la inscripcion telematica como fase intermedia.",
+        "memorizar": [
+          "Inscripcion",
+          "Expediente",
+          "Credenciales"
+        ],
+        "comprender": [
+          "Tras los conceptos iniciales aparece la inscripcion telematica como fase intermedia.",
+          "La inscripcion activa el expediente y conduce a la recepcion de credenciales e instalacion de SMOWL."
+        ],
+        "aplicar": [
+          "Conectar los requisitos iniciales con la solicitud oficial.",
+          "Explicar la inscripcion como puente hacia el examen vigilado."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en inscripcion telematica?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "Inscripcion, Expediente, Credenciales",
+          "Tratar la inscripcion como un formulario aislado."
+        ],
+        "error_habitual": "Tratar la inscripcion como un formulario aislado.",
+        "como_reconducir": "Explicar la inscripcion como puente hacia el examen vigilado.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Explicar la inscripcion como puente hacia el examen vigilado.",
+        "material_necesario": "Esquema del flujo de examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "baja",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Tratar la inscripcion como un formulario aislado.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "titulo": "Recepcion de credenciales",
+      "tipo": "proceso",
+      "duracion": "7 min",
+      "objetivo": "Situar las credenciales como paso intermedio antes del examen.",
+      "explicacion": "El grafo incluye la recepcion de credenciales tras la inscripcion telematica.",
+      "contenido": "El alumno debe preparar su entorno tecnico dentro del plazo disponible tras la confirmacion.",
+      "ideas_clave": [
+        "Credenciales",
+        "Confirmacion AESA",
+        "Preparacion tecnica"
+      ],
+      "resumen": "El alumno debe preparar su entorno tecnico dentro del plazo disponible tras la confirmacion.",
+      "guion": "El grafo incluye la recepcion de credenciales tras la inscripcion telematica.",
+      "material": "Esquema del flujo A2.",
+      "pregunta": "Que debe recordar el alumno sobre recepcion de credenciales?",
+      "respuestas_esperadas": [
+        "Credenciales",
+        "Confirmacion AESA",
+        "Preparacion tecnica"
+      ],
+      "error": "Esperar al ultimo momento para preparar el sistema.",
+      "como_reconducir": "Relacionar credenciales con plazo y prueba tecnica previa.",
+      "demostracion": "Relacionar credenciales con plazo y prueba tecnica previa.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Sistema de Televigilancia.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Situar las credenciales como paso intermedio antes del examen."
+        ],
+        "ideas_clave_docentes": [
+          "Credenciales",
+          "Confirmacion AESA",
+          "Preparacion tecnica"
+        ],
+        "explicacion_ampliada": "El grafo incluye la recepcion de credenciales tras la inscripcion telematica. El alumno debe preparar su entorno tecnico dentro del plazo disponible tras la confirmacion.",
+        "que_decir": "El grafo incluye la recepcion de credenciales tras la inscripcion telematica.",
+        "memorizar": [
+          "Credenciales",
+          "Confirmacion AESA",
+          "Preparacion tecnica"
+        ],
+        "comprender": [
+          "El grafo incluye la recepcion de credenciales tras la inscripcion telematica.",
+          "El alumno debe preparar su entorno tecnico dentro del plazo disponible tras la confirmacion."
+        ],
+        "aplicar": [
+          "Situar las credenciales como paso intermedio antes del examen.",
+          "Relacionar credenciales con plazo y prueba tecnica previa."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en recepcion de credenciales?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "Credenciales, Confirmacion AESA, Preparacion tecnica",
+          "Esperar al ultimo momento para preparar el sistema."
+        ],
+        "error_habitual": "Esperar al ultimo momento para preparar el sistema.",
+        "como_reconducir": "Relacionar credenciales con plazo y prueba tecnica previa.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Relacionar credenciales con plazo y prueba tecnica previa.",
+        "material_necesario": "Esquema del flujo de examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "baja",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Esperar al ultimo momento para preparar el sistema.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "titulo": "Sistema de Televigilancia",
+      "tipo": "concepto principal",
+      "duracion": "7 min",
+      "objetivo": "Definir el proctoring como monitorizacion remota del examen.",
+      "explicacion": "El sistema de televigilancia usa tecnologia de monitorizacion remota, indicada como software SMOWL.",
+      "contenido": "Requiere acceso a webcam, microfono y pantalla durante el examen.",
+      "ideas_clave": [
+        "Televigilancia",
+        "SMOWL",
+        "Webcam",
+        "Microfono",
+        "Pantalla"
+      ],
+      "resumen": "Requiere acceso a webcam, microfono y pantalla durante el examen.",
+      "guion": "El sistema de televigilancia usa tecnologia de monitorizacion remota, indicada como software SMOWL.",
+      "material": "Checklist tecnico y administrativo.",
+      "pregunta": "Que debe recordar el alumno sobre sistema de televigilancia?",
+      "respuestas_esperadas": [
+        "Televigilancia",
+        "SMOWL",
+        "Webcam",
+        "Microfono",
+        "Pantalla"
+      ],
+      "error": "Pensar que basta con abrir el examen sin configurar permisos.",
+      "como_reconducir": "Enumerar permisos tecnicos antes de hablar de prueba.",
+      "demostracion": "Enumerar permisos tecnicos antes de hablar de prueba.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Finalidad del proctoring.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Definir el proctoring como monitorizacion remota del examen."
+        ],
+        "ideas_clave_docentes": [
+          "Televigilancia",
+          "SMOWL",
+          "Webcam",
+          "Microfono",
+          "Pantalla"
+        ],
+        "explicacion_ampliada": "El sistema de televigilancia usa tecnologia de monitorizacion remota, indicada como software SMOWL. Requiere acceso a webcam, microfono y pantalla durante el examen.",
+        "que_decir": "El sistema de televigilancia usa tecnologia de monitorizacion remota, indicada como software SMOWL.",
+        "memorizar": [
+          "Televigilancia",
+          "SMOWL",
+          "Webcam"
+        ],
+        "comprender": [
+          "El sistema de televigilancia usa tecnologia de monitorizacion remota, indicada como software SMOWL.",
+          "Requiere acceso a webcam, microfono y pantalla durante el examen."
+        ],
+        "aplicar": [
+          "Definir el proctoring como monitorizacion remota del examen.",
+          "Enumerar permisos tecnicos antes de hablar de prueba."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en sistema de televigilancia?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "Televigilancia, SMOWL, Webcam, Microfono, Pantalla",
+          "Pensar que basta con abrir el examen sin configurar permisos."
+        ],
+        "error_habitual": "Pensar que basta con abrir el examen sin configurar permisos.",
+        "como_reconducir": "Enumerar permisos tecnicos antes de hablar de prueba.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Enumerar permisos tecnicos antes de hablar de prueba.",
+        "material_necesario": "Checklist tecnico y administrativo del examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "media",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Pensar que basta con abrir el examen sin configurar permisos.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "titulo": "Finalidad del proctoring",
+      "tipo": "finalidad",
+      "duracion": "7 min",
+      "objetivo": "Comprender para que se usa la televigilancia.",
+      "explicacion": "Su finalidad es garantizar la integridad academica del proceso de evaluacion y evitar el fraude.",
+      "contenido": "Actua como vigilante virtual que valida la legalidad de la prueba realizada desde casa.",
+      "ideas_clave": [
+        "Integridad academica",
+        "Fraude",
+        "Vigilante virtual"
+      ],
+      "resumen": "Actua como vigilante virtual que valida la legalidad de la prueba realizada desde casa.",
+      "guion": "Su finalidad es garantizar la integridad academica del proceso de evaluacion y evitar el fraude.",
+      "material": "Checklist tecnico y administrativo.",
+      "pregunta": "Que debe recordar el alumno sobre finalidad del proctoring?",
+      "respuestas_esperadas": [
+        "Integridad academica",
+        "Fraude",
+        "Vigilante virtual"
+      ],
+      "error": "Interpretar la televigilancia como mero requisito tecnico.",
+      "como_reconducir": "Unir siempre tecnologia e integridad de la prueba.",
+      "demostracion": "Unir siempre tecnologia e integridad de la prueba.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Compatibilidad tecnica.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Comprender para que se usa la televigilancia."
+        ],
+        "ideas_clave_docentes": [
+          "Integridad academica",
+          "Fraude",
+          "Vigilante virtual"
+        ],
+        "explicacion_ampliada": "Su finalidad es garantizar la integridad academica del proceso de evaluacion y evitar el fraude. Actua como vigilante virtual que valida la legalidad de la prueba realizada desde casa.",
+        "que_decir": "Su finalidad es garantizar la integridad academica del proceso de evaluacion y evitar el fraude.",
+        "memorizar": [
+          "Integridad academica",
+          "Fraude",
+          "Vigilante virtual"
+        ],
+        "comprender": [
+          "Su finalidad es garantizar la integridad academica del proceso de evaluacion y evitar el fraude.",
+          "Actua como vigilante virtual que valida la legalidad de la prueba realizada desde casa."
+        ],
+        "aplicar": [
+          "Comprender para que se usa la televigilancia.",
+          "Unir siempre tecnologia e integridad de la prueba."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en finalidad del proctoring?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "Integridad academica, Fraude, Vigilante virtual",
+          "Interpretar la televigilancia como mero requisito tecnico."
+        ],
+        "error_habitual": "Interpretar la televigilancia como mero requisito tecnico.",
+        "como_reconducir": "Unir siempre tecnologia e integridad de la prueba.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Unir siempre tecnologia e integridad de la prueba.",
+        "material_necesario": "Checklist tecnico y administrativo del examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "media",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Interpretar la televigilancia como mero requisito tecnico.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "titulo": "Compatibilidad tecnica",
+      "tipo": "riesgo logistico",
+      "duracion": "7 min",
+      "objetivo": "Preparar hardware y conexion antes del intento.",
+      "explicacion": "El proctoring depende de hardware compatible, camara, audio y conexion estable a internet.",
+      "contenido": "Intentar el examen sin probar webcam y microfono es un riesgo logistico indicado por la ingenieria.",
+      "ideas_clave": [
+        "Hardware",
+        "Camara",
+        "Audio",
+        "Internet estable"
+      ],
+      "resumen": "Intentar el examen sin probar webcam y microfono es un riesgo logistico indicado por la ingenieria.",
+      "guion": "El proctoring depende de hardware compatible, camara, audio y conexion estable a internet.",
+      "material": "Checklist tecnico y administrativo.",
+      "pregunta": "Que debe recordar el alumno sobre compatibilidad tecnica?",
+      "respuestas_esperadas": [
+        "Hardware",
+        "Camara",
+        "Audio",
+        "Internet estable"
+      ],
+      "error": "No probar compatibilidad antes del examen.",
+      "como_reconducir": "Convertirlo en checklist previo obligatorio.",
+      "demostracion": "Convertirlo en checklist previo obligatorio.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Instalacion de SMOWL.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Preparar hardware y conexion antes del intento."
+        ],
+        "ideas_clave_docentes": [
+          "Hardware",
+          "Camara",
+          "Audio",
+          "Internet estable"
+        ],
+        "explicacion_ampliada": "El proctoring depende de hardware compatible, camara, audio y conexion estable a internet. Intentar el examen sin probar webcam y microfono es un riesgo logistico indicado por la ingenieria.",
+        "que_decir": "El proctoring depende de hardware compatible, camara, audio y conexion estable a internet.",
+        "memorizar": [
+          "Hardware",
+          "Camara",
+          "Audio"
+        ],
+        "comprender": [
+          "El proctoring depende de hardware compatible, camara, audio y conexion estable a internet.",
+          "Intentar el examen sin probar webcam y microfono es un riesgo logistico indicado por la ingenieria."
+        ],
+        "aplicar": [
+          "Preparar hardware y conexion antes del intento.",
+          "Convertirlo en checklist previo obligatorio."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en compatibilidad tecnica?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "Hardware, Camara, Audio, Internet estable",
+          "No probar compatibilidad antes del examen."
+        ],
+        "error_habitual": "No probar compatibilidad antes del examen.",
+        "como_reconducir": "Convertirlo en checklist previo obligatorio.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Convertirlo en checklist previo obligatorio.",
+        "material_necesario": "Checklist tecnico y administrativo del examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "media",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "No probar compatibilidad antes del examen.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "titulo": "Instalacion de SMOWL",
+      "tipo": "proceso tecnico",
+      "duracion": "7 min",
+      "objetivo": "Ubicar SMOWL dentro del flujo oficial del examen.",
+      "explicacion": "La instalacion de SMOWL aparece como paso intermedio antes de la validacion de identidad y la ejecucion del examen.",
+      "contenido": "El software puede cambiar por actualizaciones tecnologicas de AESA; actualmente la ingenieria cita SMOWL.",
+      "ideas_clave": [
+        "SMOWL",
+        "Instalacion",
+        "Software variable"
+      ],
+      "resumen": "El software puede cambiar por actualizaciones tecnologicas de AESA; actualmente la ingenieria cita SMOWL.",
+      "guion": "La instalacion de SMOWL aparece como paso intermedio antes de la validacion de identidad y la ejecucion del examen.",
+      "material": "Checklist tecnico y administrativo.",
+      "pregunta": "Que debe recordar el alumno sobre instalacion de smowl?",
+      "respuestas_esperadas": [
+        "SMOWL",
+        "Instalacion",
+        "Software variable"
+      ],
+      "error": "Dar por permanente una herramienta concreta.",
+      "como_reconducir": "Decir SMOWL u otro designado, segun la fuente.",
+      "demostracion": "Decir SMOWL u otro designado, segun la fuente.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Validacion de identidad.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Ubicar SMOWL dentro del flujo oficial del examen."
+        ],
+        "ideas_clave_docentes": [
+          "SMOWL",
+          "Instalacion",
+          "Software variable"
+        ],
+        "explicacion_ampliada": "La instalacion de SMOWL aparece como paso intermedio antes de la validacion de identidad y la ejecucion del examen. El software puede cambiar por actualizaciones tecnologicas de AESA; actualmente la ingenieria cita SMOWL.",
+        "que_decir": "La instalacion de SMOWL aparece como paso intermedio antes de la validacion de identidad y la ejecucion del examen.",
+        "memorizar": [
+          "SMOWL",
+          "Instalacion",
+          "Software variable"
+        ],
+        "comprender": [
+          "La instalacion de SMOWL aparece como paso intermedio antes de la validacion de identidad y la ejecucion del examen.",
+          "El software puede cambiar por actualizaciones tecnologicas de AESA; actualmente la ingenieria cita SMOWL."
+        ],
+        "aplicar": [
+          "Ubicar SMOWL dentro del flujo oficial del examen.",
+          "Decir SMOWL u otro designado, segun la fuente."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en instalacion de smowl?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "SMOWL, Instalacion, Software variable",
+          "Dar por permanente una herramienta concreta."
+        ],
+        "error_habitual": "Dar por permanente una herramienta concreta.",
+        "como_reconducir": "Decir SMOWL u otro designado, segun la fuente.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Decir SMOWL u otro designado, segun la fuente.",
+        "material_necesario": "Checklist tecnico y administrativo del examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "media",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Dar por permanente una herramienta concreta.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "titulo": "Validacion de identidad",
+      "tipo": "concepto central",
+      "duracion": "7 min",
+      "objetivo": "Entender la identidad como punto central del examen remoto.",
+      "explicacion": "La validacion de identidad aparece en el grafo como concepto central antes de la ejecucion del examen bajo televigilancia.",
+      "contenido": "Conecta el entorno privado del alumno con la Sede Oficial de AESA mediante el software de proctoring.",
+      "ideas_clave": [
+        "Identidad",
+        "Sede AESA",
+        "Proctoring"
+      ],
+      "resumen": "Conecta el entorno privado del alumno con la Sede Oficial de AESA mediante el software de proctoring.",
+      "guion": "La validacion de identidad aparece en el grafo como concepto central antes de la ejecucion del examen bajo televigilancia.",
+      "material": "Checklist tecnico y administrativo.",
+      "pregunta": "Que debe recordar el alumno sobre validacion de identidad?",
+      "respuestas_esperadas": [
+        "Identidad",
+        "Sede AESA",
+        "Proctoring"
+      ],
+      "error": "No preparar la correspondencia entre identidad y expediente.",
+      "como_reconducir": "Volver al puente ESP-RP y al software de proctoring.",
+      "demostracion": "Volver al puente ESP-RP y al software de proctoring.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Integridad y conducta.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Entender la identidad como punto central del examen remoto."
+        ],
+        "ideas_clave_docentes": [
+          "Identidad",
+          "Sede AESA",
+          "Proctoring"
+        ],
+        "explicacion_ampliada": "La validacion de identidad aparece en el grafo como concepto central antes de la ejecucion del examen bajo televigilancia. Conecta el entorno privado del alumno con la Sede Oficial de AESA mediante el software de proctoring.",
+        "que_decir": "La validacion de identidad aparece en el grafo como concepto central antes de la ejecucion del examen bajo televigilancia.",
+        "memorizar": [
+          "Identidad",
+          "Sede AESA",
+          "Proctoring"
+        ],
+        "comprender": [
+          "La validacion de identidad aparece en el grafo como concepto central antes de la ejecucion del examen bajo televigilancia.",
+          "Conecta el entorno privado del alumno con la Sede Oficial de AESA mediante el software de proctoring."
+        ],
+        "aplicar": [
+          "Entender la identidad como punto central del examen remoto.",
+          "Volver al puente ESP-RP y al software de proctoring."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en validacion de identidad?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "Identidad, Sede AESA, Proctoring",
+          "No preparar la correspondencia entre identidad y expediente."
+        ],
+        "error_habitual": "No preparar la correspondencia entre identidad y expediente.",
+        "como_reconducir": "Volver al puente ESP-RP y al software de proctoring.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Volver al puente ESP-RP y al software de proctoring.",
+        "material_necesario": "Checklist tecnico y administrativo del examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "media",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "No preparar la correspondencia entre identidad y expediente.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "titulo": "Integridad y conducta",
+      "tipo": "concepto principal",
+      "duracion": "7 min",
+      "objetivo": "Memorizar y aplicar normas de comportamiento durante la prueba.",
+      "explicacion": "Son normas que prohiben presencia de terceros, dispositivos no autorizados o desvio de la mirada.",
+      "contenido": "Aseguran que los conocimientos demostrados pertenecen exclusivamente al piloto evaluado.",
+      "ideas_clave": [
+        "Terceros",
+        "Dispositivos no autorizados",
+        "Mirada"
+      ],
+      "resumen": "Aseguran que los conocimientos demostrados pertenecen exclusivamente al piloto evaluado.",
+      "guion": "Son normas que prohiben presencia de terceros, dispositivos no autorizados o desvio de la mirada.",
+      "material": "Checklist tecnico y administrativo.",
+      "pregunta": "Que debe recordar el alumno sobre integridad y conducta?",
+      "respuestas_esperadas": [
+        "Terceros",
+        "Dispositivos no autorizados",
+        "Mirada"
+      ],
+      "error": "Hablar, mirar fuera o tener otra persona en la habitacion.",
+      "como_reconducir": "Trabajar la conducta como parte evaluable de la prueba.",
+      "demostracion": "Trabajar la conducta como parte evaluable de la prueba.",
+      "dinamica": "Simulacion de conducta de examen.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Irregularidades y anulacion.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Memorizar y aplicar normas de comportamiento durante la prueba."
+        ],
+        "ideas_clave_docentes": [
+          "Terceros",
+          "Dispositivos no autorizados",
+          "Mirada"
+        ],
+        "explicacion_ampliada": "Son normas que prohiben presencia de terceros, dispositivos no autorizados o desvio de la mirada. Aseguran que los conocimientos demostrados pertenecen exclusivamente al piloto evaluado.",
+        "que_decir": "Son normas que prohiben presencia de terceros, dispositivos no autorizados o desvio de la mirada.",
+        "memorizar": [
+          "Terceros",
+          "Dispositivos no autorizados",
+          "Mirada"
+        ],
+        "comprender": [
+          "Son normas que prohiben presencia de terceros, dispositivos no autorizados o desvio de la mirada.",
+          "Aseguran que los conocimientos demostrados pertenecen exclusivamente al piloto evaluado."
+        ],
+        "aplicar": [
+          "Memorizar y aplicar normas de comportamiento durante la prueba.",
+          "Trabajar la conducta como parte evaluable de la prueba."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en integridad y conducta?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "Terceros, Dispositivos no autorizados, Mirada",
+          "Hablar, mirar fuera o tener otra persona en la habitacion."
+        ],
+        "error_habitual": "Hablar, mirar fuera o tener otra persona en la habitacion.",
+        "como_reconducir": "Trabajar la conducta como parte evaluable de la prueba.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Trabajar la conducta como parte evaluable de la prueba.",
+        "material_necesario": "Checklist tecnico y administrativo del examen A2.",
+        "dinamica": "Simulacion de conducta de examen.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "media",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Hablar, mirar fuera o tener otra persona en la habitacion.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "titulo": "Irregularidades y anulacion",
+      "tipo": "riesgo de examen",
+      "duracion": "7 min",
+      "objetivo": "Identificar conductas que pueden invalidar el intento.",
+      "explicacion": "Cualquier fallo tecnico o de comportamiento puede invalidar el intento de examen.",
+      "contenido": "La IA de televigilancia puede detectar desvio de mirada, conversacion, presencia de terceros u objetos no identificados.",
+      "ideas_clave": [
+        "Fallo tecnico",
+        "Comportamiento",
+        "Anulacion"
+      ],
+      "resumen": "La IA de televigilancia puede detectar desvio de mirada, conversacion, presencia de terceros u objetos no identificados.",
+      "guion": "Cualquier fallo tecnico o de comportamiento puede invalidar el intento de examen.",
+      "material": "Checklist tecnico y administrativo.",
+      "pregunta": "Que debe recordar el alumno sobre irregularidades y anulacion?",
+      "respuestas_esperadas": [
+        "Fallo tecnico",
+        "Comportamiento",
+        "Anulacion"
+      ],
+      "error": "Dejar un movil cerca del piloto durante la prueba.",
+      "como_reconducir": "Usar el escenario del objeto no identificado como alerta de integridad.",
+      "demostracion": "Usar el escenario del objeto no identificado como alerta de integridad.",
+      "dinamica": "Simulacion de conducta de examen.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Estructura de la prueba A2.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Identificar conductas que pueden invalidar el intento."
+        ],
+        "ideas_clave_docentes": [
+          "Fallo tecnico",
+          "Comportamiento",
+          "Anulacion"
+        ],
+        "explicacion_ampliada": "Cualquier fallo tecnico o de comportamiento puede invalidar el intento de examen. La IA de televigilancia puede detectar desvio de mirada, conversacion, presencia de terceros u objetos no identificados.",
+        "que_decir": "Cualquier fallo tecnico o de comportamiento puede invalidar el intento de examen.",
+        "memorizar": [
+          "Fallo tecnico",
+          "Comportamiento",
+          "Anulacion"
+        ],
+        "comprender": [
+          "Cualquier fallo tecnico o de comportamiento puede invalidar el intento de examen.",
+          "La IA de televigilancia puede detectar desvio de mirada, conversacion, presencia de terceros u objetos no identificados."
+        ],
+        "aplicar": [
+          "Identificar conductas que pueden invalidar el intento.",
+          "Usar el escenario del objeto no identificado como alerta de integridad."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en irregularidades y anulacion?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "Fallo tecnico, Comportamiento, Anulacion",
+          "Dejar un movil cerca del piloto durante la prueba."
+        ],
+        "error_habitual": "Dejar un movil cerca del piloto durante la prueba.",
+        "como_reconducir": "Usar el escenario del objeto no identificado como alerta de integridad.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Usar el escenario del objeto no identificado como alerta de integridad.",
+        "material_necesario": "Checklist tecnico y administrativo del examen A2.",
+        "dinamica": "Simulacion de conducta de examen.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "media",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Dejar un movil cerca del piloto durante la prueba.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "titulo": "Estructura de la prueba A2",
+      "tipo": "concepto estable",
+      "duracion": "7 min",
+      "objetivo": "Comprender el formato del examen oficial A2.",
+      "explicacion": "El examen esta compuesto por 30 preguntas de opcion multiple sobre tres materias especificas.",
+      "contenido": "Evalua competencia en meteorologia, rendimiento de vuelo y atenuaciones del riesgo en tierra.",
+      "ideas_clave": [
+        "30 preguntas",
+        "Opcion multiple",
+        "Tres materias"
+      ],
+      "resumen": "Evalua competencia en meteorologia, rendimiento de vuelo y atenuaciones del riesgo en tierra.",
+      "guion": "El examen esta compuesto por 30 preguntas de opcion multiple sobre tres materias especificas.",
+      "material": "Checklist tecnico y administrativo.",
+      "pregunta": "Que debe recordar el alumno sobre estructura de la prueba a2?",
+      "respuestas_esperadas": [
+        "30 preguntas",
+        "Opcion multiple",
+        "Tres materias"
+      ],
+      "error": "Esperar preguntas fuera de las materias indicadas.",
+      "como_reconducir": "Anclar el examen a formato, materias y tiempo.",
+      "demostracion": "Anclar el examen a formato, materias y tiempo.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Materias del examen.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Comprender el formato del examen oficial A2."
+        ],
+        "ideas_clave_docentes": [
+          "30 preguntas",
+          "Opcion multiple",
+          "Tres materias"
+        ],
+        "explicacion_ampliada": "El examen esta compuesto por 30 preguntas de opcion multiple sobre tres materias especificas. Evalua competencia en meteorologia, rendimiento de vuelo y atenuaciones del riesgo en tierra.",
+        "que_decir": "El examen esta compuesto por 30 preguntas de opcion multiple sobre tres materias especificas.",
+        "memorizar": [
+          "30 preguntas",
+          "Opcion multiple",
+          "Tres materias"
+        ],
+        "comprender": [
+          "El examen esta compuesto por 30 preguntas de opcion multiple sobre tres materias especificas.",
+          "Evalua competencia en meteorologia, rendimiento de vuelo y atenuaciones del riesgo en tierra."
+        ],
+        "aplicar": [
+          "Comprender el formato del examen oficial A2.",
+          "Anclar el examen a formato, materias y tiempo."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en estructura de la prueba a2?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "30 preguntas, Opcion multiple, Tres materias",
+          "Esperar preguntas fuera de las materias indicadas."
+        ],
+        "error_habitual": "Esperar preguntas fuera de las materias indicadas.",
+        "como_reconducir": "Anclar el examen a formato, materias y tiempo.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Anclar el examen a formato, materias y tiempo.",
+        "material_necesario": "Checklist tecnico y administrativo del examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "media",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Esperar preguntas fuera de las materias indicadas.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "titulo": "Materias del examen",
+      "tipo": "dato estable",
+      "duracion": "7 min",
+      "objetivo": "Recordar las tres materias especificas de la prueba.",
+      "explicacion": "Las materias son meteorologia, rendimiento de vuelo y atenuaciones del riesgo en tierra.",
+      "contenido": "Estas materias conectan con los bloques previos del curso A2.",
+      "ideas_clave": [
+        "Meteorologia",
+        "Rendimiento",
+        "Atenuaciones"
+      ],
+      "resumen": "Estas materias conectan con los bloques previos del curso A2.",
+      "guion": "Las materias son meteorologia, rendimiento de vuelo y atenuaciones del riesgo en tierra.",
+      "material": "Checklist tecnico y administrativo.",
+      "pregunta": "Que debe recordar el alumno sobre materias del examen?",
+      "respuestas_esperadas": [
+        "Meteorologia",
+        "Rendimiento",
+        "Atenuaciones"
+      ],
+      "error": "Olvidar una materia o mezclar categorias externas.",
+      "como_reconducir": "Pedir al alumno que relacione cada materia con bloques anteriores.",
+      "demostracion": "Pedir al alumno que relacione cada materia con bloques anteriores.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Tiempo y umbral.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Recordar las tres materias especificas de la prueba."
+        ],
+        "ideas_clave_docentes": [
+          "Meteorologia",
+          "Rendimiento",
+          "Atenuaciones"
+        ],
+        "explicacion_ampliada": "Las materias son meteorologia, rendimiento de vuelo y atenuaciones del riesgo en tierra. Estas materias conectan con los bloques previos del curso A2.",
+        "que_decir": "Las materias son meteorologia, rendimiento de vuelo y atenuaciones del riesgo en tierra.",
+        "memorizar": [
+          "Meteorologia",
+          "Rendimiento",
+          "Atenuaciones"
+        ],
+        "comprender": [
+          "Las materias son meteorologia, rendimiento de vuelo y atenuaciones del riesgo en tierra.",
+          "Estas materias conectan con los bloques previos del curso A2."
+        ],
+        "aplicar": [
+          "Recordar las tres materias especificas de la prueba.",
+          "Pedir al alumno que relacione cada materia con bloques anteriores."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en materias del examen?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "Meteorologia, Rendimiento, Atenuaciones",
+          "Olvidar una materia o mezclar categorias externas."
+        ],
+        "error_habitual": "Olvidar una materia o mezclar categorias externas.",
+        "como_reconducir": "Pedir al alumno que relacione cada materia con bloques anteriores.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Pedir al alumno que relacione cada materia con bloques anteriores.",
+        "material_necesario": "Checklist tecnico y administrativo del examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "alta",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Olvidar una materia o mezclar categorias externas.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "titulo": "Tiempo y umbral",
+      "tipo": "dato critico",
+      "duracion": "7 min",
+      "objetivo": "Fijar tiempo maximo, nota de corte y equivalencia indicada.",
+      "explicacion": "La prueba tiene 30 minutos y exige 75% de aciertos minimos.",
+      "contenido": "La ingenieria indica 23 preguntas correctas como equivalencia del aprobado.",
+      "ideas_clave": [
+        "30 minutos",
+        "75%",
+        "23 correctas"
+      ],
+      "resumen": "La ingenieria indica 23 preguntas correctas como equivalencia del aprobado.",
+      "guion": "La prueba tiene 30 minutos y exige 75% de aciertos minimos.",
+      "material": "Checklist tecnico y administrativo.",
+      "pregunta": "Que debe recordar el alumno sobre tiempo y umbral?",
+      "respuestas_esperadas": [
+        "30 minutos",
+        "75%",
+        "23 correctas"
+      ],
+      "error": "Confundir tiempo, numero de preguntas y nota de corte.",
+      "como_reconducir": "Repetir el trio: 30 preguntas, 30 minutos, 75%.",
+      "demostracion": "Repetir el trio: 30 preguntas, 30 minutos, 75%.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Intentos y plazo.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Fijar tiempo maximo, nota de corte y equivalencia indicada."
+        ],
+        "ideas_clave_docentes": [
+          "30 minutos",
+          "75%",
+          "23 correctas"
+        ],
+        "explicacion_ampliada": "La prueba tiene 30 minutos y exige 75% de aciertos minimos. La ingenieria indica 23 preguntas correctas como equivalencia del aprobado.",
+        "que_decir": "La prueba tiene 30 minutos y exige 75% de aciertos minimos.",
+        "memorizar": [
+          "30 minutos",
+          "75%",
+          "23 correctas"
+        ],
+        "comprender": [
+          "La prueba tiene 30 minutos y exige 75% de aciertos minimos.",
+          "La ingenieria indica 23 preguntas correctas como equivalencia del aprobado."
+        ],
+        "aplicar": [
+          "Fijar tiempo maximo, nota de corte y equivalencia indicada.",
+          "Repetir el trio: 30 preguntas, 30 minutos, 75%."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en tiempo y umbral?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "30 minutos, 75%, 23 correctas",
+          "Confundir tiempo, numero de preguntas y nota de corte."
+        ],
+        "error_habitual": "Confundir tiempo, numero de preguntas y nota de corte.",
+        "como_reconducir": "Repetir el trio: 30 preguntas, 30 minutos, 75%.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Repetir el trio: 30 preguntas, 30 minutos, 75%.",
+        "material_necesario": "Checklist tecnico y administrativo del examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "alta",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Confundir tiempo, numero de preguntas y nota de corte.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "titulo": "Intentos y plazo",
+      "tipo": "dato critico",
+      "duracion": "7 min",
+      "objetivo": "Recordar los datos logisticos de convocatoria.",
+      "explicacion": "La ingenieria indica 30 dias habiles de plazo post-inscripcion y 2 intentos estandar.",
+      "contenido": "Un piloto recibe confirmacion de AESA y tiene un mes para preparar entorno tecnico y realizar la prueba.",
+      "ideas_clave": [
+        "30 dias habiles",
+        "2 intentos",
+        "Confirmacion AESA"
+      ],
+      "resumen": "Un piloto recibe confirmacion de AESA y tiene un mes para preparar entorno tecnico y realizar la prueba.",
+      "guion": "La ingenieria indica 30 dias habiles de plazo post-inscripcion y 2 intentos estandar.",
+      "material": "Checklist tecnico y administrativo.",
+      "pregunta": "Que debe recordar el alumno sobre intentos y plazo?",
+      "respuestas_esperadas": [
+        "30 dias habiles",
+        "2 intentos",
+        "Confirmacion AESA"
+      ],
+      "error": "Dejar pasar el plazo o no gestionar intentos.",
+      "como_reconducir": "Situar plazo e intentos como logistica critica.",
+      "demostracion": "Situar plazo e intentos como logistica critica.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Perdida de conexion.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Recordar los datos logisticos de convocatoria."
+        ],
+        "ideas_clave_docentes": [
+          "30 dias habiles",
+          "2 intentos",
+          "Confirmacion AESA"
+        ],
+        "explicacion_ampliada": "La ingenieria indica 30 dias habiles de plazo post-inscripcion y 2 intentos estandar. Un piloto recibe confirmacion de AESA y tiene un mes para preparar entorno tecnico y realizar la prueba.",
+        "que_decir": "La ingenieria indica 30 dias habiles de plazo post-inscripcion y 2 intentos estandar.",
+        "memorizar": [
+          "30 dias habiles",
+          "2 intentos",
+          "Confirmacion AESA"
+        ],
+        "comprender": [
+          "La ingenieria indica 30 dias habiles de plazo post-inscripcion y 2 intentos estandar.",
+          "Un piloto recibe confirmacion de AESA y tiene un mes para preparar entorno tecnico y realizar la prueba."
+        ],
+        "aplicar": [
+          "Recordar los datos logisticos de convocatoria.",
+          "Situar plazo e intentos como logistica critica."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en intentos y plazo?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "30 dias habiles, 2 intentos, Confirmacion AESA",
+          "Dejar pasar el plazo o no gestionar intentos."
+        ],
+        "error_habitual": "Dejar pasar el plazo o no gestionar intentos.",
+        "como_reconducir": "Situar plazo e intentos como logistica critica.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Situar plazo e intentos como logistica critica.",
+        "material_necesario": "Checklist tecnico y administrativo del examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "alta",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Dejar pasar el plazo o no gestionar intentos.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "titulo": "Perdida de conexion",
+      "tipo": "pregunta abierta",
+      "duracion": "7 min",
+      "objetivo": "Reconocer una pregunta nacida del bloque sin inventar procedimiento.",
+      "explicacion": "La ingenieria pregunta como se gestiona una perdida de conexion a internet a mitad de prueba para que no cuente como suspenso.",
+      "contenido": "No aporta procedimiento detallado; debe marcarse como informacion insuficiente si se pide resolverlo.",
+      "ideas_clave": [
+        "Conexion internet",
+        "Pregunta abierta",
+        "No inventar"
+      ],
+      "resumen": "No aporta procedimiento detallado; debe marcarse como informacion insuficiente si se pide resolverlo.",
+      "guion": "La ingenieria pregunta como se gestiona una perdida de conexion a internet a mitad de prueba para que no cuente como suspenso.",
+      "material": "Checklist tecnico y administrativo.",
+      "pregunta": "Que debe recordar el alumno sobre perdida de conexion?",
+      "respuestas_esperadas": [
+        "Conexion internet",
+        "Pregunta abierta",
+        "No inventar"
+      ],
+      "error": "Inventar un protocolo no presente en la ingenieria.",
+      "como_reconducir": "Indicar que falta informacion en la fuente para resolver ese caso.",
+      "demostracion": "Indicar que falta informacion en la fuente para resolver ese caso.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Superacion y certificado A2.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Reconocer una pregunta nacida del bloque sin inventar procedimiento."
+        ],
+        "ideas_clave_docentes": [
+          "Conexion internet",
+          "Pregunta abierta",
+          "No inventar"
+        ],
+        "explicacion_ampliada": "La ingenieria pregunta como se gestiona una perdida de conexion a internet a mitad de prueba para que no cuente como suspenso. No aporta procedimiento detallado; debe marcarse como informacion insuficiente si se pide resolverlo.",
+        "que_decir": "La ingenieria pregunta como se gestiona una perdida de conexion a internet a mitad de prueba para que no cuente como suspenso.",
+        "memorizar": [
+          "Conexion internet",
+          "Pregunta abierta",
+          "No inventar"
+        ],
+        "comprender": [
+          "La ingenieria pregunta como se gestiona una perdida de conexion a internet a mitad de prueba para que no cuente como suspenso.",
+          "No aporta procedimiento detallado; debe marcarse como informacion insuficiente si se pide resolverlo."
+        ],
+        "aplicar": [
+          "Reconocer una pregunta nacida del bloque sin inventar procedimiento.",
+          "Indicar que falta informacion en la fuente para resolver ese caso."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en perdida de conexion?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "Conexion internet, Pregunta abierta, No inventar",
+          "Inventar un protocolo no presente en la ingenieria."
+        ],
+        "error_habitual": "Inventar un protocolo no presente en la ingenieria.",
+        "como_reconducir": "Indicar que falta informacion en la fuente para resolver ese caso.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Indicar que falta informacion en la fuente para resolver ese caso.",
+        "material_necesario": "Checklist tecnico y administrativo del examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "alta",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Inventar un protocolo no presente en la ingenieria.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "titulo": "Superacion y certificado A2",
+      "tipo": "aplicacion",
+      "duracion": "7 min",
+      "objetivo": "Conectar el apto con la descarga del certificado.",
+      "explicacion": "La aplicacion del grafo culmina en superar el umbral del 75% y descargar el Certificado de Competencia A2.",
+      "contenido": "El certificado A2 desbloquea operativa con Clase C2 segun la tabla de dependencias.",
+      "ideas_clave": [
+        "75%",
+        "Certificado A2",
+        "Clase C2"
+      ],
+      "resumen": "El certificado A2 desbloquea operativa con Clase C2 segun la tabla de dependencias.",
+      "guion": "La aplicacion del grafo culmina en superar el umbral del 75% y descargar el Certificado de Competencia A2.",
+      "material": "Checklist tecnico y administrativo.",
+      "pregunta": "Que debe recordar el alumno sobre superacion y certificado a2?",
+      "respuestas_esperadas": [
+        "75%",
+        "Certificado A2",
+        "Clase C2"
+      ],
+      "error": "Pensar que aprobar no requiere descarga o cierre administrativo.",
+      "como_reconducir": "Separar apto, certificado y uso posterior.",
+      "demostracion": "Separar apto, certificado y uso posterior.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Revalidacion a 5 anos.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Conectar el apto con la descarga del certificado."
+        ],
+        "ideas_clave_docentes": [
+          "75%",
+          "Certificado A2",
+          "Clase C2"
+        ],
+        "explicacion_ampliada": "La aplicacion del grafo culmina en superar el umbral del 75% y descargar el Certificado de Competencia A2. El certificado A2 desbloquea operativa con Clase C2 segun la tabla de dependencias.",
+        "que_decir": "La aplicacion del grafo culmina en superar el umbral del 75% y descargar el Certificado de Competencia A2.",
+        "memorizar": [
+          "75%",
+          "Certificado A2",
+          "Clase C2"
+        ],
+        "comprender": [
+          "La aplicacion del grafo culmina en superar el umbral del 75% y descargar el Certificado de Competencia A2.",
+          "El certificado A2 desbloquea operativa con Clase C2 segun la tabla de dependencias."
+        ],
+        "aplicar": [
+          "Conectar el apto con la descarga del certificado.",
+          "Separar apto, certificado y uso posterior."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en superacion y certificado a2?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "75%, Certificado A2, Clase C2",
+          "Pensar que aprobar no requiere descarga o cierre administrativo."
+        ],
+        "error_habitual": "Pensar que aprobar no requiere descarga o cierre administrativo.",
+        "como_reconducir": "Separar apto, certificado y uso posterior.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Separar apto, certificado y uso posterior.",
+        "material_necesario": "Checklist tecnico y administrativo del examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "alta",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Pensar que aprobar no requiere descarga o cierre administrativo.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "titulo": "Revalidacion a 5 anos",
+      "tipo": "complementario",
+      "duracion": "7 min",
+      "objetivo": "Clasificar la revalidacion como contenido complementario.",
+      "explicacion": "La auditoria marca como complementario los pasos para descarga del certificado y revalidacion a los 5 anos.",
+      "contenido": "No debe desplazar lo imprescindible: acceso, inscripcion, televigilancia, integridad y estructura del examen.",
+      "ideas_clave": [
+        "Complementario",
+        "Descarga",
+        "5 anos"
+      ],
+      "resumen": "No debe desplazar lo imprescindible: acceso, inscripcion, televigilancia, integridad y estructura del examen.",
+      "guion": "La auditoria marca como complementario los pasos para descarga del certificado y revalidacion a los 5 anos.",
+      "material": "Checklist tecnico y administrativo.",
+      "pregunta": "Que debe recordar el alumno sobre revalidacion a 5 anos?",
+      "respuestas_esperadas": [
+        "Complementario",
+        "Descarga",
+        "5 anos"
+      ],
+      "error": "Convertir la revalidacion en eje del bloque.",
+      "como_reconducir": "Clasificarla como B complementario.",
+      "demostracion": "Clasificarla como B complementario.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes STS y categoria especifica: fuera del alcance del curso A2.",
+      "enlace": "Continuar con Cierre y alcance del Bloque 8.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Clasificar la revalidacion como contenido complementario."
+        ],
+        "ideas_clave_docentes": [
+          "Complementario",
+          "Descarga",
+          "5 anos"
+        ],
+        "explicacion_ampliada": "La auditoria marca como complementario los pasos para descarga del certificado y revalidacion a los 5 anos. No debe desplazar lo imprescindible: acceso, inscripcion, televigilancia, integridad y estructura del examen.",
+        "que_decir": "La auditoria marca como complementario los pasos para descarga del certificado y revalidacion a los 5 anos.",
+        "memorizar": [
+          "Complementario",
+          "Descarga",
+          "5 anos"
+        ],
+        "comprender": [
+          "La auditoria marca como complementario los pasos para descarga del certificado y revalidacion a los 5 anos.",
+          "No debe desplazar lo imprescindible: acceso, inscripcion, televigilancia, integridad y estructura del examen."
+        ],
+        "aplicar": [
+          "Clasificar la revalidacion como contenido complementario.",
+          "Clasificarla como B complementario."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en revalidacion a 5 anos?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "Complementario, Descarga, 5 anos",
+          "Convertir la revalidacion en eje del bloque."
+        ],
+        "error_habitual": "Convertir la revalidacion en eje del bloque.",
+        "como_reconducir": "Clasificarla como B complementario.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Clasificarla como B complementario.",
+        "material_necesario": "Checklist tecnico y administrativo del examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "7 min",
+        "nivel_dificultad": "alta",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Convertir la revalidacion en eje del bloque.",
+          "No completar procedimientos ausentes en la ingenieria."
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "titulo": "Cierre y alcance del Bloque 8",
+      "tipo": "cierre",
+      "duracion": "6 min",
+      "objetivo": "Cerrar el bloque con imprescindibles, complementarios y fuera de alcance.",
+      "explicacion": "Imprescindible: requisitos de acceso, inscripcion, televigilancia, integridad y estructura tiempo/preguntas del examen.",
+      "contenido": "Complementario: descarga del certificado y revalidacion a 5 anos. STS queda fuera del alcance del curso A2.",
+      "ideas_clave": [
+        "Imprescindible",
+        "Complementario",
+        "Fuera de alcance"
+      ],
+      "resumen": "Complementario: descarga del certificado y revalidacion a 5 anos. STS queda fuera del alcance del curso A2.",
+      "guion": "Imprescindible: requisitos de acceso, inscripcion, televigilancia, integridad y estructura tiempo/preguntas del examen.",
+      "material": "Checklist tecnico y administrativo.",
+      "pregunta": "Que debe recordar el alumno sobre cierre y alcance del bloque 8?",
+      "respuestas_esperadas": [
+        "Imprescindible",
+        "Complementario",
+        "Fuera de alcance"
+      ],
+      "error": "Desarrollar examenes STS en este bloque.",
+      "como_reconducir": "Marcar STS como fuera de alcance y no desarrollarlo.",
+      "demostracion": "Marcar STS como fuera de alcance y no desarrollarlo.",
+      "dinamica": "Pregunta guiada y checklist breve.",
+      "no_explicar": "Examenes para categoria especifica (STS), que requieren formacion en entidades designadas y no se realizan mediante este sistema de auto-matriculacion simple: fuera del alcance del curso A2.",
+      "enlace": "Bloque 8 integrado y pendiente de validacion por experto.",
+      "profesor_plus": {
+        "objetivos_docentes": [
+          "Cerrar el bloque con imprescindibles, complementarios y fuera de alcance."
+        ],
+        "ideas_clave_docentes": [
+          "Imprescindible",
+          "Complementario",
+          "Fuera de alcance"
+        ],
+        "explicacion_ampliada": "Imprescindible: requisitos de acceso, inscripcion, televigilancia, integridad y estructura tiempo/preguntas del examen. Complementario: descarga del certificado y revalidacion a 5 anos. STS queda fuera del alcance del curso A2.",
+        "que_decir": "Imprescindible: requisitos de acceso, inscripcion, televigilancia, integridad y estructura tiempo/preguntas del examen.",
+        "memorizar": [
+          "Imprescindible",
+          "Complementario",
+          "Fuera de alcance"
+        ],
+        "comprender": [
+          "Imprescindible: requisitos de acceso, inscripcion, televigilancia, integridad y estructura tiempo/preguntas del examen.",
+          "Complementario: descarga del certificado y revalidacion a 5 anos. STS queda fuera del alcance del curso A2."
+        ],
+        "aplicar": [
+          "Cerrar el bloque con imprescindibles, complementarios y fuera de alcance.",
+          "Marcar STS como fuera de alcance y no desarrollarlo."
+        ],
+        "preguntas": [
+          "Que dato o relacion clave aparece en cierre y alcance del bloque 8?",
+          "Que error habitual debe evitarse?"
+        ],
+        "respuestas_esperadas": [
+          "Imprescindible, Complementario, Fuera de alcance",
+          "Desarrollar examenes STS en este bloque."
+        ],
+        "error_habitual": "Desarrollar examenes STS en este bloque.",
+        "como_reconducir": "Marcar STS como fuera de alcance y no desarrollarlo.",
+        "ejemplos_practicos": [
+          "Aplicar el punto a una preparacion real del examen A2."
+        ],
+        "sugerencias_metodologicas": "Pedir al alumno que justifique cada respuesta con la ingenieria del Bloque 8 y no con informacion externa.",
+        "demostracion": "Marcar STS como fuera de alcance y no desarrollarlo.",
+        "material_necesario": "Checklist tecnico y administrativo del examen A2.",
+        "dinamica": "Pregunta guiada y checklist breve.",
+        "tiempo_recomendado": "6 min",
+        "nivel_dificultad": "alta",
+        "competencias_trabajadas": [
+          "Preparacion administrativa",
+          "Configuracion tecnica",
+          "Integridad en examen",
+          "Gestion logistica"
+        ],
+        "advertencias": [
+          "Desarrollar examenes STS en este bloque.",
+          "Examenes para categoria especifica (STS), que requieren formacion en entidades designadas y no se realizan mediante este sistema de auto-matriculacion simple: fuera del alcance del curso A2."
+        ]
+      }
+    }
+  ]
+};

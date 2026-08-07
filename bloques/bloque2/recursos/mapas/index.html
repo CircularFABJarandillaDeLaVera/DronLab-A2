@@ -1,0 +1,88 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mapa mental - Bloque 2 A2</title>
+<style>
+:root{--bg:#031327;--panel:#07192f;--card:#fff;--ink:#10243a;--muted:#587082;--line:#d8e4eb;--green:#16a47d;--blue:#0d4564;--amber:#f0a928;--red:#df4b5f}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%}body{font-family:Inter,Arial,sans-serif;background:linear-gradient(145deg,#061426,#0d3656);color:#fff}.app{min-height:100vh;display:grid;grid-template-rows:auto 1fr}.top{display:flex;align-items:center;gap:16px;padding:16px 22px;background:#07192fee;border-bottom:1px solid #ffffff18}.top img{width:54px;height:54px;object-fit:contain}.brand b{letter-spacing:.1em;font-size:13px}.brand h1{margin:2px 0 0;font-size:22px}.actions{margin-left:auto;display:flex;gap:10px;flex-wrap:wrap}.actions button,.actions a{border:0;border-radius:8px;background:var(--green);color:#fff;font-weight:900;padding:10px 14px;cursor:pointer;text-decoration:none}.actions .secondary{background:#ffffff18}.workspace{display:grid;grid-template-columns:1fr 360px;gap:16px;padding:16px}.map-wrap{position:relative;background:#eef4f7;border-radius:18px;min-height:calc(100vh - 118px);overflow:auto;color:var(--ink);box-shadow:0 24px 70px #0003}.map-scale{transform-origin:0 0;transition:transform .18s}.map{position:relative;width:1580px;min-height:1010px;padding:34px}.links{position:absolute;inset:0;pointer-events:none}.node{position:absolute;width:220px;min-height:74px;border:2px solid var(--line);border-radius:16px;background:#fff;color:var(--ink);box-shadow:0 12px 30px #07192f18;padding:13px 14px;cursor:pointer;transition:.2s;text-align:left}.node:hover{transform:translateY(-2px)}.node.active{border-color:var(--green);box-shadow:0 0 0 4px #16a47d22,0 16px 38px #07192f26}.node.hidden{display:none}.node.center{width:320px;min-height:136px;background:var(--panel);color:#fff;border-color:var(--green);text-align:center}.node .type{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--green);font-weight:900}.node.center .type{color:#80f0cf}.node h2{font-size:17px;margin:6px 0 5px;line-height:1.08}.node.center h2{font-size:26px}.node p{margin:0;color:var(--muted);font-size:12px}.node.center p{color:#b8d2e4}.toggle{position:absolute;right:8px;top:8px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:#eef5f3;color:var(--green);font-weight:900}.detail{background:#fff;color:var(--ink);border-radius:18px;padding:20px;box-shadow:0 24px 70px #0003;align-self:start;position:sticky;top:16px}.detail .kicker{color:var(--green);font-weight:900;letter-spacing:.12em;text-transform:uppercase;font-size:12px}.detail h2{margin:8px 0 12px;font-size:24px}.detail section{border-top:1px solid var(--line);padding-top:12px;margin-top:12px}.detail h3{margin:0 0 8px;font-size:14px;color:var(--blue);text-transform:uppercase;letter-spacing:.08em}.detail p{margin:0;color:#28445d;line-height:1.45}.legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.pill{border-radius:99px;padding:7px 10px;font-size:12px;font-weight:900;color:#fff}.green{background:var(--green)}.blue{background:var(--blue)}.amber{background:var(--amber);color:#3f2b00}.red{background:var(--red)}.print-note{display:none}@media(max-width:1000px){.workspace{grid-template-columns:1fr}.detail{position:static}.map-wrap{min-height:720px}.top{flex-wrap:wrap}.actions{margin-left:0}.map{width:1420px}}@page{size:A3 landscape;margin:8mm}@media print{body{background:#fff}.top,.detail,.actions{display:none}.workspace{display:block;padding:0}.map-wrap{box-shadow:none;border-radius:0;overflow:visible;min-height:0}.map-scale{transform:none!important}.map{width:390mm;min-height:265mm;padding:8mm}.node{box-shadow:none;border-radius:4mm;width:57mm;min-height:19mm;padding:3mm;break-inside:avoid}.node h2{font-size:12pt}.node p{font-size:7pt}.node.center{width:76mm}.toggle{display:none}.print-note{display:block;position:absolute;left:8mm;bottom:6mm;color:#587082;font-size:8pt}}
+</style>
+</head>
+<body>
+<main class="app">
+  <header class="top">
+    <img src="../../../../assets/branding/logo-circular-fab.png" alt="Circular FAB">
+    <div class="brand"><b>CIRCULAR FAB - DRONLAB A2</b><h1>Mapa mental interactivo - Bloque 2</h1></div>
+    <div class="actions">
+      <a class="secondary" href="../index.html">Recursos</a>
+      <button id="zoomOut" class="secondary">-</button>
+      <button id="zoomReset" class="secondary">100%</button>
+      <button id="zoomIn" class="secondary">+</button>
+      <button id="expandAll" class="secondary">Expandir todo</button>
+      <button id="collapseAll" class="secondary">Contraer ramas</button>
+      <button id="fullscreen" class="secondary">Pantalla completa</button>
+      <button id="printMode">Imprimir</button>
+    </div>
+  </header>
+  <section class="workspace">
+    <div id="mapWrap" class="map-wrap">
+      <div id="mapScale" class="map-scale">
+        <div id="map" class="map">
+          <svg id="links" class="links" aria-hidden="true"></svg>
+          <div class="print-note">DronLab A2 - Bloque 2 - El Sistema UAS de Clase C2</div>
+        </div>
+      </div>
+    </div>
+    <aside id="detail" class="detail">
+      <div class="kicker">Nodo seleccionado</div>
+      <h2>BLOQUE 2</h2>
+      <section><h3>Definicion</h3><p>El Sistema UAS de Clase C2 para reducir probabilidad o gravedad de accidentes en A2.</p></section>
+      <section><h3>Idea clave</h3><p>El examen A2 combina requisitos de acceso, inscripcion telematica, proctoring, integridad y estructura oficial de la prueba.</p></section>
+      <section><h3>Error habitual</h3><p>Declarar la autoformacion sin completar integramente las competencias de la guia.</p></section>
+      <div class="legend"><span class="pill blue">Tecnica</span><span class="pill green">Operacion</span><span class="pill amber">Datos</span><span class="pill red">Riesgo</span></div>
+    </aside>
+  </section>
+</main>
+<script>
+const nodes=[
+{id:'root',parent:null,x:625,y:400,type:'central',title:'BLOQUE 2',subtitle:'El Sistema UAS de Clase C2',def:'UAS con MTOM inferior a 4 kg, marcado de clase oficial y requisitos tecnicos del Reglamento (UE) 2019/945.',key:'Clase C2 conecta equipo, funciones tecnicas y operativa A2 cerca de personas.',err:'Tratar C2 como etiqueta comercial sin requisitos.'},
+{id:'clase',parent:'root',x:560,y:40,type:'rama',title:'Clase C2',subtitle:'Marcado y MTOM',def:'Aeronave no tripulada con marcado oficial y MTOM inferior a 4 kg.',key:'Etiqueta fisica, numero de serie y alimentacion electrica.',err:'Identificar C2 solo por peso.'},
+{id:'mtom',parent:'clase',x:330,y:95,type:'sub',title:'MTOM < 4 kg',subtitle:'Dato estable',def:'Limite de masa de Clase C2.',key:'No confundir con C1 900 g ni C3 25 kg.',err:'Responder 4 kg exactos o clase equivocada.'},
+{id:'marcado',parent:'clase',x:835,y:95,type:'sub',title:'Marcado C2',subtitle:'Etiqueta fisica',def:'Marcado de clase oficial y numero de serie unico.',key:'Permite verificar el equipo.',err:'Fiarse del nombre comercial.'},
+{id:'lento',parent:'root',x:100,y:230,type:'rama',title:'Modo baja velocidad',subtitle:'<= 3 m/s',def:'Funcion seleccionable desde la estacion de control.',key:'Reduce energia de impacto y aumenta tiempo de reaccion.',err:'Creer que se activa siempre automaticamente.'},
+{id:'cinco',parent:'lento',x:35,y:380,type:'sub',title:'Vuelo a 5 m',subtitle:'Dependencia',def:'Depende del modo baja velocidad.',key:'Vital para legalidad a menos de 30 m de personas ajenas.',err:'Acercarse sin activar modo lento.'},
+{id:'ala',parent:'lento',x:300,y:405,type:'sub',title:'Ala fija',subtitle:'Excepcion',def:'La reduccion no aplica en ala fija segun la ingenieria.',key:'Dependencia especifica del modo lento.',err:'Aplicar la misma regla sin matiz.'},
+{id:'dri',parent:'root',x:980,y:220,type:'rama',title:'DRI',subtitle:'Identificacion directa',def:'Emite datos periodicos de identificacion y vuelo.',key:'Numero operador, serie, posicion, altura, trayectoria y velocidad.',err:'Cargar ESP-RP en lugar del numero operador.'},
+{id:'operador',parent:'dri',x:1220,y:125,type:'sub',title:'Numero operador',subtitle:'AESA',def:'Debe cargarse previamente en DRI.',key:'Desbloquea legalidad de aeronave en vuelo.',err:'Confundir con identificacion de piloto.'},
+{id:'datos',parent:'dri',x:1240,y:320,type:'sub',title:'Datos emitidos',subtitle:'Supervision',def:'Operador, serie, posicion, altura, trayectoria y velocidad.',key:'Facilita vigilancia por autoridades.',err:'Olvidar altura o trayectoria.'},
+{id:'geo',parent:'root',x:1000,y:610,type:'rama',title:'Geoconsciencia',subtitle:'Zonas UAS',def:'Avisa al aproximarse a zonas restringidas o prohibidas.',key:'Previene incursiones accidentales.',err:'Operar con datos obsoletos.'},
+{id:'actualizar',parent:'geo',x:1235,y:570,type:'sub',title:'Actualizacion',subtitle:'Datos geograficos',def:'Depende de datos proporcionados por autoridades.',key:'Ejemplo de fuente: ENAIRE Drones.',err:'No actualizar bases de datos.'},
+{id:'zonas',parent:'geo',x:1230,y:745,type:'sub',title:'Zonas P/R',subtitle:'Prevencion',def:'Zonas protegidas, restringidas o prohibidas.',key:'La geoconsciencia avisa antes del limite.',err:'Confiar solo en memoria del piloto.'},
+{id:'enlace',parent:'root',x:555,y:755,type:'rama',title:'Enlace C2',subtitle:'RPS-aeronave',def:'Conecta estacion de pilotaje con aeronave.',key:'Debe estar protegido ante accesos no autorizados y tener recuperacion.',err:'No verificarlo antes del despegue.'},
+{id:'software',parent:'enlace',x:370,y:900,type:'sub',title:'Software UAS/RPS',subtitle:'Ultima version',def:'Debe ser ultima publicada por fabricante en aeronave y RPS.',key:'Sistema completo, no solo dron.',err:'Actualizar solo una parte.'},
+{id:'recuperacion',parent:'enlace',x:650,y:905,type:'sub',title:'Recuperacion',subtitle:'Perdida enlace',def:'Metodos de recuperacion ante perdida de enlace.',key:'Complementario segun auditoria.',err:'Desarrollar procedimientos no cargados.'},
+{id:'bateria',parent:'root',x:285,y:620,type:'rama',title:'Bateria',subtitle:'UAS y RPS',def:'Avisos de bateria baja en UAS y RPS.',key:'Gestion de autonomia y RTH seguro.',err:'Ignorar margen de aviso.'},
+{id:'margen',parent:'bateria',x:50,y:780,type:'sub',title:'Margen',subtitle:'Variable',def:'Ajustable segun resistencia y distancia de operacion.',key:'Debe permitir aterrizaje seguro.',err:'Esperar a bateria critica.'},
+{id:'fisico',parent:'root',x:1120,y:500,type:'rama',title:'Fisico visible',subtitle:'Componentes y luces',def:'Componentes amovibles y luces visibles de noche/control altitud.',key:'C2 tambien requiere inspeccion fisica.',err:'Centrarse solo en software.'},
+{id:'fuera',parent:'fisico',x:1325,y:655,type:'sub',title:'Fuera de alcance',subtitle:'STS-ES',def:'Escenarios estandar nacionales y requisitos especificos de aeronave.',key:'Fuera del alcance del curso A2.',err:'Desarrollar categoria especifica.'}
+];
+const expanded=new Set(nodes.filter(n=>!n.parent||n.type==='rama').map(n=>n.id));let active='root';let zoom=1;
+const map=document.getElementById('map'),scaleEl=document.getElementById('mapScale'),wrap=document.getElementById('mapWrap'),links=document.getElementById('links'),detail=document.getElementById('detail');
+function children(id){return nodes.filter(n=>n.parent===id)}
+function visible(n){if(!n.parent)return true;let p=nodes.find(x=>x.id===n.parent);while(p){if(!expanded.has(p.id))return false;p=nodes.find(x=>x.id===p.parent)}return true}
+function render(){map.querySelectorAll('.node').forEach(n=>n.remove());nodes.forEach(n=>{const el=document.createElement('button');el.className=`node ${n.type==='central'?'center':''} ${n.id===active?'active':''} ${visible(n)?'':'hidden'}`;el.style.left=n.x+'px';el.style.top=n.y+'px';const hasKids=children(n.id).length>0;el.innerHTML=`${hasKids?`<span class="toggle">${expanded.has(n.id)?'-':'+'}</span>`:''}<div class="type">${n.type==='central'?'central':hasKids?'rama':'subrama'}</div><h2>${n.title}</h2><p>${n.subtitle}</p>`;el.onclick=()=>{active=n.id;if(hasKids){expanded.has(n.id)?expanded.delete(n.id):expanded.add(n.id)}updateDetail(n);render()};map.appendChild(el)});drawLinks();applyZoom()}
+function drawLinks(){links.setAttribute('width',map.scrollWidth);links.setAttribute('height',map.scrollHeight);links.innerHTML='';nodes.filter(n=>n.parent&&visible(n)).forEach(n=>{const p=nodes.find(x=>x.id===n.parent);if(!p||!visible(p))return;const x1=p.x+(p.type==='central'?160:110),y1=p.y+(p.type==='central'?68:37),x2=n.x+110,y2=n.y+37;const path=document.createElementNS('http://www.w3.org/2000/svg','path');const dx=(x2-x1)*.45;path.setAttribute('d',`M ${x1} ${y1} C ${x1+dx} ${y1}, ${x2-dx} ${y2}, ${x2} ${y2}`);path.setAttribute('fill','none');path.setAttribute('stroke',n.type==='rama'?'#0d4564':'#16a47d');path.setAttribute('stroke-width',n.type==='rama'?4:2.5);path.setAttribute('stroke-linecap','round');path.setAttribute('opacity','.75');links.appendChild(path)})}
+function updateDetail(n){detail.innerHTML=`<div class="kicker">Nodo seleccionado</div><h2>${n.title}</h2><section><h3>Definicion</h3><p>${n.def}</p></section><section><h3>Idea clave</h3><p>${n.key}</p></section><section><h3>Error habitual</h3><p>${n.err}</p></section><div class="legend"><span class="pill blue">Tecnica</span><span class="pill green">Operacion</span><span class="pill amber">Datos</span><span class="pill red">Riesgo</span></div>`}
+function applyZoom(){scaleEl.style.transform=`scale(${zoom})`;scaleEl.style.width=(1580*zoom)+'px';scaleEl.style.height=(1010*zoom)+'px';document.getElementById('zoomReset').textContent=Math.round(zoom*100)+'%'}
+document.getElementById('expandAll').onclick=()=>{nodes.forEach(n=>{if(children(n.id).length)expanded.add(n.id)});render()};
+document.getElementById('collapseAll').onclick=()=>{expanded.clear();expanded.add('root');render()};
+document.getElementById('zoomIn').onclick=()=>{zoom=Math.min(1.6,+(zoom+.1).toFixed(2));applyZoom()};
+document.getElementById('zoomOut').onclick=()=>{zoom=Math.max(.55,+(zoom-.1).toFixed(2));applyZoom()};
+document.getElementById('zoomReset').onclick=()=>{zoom=1;applyZoom()};
+document.getElementById('fullscreen').onclick=()=>{if(!document.fullscreenElement)wrap.requestFullscreen?.();else document.exitFullscreen?.()};
+document.getElementById('printMode').onclick=()=>{nodes.forEach(n=>{if(children(n.id).length)expanded.add(n.id)});zoom=1;render();setTimeout(()=>print(),120)};
+render();
+</script>
+</body>
+</html>

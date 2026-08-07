@@ -1,0 +1,34 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>A3 Chuletas Bloque 5 A2 - DronLab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="a3">
+  <main class="sheet">
+    <section class="hero card">
+      <div>
+        <p class="kicker">DronLab A2 - Bloque 5</p>
+        <h2>Rendimiento de Vuelo del UAS</h2>
+      </div>
+      <div class="hero-grid">
+        <span><b>4F</b>fuerzas</span><span><b>CG</b>equilibrio</span><span><b>3</b>ejes</span><span><b>&lt;4</b>kg C2</span><span><b>K&lt;4</b>seguridad</span><span><b>120m</b>AGL</span>
+      </div>
+    </section>
+    <section class="grid two">
+      <article class="card"><p class="kicker">Flujo</p><h2>Fuerzas -> Ejes/CG -> Payload/MTOM -> Aire -> Sensores -> Datos</h2><ul class="check"><li>Sustentacion, peso, empuje, resistencia.</li><li>Roll, pitch, yaw sobre CG.</li><li>Payload afecta MTOM y CG.</li><li>Densidad: altitud, temperatura, humedad.</li><li>Calibracion: IMU y brujula.</li></ul></article>
+      <article class="card accent"><p class="kicker">Datos criticos</p><h2>&lt; 4 kg · 120 m · K &lt; 4 · 75%</h2><p class="note">Asistencia barometrica requerida para precision en altura.</p></article>
+    </section>
+    <section class="card">
+      <p class="kicker">Tabla rapida</p>
+      <table><tbody><tr><td>MTOM</td><td><b>Aeronave + carga</b></td><td>No superar nunca</td></tr><tr><td>CG</td><td><b>Centro de masa</b></td><td>Control en tres ejes</td></tr><tr><td>Densidad</td><td><b>Altitud + temperatura + humedad</b></td><td>Rendimiento de helices</td></tr><tr><td>Autonomia</td><td><b>Variable</b></td><td>Carga y viento enfrentado</td></tr><tr><td>Fuera de alcance</td><td><b>BVLOS</b></td><td>No desarrollar en A2</td></tr></tbody></table>
+    </section>
+    <section class="grid two">
+      <article class="card"><p class="kicker">Errores</p><ul class="check"><li>Reducir rendimiento a bateria.</li><li>Confundir pitch con eje vertical.</li><li>Tratar payload como inocuo.</li><li>Ignorar calor extremo.</li><li>Usar autonomia nominal como real.</li></ul></article>
+      <article class="card"><p class="kicker">Checklist</p><ul class="check final"><li>Fuerzas identificadas.</li><li>Ejes correctos.</li><li>CG revisado.</li><li>MTOM &lt; 4 kg.</li><li>AGL 120 m / 400 ft.</li><li>Indice K &lt; 4.</li><li>Calibracion considerada.</li></ul></article>
+    </section>
+  </main>
+</body>
+</html>

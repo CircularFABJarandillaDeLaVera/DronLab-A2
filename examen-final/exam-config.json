@@ -1,0 +1,71 @@
+{
+  "sdk_component": "circularfab-edusdk-evaluation-engine",
+  "version": "1.0",
+  "course": {
+    "id": "dronlab-a2",
+    "title": "DronLab A2",
+    "subtitle": "Examen final del curso A2",
+    "home_url": "../inicio.html",
+    "logo_url": "../assets/branding/logo-circular-fab.png"
+  },
+  "exam": {
+    "question_count": 30,
+    "time_minutes": 30,
+    "pass_percent": 75,
+    "pass_correct": 23,
+    "answers_per_question": 4,
+    "correct_answers": 1,
+    "simulated_attempts": 2,
+    "penalize_errors": false
+  },
+  "study_mode": {
+    "unlimited_attempts": true,
+    "time_limit_enabled": false,
+    "immediate_feedback": true,
+    "final_feedback": true
+  },
+  "selection": {
+    "avoid_recent_questions": true,
+    "recent_memory": 90,
+    "difficulty_distribution": {
+      "facil": 0.4,
+      "media": 0.4,
+      "dificil": 0.2
+    },
+    "block_distribution": {
+      "1": 0.125,
+      "2": 0.125,
+      "3": 0.125,
+      "4": 0.125,
+      "5": 0.125,
+      "6": 0.125,
+      "7": 0.125,
+      "8": 0.125
+    }
+  },
+  "messages": {
+    "simulation_notice": "Este simulacro reproduce condiciones de examen, pero no sustituye al examen oficial de AESA.",
+    "new_enrollment": "Nueva inscripcion (simulada)",
+    "attempts_exhausted": "Has agotado los dos intentos simulados. En el procedimiento oficial deberias realizar una nueva inscripcion para disponer de otros dos intentos. Deseas iniciar una nueva simulacion?"
+  },
+  "question_banks": [
+    {"block": 1, "title": "Bloque 1 · Requisitos Legales y Tramites", "url": "../bloques/bloque1/recursos/test/test.json"},
+    {"block": 2, "title": "Bloque 2 · Sistema UAS de Clase C2", "url": "../bloques/bloque2/recursos/test/test.json"},
+    {"block": 3, "title": "Bloque 3 · Operaciones en Subcategoria A2", "url": "../bloques/bloque3/recursos/test/test.json"},
+    {"block": 4, "title": "Bloque 4 · Meteorologia aplicada", "url": "../bloques/bloque4/recursos/test/test.json"},
+    {"block": 5, "title": "Bloque 5 · Rendimiento de Vuelo", "url": "../bloques/bloque5/recursos/test/test.json"},
+    {"block": 6, "title": "Bloque 6 · Atenuaciones tecnicas y operacionales", "url": "../bloques/bloque6/recursos/test/test.json"},
+    {"block": 7, "title": "Bloque 7 · Autoformacion Practica", "url": "../bloques/bloque7/recursos/test/test.json"},
+    {"block": 8, "title": "Bloque 8 · Examen y Televigilancia", "url": "../bloques/bloque8/recursos/test/test.json"}
+  ],
+  "block_links": [
+    {"block": 1, "title": "Bloque 1", "url": "../bloques/bloque1/inicio.html"},
+    {"block": 2, "title": "Bloque 2", "url": "../bloques/bloque2/inicio.html"},
+    {"block": 3, "title": "Bloque 3", "url": "../bloques/bloque3/inicio.html"},
+    {"block": 4, "title": "Bloque 4", "url": "../bloques/bloque4/inicio.html"},
+    {"block": 5, "title": "Bloque 5", "url": "../bloques/bloque5/inicio.html"},
+    {"block": 6, "title": "Bloque 6", "url": "../bloques/bloque6/inicio.html"},
+    {"block": 7, "title": "Bloque 7", "url": "../bloques/bloque7/inicio.html"},
+    {"block": 8, "title": "Bloque 8", "url": "../bloques/bloque8/inicio.html"}
+  ]
+}

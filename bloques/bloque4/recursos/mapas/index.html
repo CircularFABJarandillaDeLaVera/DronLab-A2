@@ -1,0 +1,92 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mapa mental - Bloque 4 A2</title>
+<style>
+:root{--bg:#031327;--panel:#07192f;--card:#fff;--ink:#10243a;--muted:#587082;--line:#d8e4eb;--green:#16a47d;--blue:#0d4564;--amber:#f0a928;--red:#df4b5f}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%}body{font-family:Inter,Arial,sans-serif;background:linear-gradient(145deg,#061426,#0d3656);color:#fff}.app{min-height:100vh;display:grid;grid-template-rows:auto 1fr}.top{display:flex;align-items:center;gap:16px;padding:16px 22px;background:#07192fee;border-bottom:1px solid #ffffff18}.top img{width:54px;height:54px;object-fit:contain}.brand b{letter-spacing:.1em;font-size:13px}.brand h1{margin:2px 0 0;font-size:22px}.actions{margin-left:auto;display:flex;gap:10px;flex-wrap:wrap}.actions button,.actions a{border:0;border-radius:8px;background:var(--green);color:#fff;font-weight:900;padding:10px 14px;cursor:pointer;text-decoration:none}.actions .secondary{background:#ffffff18}.workspace{display:grid;grid-template-columns:1fr 360px;gap:16px;padding:16px}.map-wrap{position:relative;background:#eef4f7;border-radius:18px;min-height:calc(100vh - 118px);overflow:auto;color:var(--ink);box-shadow:0 24px 70px #0003}.map-scale{transform-origin:0 0;transition:transform .18s}.map{position:relative;width:1560px;min-height:980px;padding:34px}.links{position:absolute;inset:0;pointer-events:none}.node{position:absolute;width:210px;min-height:74px;border:2px solid var(--line);border-radius:16px;background:#fff;color:var(--ink);box-shadow:0 12px 30px #07192f18;padding:13px 14px;cursor:pointer;transition:.2s;text-align:left}.node:hover{transform:translateY(-2px)}.node.active{border-color:var(--green);box-shadow:0 0 0 4px #16a47d22,0 16px 38px #07192f26}.node.hidden{display:none}.node.center{width:310px;min-height:132px;background:var(--panel);color:#fff;border-color:var(--green);text-align:center}.node .type{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--green);font-weight:900}.node.center .type{color:#80f0cf}.node h2{font-size:17px;margin:6px 0 5px;line-height:1.08}.node.center h2{font-size:26px}.node p{margin:0;color:var(--muted);font-size:12px}.node.center p{color:#b8d2e4}.toggle{position:absolute;right:8px;top:8px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:#eef5f3;color:var(--green);font-weight:900}.detail{background:#fff;color:var(--ink);border-radius:18px;padding:20px;box-shadow:0 24px 70px #0003;align-self:start;position:sticky;top:16px}.detail .kicker{color:var(--green);font-weight:900;letter-spacing:.12em;text-transform:uppercase;font-size:12px}.detail h2{margin:8px 0 12px;font-size:24px}.detail section{border-top:1px solid var(--line);padding-top:12px;margin-top:12px}.detail h3{margin:0 0 8px;font-size:14px;color:var(--blue);text-transform:uppercase;letter-spacing:.08em}.detail p{margin:0;color:#28445d;line-height:1.45}.legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.pill{border-radius:99px;padding:7px 10px;font-size:12px;font-weight:900;color:#fff}.green{background:var(--green)}.blue{background:var(--blue)}.amber{background:var(--amber);color:#3f2b00}.red{background:var(--red)}.print-note{display:none}@media(max-width:1000px){.workspace{grid-template-columns:1fr}.detail{position:static}.map-wrap{min-height:720px}.top{flex-wrap:wrap}.actions{margin-left:0}.map{width:1420px}}@page{size:A3 landscape;margin:8mm}@media print{body{background:#fff}.top,.detail,.actions{display:none}.workspace{display:block;padding:0}.map-wrap{box-shadow:none;border-radius:0;overflow:visible;min-height:0}.map-scale{transform:none!important}.map{width:390mm;min-height:265mm;padding:8mm}.node{box-shadow:none;border-radius:4mm;width:56mm;min-height:19mm;padding:3mm;break-inside:avoid}.node h2{font-size:12pt}.node p{font-size:7pt}.node.center{width:72mm}.toggle{display:none}.print-note{display:block;position:absolute;left:8mm;bottom:6mm;color:#587082;font-size:8pt}}
+</style>
+</head>
+<body>
+<main class="app">
+  <header class="top">
+    <img src="../../../../assets/branding/logo-circular-fab.png" alt="Circular FAB">
+    <div class="brand"><b>CIRCULAR FAB - DRONLAB A2</b><h1>Mapa mental interactivo - Bloque 4</h1></div>
+    <div class="actions">
+      <a class="secondary" href="../index.html">Recursos</a>
+      <button id="zoomOut" class="secondary">-</button>
+      <button id="zoomReset" class="secondary">100%</button>
+      <button id="zoomIn" class="secondary">+</button>
+      <button id="expandAll" class="secondary">Expandir todo</button>
+      <button id="collapseAll" class="secondary">Contraer ramas</button>
+      <button id="fullscreen" class="secondary">Pantalla completa</button>
+      <button id="printMode">Imprimir</button>
+    </div>
+  </header>
+  <section class="workspace">
+    <div id="mapWrap" class="map-wrap">
+      <div id="mapScale" class="map-scale">
+        <div id="map" class="map">
+          <svg id="links" class="links" aria-hidden="true"></svg>
+          <div class="print-note">DronLab A2 - Bloque 4 - Meteorologia aplicada a operaciones A2</div>
+        </div>
+      </div>
+    </div>
+    <aside id="detail" class="detail">
+      <div class="kicker">Nodo seleccionado</div>
+      <h2>BLOQUE 4</h2>
+      <section><h3>Definicion</h3><p>Meteorologia aplicada a operaciones A2 en entornos urbanos o industriales complejos.</p></section>
+      <section><h3>Idea clave</h3><p>El piloto debe consultar prevision, observar el entorno, cruzar limites del fabricante y decidir Go/No-Go.</p></section>
+      <section><h3>Error habitual</h3><p>Confiar en que hace buen tiempo en el suelo sin evaluar viento local, VLOS, humedad, temperatura y obstaculos.</p></section>
+      <div class="legend"><span class="pill blue">Entorno</span><span class="pill green">Decision</span><span class="pill amber">Rendimiento</span><span class="pill red">Riesgo</span></div>
+    </aside>
+  </section>
+</main>
+<script>
+const nodes=[
+{id:'root',parent:null,x:625,y:400,type:'central',title:'BLOQUE 4',subtitle:'Meteorologia aplicada a operaciones A2',def:'Fenomenos atmosfericos que afectan a la operacion de UAS en entornos urbanos o industriales.',key:'La meteorologia debe terminar en una decision Go/No-Go basada en prevision, entorno, VLOS y limites del fabricante.',err:'Tratar la meteorologia como teoria general y no como decision operacional.'},
+{id:'meuh',parent:'root',x:585,y:35,type:'rama',title:'MEUH',subtitle:'M de Meteorologia',def:'Puente entre normativa de categoria abierta y practica en campo.',key:'Sin verificar meteorologia quedan comprometidos Entorno, UAS y Humano.',err:'Completar MEUH sin evaluar la M de forma real.'},
+{id:'entorno-meuh',parent:'meuh',x:345,y:95,type:'sub',title:'Entorno',subtitle:'Campo real',def:'La meteorologia se observa junto con topografia, obstaculos y condiciones actuales.',key:'El entorno urbano forma parte de la evaluacion meteorologica.',err:'Usar solo una aplicacion meteorologica sin mirar la zona.'},
+{id:'decision',parent:'meuh',x:835,y:95,type:'sub',title:'Go/No-Go',subtitle:'Viabilidad',def:'Decision de continuar o no segun la idoneidad meteorologica de la operacion.',key:'La prevision y la observacion deben concluir en una decision justificada.',err:'Volar porque la prevision parecia favorable horas antes.'},
+{id:'viento',parent:'root',x:195,y:230,type:'rama',title:'Viento local',subtitle:'Turbulencia urbana',def:'Alteraciones en velocidad y direccion causadas por topografia, edificios o estructuras.',key:'Puede generar desplazamientos laterales, ascensos o descensos bruscos.',err:'Pensar que un obstaculo solo reduce la velocidad del viento.'},
+{id:'obstaculos',parent:'viento',x:40,y:395,type:'sub',title:'Obstaculos',subtitle:'Edificios y estructuras',def:'Elementos fisicos que modifican el flujo de aire.',key:'Cambian velocidad y direccion del viento local.',err:'No considerar edificios antes de despegar.'},
+{id:'canalizacion',parent:'viento',x:285,y:405,type:'sub',title:'Canalizacion',subtitle:'Edificios paralelos',def:'La disposicion de dos edificios paralelos puede modificar la velocidad del viento entre ellos.',key:'La calle puede comportarse como una zona de viento diferente.',err:'Aplicar la prevision general como si el flujo fuera uniforme.'},
+{id:'rotor',parent:'viento',x:45,y:555,type:'sub',title:'Efecto rotor',subtitle:'Plaza urbana',def:'Escenario implicito de plaza rodeada de edificios altos con viento cruzado.',key:'Puede provocar comportamiento erratico cerca de personas o edificios.',err:'Confiar en el modo de baja velocidad como solucion total.'},
+{id:'racha',parent:'viento',x:300,y:585,type:'sub',title:'Rachas',subtitle:'Viento real',def:'Variaciones no constantes que pueden superar el viento medio previsto.',key:'El viento real manda sobre una prevision antigua.',err:'Planificar solo con viento medio e ignorar rachas.'},
+{id:'nubes',parent:'root',x:985,y:210,type:'rama',title:'Nubes y VLOS',subtitle:'Visibilidad',def:'La formacion de nubes procede de la condensacion del vapor de agua en la atmosfera.',key:'Permite identificar visualmente estado atmosferico y riesgo de cambios bruscos.',err:'Ver la nubosidad como decoracion sin relacionarla con VLOS.'},
+{id:'humtemp',parent:'nubes',x:1215,y:95,type:'sub',title:'Humedad y temperatura',subtitle:'Dependencias',def:'La formacion de nubes depende de humedad, temperatura y presion atmosferica.',key:'Estas variables ayudan a interpretar el estado del aire.',err:'Memorizar nubes sin conectar dependencias.'},
+{id:'vlos',parent:'nubes',x:1230,y:285,type:'sub',title:'VLOS',subtitle:'Claridad visual',def:'El piloto debe abortar si la meteorologia impide ver el dron con claridad.',key:'La legalidad del alcance visual depende de nubosidad y precipitaciones.',err:'Continuar con visibilidad degradada.'},
+{id:'cambios',parent:'nubes',x:1205,y:455,type:'sub',title:'Cambios bruscos',subtitle:'Tormentas o cizalladura',def:'La nubosidad puede advertir de cambios bruscos, tormentas, cizalladura o perdida de visibilidad.',key:'La observacion de nubes alimenta la decision Go/No-Go.',err:'No reevaluar si cambia la atmosfera.'},
+{id:'manual',parent:'root',x:990,y:665,type:'rama',title:'Manual del fabricante',subtitle:'Limites meteorologicos',def:'Umbrales tecnicos de viento, temperatura y humedad establecidos para el UAS C2.',key:'Fuera de los limites, la seguridad no esta garantizada.',err:'Volar sin cruzar condiciones reales con el manual.'},
+{id:'viento-manual',parent:'manual',x:1245,y:720,type:'sub',title:'Maximo viento',subtitle:'Umbral tecnico',def:'Limite de viento establecido en el manual del UAS.',key:'Si el viento real lo supera, la operacion deja de estar dentro de la envolvente indicada.',err:'Seguir volando aunque la telemetria muestre viento superior.'},
+{id:'temperatura',parent:'manual',x:1035,y:840,type:'sub',title:'Temperatura',subtitle:'Bateria y motores',def:'La temperatura ambiente afecta al rendimiento de bateria y puede influir en densidad del aire y refrigeracion de motores.',key:'El calor extremo exige revisar viabilidad tecnica.',err:'Decidir solo porque no hay viento.'},
+{id:'humedad',parent:'manual',x:1270,y:890,type:'sub',title:'Humedad alta',subtitle:'Sensores',def:'La niebla puede condensar en sensores de vision del UAS C2 y provocar errores de mantenimiento de posicion.',key:'La humedad afecta a sensores, no solo a visibilidad.',err:'Pensar que la niebla solo dificulta ver.'},
+{id:'prevision',parent:'root',x:595,y:755,type:'rama',title:'Prevision y actuales',subtitle:'Planificacion',def:'Consulta y analisis de datos actuales y predicciones para lugar y hora de la mision.',key:'Las condiciones actuales pueden diferir de una prevision hecha horas antes.',err:'Usar informacion antigua sin contrastarla en campo.'},
+{id:'microclimas',parent:'prevision',x:430,y:895,type:'sub',title:'Microclimas urbanos',subtitle:'Variables',def:'Varian segun calle, hora del dia, sombras, sol y trafico.',key:'Una prevision general puede no describir cada punto de vuelo.',err:'Generalizar una medida puntual a toda la zona.'},
+{id:'checklist',parent:'prevision',x:700,y:900,type:'sub',title:'Checklist',subtitle:'Antes de despegar',def:'Cruzar prevision, actuales, topografia, viento local, VLOS, manual, temperatura y humedad.',key:'La evaluacion ordenada evita olvidar variables criticas.',err:'Revisar solo viento y omitir humedad o VLOS.'},
+{id:'datos',parent:'root',x:215,y:45,type:'rama',title:'Datos criticos',subtitle:'Memoria operativa',def:'Datos presentes en la ingenieria que deben fijarse para operar y preparar examen.',key:'Topografia, actual + prevision, temperatura + humedad, VLOS y 75% de meteorologia en el total necesario.',err:'Inventar valores de viento, humedad o temperatura no presentes en la fuente.'},
+{id:'examen',parent:'datos',x:35,y:165,type:'sub',title:'75%',subtitle:'Meteorologia examen',def:'La ingenieria indica que meteorologia pesa en el 75% total necesario del examen.',key:'Es un dato critico que debe destacarse tal como aparece en la fuente.',err:'Convertirlo en informacion no presente o reinterpretarlo.'},
+{id:'fuera',parent:'datos',x:30,y:310,type:'sub',title:'Fuera de alcance',subtitle:'No desarrollar',def:'Meteorologia de gran escala, frentes complejos, METAR/TAF, STS, SORA, Categoria Especifica, Certificada y Radiofonista UAS.',key:'Se marca como fuera del alcance del curso A2.',err:'Desarrollar radiofonista o meteorologia avanzada dentro de este bloque.'},
+{id:'escenarios',parent:'root',x:1135,y:500,type:'rama',title:'Escenarios reales',subtitle:'Aplicacion A2',def:'Grabacion en plaza con edificios altos e inspeccion de panel solar con calor extremo.',key:'Los escenarios obligan a justificar Go/No-Go segun viento local, VLOS y limites del fabricante.',err:'Resolver el escenario sin consultar manual ni condiciones actuales.'}
+];
+const expanded=new Set(nodes.filter(n=>!n.parent||n.type==='rama').map(n=>n.id));let active='root';let zoom=1;
+const map=document.getElementById('map'),scaleEl=document.getElementById('mapScale'),wrap=document.getElementById('mapWrap'),links=document.getElementById('links'),detail=document.getElementById('detail');
+function children(id){return nodes.filter(n=>n.parent===id)}
+function visible(n){if(!n.parent)return true;let p=nodes.find(x=>x.id===n.parent);while(p){if(!expanded.has(p.id))return false;p=nodes.find(x=>x.id===p.parent)}return true}
+function render(){map.querySelectorAll('.node').forEach(n=>n.remove());nodes.forEach(n=>{const el=document.createElement('button');el.className=`node ${n.type==='central'?'center':''} ${n.id===active?'active':''} ${visible(n)?'':'hidden'}`;el.style.left=n.x+'px';el.style.top=n.y+'px';const hasKids=children(n.id).length>0;el.innerHTML=`${hasKids?`<span class="toggle">${expanded.has(n.id)?'-':'+'}</span>`:''}<div class="type">${n.type==='central'?'central':hasKids?'rama':'subrama'}</div><h2>${n.title}</h2><p>${n.subtitle}</p>`;el.onclick=()=>{active=n.id;if(hasKids){expanded.has(n.id)?expanded.delete(n.id):expanded.add(n.id)}updateDetail(n);render()};map.appendChild(el)});drawLinks();applyZoom()}
+function drawLinks(){links.setAttribute('width',map.scrollWidth);links.setAttribute('height',map.scrollHeight);links.innerHTML='';nodes.filter(n=>n.parent&&visible(n)).forEach(n=>{const p=nodes.find(x=>x.id===n.parent);if(!p||!visible(p))return;const x1=p.x+(p.type==='central'?155:105),y1=p.y+(p.type==='central'?66:37),x2=n.x+105,y2=n.y+37;const path=document.createElementNS('http://www.w3.org/2000/svg','path');const dx=(x2-x1)*.45;path.setAttribute('d',`M ${x1} ${y1} C ${x1+dx} ${y1}, ${x2-dx} ${y2}, ${x2} ${y2}`);path.setAttribute('fill','none');path.setAttribute('stroke',n.type==='rama'?'#0d4564':'#16a47d');path.setAttribute('stroke-width',n.type==='rama'?4:2.5);path.setAttribute('stroke-linecap','round');path.setAttribute('opacity','.75');links.appendChild(path)})}
+function updateDetail(n){detail.innerHTML=`<div class="kicker">Nodo seleccionado</div><h2>${n.title}</h2><section><h3>Definicion</h3><p>${n.def}</p></section><section><h3>Idea clave</h3><p>${n.key}</p></section><section><h3>Error habitual</h3><p>${n.err}</p></section><div class="legend"><span class="pill blue">Entorno</span><span class="pill green">Decision</span><span class="pill amber">Rendimiento</span><span class="pill red">Riesgo</span></div>`}
+function applyZoom(){scaleEl.style.transform=`scale(${zoom})`;scaleEl.style.width=(1560*zoom)+'px';scaleEl.style.height=(980*zoom)+'px';document.getElementById('zoomReset').textContent=Math.round(zoom*100)+'%'}
+document.getElementById('expandAll').onclick=()=>{nodes.forEach(n=>{if(children(n.id).length)expanded.add(n.id)});render()};
+document.getElementById('collapseAll').onclick=()=>{expanded.clear();expanded.add('root');render()};
+document.getElementById('zoomIn').onclick=()=>{zoom=Math.min(1.6,+(zoom+.1).toFixed(2));applyZoom()};
+document.getElementById('zoomOut').onclick=()=>{zoom=Math.max(.55,+(zoom-.1).toFixed(2));applyZoom()};
+document.getElementById('zoomReset').onclick=()=>{zoom=1;applyZoom()};
+document.getElementById('fullscreen').onclick=()=>{if(!document.fullscreenElement)wrap.requestFullscreen?.();else document.exitFullscreen?.()};
+document.getElementById('printMode').onclick=()=>{nodes.forEach(n=>{if(children(n.id).length)expanded.add(n.id)});zoom=1;render();setTimeout(()=>print(),120)};
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+{
+  "titulo": "Guias rapidas Bloque 7 A2",
+  "bloque": "Bloque 7",
+  "total": 7,
+  "chuletas": [
+    {
+      "id": "B7-CH-01",
+      "titulo": "Resumen del Bloque 7",
+      "tipo": "resumen",
+      "items": [
+        "Autoformacion practica antes de examen A2",
+        "5 fases A-E",
+        "Declaracion tras completar competencias",
+        "Fabricante y guia FOR-UAS-P01-GU07"
+      ]
+    },
+    {
+      "id": "B7-CH-02",
+      "titulo": "Flujo A-E de autoformacion",
+      "tipo": "flujo",
+      "items": [
+        "A Preparacion operacion",
+        "B Preparacion vuelo",
+        "C Vuelo normal",
+        "D Vuelo anomalo",
+        "E Informe y post-vuelo"
+      ]
+    },
+    {
+      "id": "B7-CH-03",
+      "titulo": "Checklist previo a declarar",
+      "tipo": "checklist",
+      "items": [
+        "A1/A3 previo",
+        "Practicas suficientes",
+        "Fases A-E completas",
+        "Entorno equivalente A3",
+        "Registros post-vuelo"
+      ]
+    },
+    {
+      "id": "B7-CH-04",
+      "titulo": "Datos criticos",
+      "tipo": "tabla",
+      "items": [
+        "Autoformacion practica: requisito legal obligatorio previo a la matriculacion en el examen teorico A2.",
+        "Entorno de practicas: condiciones equivalentes a subcategoria A3 (>150 m de zonas urbanas/personas).",
+        "Estructura de autoformacion: 5 fases operacionales, de A a E.",
+        "Software: ultima version publicada del UAS y de la estacion remota de piloto (RPS).",
+        "Velocidad modo lento: <= 3 m/s si el UAS dispone de esta funcion.",
+        "Registro de cualificaciones: mantener durante al menos 3 anos tras el cese de actividad.",
+        "Mantenimiento: seguir las instrucciones facilitadas por el fabricante."
+      ]
+    },
+    {
+      "id": "B7-CH-05",
+      "titulo": "Errores habituales",
+      "tipo": "errores",
+      "items": [
+        "Declarar sin completar guia",
+        "Practicar en entorno urbano/prohibido",
+        "No preparar Fase D",
+        "No registrar fatiga",
+        "Ignorar fabricante"
+      ]
+    },
+    {
+      "id": "B7-CH-06",
+      "titulo": "Fase D contingencias",
+      "tipo": "esquema",
+      "items": [
+        "Perdida enlace C2",
+        "Degradacion GNSS",
+        "Incursiones personas/aeronaves",
+        "Recuperacion manual"
+      ]
+    },
+    {
+      "id": "B7-CH-07",
+      "titulo": "Post-vuelo y trazabilidad",
+      "tipo": "checklist",
+      "items": [
+        "Apagado seguro",
+        "Inspeccion tras vuelo",
+        "Datos operativos",
+        "Fatiga",
+        "Mantenimiento segun fabricante"
+      ]
+    }
+  ]
+}

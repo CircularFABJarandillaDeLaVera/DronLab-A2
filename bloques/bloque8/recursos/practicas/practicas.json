@@ -1,0 +1,377 @@
+{
+  "titulo": "Practicas Bloque 8 A2",
+  "bloque": "Bloque 8",
+  "total": 10,
+  "practicas": [
+    {
+      "id": "B8-PRA-01",
+      "titulo": "Comprobar requisitos de acceso",
+      "objetivo": "Aplicar comprobar requisitos de acceso antes del examen A2.",
+      "dificultad": "baja",
+      "tiempo_estimado": "20 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 8",
+        "Checklist administrativo",
+        "Checklist tecnico de webcam, microfono, pantalla e internet"
+      ],
+      "contexto": "Practica guiada de preparacion del examen oficial A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar requisito o dato critico aplicable.",
+        "Comprobar si depende de A1/A3, declaracion o identidad.",
+        "Revisar riesgo tecnico o de integridad.",
+        "Justificar la decision con la ingenieria.",
+        "Marcar como insuficiente cualquier procedimiento no presente."
+      ],
+      "criterios_de_exito": [
+        "La decision se justifica con datos del bloque.",
+        "No se confunde ESP-RP con operador UAS.",
+        "No se inventan procedimientos ausentes."
+      ],
+      "errores_habituales": [
+        "No probar compatibilidad tecnica.",
+        "Tener dispositivos no autorizados cerca.",
+        "Desarrollar STS fuera del alcance."
+      ],
+      "conceptos_relacionados": [
+        "AESA",
+        "SMOWL",
+        "Integridad",
+        "Estructura del examen"
+      ],
+      "referencia_al_bloque": "Bloque 8 A2"
+    },
+    {
+      "id": "B8-PRA-02",
+      "titulo": "Preparar inscripcion telematica",
+      "objetivo": "Aplicar preparar inscripcion telematica antes del examen A2.",
+      "dificultad": "baja",
+      "tiempo_estimado": "20 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 8",
+        "Checklist administrativo",
+        "Checklist tecnico de webcam, microfono, pantalla e internet"
+      ],
+      "contexto": "Practica guiada de preparacion del examen oficial A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar requisito o dato critico aplicable.",
+        "Comprobar si depende de A1/A3, declaracion o identidad.",
+        "Revisar riesgo tecnico o de integridad.",
+        "Justificar la decision con la ingenieria.",
+        "Marcar como insuficiente cualquier procedimiento no presente."
+      ],
+      "criterios_de_exito": [
+        "La decision se justifica con datos del bloque.",
+        "No se confunde ESP-RP con operador UAS.",
+        "No se inventan procedimientos ausentes."
+      ],
+      "errores_habituales": [
+        "No probar compatibilidad tecnica.",
+        "Tener dispositivos no autorizados cerca.",
+        "Desarrollar STS fuera del alcance."
+      ],
+      "conceptos_relacionados": [
+        "AESA",
+        "SMOWL",
+        "Integridad",
+        "Estructura del examen"
+      ],
+      "referencia_al_bloque": "Bloque 8 A2"
+    },
+    {
+      "id": "B8-PRA-03",
+      "titulo": "Distinguir ESP-RP y operador UAS",
+      "objetivo": "Aplicar distinguir esp-rp y operador uas antes del examen A2.",
+      "dificultad": "baja",
+      "tiempo_estimado": "20 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 8",
+        "Checklist administrativo",
+        "Checklist tecnico de webcam, microfono, pantalla e internet"
+      ],
+      "contexto": "Practica guiada de preparacion del examen oficial A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar requisito o dato critico aplicable.",
+        "Comprobar si depende de A1/A3, declaracion o identidad.",
+        "Revisar riesgo tecnico o de integridad.",
+        "Justificar la decision con la ingenieria.",
+        "Marcar como insuficiente cualquier procedimiento no presente."
+      ],
+      "criterios_de_exito": [
+        "La decision se justifica con datos del bloque.",
+        "No se confunde ESP-RP con operador UAS.",
+        "No se inventan procedimientos ausentes."
+      ],
+      "errores_habituales": [
+        "No probar compatibilidad tecnica.",
+        "Tener dispositivos no autorizados cerca.",
+        "Desarrollar STS fuera del alcance."
+      ],
+      "conceptos_relacionados": [
+        "AESA",
+        "SMOWL",
+        "Integridad",
+        "Estructura del examen"
+      ],
+      "referencia_al_bloque": "Bloque 8 A2"
+    },
+    {
+      "id": "B8-PRA-04",
+      "titulo": "Revisar credenciales recibidas",
+      "objetivo": "Aplicar revisar credenciales recibidas antes del examen A2.",
+      "dificultad": "baja",
+      "tiempo_estimado": "20 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 8",
+        "Checklist administrativo",
+        "Checklist tecnico de webcam, microfono, pantalla e internet"
+      ],
+      "contexto": "Practica guiada de preparacion del examen oficial A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar requisito o dato critico aplicable.",
+        "Comprobar si depende de A1/A3, declaracion o identidad.",
+        "Revisar riesgo tecnico o de integridad.",
+        "Justificar la decision con la ingenieria.",
+        "Marcar como insuficiente cualquier procedimiento no presente."
+      ],
+      "criterios_de_exito": [
+        "La decision se justifica con datos del bloque.",
+        "No se confunde ESP-RP con operador UAS.",
+        "No se inventan procedimientos ausentes."
+      ],
+      "errores_habituales": [
+        "No probar compatibilidad tecnica.",
+        "Tener dispositivos no autorizados cerca.",
+        "Desarrollar STS fuera del alcance."
+      ],
+      "conceptos_relacionados": [
+        "AESA",
+        "SMOWL",
+        "Integridad",
+        "Estructura del examen"
+      ],
+      "referencia_al_bloque": "Bloque 8 A2"
+    },
+    {
+      "id": "B8-PRA-05",
+      "titulo": "Preparar equipo para SMOWL",
+      "objetivo": "Aplicar preparar equipo para smowl antes del examen A2.",
+      "dificultad": "media",
+      "tiempo_estimado": "30 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 8",
+        "Checklist administrativo",
+        "Checklist tecnico de webcam, microfono, pantalla e internet"
+      ],
+      "contexto": "Practica guiada de preparacion del examen oficial A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar requisito o dato critico aplicable.",
+        "Comprobar si depende de A1/A3, declaracion o identidad.",
+        "Revisar riesgo tecnico o de integridad.",
+        "Justificar la decision con la ingenieria.",
+        "Marcar como insuficiente cualquier procedimiento no presente."
+      ],
+      "criterios_de_exito": [
+        "La decision se justifica con datos del bloque.",
+        "No se confunde ESP-RP con operador UAS.",
+        "No se inventan procedimientos ausentes."
+      ],
+      "errores_habituales": [
+        "No probar compatibilidad tecnica.",
+        "Tener dispositivos no autorizados cerca.",
+        "Desarrollar STS fuera del alcance."
+      ],
+      "conceptos_relacionados": [
+        "AESA",
+        "SMOWL",
+        "Integridad",
+        "Estructura del examen"
+      ],
+      "referencia_al_bloque": "Bloque 8 A2"
+    },
+    {
+      "id": "B8-PRA-06",
+      "titulo": "Probar webcam y microfono",
+      "objetivo": "Aplicar probar webcam y microfono antes del examen A2.",
+      "dificultad": "media",
+      "tiempo_estimado": "30 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 8",
+        "Checklist administrativo",
+        "Checklist tecnico de webcam, microfono, pantalla e internet"
+      ],
+      "contexto": "Practica guiada de preparacion del examen oficial A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar requisito o dato critico aplicable.",
+        "Comprobar si depende de A1/A3, declaracion o identidad.",
+        "Revisar riesgo tecnico o de integridad.",
+        "Justificar la decision con la ingenieria.",
+        "Marcar como insuficiente cualquier procedimiento no presente."
+      ],
+      "criterios_de_exito": [
+        "La decision se justifica con datos del bloque.",
+        "No se confunde ESP-RP con operador UAS.",
+        "No se inventan procedimientos ausentes."
+      ],
+      "errores_habituales": [
+        "No probar compatibilidad tecnica.",
+        "Tener dispositivos no autorizados cerca.",
+        "Desarrollar STS fuera del alcance."
+      ],
+      "conceptos_relacionados": [
+        "AESA",
+        "SMOWL",
+        "Integridad",
+        "Estructura del examen"
+      ],
+      "referencia_al_bloque": "Bloque 8 A2"
+    },
+    {
+      "id": "B8-PRA-07",
+      "titulo": "Limpiar entorno de examen",
+      "objetivo": "Aplicar limpiar entorno de examen antes del examen A2.",
+      "dificultad": "media",
+      "tiempo_estimado": "30 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 8",
+        "Checklist administrativo",
+        "Checklist tecnico de webcam, microfono, pantalla e internet"
+      ],
+      "contexto": "Practica guiada de preparacion del examen oficial A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar requisito o dato critico aplicable.",
+        "Comprobar si depende de A1/A3, declaracion o identidad.",
+        "Revisar riesgo tecnico o de integridad.",
+        "Justificar la decision con la ingenieria.",
+        "Marcar como insuficiente cualquier procedimiento no presente."
+      ],
+      "criterios_de_exito": [
+        "La decision se justifica con datos del bloque.",
+        "No se confunde ESP-RP con operador UAS.",
+        "No se inventan procedimientos ausentes."
+      ],
+      "errores_habituales": [
+        "No probar compatibilidad tecnica.",
+        "Tener dispositivos no autorizados cerca.",
+        "Desarrollar STS fuera del alcance."
+      ],
+      "conceptos_relacionados": [
+        "AESA",
+        "SMOWL",
+        "Integridad",
+        "Estructura del examen"
+      ],
+      "referencia_al_bloque": "Bloque 8 A2"
+    },
+    {
+      "id": "B8-PRA-08",
+      "titulo": "Revisar normas de conducta",
+      "objetivo": "Aplicar revisar normas de conducta antes del examen A2.",
+      "dificultad": "media",
+      "tiempo_estimado": "30 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 8",
+        "Checklist administrativo",
+        "Checklist tecnico de webcam, microfono, pantalla e internet"
+      ],
+      "contexto": "Practica guiada de preparacion del examen oficial A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar requisito o dato critico aplicable.",
+        "Comprobar si depende de A1/A3, declaracion o identidad.",
+        "Revisar riesgo tecnico o de integridad.",
+        "Justificar la decision con la ingenieria.",
+        "Marcar como insuficiente cualquier procedimiento no presente."
+      ],
+      "criterios_de_exito": [
+        "La decision se justifica con datos del bloque.",
+        "No se confunde ESP-RP con operador UAS.",
+        "No se inventan procedimientos ausentes."
+      ],
+      "errores_habituales": [
+        "No probar compatibilidad tecnica.",
+        "Tener dispositivos no autorizados cerca.",
+        "Desarrollar STS fuera del alcance."
+      ],
+      "conceptos_relacionados": [
+        "AESA",
+        "SMOWL",
+        "Integridad",
+        "Estructura del examen"
+      ],
+      "referencia_al_bloque": "Bloque 8 A2"
+    },
+    {
+      "id": "B8-PRA-09",
+      "titulo": "Simular control de tiempo",
+      "objetivo": "Aplicar simular control de tiempo antes del examen A2.",
+      "dificultad": "alta",
+      "tiempo_estimado": "40 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 8",
+        "Checklist administrativo",
+        "Checklist tecnico de webcam, microfono, pantalla e internet"
+      ],
+      "contexto": "Practica guiada de preparacion del examen oficial A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar requisito o dato critico aplicable.",
+        "Comprobar si depende de A1/A3, declaracion o identidad.",
+        "Revisar riesgo tecnico o de integridad.",
+        "Justificar la decision con la ingenieria.",
+        "Marcar como insuficiente cualquier procedimiento no presente."
+      ],
+      "criterios_de_exito": [
+        "La decision se justifica con datos del bloque.",
+        "No se confunde ESP-RP con operador UAS.",
+        "No se inventan procedimientos ausentes."
+      ],
+      "errores_habituales": [
+        "No probar compatibilidad tecnica.",
+        "Tener dispositivos no autorizados cerca.",
+        "Desarrollar STS fuera del alcance."
+      ],
+      "conceptos_relacionados": [
+        "AESA",
+        "SMOWL",
+        "Integridad",
+        "Estructura del examen"
+      ],
+      "referencia_al_bloque": "Bloque 8 A2"
+    },
+    {
+      "id": "B8-PRA-10",
+      "titulo": "Checklist final antes del intento",
+      "objetivo": "Aplicar checklist final antes del intento antes del examen A2.",
+      "dificultad": "alta",
+      "tiempo_estimado": "40 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 8",
+        "Checklist administrativo",
+        "Checklist tecnico de webcam, microfono, pantalla e internet"
+      ],
+      "contexto": "Practica guiada de preparacion del examen oficial A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar requisito o dato critico aplicable.",
+        "Comprobar si depende de A1/A3, declaracion o identidad.",
+        "Revisar riesgo tecnico o de integridad.",
+        "Justificar la decision con la ingenieria.",
+        "Marcar como insuficiente cualquier procedimiento no presente."
+      ],
+      "criterios_de_exito": [
+        "La decision se justifica con datos del bloque.",
+        "No se confunde ESP-RP con operador UAS.",
+        "No se inventan procedimientos ausentes."
+      ],
+      "errores_habituales": [
+        "No probar compatibilidad tecnica.",
+        "Tener dispositivos no autorizados cerca.",
+        "Desarrollar STS fuera del alcance."
+      ],
+      "conceptos_relacionados": [
+        "AESA",
+        "SMOWL",
+        "Integridad",
+        "Estructura del examen"
+      ],
+      "referencia_al_bloque": "Bloque 8 A2"
+    }
+  ]
+}

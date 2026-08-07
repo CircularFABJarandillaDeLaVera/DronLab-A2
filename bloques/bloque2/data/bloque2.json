@@ -1,0 +1,905 @@
+{
+  "curso": "DronLab A2",
+  "bloque": "Bloque 2: El Sistema UAS de Clase C2",
+  "duracion": "2 h 30 min",
+  "metodologia": [
+    "Ver",
+    "Entender",
+    "Probar",
+    "Aplicar",
+    "Recordar"
+  ],
+  "slides": [
+    {
+      "id": 1,
+      "titulo": "Bienvenida al sistema C2",
+      "tipo": "inicio",
+      "duracion": "5 min",
+      "objetivo": "Situar el Bloque 2 como estudio tecnico-operativo del UAS de clase C2.",
+      "explicacion": "El UAS de clase C2 es el equipo que permite trabajar la subcategoria A2 con requisitos tecnicos concretos: marcado oficial, MTOM inferior a 4 kg, alimentacion electrica, identificacion directa, geoconsciencia y modo de baja velocidad.",
+      "contenido": "El UAS C2 no es solo un dron mas potente; es una aeronave con marcado de clase oficial y funciones tecnicas vinculadas a seguridad y mitigacion de danos.",
+      "ideas_clave": [
+        "Marcado de clase C2.",
+        "MTOM inferior a 4 kg.",
+        "Funciones tecnicas obligatorias.",
+        "Relacion directa con la operativa A2."
+      ],
+      "resumen": "C2 es el puente tecnico entre el equipo y la operacion A2 cerca de personas.",
+      "guion": "Abre conectando el Bloque 1 con este bloque: ya sabemos tramites y requisitos; ahora vemos que debe tener el UAS C2.",
+      "material": "Portada del bloque y esquema C2.",
+      "pregunta": "Que diferencia a un UAS C2 de un equipo cualquiera usado en A2?",
+      "respuestas_esperadas": [
+        "Marcado oficial.",
+        "MTOM inferior a 4 kg.",
+        "Funciones tecnicas como DRI, geoconsciencia y modo lento."
+      ],
+      "error": "Tratar C2 como una etiqueta comercial sin requisitos tecnicos.",
+      "como_reconducir": "Volver a la idea de marcado de clase oficial y requisitos del Reglamento (UE) 2019/945.",
+      "demostracion": "Dibujar C2 como centro conectado a MTOM, marcado, modo lento, DRI y geoconsciencia.",
+      "dinamica": "Preguntar al grupo que datos buscarian en una ficha tecnica.",
+      "no_explicar": "STS, SORA, Categoria Especifica, Categoria Certificada y radiofonista UAS: fuera del alcance del curso A2.",
+      "enlace": "Empezamos definiendo la clase C2.",
+      "profesor_plus": {
+        "que_decir": "Hoy el foco no es el tramite, sino el sistema tecnico que hace viable A2.",
+        "preguntas": [
+          "Que significa clase C2?",
+          "Que funciones tecnicas esperais encontrar?"
+        ],
+        "respuestas_esperadas": [
+          "Marcado de clase oficial.",
+          "Modo de baja velocidad, DRI y geoconsciencia."
+        ],
+        "error_habitual": "Pensar que C2 solo indica tamano.",
+        "sugerencias_metodologicas": "Conectar cada requisito tecnico con un efecto de seguridad.",
+        "material_necesario": "Esquema del sistema C2."
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Definicion de UAS de clase C2",
+      "tipo": "concepto",
+      "duracion": "7 min",
+      "objetivo": "Definir el UAS de clase C2 segun la fuente.",
+      "explicacion": "Un UAS de clase C2 es una aeronave no tripulada con MTOM inferior a 4 kg, marcado de clase oficial y cumplimiento de requisitos tecnicos del Reglamento (UE) 2019/945.",
+      "contenido": "La clase C2 combina limite de masa, marcado oficial y requisitos tecnicos. No basta con que el equipo pese poco: debe tener etiqueta fisica de clase C2.",
+      "ideas_clave": [
+        "MTOM inferior a 4 kg.",
+        "Marcado de clase oficial.",
+        "Reglamento (UE) 2019/945.",
+        "Etiqueta fisica C2."
+      ],
+      "resumen": "C2 se reconoce por su marcado y requisitos, no por intuicion.",
+      "guion": "Repite la definicion separando tres piezas: masa, marcado y requisitos tecnicos.",
+      "material": "Tarjetas: MTOM, marcado, requisitos.",
+      "pregunta": "Que tres elementos forman la definicion C2?",
+      "respuestas_esperadas": [
+        "MTOM inferior a 4 kg.",
+        "Marcado oficial.",
+        "Requisitos tecnicos del Reglamento (UE) 2019/945."
+      ],
+      "error": "Identificar C2 solo por peso o aspecto.",
+      "como_reconducir": "Preguntar donde esta la etiqueta de clase.",
+      "demostracion": "Checklist visual de definicion C2.",
+      "dinamica": "Completar una definicion incompleta.",
+      "no_explicar": "Comparativas extensas con otras clases fuera de los errores de examen.",
+      "enlace": "Ahora vemos para que sirve la clase C2.",
+      "profesor_plus": {
+        "que_decir": "La definicion C2 exige evidencias: masa maxima, marcado y requisitos tecnicos.",
+        "preguntas": [
+          "Cual es el limite MTOM?",
+          "Que documento tecnico se menciona?"
+        ],
+        "respuestas_esperadas": [
+          "Inferior a 4 kg.",
+          "Reglamento (UE) 2019/945."
+        ],
+        "error_habitual": "Decir que C2 es cualquier dron de menos de 4 kg.",
+        "sugerencias_metodologicas": "Pedir siempre prueba de marcado.",
+        "material_necesario": "Checklist de clase."
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Finalidad de la clase C2",
+      "tipo": "explicacion",
+      "duracion": "7 min",
+      "objetivo": "Comprender por que existe la clase C2 dentro de A2.",
+      "explicacion": "La finalidad del C2 es permitir la operatividad en la subcategoria A2, vuelo cerca de personas, garantizando estandares de seguridad y mitigacion de danos.",
+      "contenido": "La clase C2 introduce funciones que reducen riesgo: limite de masa, modo lento, identificacion, geoconsciencia, avisos y proteccion del enlace.",
+      "ideas_clave": [
+        "Operatividad A2.",
+        "Vuelo cerca de personas.",
+        "Seguridad tecnica.",
+        "Mitigacion de danos."
+      ],
+      "resumen": "C2 existe para acercar operacion y seguridad.",
+      "guion": "Insiste en que cada requisito tecnico responde a una situacion de riesgo.",
+      "material": "Mapa riesgo -> requisito.",
+      "pregunta": "Por que C2 es importante para A2?",
+      "respuestas_esperadas": [
+        "Porque habilita operar cerca de personas con mitigaciones.",
+        "Porque fija estandares tecnicos."
+      ],
+      "error": "Ver los requisitos como burocracia sin funcion.",
+      "como_reconducir": "Relacionar cada funcion tecnica con un riesgo concreto.",
+      "demostracion": "Tabla: funcion tecnica / riesgo mitigado.",
+      "dinamica": "El grupo asocia requisito con finalidad.",
+      "no_explicar": "Operaciones STS o Categoria Especifica.",
+      "enlace": "El primer dato critico es la masa.",
+      "profesor_plus": {
+        "que_decir": "C2 no es una etiqueta decorativa: es una lista de mitigaciones tecnicas.",
+        "preguntas": [
+          "Que riesgo reduce el modo lento?",
+          "Que aporta DRI?"
+        ],
+        "respuestas_esperadas": [
+          "Energia de impacto y tiempo de reaccion.",
+          "Vigilancia e identificacion."
+        ],
+        "error_habitual": "Separar tecnologia y seguridad.",
+        "sugerencias_metodologicas": "Explicar cada funcion con una situacion real.",
+        "material_necesario": "Tabla de riesgo y mitigacion."
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "MTOM inferior a 4 kg",
+      "tipo": "dato-critico",
+      "duracion": "7 min",
+      "objetivo": "Memorizar el limite de masa de la clase C2.",
+      "explicacion": "La masa maxima al despegue de clase C2 es inferior a 4 kg. Este dato es estable y critico para examen.",
+      "contenido": "MTOM significa masa maxima al despegue. En C2 debe ser inferior a 4 kg, no 4 kg exactos ni limites de otras clases.",
+      "ideas_clave": [
+        "MTOM < 4 kg.",
+        "Dato estable.",
+        "Riesgo de confusion con C1 y C3.",
+        "No superar MTOM con accesorios."
+      ],
+      "resumen": "C2: MTOM inferior a 4 kg.",
+      "guion": "Haz que digan la frase completa: 'inferior a 4 kg'.",
+      "material": "Tarjeta numerica < 4 kg.",
+      "pregunta": "Cual es el limite MTOM de C2?",
+      "respuestas_esperadas": [
+        "Inferior a 4 kg."
+      ],
+      "error": "Confundir C2 con C1 de 900 g o C3 de 25 kg.",
+      "como_reconducir": "Pedir que asocien clase y masa en una tabla simple.",
+      "demostracion": "Tres tarjetas: C1 900 g, C2 < 4 kg, C3 25 kg solo como contraste de error.",
+      "dinamica": "Ronda rapida clase -> masa.",
+      "no_explicar": "Desarrollar C1 o C3 fuera del contraste de error.",
+      "enlace": "Ademas del peso, necesitamos marcado e identificacion del equipo.",
+      "profesor_plus": {
+        "que_decir": "El dato de C2 es menor que 4 kg. Ese 'menor que' importa.",
+        "preguntas": [
+          "Es 4 kg exactos?",
+          "Con que otras clases se confunde?"
+        ],
+        "respuestas_esperadas": [
+          "No, inferior a 4 kg.",
+          "C1 900 g y C3 25 kg."
+        ],
+        "error_habitual": "Redondear mal el limite.",
+        "sugerencias_metodologicas": "Usar simbolo < en grande.",
+        "material_necesario": "Tarjetas de limites."
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Marcado, serie y alimentacion",
+      "tipo": "requisito",
+      "duracion": "7 min",
+      "objetivo": "Identificar dependencias basicas del UAS C2.",
+      "explicacion": "El UAS C2 depende de etiqueta fisica de clase C2, numero de serie unico y fuente de alimentacion electrica.",
+      "contenido": "Estos elementos permiten reconocer el equipo, vincularlo tecnicamente y asegurar que pertenece al marco C2.",
+      "ideas_clave": [
+        "Etiqueta fisica C2.",
+        "Numero de serie unico.",
+        "Alimentacion electrica.",
+        "Identificacion del producto."
+      ],
+      "resumen": "Sin marcado y serie, no se verifica bien la clase.",
+      "guion": "Plantea la inspeccion documental y fisica previa: buscar clase, serie y condiciones del equipo.",
+      "material": "Ficha de inspeccion previa.",
+      "pregunta": "Que deberia comprobarse fisicamente en el UAS C2?",
+      "respuestas_esperadas": [
+        "Etiqueta C2.",
+        "Numero de serie.",
+        "Estado y alimentacion electrica."
+      ],
+      "error": "Fiarse solo del nombre comercial.",
+      "como_reconducir": "Preguntar que dato permitiria identificar un equipo concreto.",
+      "demostracion": "Checklist de etiqueta y numero de serie.",
+      "dinamica": "Simular revision de ficha tecnica.",
+      "no_explicar": "Homologaciones no presentes en la fuente.",
+      "enlace": "Pasamos a la funcion central: modo de baja velocidad.",
+      "profesor_plus": {
+        "que_decir": "El equipo debe poder identificarse; no basta con que 'parezca C2'.",
+        "preguntas": [
+          "Que etiqueta debe existir?",
+          "Que numero identifica el equipo?"
+        ],
+        "respuestas_esperadas": [
+          "Etiqueta C2.",
+          "Numero de serie unico."
+        ],
+        "error_habitual": "Confundir marketing con marcado oficial.",
+        "sugerencias_metodologicas": "Usar una ficha de comprobacion.",
+        "material_necesario": "Checklist de inspeccion."
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Modo de baja velocidad",
+      "tipo": "funcion",
+      "duracion": "8 min",
+      "objetivo": "Definir el modo de baja velocidad y su valor limite.",
+      "explicacion": "El modo de baja velocidad es una funcion seleccionable desde la estacion de control que limita la velocidad de avance de la aeronave a un maximo de 3 m/s.",
+      "contenido": "Esta funcion reduce energia de impacto y aumenta el tiempo de reaccion del piloto. Debe activarse manualmente por el piloto a distancia, salvo ala fija donde no aplica esta reduccion.",
+      "ideas_clave": [
+        "Seleccionable desde la estacion de control.",
+        "Velocidad maxima 3 m/s.",
+        "Reduce energia de impacto.",
+        "Aumenta tiempo de reaccion."
+      ],
+      "resumen": "Modo lento: maximo 3 m/s para reducir riesgo.",
+      "guion": "Conecta el modo lento con el vuelo cerca de personas y el control fino de la operacion.",
+      "material": "Pantalla con 3 m/s.",
+      "pregunta": "Que limita exactamente el modo de baja velocidad?",
+      "respuestas_esperadas": [
+        "La velocidad de avance.",
+        "A un maximo de 3 m/s."
+      ],
+      "error": "Creer que se activa solo siempre que hay personas.",
+      "como_reconducir": "Subrayar activacion manual por el piloto.",
+      "demostracion": "Diagrama velocidad normal vs modo lento.",
+      "dinamica": "Decidir cuando activar el modo lento en escenarios breves.",
+      "no_explicar": "Detalles aerodinamicos de ala fija mas alla de la excepcion citada.",
+      "enlace": "Este modo desbloquea distancias reducidas.",
+      "profesor_plus": {
+        "que_decir": "La velocidad baja no es comodidad; es una mitigacion para acercarse con menos energia.",
+        "preguntas": [
+          "Cual es el limite?",
+          "Quien lo activa?"
+        ],
+        "respuestas_esperadas": [
+          "3 m/s.",
+          "El piloto a distancia."
+        ],
+        "error_habitual": "Pensar que el sistema siempre decide por el piloto.",
+        "sugerencias_metodologicas": "Usar ejemplos de acercamiento lento.",
+        "material_necesario": "Diagrama de velocidades."
+      }
+    },
+    {
+      "id": 7,
+      "titulo": "Vuelo a 5 metros",
+      "tipo": "aplicacion",
+      "duracion": "8 min",
+      "objetivo": "Entender la dependencia entre modo lento y reduccion de distancia.",
+      "explicacion": "El vuelo a 5 metros depende del modo de baja velocidad. La fuente lo considera critico para operaciones en entornos urbanos.",
+      "contenido": "La clase C2 es el unico marcado citado como habilitado para reducir distancias de seguridad hasta los 5 metros, siempre vinculado a la gestion correcta del modo de baja velocidad.",
+      "ideas_clave": [
+        "Vuelo a 5 m.",
+        "Depende de modo baja velocidad.",
+        "Operacion en entorno urbano.",
+        "Critico para legalidad."
+      ],
+      "resumen": "Sin modo lento, no se sostiene la reduccion a 5 m.",
+      "guion": "No abras operativa urbana completa; centrate en la dependencia tecnica.",
+      "material": "Esquema: modo lento -> 5 m.",
+      "pregunta": "Que condicion desbloquea el vuelo a 5 m?",
+      "respuestas_esperadas": [
+        "Modo de baja velocidad.",
+        "Velocidad inferior o igual a 3 m/s."
+      ],
+      "error": "Acercarse a 10 m de personas sin activar modo lento.",
+      "como_reconducir": "Volver a la dependencia: distancia reducida exige mitigacion.",
+      "demostracion": "Escenario de fachada con peaton en acera.",
+      "dinamica": "Resolver si se puede reducir distancia en dos situaciones.",
+      "no_explicar": "Planificacion urbana completa.",
+      "enlace": "Ademas de acercarse, el UAS debe poder identificarse.",
+      "profesor_plus": {
+        "que_decir": "La distancia reducida no es una libertad; es una consecuencia de cumplir una mitigacion.",
+        "preguntas": [
+          "Que pasa si no se activa el modo lento?",
+          "Por que importa la energia de impacto?"
+        ],
+        "respuestas_esperadas": [
+          "No se cumple la condicion indicada.",
+          "Porque se reduce dano potencial."
+        ],
+        "error_habitual": "Aplicar los 5 m como regla aislada.",
+        "sugerencias_metodologicas": "Trabajar con flechas causa-efecto.",
+        "material_necesario": "Escenario de fachada."
+      }
+    },
+    {
+      "id": 8,
+      "titulo": "Identificacion a distancia directa",
+      "tipo": "funcion",
+      "duracion": "8 min",
+      "objetivo": "Definir la DRI y los datos que emite.",
+      "explicacion": "La identificacion a distancia directa emite periodicamente datos de identificacion del operador, numero de serie de la aeronave, posicion, altura, trayectoria y velocidad.",
+      "contenido": "Su finalidad es facilitar vigilancia y supervision por autoridades competentes durante el vuelo.",
+      "ideas_clave": [
+        "Identificacion del operador.",
+        "Numero de serie.",
+        "Posicion y altura.",
+        "Trayectoria y velocidad."
+      ],
+      "resumen": "DRI hace visible digitalmente quien opera y donde esta el UAS.",
+      "guion": "Presenta DRI como transparencia operativa, no como accesorio.",
+      "material": "Lista de datos emitidos.",
+      "pregunta": "Que datos emite DRI?",
+      "respuestas_esperadas": [
+        "Numero de operador.",
+        "Serie.",
+        "Posicion.",
+        "Altura.",
+        "Trayectoria.",
+        "Velocidad."
+      ],
+      "error": "No cargar el numero de operador en el sistema DRI.",
+      "como_reconducir": "Separar numero de piloto y numero de operador.",
+      "demostracion": "Tabla dato emitido / utilidad.",
+      "dinamica": "Memorizar datos DRI por parejas.",
+      "no_explicar": "Sistemas externos no presentes en la fuente.",
+      "enlace": "DRI depende del numero de operador.",
+      "profesor_plus": {
+        "que_decir": "DRI no es un nombre tecnico abstracto: emite datos concretos durante el vuelo.",
+        "preguntas": [
+          "Que numero debe cargarse?",
+          "Que datos de movimiento emite?"
+        ],
+        "respuestas_esperadas": [
+          "Numero de operador AESA.",
+          "Posicion, altura, trayectoria y velocidad."
+        ],
+        "error_habitual": "Cargar el identificador de piloto ESP-RP en lugar del numero de operador.",
+        "sugerencias_metodologicas": "Hacer lista coral de datos emitidos.",
+        "material_necesario": "Tabla DRI."
+      }
+    },
+    {
+      "id": 9,
+      "titulo": "Numero de operador y DRI",
+      "tipo": "dependencia",
+      "duracion": "7 min",
+      "objetivo": "Distinguir numero de operador de identificacion de piloto al configurar DRI.",
+      "explicacion": "La DRI depende de la carga previa del numero de registro de operador obtenido en la sede electronica de AESA.",
+      "contenido": "Un error operacional destacado es confundir el numero de identificacion de piloto ESP-RP-... con el numero de operador al configurar el sistema DRI.",
+      "ideas_clave": [
+        "DRI depende del numero de operador.",
+        "ESP-RP identifica al piloto.",
+        "Numero equivocado invalida la operacion.",
+        "Configuracion previa al vuelo."
+      ],
+      "resumen": "Para DRI se carga el numero de operador, no el ESP-RP del piloto.",
+      "guion": "Recupera el Bloque 1 sin repetirlo: piloto y operador no son lo mismo.",
+      "material": "Dos tarjetas: operador / piloto ESP-RP.",
+      "pregunta": "Que numero debe cargarse para DRI?",
+      "respuestas_esperadas": [
+        "Numero de operador AESA."
+      ],
+      "error": "Configurar DRI con ESP-RP.",
+      "como_reconducir": "Preguntar que dato emite DRI: identificacion del operador.",
+      "demostracion": "Dos campos separados: piloto y operador.",
+      "dinamica": "Seleccionar el identificador correcto.",
+      "no_explicar": "Registro de operador paso a paso.",
+      "enlace": "Otra funcion clave es geoconsciencia.",
+      "profesor_plus": {
+        "que_decir": "Si DRI identifica al operador, el dato que se carga debe ser del operador.",
+        "preguntas": [
+          "Que error se repite desde el Bloque 1?",
+          "Que invalida la operacion?"
+        ],
+        "respuestas_esperadas": [
+          "Confundir piloto y operador.",
+          "Mal funcionamiento o falta de numero de operador."
+        ],
+        "error_habitual": "Ver todos los numeros AESA como equivalentes.",
+        "sugerencias_metodologicas": "Usar colores distintos para piloto y operador.",
+        "material_necesario": "Tarjetas de identificadores."
+      }
+    },
+    {
+      "id": 10,
+      "titulo": "Geoconsciencia",
+      "tipo": "funcion",
+      "duracion": "8 min",
+      "objetivo": "Definir la geoconsciencia y su finalidad.",
+      "explicacion": "La geoconsciencia avisa al piloto cuando la aeronave se aproxima a limites de una zona geografica de UAS restringida o prohibida.",
+      "contenido": "Su finalidad es prevenir incursiones accidentales en espacios aereos protegidos o peligrosos.",
+      "ideas_clave": [
+        "Aviso de aproximacion a limites.",
+        "Zonas restringidas o prohibidas.",
+        "Prevencion de incursiones.",
+        "Salvaguarda tecnologica."
+      ],
+      "resumen": "Geoconsciencia avisa; no sustituye la planificacion.",
+      "guion": "Explica que es una ayuda tecnica ante errores de navegacion.",
+      "material": "Mapa simple con zona restringida.",
+      "pregunta": "Que hace la geoconsciencia?",
+      "respuestas_esperadas": [
+        "Avisa al acercarse a limites de zonas UAS restringidas o prohibidas."
+      ],
+      "error": "Pensar que el sistema concede permiso para volar.",
+      "como_reconducir": "Decir: aviso tecnico, no autorizacion.",
+      "demostracion": "Zona P/R y aviso de proximidad.",
+      "dinamica": "Identificar que riesgo evita.",
+      "no_explicar": "Procedimientos de autorizacion no presentes.",
+      "enlace": "La geoconsciencia depende de datos actualizados.",
+      "profesor_plus": {
+        "que_decir": "Geoconsciencia es una alarma de contexto, no una autorizacion.",
+        "preguntas": [
+          "Que zonas menciona la fuente?",
+          "Que riesgo previene?"
+        ],
+        "respuestas_esperadas": [
+          "Restringidas o prohibidas.",
+          "Incursiones accidentales."
+        ],
+        "error_habitual": "Confundir aviso con permiso.",
+        "sugerencias_metodologicas": "Usar frase corta: avisa, no autoriza.",
+        "material_necesario": "Mapa conceptual."
+      }
+    },
+    {
+      "id": 11,
+      "titulo": "Datos geograficos actualizados",
+      "tipo": "variable",
+      "duracion": "7 min",
+      "objetivo": "Comprender la dependencia de geoconsciencia respecto a datos actualizados.",
+      "explicacion": "La geoconsciencia depende de la actualizacion de datos geograficos proporcionados por autoridades, como ENAIRE Drones.",
+      "contenido": "La informacion geografica es un concepto variable porque depende de actualizaciones periodicas de bases de datos.",
+      "ideas_clave": [
+        "Actualizacion de datos.",
+        "Autoridades competentes.",
+        "ENAIRE Drones como ejemplo.",
+        "Informacion variable."
+      ],
+      "resumen": "La geoconsciencia solo es util si sus datos estan actualizados.",
+      "guion": "Une este punto con pre-vuelo: revisar software y datos antes de operar.",
+      "material": "Checklist de actualizacion.",
+      "pregunta": "De que depende la geoconsciencia?",
+      "respuestas_esperadas": [
+        "Actualizacion de software y datos geograficos."
+      ],
+      "error": "Operar con bases de datos antiguas.",
+      "como_reconducir": "Repetir que variable significa verificar vigente.",
+      "demostracion": "Ficha: fecha de actualizacion.",
+      "dinamica": "Clasificar datos estables y variables.",
+      "no_explicar": "Procedimiento completo de ENAIRE Drones.",
+      "enlace": "El software del UAS y RPS tambien debe estar actualizado.",
+      "profesor_plus": {
+        "que_decir": "Un aviso basado en datos antiguos puede llegar tarde o mal.",
+        "preguntas": [
+          "Que dato es variable?",
+          "Que debe hacer el piloto antes del vuelo?"
+        ],
+        "respuestas_esperadas": [
+          "Informacion geografica.",
+          "Verificar actualizaciones."
+        ],
+        "error_habitual": "No revisar version de datos.",
+        "sugerencias_metodologicas": "Usar checklist previo.",
+        "material_necesario": "Checklist de software/datos."
+      }
+    },
+    {
+      "id": 12,
+      "titulo": "Enlace de mando y control C2",
+      "tipo": "concepto-puente",
+      "duracion": "8 min",
+      "objetivo": "Entender el enlace C2 como puente entre RPS y aeronave.",
+      "explicacion": "El enlace de mando y control conecta la estacion de pilotaje RPS con la aeronave. La clase C2 exige que este enlace este protegido contra accesos no autorizados y disponga de metodos de recuperacion ante su perdida.",
+      "contenido": "El enlace C2 no es solo comunicacion; en clase C2 debe tener proteccion y capacidad de recuperacion ante perdida.",
+      "ideas_clave": [
+        "Conecta RPS y aeronave.",
+        "Proteccion contra accesos no autorizados.",
+        "Recuperacion ante perdida.",
+        "Verificacion antes del despegue."
+      ],
+      "resumen": "Sin enlace C2 verificado, la operacion no esta preparada.",
+      "guion": "Recupera el concepto C2 del curso previo solo como puente tecnico.",
+      "material": "Diagrama RPS <-> aeronave.",
+      "pregunta": "Que debe verificarse antes del despegue respecto al enlace?",
+      "respuestas_esperadas": [
+        "Funcionamiento del enlace C2.",
+        "Proteccion y recuperacion."
+      ],
+      "error": "No verificar el enlace C2 antes del despegue.",
+      "como_reconducir": "Preguntar que ocurre si se pierde la comunicacion.",
+      "demostracion": "Flujo RPS-aeronave con flechas.",
+      "dinamica": "Lista de comprobaciones prevuelo.",
+      "no_explicar": "Radio avanzada o comunicaciones no citadas.",
+      "enlace": "Tambien hay avisos criticos de bateria.",
+      "profesor_plus": {
+        "que_decir": "El enlace es la conversacion de mando: debe existir, estar protegido y tener recuperacion.",
+        "preguntas": [
+          "Que conecta?",
+          "Que error operacional se cita?"
+        ],
+        "respuestas_esperadas": [
+          "RPS y aeronave.",
+          "No verificar el enlace antes del despegue."
+        ],
+        "error_habitual": "Dar por hecho que enlazar es siempre automatico y seguro.",
+        "sugerencias_metodologicas": "Usar flechas de ida y vuelta.",
+        "material_necesario": "Diagrama RPS-UAS."
+      }
+    },
+    {
+      "id": 13,
+      "titulo": "Avisos de bateria",
+      "tipo": "seguridad",
+      "duracion": "8 min",
+      "objetivo": "Reconocer la importancia de avisos de bateria en UAS y RPS.",
+      "explicacion": "Los avisos de bateria dependen de sensores del UAS y RPS, y desbloquean gestion de autonomia y RTH seguro.",
+      "contenido": "La fuente pregunta si es obligatorio que el UAS C2 tenga aviso de bateria baja tanto en el dron como en el mando, y presenta los avisos como dependencia critica para autonomia.",
+      "ideas_clave": [
+        "Avisos en UAS y RPS.",
+        "Gestion de autonomia.",
+        "Aterrizaje seguro.",
+        "Margen ajustable segun operacion."
+      ],
+      "resumen": "La bateria se gestiona antes de que sea demasiado tarde.",
+      "guion": "Explica que el aviso no es el final de la bateria, sino una llamada a decidir con margen.",
+      "material": "Escenario de bateria baja.",
+      "pregunta": "Que desbloquean los avisos de bateria?",
+      "respuestas_esperadas": [
+        "Gestion de autonomia.",
+        "RTH o aterrizaje seguro."
+      ],
+      "error": "Ignorar el aviso o no configurar margen suficiente.",
+      "como_reconducir": "Relacionar distancia, resistencia y margen.",
+      "demostracion": "Linea de autonomia con margen de retorno.",
+      "dinamica": "Decidir margen para distintas distancias.",
+      "no_explicar": "Quimica de baterias o practicas tecnicas avanzadas.",
+      "enlace": "La altura maxima tambien aparece como dato critico.",
+      "profesor_plus": {
+        "que_decir": "El aviso de bateria es una herramienta de decision, no una molestia.",
+        "preguntas": [
+          "Que sistemas intervienen?",
+          "Que permite gestionar?"
+        ],
+        "respuestas_esperadas": [
+          "Sensores del UAS y RPS.",
+          "Autonomia y retorno/aterrizaje seguro."
+        ],
+        "error_habitual": "Volar hasta que el aviso sea urgente.",
+        "sugerencias_metodologicas": "Dibujar una reserva de energia.",
+        "material_necesario": "Linea de bateria."
+      }
+    },
+    {
+      "id": 14,
+      "titulo": "Altura maxima configurada",
+      "tipo": "dato-critico",
+      "duracion": "6 min",
+      "objetivo": "Memorizar el techo de altura indicado para el sistema.",
+      "explicacion": "La fuente recoge un techo de altura limitado por software o configuracion de 120 metros.",
+      "contenido": "El dato de 120 m se presenta como estable dentro de los conceptos del bloque.",
+      "ideas_clave": [
+        "Altura maxima 120 m.",
+        "Limitacion por software/configuracion.",
+        "Dato estable.",
+        "Control de altitud."
+      ],
+      "resumen": "Dato critico: 120 m.",
+      "guion": "No desarrolles espacio aereo; solo fija el dato como requisito tecnico del sistema.",
+      "material": "Tarjeta 120 m.",
+      "pregunta": "Que altura maxima aparece en la fuente?",
+      "respuestas_esperadas": [
+        "120 metros."
+      ],
+      "error": "Mezclar altura tecnica con permisos o zonas.",
+      "como_reconducir": "Separar dato tecnico de planificacion de espacio aereo.",
+      "demostracion": "Barra vertical con limite 120 m.",
+      "dinamica": "Dato relampago.",
+      "no_explicar": "Espacio aereo o autorizaciones no incluidas.",
+      "enlace": "La operacion nocturna exige luces visibles.",
+      "profesor_plus": {
+        "que_decir": "Aqui solo fijamos el dato tecnico: 120 metros.",
+        "preguntas": [
+          "Que limita la altura?",
+          "Que valor aparece?"
+        ],
+        "respuestas_esperadas": [
+          "Software o configuracion.",
+          "120 m."
+        ],
+        "error_habitual": "Abrir debate de espacio aereo.",
+        "sugerencias_metodologicas": "Mantenerlo como dato critico.",
+        "material_necesario": "Tarjeta numerica."
+      }
+    },
+    {
+      "id": 15,
+      "titulo": "Luces visibles de noche",
+      "tipo": "requisito",
+      "duracion": "6 min",
+      "objetivo": "Identificar el requisito de luces visibles y control de altitud.",
+      "explicacion": "La fuente recoge el requisito de luces visibles de noche y para control de altitud.",
+      "contenido": "Las luces forman parte de la percepcion del UAS y de la gestion visual del vuelo.",
+      "ideas_clave": [
+        "Luces visibles de noche.",
+        "Control de altitud.",
+        "Requisito estable.",
+        "Ayuda visual."
+      ],
+      "resumen": "Las luces ayudan a ver y controlar el UAS.",
+      "guion": "Explica solo el requisito citado, sin abrir normativa nocturna completa.",
+      "material": "Icono de luces UAS.",
+      "pregunta": "Para que aparecen las luces en la fuente?",
+      "respuestas_esperadas": [
+        "Visibilidad nocturna.",
+        "Control de altitud."
+      ],
+      "error": "Ignorar requisitos visibles por centrarse solo en software.",
+      "como_reconducir": "Separar requisitos fisicos y digitales.",
+      "demostracion": "Lista: etiqueta, luces, DRI, geoconsciencia.",
+      "dinamica": "Clasificar requisito fisico o software.",
+      "no_explicar": "Operaciones nocturnas no desarrolladas.",
+      "enlace": "El software debe mantenerse actualizado.",
+      "profesor_plus": {
+        "que_decir": "No todo es software: algunos requisitos se ven fisicamente.",
+        "preguntas": [
+          "Cuando deben ser visibles?",
+          "Que control ayudan a realizar?"
+        ],
+        "respuestas_esperadas": [
+          "De noche.",
+          "Control de altitud."
+        ],
+        "error_habitual": "Olvidar requisitos fisicos.",
+        "sugerencias_metodologicas": "Comparar requisitos visibles e invisibles.",
+        "material_necesario": "Tabla fisico/digital."
+      }
+    },
+    {
+      "id": 16,
+      "titulo": "Software y firmware",
+      "tipo": "variable",
+      "duracion": "8 min",
+      "objetivo": "Comprender que la version de software y firmware es variable y debe estar actualizada.",
+      "explicacion": "La version de software o firmware debe ser siempre la ultima publicada por el fabricante tanto en la aeronave como en la estacion de pilotaje RPS.",
+      "contenido": "Si el software de la RPS no coincide con el del dron, puede impedir el despegue por seguridad, segun el escenario implicito de la fuente.",
+      "ideas_clave": [
+        "Ultima version publicada.",
+        "Aeronave y RPS.",
+        "Variable por fabricante.",
+        "Puede impedir despegue."
+      ],
+      "resumen": "Antes de volar, comprobar actualizaciones en UAS y RPS.",
+      "guion": "Presenta actualizacion como parte de pre-vuelo tecnico.",
+      "material": "Checklist software UAS/RPS.",
+      "pregunta": "Donde debe estar actualizado el software?",
+      "respuestas_esperadas": [
+        "En la aeronave.",
+        "En la RPS."
+      ],
+      "error": "Actualizar solo una parte del sistema.",
+      "como_reconducir": "Recordar que UAS es sistema completo.",
+      "demostracion": "Dos casillas: dron y RPS.",
+      "dinamica": "Checklist previo en parejas.",
+      "no_explicar": "Procedimientos concretos de fabricantes no cargados.",
+      "enlace": "Al software se suma la seguridad fisica de componentes.",
+      "profesor_plus": {
+        "que_decir": "Un sistema C2 incluye aeronave y estacion; actualizar solo una parte puede no bastar.",
+        "preguntas": [
+          "Que significa ultima version?",
+          "Que escenario aparece si no coinciden?"
+        ],
+        "respuestas_esperadas": [
+          "La publicada por el fabricante.",
+          "Puede impedir el despegue por seguridad."
+        ],
+        "error_habitual": "Actualizar solo el dron.",
+        "sugerencias_metodologicas": "Volver al concepto de sistema UAS.",
+        "material_necesario": "Checklist UAS/RPS."
+      }
+    },
+    {
+      "id": 17,
+      "titulo": "Componentes amovibles",
+      "tipo": "riesgo",
+      "duracion": "7 min",
+      "objetivo": "Reconocer el riesgo habitual de no asegurar componentes amovibles.",
+      "explicacion": "La fuente cita como error habitual no asegurar correctamente componentes amovibles como helices o camaras.",
+      "contenido": "La seguridad C2 no depende solo de software; tambien requiere inspeccion fisica antes del vuelo.",
+      "ideas_clave": [
+        "Helices.",
+        "Camaras.",
+        "Componentes amovibles.",
+        "Inspeccion fisica."
+      ],
+      "resumen": "Lo desmontable debe quedar correctamente asegurado.",
+      "guion": "No generes una practica, solo fija el riesgo y la comprobacion.",
+      "material": "Lista de componentes amovibles.",
+      "pregunta": "Que componentes cita la fuente?",
+      "respuestas_esperadas": [
+        "Helices.",
+        "Camaras."
+      ],
+      "error": "No asegurar correctamente los componentes.",
+      "como_reconducir": "Relacionar componente suelto con fallo de seguridad.",
+      "demostracion": "Checklist visual.",
+      "dinamica": "Identificar que partes se revisarian.",
+      "no_explicar": "Practica de inspeccion detallada.",
+      "enlace": "Hay errores especificos de examen que conviene aislar.",
+      "profesor_plus": {
+        "que_decir": "Un C2 mal montado deja de ser una mitigacion fiable.",
+        "preguntas": [
+          "Que elementos son amovibles?",
+          "Que riesgo aparece?"
+        ],
+        "respuestas_esperadas": [
+          "Helices y camaras.",
+          "Que no esten asegurados."
+        ],
+        "error_habitual": "Centrarse solo en pantallas y olvidar el equipo fisico.",
+        "sugerencias_metodologicas": "Usar lista corta de comprobacion.",
+        "material_necesario": "Checklist fisico."
+      }
+    },
+    {
+      "id": 18,
+      "titulo": "Errores de examen",
+      "tipo": "repaso",
+      "duracion": "7 min",
+      "objetivo": "Evitar confusiones entre clases C1, C2 y C3.",
+      "explicacion": "El error de examen citado es confundir la MTOM de clase C2, 4 kg, con los limites de clase C1, 900 g, o C3, 25 kg.",
+      "contenido": "Para este bloque se fija C2 como inferior a 4 kg; C1 y C3 aparecen solo como contraste de error.",
+      "ideas_clave": [
+        "C2: < 4 kg.",
+        "C1: 900 g como contraste.",
+        "C3: 25 kg como contraste.",
+        "No desarrollar otras clases."
+      ],
+      "resumen": "Memoriza C2 sin mezclarlo con C1 o C3.",
+      "guion": "Usa C1/C3 solo para evitar el error, no para abrir nuevos contenidos.",
+      "material": "Tres tarjetas de clase y masa.",
+      "pregunta": "Cual es el dato que pertenece a C2?",
+      "respuestas_esperadas": [
+        "Inferior a 4 kg."
+      ],
+      "error": "Responder 900 g o 25 kg para C2.",
+      "como_reconducir": "Pedir que repitan: C2, inferior a 4 kg.",
+      "demostracion": "Tarjeta C2 destacada.",
+      "dinamica": "Elegir el dato correcto.",
+      "no_explicar": "Desarrollo completo de C1 o C3.",
+      "enlace": "Cerramos con escenarios reales implicitos.",
+      "profesor_plus": {
+        "que_decir": "C1 y C3 solo aparecen aqui para no equivocarnos con C2.",
+        "preguntas": [
+          "Que dato no es C2?",
+          "Que simbolo usar para C2?"
+        ],
+        "respuestas_esperadas": [
+          "900 g y 25 kg.",
+          "< 4 kg."
+        ],
+        "error_habitual": "Memorizar numeros sin clase asociada.",
+        "sugerencias_metodologicas": "Usar tarjetas y descartar.",
+        "material_necesario": "Tarjetas C1/C2/C3."
+      }
+    },
+    {
+      "id": 19,
+      "titulo": "Escenarios reales del sistema C2",
+      "tipo": "aplicacion",
+      "duracion": "9 min",
+      "objetivo": "Aplicar los conceptos base a escenarios sin generar casos de segunda fase.",
+      "explicacion": "La fuente plantea una inspeccion de fachada con modo de baja velocidad, una discrepancia de software entre RPS y dron, y un aviso de bateria baja con margen para aterrizaje seguro.",
+      "contenido": "Estos escenarios conectan funciones tecnicas con decisiones de operacion: activar modo lento, verificar actualizaciones y gestionar bateria.",
+      "ideas_clave": [
+        "Inspeccion de fachada.",
+        "Modo de baja velocidad.",
+        "Software RPS/UAS.",
+        "Aviso de bateria baja."
+      ],
+      "resumen": "C2 exige decisiones tecnicas antes y durante el vuelo.",
+      "guion": "Usa los escenarios como demostracion guiada, no como casos evaluables.",
+      "material": "Tres tarjetas de escenario.",
+      "pregunta": "Que funcion C2 aparece en cada escenario?",
+      "respuestas_esperadas": [
+        "Modo lento.",
+        "Actualizacion software.",
+        "Aviso de bateria."
+      ],
+      "error": "Volar sin resolver aviso tecnico previo.",
+      "como_reconducir": "Volver a requisito -> riesgo -> accion.",
+      "demostracion": "Tabla escenario / funcion / decision.",
+      "dinamica": "Relacionar tres escenarios con tres funciones.",
+      "no_explicar": "Desarrollo de practicas operacionales.",
+      "enlace": "Finalizamos delimitando alcance.",
+      "profesor_plus": {
+        "que_decir": "Estos escenarios muestran que C2 se usa tomando decisiones concretas.",
+        "preguntas": [
+          "Que debe activarse en fachada?",
+          "Que pasa si RPS y dron no coinciden?"
+        ],
+        "respuestas_esperadas": [
+          "Modo de baja velocidad.",
+          "Puede impedirse el despegue por seguridad."
+        ],
+        "error_habitual": "Ignorar avisos tecnicos.",
+        "sugerencias_metodologicas": "Usar tabla de tres filas.",
+        "material_necesario": "Tarjetas de escenario."
+      }
+    },
+    {
+      "id": 20,
+      "titulo": "Alcance y cierre del Bloque 2",
+      "tipo": "cierre",
+      "duracion": "8 min",
+      "objetivo": "Cerrar el Bloque Base delimitando imprescindible, complementario y fuera de alcance.",
+      "explicacion": "Imprescindible: definicion C2, modo de baja velocidad, geoconsciencia, Remote ID y sistema de aviso de bateria. Complementario: metodos de terminacion de vuelo o recuperacion de enlace y procedimientos de actualizacion de software.",
+      "contenido": "Fuera del alcance del curso A2: Escenarios Estandar Nacionales STS-ES y sus requisitos especificos de aeronave, como STS-ES-02NE de menos de 25 kg.",
+      "ideas_clave": [
+        "Imprescindible C2.",
+        "Complementario tecnico.",
+        "Fuera del alcance del curso A2.",
+        "Listo para recursos."
+      ],
+      "resumen": "Bloque 2 Base listo para generar recursos en fase posterior.",
+      "guion": "Cierra evitando desarrollar STS-ES o Categoria Especifica. Usa la frase exacta: fuera del alcance del curso A2.",
+      "material": "Tabla A/B/C.",
+      "pregunta": "Que queda fuera del alcance del curso A2?",
+      "respuestas_esperadas": [
+        "STS-ES.",
+        "Requisitos especificos de aeronave STS-ES.",
+        "Categoria Especifica si aparece."
+      ],
+      "error": "Desviar el bloque hacia STS o Categoria Especifica.",
+      "como_reconducir": "Volver a C2, modo lento, DRI, geoconsciencia y bateria.",
+      "demostracion": "Tabla de auditoria.",
+      "dinamica": "Clasificacion final: imprescindible, complementario, fuera de alcance.",
+      "no_explicar": "STS, SORA, Categoria Especifica, Categoria Certificada y radiofonista UAS.",
+      "enlace": "Siguiente fase: recursos del Bloque 2.",
+      "profesor_plus": {
+        "que_decir": "Un buen bloque tambien sabe donde termina: STS-ES se marca y no se desarrolla.",
+        "preguntas": [
+          "Que cinco elementos son imprescindibles?",
+          "Que no debemos desarrollar?"
+        ],
+        "respuestas_esperadas": [
+          "Clase C2, modo lento, DRI, geoconsciencia y bateria.",
+          "STS, SORA, Especifica, Certificada y radiofonista UAS."
+        ],
+        "error_habitual": "Ampliar por curiosidad hasta categoria especifica.",
+        "sugerencias_metodologicas": "Cerrar con auditoria A/B/C.",
+        "material_necesario": "Tabla de alcance."
+      }
+    }
+  ],
+  "datos_criticos": [
+    "MTOM Clase C2: inferior a 4 kg.",
+    "Modo de baja velocidad: maximo 3 m/s.",
+    "Altura maxima: 120 m.",
+    "Indice K: inferior a 4 para operar.",
+    "DRI emite: numero de operador, serie, posicion, altura, trayectoria y velocidad.",
+    "Actualizacion: ultimo software publicado por el fabricante.",
+    "Geoconsciencia: requiere datos geograficos actualizados.",
+    "Vuelo a 5 m: depende del modo de baja velocidad."
+  ],
+  "fuera_alcance": [
+    "STS",
+    "SORA",
+    "Categoria Especifica",
+    "Categoria Certificada",
+    "Radiofonista UAS",
+    "STS-ES"
+  ],
+  "recursos_estado": "integracion_final_completada",
+  "recursos": {
+    "flashcards": "recursos/flashcards/flashcards.json",
+    "test": "recursos/test/test.json",
+    "casos": "recursos/casos/casos.json",
+    "practicas": "recursos/practicas/practicas.json",
+    "chuletas": "recursos/chuletas/chuletas.json",
+    "mapa": "recursos/mapas/index.html",
+    "prompts": "recursos/prompts/prompts-bloque2.md"
+  }
+}

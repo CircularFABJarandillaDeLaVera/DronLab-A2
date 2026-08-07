@@ -1,0 +1,857 @@
+{
+  "titulo": "Test Bloque 7 A2",
+  "bloque": "Bloque 7",
+  "total": 50,
+  "preguntas": [
+    {
+      "id": "B7-T-01",
+      "tema": "Autoformacion",
+      "subtema": "Concepto",
+      "dificultad": "facil",
+      "pregunta": "Que es la autoformacion de habilidades practicas?",
+      "respuestas": [
+        "Proceso de entrenamiento autonomo con vuelos suficientes para adquirir aptitud razonable.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "No es un numero fijo de vuelos.",
+      "error_habitual": "Confundirla con una simple declaracion.",
+      "referencia_concepto": "Concepto"
+    },
+    {
+      "id": "B7-T-02",
+      "tema": "Requisito previo",
+      "subtema": "Matriculacion",
+      "dificultad": "facil",
+      "pregunta": "Por que es critica antes del examen A2?",
+      "respuestas": [
+        "Porque es requisito legal obligatorio previo a la matriculacion en el examen teorico A2.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "La declaracion desbloquea la matriculacion.",
+      "error_habitual": "Matricularse sin completar competencias.",
+      "referencia_concepto": "Matriculacion"
+    },
+    {
+      "id": "B7-T-03",
+      "tema": "Fase A",
+      "subtema": "Planificacion",
+      "dificultad": "facil",
+      "pregunta": "Que incluye la Fase A?",
+      "respuestas": [
+        "Zona geografica, carga util y meteorologia.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Prepara la operacion antes del despliegue.",
+      "error_habitual": "Preparar solo el equipo.",
+      "referencia_concepto": "Planificacion"
+    },
+    {
+      "id": "B7-T-04",
+      "tema": "Fase B",
+      "subtema": "Equipo",
+      "dificultad": "facil",
+      "pregunta": "Que verifica la Fase B?",
+      "respuestas": [
+        "Inspeccion tecnica, fijacion de componentes, software UAS/RPS y geoconsciencia.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Verifica la aeronavegabilidad.",
+      "error_habitual": "Encender y despegar sin inspeccion.",
+      "referencia_concepto": "Equipo"
+    },
+    {
+      "id": "B7-T-05",
+      "tema": "Fase C",
+      "subtema": "Vuelo normal",
+      "dificultad": "facil",
+      "pregunta": "Que maniobras aparecen en Fase C?",
+      "respuestas": [
+        "Despegue, aterrizaje, hover y traslaciones manteniendo VLOS.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Entrena mandos y distancias.",
+      "error_habitual": "Practicar solo una maniobra.",
+      "referencia_concepto": "Vuelo normal"
+    },
+    {
+      "id": "B7-T-06",
+      "tema": "Fase D",
+      "subtema": "Anomalias",
+      "dificultad": "facil",
+      "pregunta": "Que simula la Fase D?",
+      "respuestas": [
+        "Perdida de enlace C2, degradacion GNSS e incursiones de personas o aeronaves.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Prepara contingencias.",
+      "error_habitual": "Ignorar procedimientos de contingencia.",
+      "referencia_concepto": "Anomalias"
+    },
+    {
+      "id": "B7-T-07",
+      "tema": "Fase E",
+      "subtema": "Post-vuelo",
+      "dificultad": "facil",
+      "pregunta": "Que acciones incluye la Fase E?",
+      "respuestas": [
+        "Apagado seguro, inspeccion tras el vuelo y registro de datos operativos y fatiga.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Cierra con trazabilidad.",
+      "error_habitual": "Terminar al aterrizar.",
+      "referencia_concepto": "Post-vuelo"
+    },
+    {
+      "id": "B7-T-08",
+      "tema": "VLOS",
+      "subtema": "Vigilancia",
+      "dificultad": "facil",
+      "pregunta": "Que conecta la vigilancia VLOS?",
+      "respuestas": [
+        "Percepcion humana y control de trayectoria.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Permite estimar distancias y alturas.",
+      "error_habitual": "Mirar solo la pantalla.",
+      "referencia_concepto": "Vigilancia"
+    },
+    {
+      "id": "B7-T-09",
+      "tema": "Fabricante",
+      "subtema": "Manual",
+      "dificultad": "facil",
+      "pregunta": "Que papel tienen las instrucciones del fabricante?",
+      "respuestas": [
+        "Conectan diseno tecnico con seguridad practica y deben seguirse.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Guian procedimientos y mantenimiento.",
+      "error_habitual": "Improvisar fuera del manual.",
+      "referencia_concepto": "Manual"
+    },
+    {
+      "id": "B7-T-10",
+      "tema": "Datos criticos",
+      "subtema": "Entorno",
+      "dificultad": "facil",
+      "pregunta": "Donde deben hacerse las practicas?",
+      "respuestas": [
+        "En condiciones equivalentes a A3, >150 m de zonas urbanas/personas.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Evita entornos prohibidos.",
+      "error_habitual": "Practicar en entorno urbano.",
+      "referencia_concepto": "Entorno"
+    },
+    {
+      "id": "B7-T-11",
+      "tema": "Datos criticos",
+      "subtema": "Software",
+      "dificultad": "facil",
+      "pregunta": "Que version de software debe comprobarse?",
+      "respuestas": [
+        "La ultima version publicada del UAS y del RPS.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Forma parte de Fase B.",
+      "error_habitual": "Actualizar solo el UAS.",
+      "referencia_concepto": "Software"
+    },
+    {
+      "id": "B7-T-12",
+      "tema": "Datos criticos",
+      "subtema": "Registro",
+      "dificultad": "facil",
+      "pregunta": "Cuanto tiempo se mantiene el registro de cualificaciones?",
+      "respuestas": [
+        "Al menos 3 anos tras el cese de actividad.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Dato de trazabilidad.",
+      "error_habitual": "No conservar registros.",
+      "referencia_concepto": "Registro"
+    },
+    {
+      "id": "B7-T-13",
+      "tema": "Modo lento",
+      "subtema": "Variable",
+      "dificultad": "facil",
+      "pregunta": "Que valor critico se asocia al modo lento?",
+      "respuestas": [
+        "Velocidad <= 3 m/s si el UAS dispone de esta funcion.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Depende del modelo.",
+      "error_habitual": "Aplicarlo igual en todo UAS.",
+      "referencia_concepto": "Variable"
+    },
+    {
+      "id": "B7-T-14",
+      "tema": "Declaracion",
+      "subtema": "Dependencia",
+      "dificultad": "facil",
+      "pregunta": "Que desbloquea la declaracion de practicas?",
+      "respuestas": [
+        "La matriculacion A2 y el acceso al examen teorico.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Debe ir tras completar autoformacion.",
+      "error_habitual": "Declarar sin completar guia.",
+      "referencia_concepto": "Dependencia"
+    },
+    {
+      "id": "B7-T-15",
+      "tema": "Fuera de alcance",
+      "subtema": "STS",
+      "dificultad": "facil",
+      "pregunta": "Como debe tratarse la formacion practica STS?",
+      "respuestas": [
+        "Fuera del alcance del curso A2.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "No se desarrolla en este bloque.",
+      "error_habitual": "Desarrollar STS dentro de A2.",
+      "referencia_concepto": "STS"
+    },
+    {
+      "id": "B7-T-16",
+      "tema": "Autoformacion",
+      "subtema": "Concepto",
+      "dificultad": "facil",
+      "pregunta": "Que es la autoformacion de habilidades practicas?",
+      "respuestas": [
+        "Proceso de entrenamiento autonomo con vuelos suficientes para adquirir aptitud razonable.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "No es un numero fijo de vuelos.",
+      "error_habitual": "Confundirla con una simple declaracion.",
+      "referencia_concepto": "Concepto"
+    },
+    {
+      "id": "B7-T-17",
+      "tema": "Requisito previo",
+      "subtema": "Matriculacion",
+      "dificultad": "facil",
+      "pregunta": "Por que es critica antes del examen A2?",
+      "respuestas": [
+        "Porque es requisito legal obligatorio previo a la matriculacion en el examen teorico A2.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "La declaracion desbloquea la matriculacion.",
+      "error_habitual": "Matricularse sin completar competencias.",
+      "referencia_concepto": "Matriculacion"
+    },
+    {
+      "id": "B7-T-18",
+      "tema": "Fase A",
+      "subtema": "Planificacion",
+      "dificultad": "facil",
+      "pregunta": "Que incluye la Fase A?",
+      "respuestas": [
+        "Zona geografica, carga util y meteorologia.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Prepara la operacion antes del despliegue.",
+      "error_habitual": "Preparar solo el equipo.",
+      "referencia_concepto": "Planificacion"
+    },
+    {
+      "id": "B7-T-19",
+      "tema": "Fase B",
+      "subtema": "Equipo",
+      "dificultad": "facil",
+      "pregunta": "Que verifica la Fase B?",
+      "respuestas": [
+        "Inspeccion tecnica, fijacion de componentes, software UAS/RPS y geoconsciencia.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Verifica la aeronavegabilidad.",
+      "error_habitual": "Encender y despegar sin inspeccion.",
+      "referencia_concepto": "Equipo"
+    },
+    {
+      "id": "B7-T-20",
+      "tema": "Fase C",
+      "subtema": "Vuelo normal",
+      "dificultad": "facil",
+      "pregunta": "Que maniobras aparecen en Fase C?",
+      "respuestas": [
+        "Despegue, aterrizaje, hover y traslaciones manteniendo VLOS.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Entrena mandos y distancias.",
+      "error_habitual": "Practicar solo una maniobra.",
+      "referencia_concepto": "Vuelo normal"
+    },
+    {
+      "id": "B7-T-21",
+      "tema": "Fase D",
+      "subtema": "Anomalias",
+      "dificultad": "media",
+      "pregunta": "Que simula la Fase D?",
+      "respuestas": [
+        "Perdida de enlace C2, degradacion GNSS e incursiones de personas o aeronaves.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Prepara contingencias.",
+      "error_habitual": "Ignorar procedimientos de contingencia.",
+      "referencia_concepto": "Anomalias"
+    },
+    {
+      "id": "B7-T-22",
+      "tema": "Fase E",
+      "subtema": "Post-vuelo",
+      "dificultad": "media",
+      "pregunta": "Que acciones incluye la Fase E?",
+      "respuestas": [
+        "Apagado seguro, inspeccion tras el vuelo y registro de datos operativos y fatiga.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Cierra con trazabilidad.",
+      "error_habitual": "Terminar al aterrizar.",
+      "referencia_concepto": "Post-vuelo"
+    },
+    {
+      "id": "B7-T-23",
+      "tema": "VLOS",
+      "subtema": "Vigilancia",
+      "dificultad": "media",
+      "pregunta": "Que conecta la vigilancia VLOS?",
+      "respuestas": [
+        "Percepcion humana y control de trayectoria.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Permite estimar distancias y alturas.",
+      "error_habitual": "Mirar solo la pantalla.",
+      "referencia_concepto": "Vigilancia"
+    },
+    {
+      "id": "B7-T-24",
+      "tema": "Fabricante",
+      "subtema": "Manual",
+      "dificultad": "media",
+      "pregunta": "Que papel tienen las instrucciones del fabricante?",
+      "respuestas": [
+        "Conectan diseno tecnico con seguridad practica y deben seguirse.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Guian procedimientos y mantenimiento.",
+      "error_habitual": "Improvisar fuera del manual.",
+      "referencia_concepto": "Manual"
+    },
+    {
+      "id": "B7-T-25",
+      "tema": "Datos criticos",
+      "subtema": "Entorno",
+      "dificultad": "media",
+      "pregunta": "Donde deben hacerse las practicas?",
+      "respuestas": [
+        "En condiciones equivalentes a A3, >150 m de zonas urbanas/personas.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Evita entornos prohibidos.",
+      "error_habitual": "Practicar en entorno urbano.",
+      "referencia_concepto": "Entorno"
+    },
+    {
+      "id": "B7-T-26",
+      "tema": "Datos criticos",
+      "subtema": "Software",
+      "dificultad": "media",
+      "pregunta": "Que version de software debe comprobarse?",
+      "respuestas": [
+        "La ultima version publicada del UAS y del RPS.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Forma parte de Fase B.",
+      "error_habitual": "Actualizar solo el UAS.",
+      "referencia_concepto": "Software"
+    },
+    {
+      "id": "B7-T-27",
+      "tema": "Datos criticos",
+      "subtema": "Registro",
+      "dificultad": "media",
+      "pregunta": "Cuanto tiempo se mantiene el registro de cualificaciones?",
+      "respuestas": [
+        "Al menos 3 anos tras el cese de actividad.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Dato de trazabilidad.",
+      "error_habitual": "No conservar registros.",
+      "referencia_concepto": "Registro"
+    },
+    {
+      "id": "B7-T-28",
+      "tema": "Modo lento",
+      "subtema": "Variable",
+      "dificultad": "media",
+      "pregunta": "Que valor critico se asocia al modo lento?",
+      "respuestas": [
+        "Velocidad <= 3 m/s si el UAS dispone de esta funcion.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Depende del modelo.",
+      "error_habitual": "Aplicarlo igual en todo UAS.",
+      "referencia_concepto": "Variable"
+    },
+    {
+      "id": "B7-T-29",
+      "tema": "Declaracion",
+      "subtema": "Dependencia",
+      "dificultad": "media",
+      "pregunta": "Que desbloquea la declaracion de practicas?",
+      "respuestas": [
+        "La matriculacion A2 y el acceso al examen teorico.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Debe ir tras completar autoformacion.",
+      "error_habitual": "Declarar sin completar guia.",
+      "referencia_concepto": "Dependencia"
+    },
+    {
+      "id": "B7-T-30",
+      "tema": "Fuera de alcance",
+      "subtema": "STS",
+      "dificultad": "media",
+      "pregunta": "Como debe tratarse la formacion practica STS?",
+      "respuestas": [
+        "Fuera del alcance del curso A2.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "No se desarrolla en este bloque.",
+      "error_habitual": "Desarrollar STS dentro de A2.",
+      "referencia_concepto": "STS"
+    },
+    {
+      "id": "B7-T-31",
+      "tema": "Autoformacion",
+      "subtema": "Concepto",
+      "dificultad": "media",
+      "pregunta": "Que es la autoformacion de habilidades practicas?",
+      "respuestas": [
+        "Proceso de entrenamiento autonomo con vuelos suficientes para adquirir aptitud razonable.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "No es un numero fijo de vuelos.",
+      "error_habitual": "Confundirla con una simple declaracion.",
+      "referencia_concepto": "Concepto"
+    },
+    {
+      "id": "B7-T-32",
+      "tema": "Requisito previo",
+      "subtema": "Matriculacion",
+      "dificultad": "media",
+      "pregunta": "Por que es critica antes del examen A2?",
+      "respuestas": [
+        "Porque es requisito legal obligatorio previo a la matriculacion en el examen teorico A2.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "La declaracion desbloquea la matriculacion.",
+      "error_habitual": "Matricularse sin completar competencias.",
+      "referencia_concepto": "Matriculacion"
+    },
+    {
+      "id": "B7-T-33",
+      "tema": "Fase A",
+      "subtema": "Planificacion",
+      "dificultad": "media",
+      "pregunta": "Que incluye la Fase A?",
+      "respuestas": [
+        "Zona geografica, carga util y meteorologia.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Prepara la operacion antes del despliegue.",
+      "error_habitual": "Preparar solo el equipo.",
+      "referencia_concepto": "Planificacion"
+    },
+    {
+      "id": "B7-T-34",
+      "tema": "Fase B",
+      "subtema": "Equipo",
+      "dificultad": "media",
+      "pregunta": "Que verifica la Fase B?",
+      "respuestas": [
+        "Inspeccion tecnica, fijacion de componentes, software UAS/RPS y geoconsciencia.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Verifica la aeronavegabilidad.",
+      "error_habitual": "Encender y despegar sin inspeccion.",
+      "referencia_concepto": "Equipo"
+    },
+    {
+      "id": "B7-T-35",
+      "tema": "Fase C",
+      "subtema": "Vuelo normal",
+      "dificultad": "media",
+      "pregunta": "Que maniobras aparecen en Fase C?",
+      "respuestas": [
+        "Despegue, aterrizaje, hover y traslaciones manteniendo VLOS.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Entrena mandos y distancias.",
+      "error_habitual": "Practicar solo una maniobra.",
+      "referencia_concepto": "Vuelo normal"
+    },
+    {
+      "id": "B7-T-36",
+      "tema": "Fase D",
+      "subtema": "Anomalias",
+      "dificultad": "media",
+      "pregunta": "Que simula la Fase D?",
+      "respuestas": [
+        "Perdida de enlace C2, degradacion GNSS e incursiones de personas o aeronaves.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Prepara contingencias.",
+      "error_habitual": "Ignorar procedimientos de contingencia.",
+      "referencia_concepto": "Anomalias"
+    },
+    {
+      "id": "B7-T-37",
+      "tema": "Fase E",
+      "subtema": "Post-vuelo",
+      "dificultad": "media",
+      "pregunta": "Que acciones incluye la Fase E?",
+      "respuestas": [
+        "Apagado seguro, inspeccion tras el vuelo y registro de datos operativos y fatiga.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Cierra con trazabilidad.",
+      "error_habitual": "Terminar al aterrizar.",
+      "referencia_concepto": "Post-vuelo"
+    },
+    {
+      "id": "B7-T-38",
+      "tema": "VLOS",
+      "subtema": "Vigilancia",
+      "dificultad": "media",
+      "pregunta": "Que conecta la vigilancia VLOS?",
+      "respuestas": [
+        "Percepcion humana y control de trayectoria.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Permite estimar distancias y alturas.",
+      "error_habitual": "Mirar solo la pantalla.",
+      "referencia_concepto": "Vigilancia"
+    },
+    {
+      "id": "B7-T-39",
+      "tema": "Fabricante",
+      "subtema": "Manual",
+      "dificultad": "media",
+      "pregunta": "Que papel tienen las instrucciones del fabricante?",
+      "respuestas": [
+        "Conectan diseno tecnico con seguridad practica y deben seguirse.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Guian procedimientos y mantenimiento.",
+      "error_habitual": "Improvisar fuera del manual.",
+      "referencia_concepto": "Manual"
+    },
+    {
+      "id": "B7-T-40",
+      "tema": "Datos criticos",
+      "subtema": "Entorno",
+      "dificultad": "media",
+      "pregunta": "Donde deben hacerse las practicas?",
+      "respuestas": [
+        "En condiciones equivalentes a A3, >150 m de zonas urbanas/personas.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Evita entornos prohibidos.",
+      "error_habitual": "Practicar en entorno urbano.",
+      "referencia_concepto": "Entorno"
+    },
+    {
+      "id": "B7-T-41",
+      "tema": "Datos criticos",
+      "subtema": "Software",
+      "dificultad": "dificil",
+      "pregunta": "Que version de software debe comprobarse?",
+      "respuestas": [
+        "La ultima version publicada del UAS y del RPS.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Forma parte de Fase B.",
+      "error_habitual": "Actualizar solo el UAS.",
+      "referencia_concepto": "Software"
+    },
+    {
+      "id": "B7-T-42",
+      "tema": "Datos criticos",
+      "subtema": "Registro",
+      "dificultad": "dificil",
+      "pregunta": "Cuanto tiempo se mantiene el registro de cualificaciones?",
+      "respuestas": [
+        "Al menos 3 anos tras el cese de actividad.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Dato de trazabilidad.",
+      "error_habitual": "No conservar registros.",
+      "referencia_concepto": "Registro"
+    },
+    {
+      "id": "B7-T-43",
+      "tema": "Modo lento",
+      "subtema": "Variable",
+      "dificultad": "dificil",
+      "pregunta": "Que valor critico se asocia al modo lento?",
+      "respuestas": [
+        "Velocidad <= 3 m/s si el UAS dispone de esta funcion.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Depende del modelo.",
+      "error_habitual": "Aplicarlo igual en todo UAS.",
+      "referencia_concepto": "Variable"
+    },
+    {
+      "id": "B7-T-44",
+      "tema": "Declaracion",
+      "subtema": "Dependencia",
+      "dificultad": "dificil",
+      "pregunta": "Que desbloquea la declaracion de practicas?",
+      "respuestas": [
+        "La matriculacion A2 y el acceso al examen teorico.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Debe ir tras completar autoformacion.",
+      "error_habitual": "Declarar sin completar guia.",
+      "referencia_concepto": "Dependencia"
+    },
+    {
+      "id": "B7-T-45",
+      "tema": "Fuera de alcance",
+      "subtema": "STS",
+      "dificultad": "dificil",
+      "pregunta": "Como debe tratarse la formacion practica STS?",
+      "respuestas": [
+        "Fuera del alcance del curso A2.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "No se desarrolla en este bloque.",
+      "error_habitual": "Desarrollar STS dentro de A2.",
+      "referencia_concepto": "STS"
+    },
+    {
+      "id": "B7-T-46",
+      "tema": "Autoformacion",
+      "subtema": "Concepto",
+      "dificultad": "dificil",
+      "pregunta": "Que es la autoformacion de habilidades practicas?",
+      "respuestas": [
+        "Proceso de entrenamiento autonomo con vuelos suficientes para adquirir aptitud razonable.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "No es un numero fijo de vuelos.",
+      "error_habitual": "Confundirla con una simple declaracion.",
+      "referencia_concepto": "Concepto"
+    },
+    {
+      "id": "B7-T-47",
+      "tema": "Requisito previo",
+      "subtema": "Matriculacion",
+      "dificultad": "dificil",
+      "pregunta": "Por que es critica antes del examen A2?",
+      "respuestas": [
+        "Porque es requisito legal obligatorio previo a la matriculacion en el examen teorico A2.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "La declaracion desbloquea la matriculacion.",
+      "error_habitual": "Matricularse sin completar competencias.",
+      "referencia_concepto": "Matriculacion"
+    },
+    {
+      "id": "B7-T-48",
+      "tema": "Fase A",
+      "subtema": "Planificacion",
+      "dificultad": "dificil",
+      "pregunta": "Que incluye la Fase A?",
+      "respuestas": [
+        "Zona geografica, carga util y meteorologia.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Prepara la operacion antes del despliegue.",
+      "error_habitual": "Preparar solo el equipo.",
+      "referencia_concepto": "Planificacion"
+    },
+    {
+      "id": "B7-T-49",
+      "tema": "Fase B",
+      "subtema": "Equipo",
+      "dificultad": "dificil",
+      "pregunta": "Que verifica la Fase B?",
+      "respuestas": [
+        "Inspeccion tecnica, fijacion de componentes, software UAS/RPS y geoconsciencia.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Verifica la aeronavegabilidad.",
+      "error_habitual": "Encender y despegar sin inspeccion.",
+      "referencia_concepto": "Equipo"
+    },
+    {
+      "id": "B7-T-50",
+      "tema": "Fase C",
+      "subtema": "Vuelo normal",
+      "dificultad": "dificil",
+      "pregunta": "Que maniobras aparecen en Fase C?",
+      "respuestas": [
+        "Despegue, aterrizaje, hover y traslaciones manteniendo VLOS.",
+        "Un tramite que sustituye el entrenamiento practico.",
+        "Un procedimiento STS evaluado por examinadores externos.",
+        "Una accion opcional sin relacion con el examen A2."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Entrena mandos y distancias.",
+      "error_habitual": "Practicar solo una maniobra.",
+      "referencia_concepto": "Vuelo normal"
+    }
+  ]
+}

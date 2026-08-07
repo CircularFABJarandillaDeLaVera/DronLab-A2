@@ -1,0 +1,397 @@
+window.DRONLAB_A2_BLOQUE2_PRACTICAS = {
+  "titulo": "Practicas Bloque 2 A2",
+  "bloque": "Bloque 2",
+  "total": 10,
+  "practicas": [
+    {
+      "id": "B2-PRA-01",
+      "titulo": "Verificar marcado C2 y MTOM",
+      "objetivo": "Comprobar etiqueta fisica C2, numero de serie unico y MTOM inferior a 4 kg.",
+      "dificultad": "baja",
+      "tiempo_estimado": "20 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 2",
+        "Checklist tecnico C2",
+        "Ficha del UAS o simulacion equivalente"
+      ],
+      "contexto": "Practica guiada para preparar y verificar un UAS de Clase C2 antes de una operacion A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar el requisito C2 implicado.",
+        "Localizar el dato critico o dependencia en la ingenieria.",
+        "Comprobar que no se confunde con otra clase, identificador o categoria.",
+        "Registrar la decision y justificarla con la fuente del bloque.",
+        "Marcar STS, SORA o categoria especifica como fuera de alcance si aparece."
+      ],
+      "criterios_de_exito": [
+        "El requisito tecnico queda identificado.",
+        "La decision se justifica con datos del Bloque 2.",
+        "No se inventan procedimientos de fabricante no cargados."
+      ],
+      "errores_habituales": [
+        "Confundir MTOM C2 con C1 o C3.",
+        "Confundir ESP-RP con numero de operador para DRI.",
+        "Actualizar solo el dron y no la RPS.",
+        "No asegurar componentes amovibles."
+      ],
+      "conceptos_relacionados": [
+        "Clase C2",
+        "Modo de baja velocidad",
+        "DRI",
+        "Geoconsciencia",
+        "Enlace C2"
+      ],
+      "referencia_al_bloque": "Bloque 2 A2 - El Sistema UAS de Clase C2"
+    },
+    {
+      "id": "B2-PRA-02",
+      "titulo": "Configurar modo de baja velocidad",
+      "objetivo": "Localizar la funcion seleccionable desde la estacion de control y verificar el limite maximo de 3 m/s.",
+      "dificultad": "baja",
+      "tiempo_estimado": "20 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 2",
+        "Checklist tecnico C2",
+        "Ficha del UAS o simulacion equivalente"
+      ],
+      "contexto": "Practica guiada para preparar y verificar un UAS de Clase C2 antes de una operacion A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar el requisito C2 implicado.",
+        "Localizar el dato critico o dependencia en la ingenieria.",
+        "Comprobar que no se confunde con otra clase, identificador o categoria.",
+        "Registrar la decision y justificarla con la fuente del bloque.",
+        "Marcar STS, SORA o categoria especifica como fuera de alcance si aparece."
+      ],
+      "criterios_de_exito": [
+        "El requisito tecnico queda identificado.",
+        "La decision se justifica con datos del Bloque 2.",
+        "No se inventan procedimientos de fabricante no cargados."
+      ],
+      "errores_habituales": [
+        "Confundir MTOM C2 con C1 o C3.",
+        "Confundir ESP-RP con numero de operador para DRI.",
+        "Actualizar solo el dron y no la RPS.",
+        "No asegurar componentes amovibles."
+      ],
+      "conceptos_relacionados": [
+        "Clase C2",
+        "Modo de baja velocidad",
+        "DRI",
+        "Geoconsciencia",
+        "Enlace C2"
+      ],
+      "referencia_al_bloque": "Bloque 2 A2 - El Sistema UAS de Clase C2"
+    },
+    {
+      "id": "B2-PRA-03",
+      "titulo": "Preparar DRI con numero de operador",
+      "objetivo": "Revisar que el sistema DRI dispone del numero de operador AESA y datos que debe emitir.",
+      "dificultad": "baja",
+      "tiempo_estimado": "20 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 2",
+        "Checklist tecnico C2",
+        "Ficha del UAS o simulacion equivalente"
+      ],
+      "contexto": "Practica guiada para preparar y verificar un UAS de Clase C2 antes de una operacion A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar el requisito C2 implicado.",
+        "Localizar el dato critico o dependencia en la ingenieria.",
+        "Comprobar que no se confunde con otra clase, identificador o categoria.",
+        "Registrar la decision y justificarla con la fuente del bloque.",
+        "Marcar STS, SORA o categoria especifica como fuera de alcance si aparece."
+      ],
+      "criterios_de_exito": [
+        "El requisito tecnico queda identificado.",
+        "La decision se justifica con datos del Bloque 2.",
+        "No se inventan procedimientos de fabricante no cargados."
+      ],
+      "errores_habituales": [
+        "Confundir MTOM C2 con C1 o C3.",
+        "Confundir ESP-RP con numero de operador para DRI.",
+        "Actualizar solo el dron y no la RPS.",
+        "No asegurar componentes amovibles."
+      ],
+      "conceptos_relacionados": [
+        "Clase C2",
+        "Modo de baja velocidad",
+        "DRI",
+        "Geoconsciencia",
+        "Enlace C2"
+      ],
+      "referencia_al_bloque": "Bloque 2 A2 - El Sistema UAS de Clase C2"
+    },
+    {
+      "id": "B2-PRA-04",
+      "titulo": "Actualizar geoconsciencia",
+      "objetivo": "Comprobar que los datos geograficos y software estan actualizados antes del vuelo.",
+      "dificultad": "baja",
+      "tiempo_estimado": "20 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 2",
+        "Checklist tecnico C2",
+        "Ficha del UAS o simulacion equivalente"
+      ],
+      "contexto": "Practica guiada para preparar y verificar un UAS de Clase C2 antes de una operacion A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar el requisito C2 implicado.",
+        "Localizar el dato critico o dependencia en la ingenieria.",
+        "Comprobar que no se confunde con otra clase, identificador o categoria.",
+        "Registrar la decision y justificarla con la fuente del bloque.",
+        "Marcar STS, SORA o categoria especifica como fuera de alcance si aparece."
+      ],
+      "criterios_de_exito": [
+        "El requisito tecnico queda identificado.",
+        "La decision se justifica con datos del Bloque 2.",
+        "No se inventan procedimientos de fabricante no cargados."
+      ],
+      "errores_habituales": [
+        "Confundir MTOM C2 con C1 o C3.",
+        "Confundir ESP-RP con numero de operador para DRI.",
+        "Actualizar solo el dron y no la RPS.",
+        "No asegurar componentes amovibles."
+      ],
+      "conceptos_relacionados": [
+        "Clase C2",
+        "Modo de baja velocidad",
+        "DRI",
+        "Geoconsciencia",
+        "Enlace C2"
+      ],
+      "referencia_al_bloque": "Bloque 2 A2 - El Sistema UAS de Clase C2"
+    },
+    {
+      "id": "B2-PRA-05",
+      "titulo": "Revisar software UAS y RPS",
+      "objetivo": "Confirmar ultima version publicada por el fabricante en aeronave y estacion de pilotaje.",
+      "dificultad": "media",
+      "tiempo_estimado": "30 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 2",
+        "Checklist tecnico C2",
+        "Ficha del UAS o simulacion equivalente"
+      ],
+      "contexto": "Practica guiada para preparar y verificar un UAS de Clase C2 antes de una operacion A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar el requisito C2 implicado.",
+        "Localizar el dato critico o dependencia en la ingenieria.",
+        "Comprobar que no se confunde con otra clase, identificador o categoria.",
+        "Registrar la decision y justificarla con la fuente del bloque.",
+        "Marcar STS, SORA o categoria especifica como fuera de alcance si aparece."
+      ],
+      "criterios_de_exito": [
+        "El requisito tecnico queda identificado.",
+        "La decision se justifica con datos del Bloque 2.",
+        "No se inventan procedimientos de fabricante no cargados."
+      ],
+      "errores_habituales": [
+        "Confundir MTOM C2 con C1 o C3.",
+        "Confundir ESP-RP con numero de operador para DRI.",
+        "Actualizar solo el dron y no la RPS.",
+        "No asegurar componentes amovibles."
+      ],
+      "conceptos_relacionados": [
+        "Clase C2",
+        "Modo de baja velocidad",
+        "DRI",
+        "Geoconsciencia",
+        "Enlace C2"
+      ],
+      "referencia_al_bloque": "Bloque 2 A2 - El Sistema UAS de Clase C2"
+    },
+    {
+      "id": "B2-PRA-06",
+      "titulo": "Comprobar enlace C2",
+      "objetivo": "Verificar enlace de mando y control, proteccion frente a accesos no autorizados y recuperacion ante perdida.",
+      "dificultad": "media",
+      "tiempo_estimado": "30 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 2",
+        "Checklist tecnico C2",
+        "Ficha del UAS o simulacion equivalente"
+      ],
+      "contexto": "Practica guiada para preparar y verificar un UAS de Clase C2 antes de una operacion A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar el requisito C2 implicado.",
+        "Localizar el dato critico o dependencia en la ingenieria.",
+        "Comprobar que no se confunde con otra clase, identificador o categoria.",
+        "Registrar la decision y justificarla con la fuente del bloque.",
+        "Marcar STS, SORA o categoria especifica como fuera de alcance si aparece."
+      ],
+      "criterios_de_exito": [
+        "El requisito tecnico queda identificado.",
+        "La decision se justifica con datos del Bloque 2.",
+        "No se inventan procedimientos de fabricante no cargados."
+      ],
+      "errores_habituales": [
+        "Confundir MTOM C2 con C1 o C3.",
+        "Confundir ESP-RP con numero de operador para DRI.",
+        "Actualizar solo el dron y no la RPS.",
+        "No asegurar componentes amovibles."
+      ],
+      "conceptos_relacionados": [
+        "Clase C2",
+        "Modo de baja velocidad",
+        "DRI",
+        "Geoconsciencia",
+        "Enlace C2"
+      ],
+      "referencia_al_bloque": "Bloque 2 A2 - El Sistema UAS de Clase C2"
+    },
+    {
+      "id": "B2-PRA-07",
+      "titulo": "Inspeccionar componentes amovibles",
+      "objetivo": "Revisar helices, camaras y elementos desmontables antes del despegue.",
+      "dificultad": "media",
+      "tiempo_estimado": "30 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 2",
+        "Checklist tecnico C2",
+        "Ficha del UAS o simulacion equivalente"
+      ],
+      "contexto": "Practica guiada para preparar y verificar un UAS de Clase C2 antes de una operacion A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar el requisito C2 implicado.",
+        "Localizar el dato critico o dependencia en la ingenieria.",
+        "Comprobar que no se confunde con otra clase, identificador o categoria.",
+        "Registrar la decision y justificarla con la fuente del bloque.",
+        "Marcar STS, SORA o categoria especifica como fuera de alcance si aparece."
+      ],
+      "criterios_de_exito": [
+        "El requisito tecnico queda identificado.",
+        "La decision se justifica con datos del Bloque 2.",
+        "No se inventan procedimientos de fabricante no cargados."
+      ],
+      "errores_habituales": [
+        "Confundir MTOM C2 con C1 o C3.",
+        "Confundir ESP-RP con numero de operador para DRI.",
+        "Actualizar solo el dron y no la RPS.",
+        "No asegurar componentes amovibles."
+      ],
+      "conceptos_relacionados": [
+        "Clase C2",
+        "Modo de baja velocidad",
+        "DRI",
+        "Geoconsciencia",
+        "Enlace C2"
+      ],
+      "referencia_al_bloque": "Bloque 2 A2 - El Sistema UAS de Clase C2"
+    },
+    {
+      "id": "B2-PRA-08",
+      "titulo": "Planificar aviso de bateria",
+      "objetivo": "Relacionar avisos del UAS y RPS con autonomia, margen suficiente y RTH seguro.",
+      "dificultad": "media",
+      "tiempo_estimado": "30 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 2",
+        "Checklist tecnico C2",
+        "Ficha del UAS o simulacion equivalente"
+      ],
+      "contexto": "Practica guiada para preparar y verificar un UAS de Clase C2 antes de una operacion A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar el requisito C2 implicado.",
+        "Localizar el dato critico o dependencia en la ingenieria.",
+        "Comprobar que no se confunde con otra clase, identificador o categoria.",
+        "Registrar la decision y justificarla con la fuente del bloque.",
+        "Marcar STS, SORA o categoria especifica como fuera de alcance si aparece."
+      ],
+      "criterios_de_exito": [
+        "El requisito tecnico queda identificado.",
+        "La decision se justifica con datos del Bloque 2.",
+        "No se inventan procedimientos de fabricante no cargados."
+      ],
+      "errores_habituales": [
+        "Confundir MTOM C2 con C1 o C3.",
+        "Confundir ESP-RP con numero de operador para DRI.",
+        "Actualizar solo el dron y no la RPS.",
+        "No asegurar componentes amovibles."
+      ],
+      "conceptos_relacionados": [
+        "Clase C2",
+        "Modo de baja velocidad",
+        "DRI",
+        "Geoconsciencia",
+        "Enlace C2"
+      ],
+      "referencia_al_bloque": "Bloque 2 A2 - El Sistema UAS de Clase C2"
+    },
+    {
+      "id": "B2-PRA-09",
+      "titulo": "Resolver escenario de fachada",
+      "objetivo": "Aplicar modo lento para una inspeccion con separacion de 5 m respecto a un peaton.",
+      "dificultad": "alta",
+      "tiempo_estimado": "40 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 2",
+        "Checklist tecnico C2",
+        "Ficha del UAS o simulacion equivalente"
+      ],
+      "contexto": "Practica guiada para preparar y verificar un UAS de Clase C2 antes de una operacion A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar el requisito C2 implicado.",
+        "Localizar el dato critico o dependencia en la ingenieria.",
+        "Comprobar que no se confunde con otra clase, identificador o categoria.",
+        "Registrar la decision y justificarla con la fuente del bloque.",
+        "Marcar STS, SORA o categoria especifica como fuera de alcance si aparece."
+      ],
+      "criterios_de_exito": [
+        "El requisito tecnico queda identificado.",
+        "La decision se justifica con datos del Bloque 2.",
+        "No se inventan procedimientos de fabricante no cargados."
+      ],
+      "errores_habituales": [
+        "Confundir MTOM C2 con C1 o C3.",
+        "Confundir ESP-RP con numero de operador para DRI.",
+        "Actualizar solo el dron y no la RPS.",
+        "No asegurar componentes amovibles."
+      ],
+      "conceptos_relacionados": [
+        "Clase C2",
+        "Modo de baja velocidad",
+        "DRI",
+        "Geoconsciencia",
+        "Enlace C2"
+      ],
+      "referencia_al_bloque": "Bloque 2 A2 - El Sistema UAS de Clase C2"
+    },
+    {
+      "id": "B2-PRA-10",
+      "titulo": "Checklist final del sistema C2",
+      "objetivo": "Integrar marcado, modo lento, DRI, geoconsciencia, software, enlace y bateria.",
+      "dificultad": "alta",
+      "tiempo_estimado": "40 min",
+      "material_necesario": [
+        "Ingenieria del Bloque 2",
+        "Checklist tecnico C2",
+        "Ficha del UAS o simulacion equivalente"
+      ],
+      "contexto": "Practica guiada para preparar y verificar un UAS de Clase C2 antes de una operacion A2.",
+      "instrucciones_paso_a_paso": [
+        "Identificar el requisito C2 implicado.",
+        "Localizar el dato critico o dependencia en la ingenieria.",
+        "Comprobar que no se confunde con otra clase, identificador o categoria.",
+        "Registrar la decision y justificarla con la fuente del bloque.",
+        "Marcar STS, SORA o categoria especifica como fuera de alcance si aparece."
+      ],
+      "criterios_de_exito": [
+        "El requisito tecnico queda identificado.",
+        "La decision se justifica con datos del Bloque 2.",
+        "No se inventan procedimientos de fabricante no cargados."
+      ],
+      "errores_habituales": [
+        "Confundir MTOM C2 con C1 o C3.",
+        "Confundir ESP-RP con numero de operador para DRI.",
+        "Actualizar solo el dron y no la RPS.",
+        "No asegurar componentes amovibles."
+      ],
+      "conceptos_relacionados": [
+        "Clase C2",
+        "Modo de baja velocidad",
+        "DRI",
+        "Geoconsciencia",
+        "Enlace C2"
+      ],
+      "referencia_al_bloque": "Bloque 2 A2 - El Sistema UAS de Clase C2"
+    }
+  ]
+};
