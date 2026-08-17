@@ -1,613 +1,863 @@
-{
-  "curso": "DronLab A2",
-  "bloque": "Bloque 1: Requisitos Legales y Tramites para la Subcategoria A2",
-  "titulo": "Test Bloque 1 A2",
-  "total": 50,
-  "distribucion": {
-    "facil": 20,
-    "media": 20,
-    "dificil": 10
-  },
-  "preguntas": [
-    {
-      "id": "B1-T-001",
-      "tema": "Requisitos previos A1/A3",
-      "subtema": "Documento previo",
-      "dificultad": "facil",
-      "pregunta": "Que acredita la prueba de superacion A1/A3?",
-      "respuestas": ["Que se ha superado el curso y examen inicial A1/A3", "Que se ha completado el examen teorico adicional A2", "Que se ha instalado la televigilancia", "Que se ha emitido el certificado A2"],
-      "respuesta_correcta": 0,
-      "explicacion": "La prueba A1/A3 acredita la formacion inicial superada en esas subcategorias.",
-      "error_habitual": "Confundir el requisito previo con el certificado A2 final.",
-      "referencia_concepto": "Prueba de superacion A1/A3"
-    },
-    {
-      "id": "B1-T-002",
-      "tema": "Requisitos previos A1/A3",
-      "subtema": "Funcion",
-      "dificultad": "facil",
-      "pregunta": "Que papel cumple A1/A3 dentro del itinerario A2?",
-      "respuestas": ["Base de conocimiento y requisito administrativo previo", "Sustituto de la declaracion de practicas", "Herramienta de televigilancia", "Documento de identificacion del operador"],
-      "respuesta_correcta": 0,
-      "explicacion": "A1/A3 funciona como cimiento formativo y llave administrativa para continuar.",
-      "error_habitual": "Tratar A1/A3 como un curso sin relacion con A2.",
-      "referencia_concepto": "Finalidad de A1/A3"
-    },
-    {
-      "id": "B1-T-003",
-      "tema": "Requisitos previos A1/A3",
-      "subtema": "Examen previo",
-      "dificultad": "facil",
-      "pregunta": "Cuantas preguntas tiene el examen online A1/A3 segun la fuente?",
-      "respuestas": ["40 preguntas", "30 preguntas", "30 preguntas en 30 minutos", "75 preguntas"],
-      "respuesta_correcta": 0,
-      "explicacion": "La fuente indica 40 preguntas para el examen online A1/A3.",
-      "error_habitual": "Mezclar las 40 preguntas de A1/A3 con las 30 de A2.",
-      "referencia_concepto": "Datos criticos A1/A3"
-    },
-    {
-      "id": "B1-T-004",
-      "tema": "Autoformacion",
-      "subtema": "Definicion",
-      "dificultad": "facil",
-      "pregunta": "Que es la autoformacion de habilidades practicas A2?",
-      "respuestas": ["Entrenamiento autonomo siguiendo la Guia FOR-UAS-P01-GU07", "Una clase presencial con examinador obligatorio", "Una prueba teorica de 40 preguntas", "La instalacion de firma electronica"],
-      "respuesta_correcta": 0,
-      "explicacion": "La autoformacion es entrenamiento autonomo guiado por el syllabus oficial citado.",
-      "error_habitual": "Entender autoformacion como practica sin criterio.",
-      "referencia_concepto": "Autoformacion de habilidades practicas"
-    },
-    {
-      "id": "B1-T-005",
-      "tema": "Autoformacion",
-      "subtema": "Guia",
-      "dificultad": "facil",
-      "pregunta": "Que guia aparece vinculada a la autoformacion practica?",
-      "respuestas": ["FOR-UAS-P01-GU07", "ESP-RP-0000000XXXXX", "SMOWL", "Edicion de certificado"],
-      "respuesta_correcta": 0,
-      "explicacion": "La Guia FOR-UAS-P01-GU07 aparece como referencia para el entrenamiento autonomo.",
-      "error_habitual": "Memorizar que hay practica, pero olvidar que sigue una guia concreta.",
-      "referencia_concepto": "Syllabus oficial de autoformacion"
-    },
-    {
-      "id": "B1-T-006",
-      "tema": "Autoformacion",
-      "subtema": "Condiciones",
-      "dificultad": "facil",
-      "pregunta": "En que condiciones debe realizarse la practica puente hacia A2?",
-      "respuestas": ["En condiciones A3, en zona aislada y de bajo riesgo", "En cualquier zona urbana si dura poco", "Solo durante el examen teorico", "Despues de obtener el certificado A2"],
-      "respuesta_correcta": 0,
-      "explicacion": "A3 se usa como entorno seguro de practicas antes de llegar a A2.",
-      "error_habitual": "Practicar en entornos urbanos antes de estar habilitado.",
-      "referencia_concepto": "Practicas en condiciones A3"
-    },
-    {
-      "id": "B1-T-007",
-      "tema": "Autoformacion",
-      "subtema": "Distancia",
-      "dificultad": "facil",
-      "pregunta": "Que distancia se cita respecto a zonas urbanas para las practicas A3?",
-      "respuestas": ["Mas de 150 m", "30 m", "5 m", "30 dias habiles"],
-      "respuesta_correcta": 0,
-      "explicacion": "La fuente indica practicar a mas de 150 m de zonas urbanas.",
-      "error_habitual": "Confundir distancia de practica con plazos o distancias operativas posteriores.",
-      "referencia_concepto": "Distancia de practicas A3"
-    },
-    {
-      "id": "B1-T-008",
-      "tema": "Autoformacion",
-      "subtema": "Seguridad",
-      "dificultad": "facil",
-      "pregunta": "Que debe evitarse durante las practicas en condiciones A3?",
-      "respuestas": ["Personas ajenas", "Firma electronica", "Certificado digital", "La guia de autoformacion"],
-      "respuesta_correcta": 0,
-      "explicacion": "El entorno de practicas debe ser aislado y de bajo riesgo.",
-      "error_habitual": "Elegir un lugar comodo pero con personas no implicadas.",
-      "referencia_concepto": "Entorno de bajo riesgo"
-    },
-    {
-      "id": "B1-T-009",
-      "tema": "Instrucciones del fabricante",
-      "subtema": "Preparacion",
-      "dificultad": "facil",
-      "pregunta": "Que debe conocer el piloto para que la practica sea responsable?",
-      "respuestas": ["Las instrucciones del fabricante", "El resultado del examen antes de hacerlo", "El identificador de otro piloto", "Una guia de instalacion no relacionada"],
-      "respuesta_correcta": 0,
-      "explicacion": "La fuente conecta la practica con estar familiarizado con las instrucciones del fabricante.",
-      "error_habitual": "Practicar sin revisar las instrucciones del UAS.",
-      "referencia_concepto": "Instrucciones del fabricante"
-    },
-    {
-      "id": "B1-T-010",
-      "tema": "Declaracion de practicas",
-      "subtema": "Documento",
-      "dificultad": "facil",
-      "pregunta": "Que documento confirma haber completado las practicas requeridas?",
-      "respuestas": ["Declaracion de conclusion de autoformacion", "Prueba A1/A3", "Certificado digital", "Resultado de televigilancia"],
-      "respuesta_correcta": 0,
-      "explicacion": "La declaracion confirma que se han completado las practicas requeridas.",
-      "error_habitual": "Creer que la declaracion sustituye a la practica.",
-      "referencia_concepto": "Declaracion de conclusion de autoformacion"
-    },
-    {
-      "id": "B1-T-011",
-      "tema": "Declaracion de practicas",
-      "subtema": "Naturaleza",
-      "dificultad": "facil",
-      "pregunta": "Como se describe la declaracion de conclusion de autoformacion?",
-      "respuestas": ["Como un documento jurado", "Como una pregunta de examen", "Como una herramienta de webcam", "Como una matricula automatica"],
-      "respuesta_correcta": 0,
-      "explicacion": "El piloto confirma mediante declaracion jurada que ha realizado las practicas.",
-      "error_habitual": "Firmarla como un formalismo vacio.",
-      "referencia_concepto": "Naturaleza de la declaracion"
-    },
-    {
-      "id": "B1-T-012",
-      "tema": "Matricula",
-      "subtema": "Dependencias",
-      "dificultad": "facil",
-      "pregunta": "Que dos elementos administrativos se citan como necesarios para la matriculacion A2?",
-      "respuestas": ["Firma electronica y certificado digital", "Webcam y microfono", "Manual fisico y pantalla", "40 preguntas y 5 anos"],
-      "respuesta_correcta": 0,
-      "explicacion": "La matriculacion depende de firma electronica y certificado digital.",
-      "error_habitual": "Preparar el temario sin preparar la identificacion electronica.",
-      "referencia_concepto": "Matriculacion telematica"
-    },
-    {
-      "id": "B1-T-013",
-      "tema": "Matricula",
-      "subtema": "Resultado",
-      "dificultad": "facil",
-      "pregunta": "Que desbloquea la matriculacion A2?",
-      "respuestas": ["El acceso a la plataforma de examen", "La prueba A1/A3 previa", "La validez automatica de 5 anos", "La eliminacion de la autoformacion"],
-      "respuesta_correcta": 0,
-      "explicacion": "La matriculacion telematica abre el acceso a la plataforma de examen.",
-      "error_habitual": "Ubicar la matricula despues del examen.",
-      "referencia_concepto": "Desbloqueo de matriculacion"
-    },
-    {
-      "id": "B1-T-014",
-      "tema": "Identificacion del piloto",
-      "subtema": "ESP-RP",
-      "dificultad": "facil",
-      "pregunta": "Que formato aparece para el Numero de Identificacion de Piloto?",
-      "respuestas": ["ESP-RP-0000000XXXXX", "FOR-UAS-P01-GU07", "30/30/75", "SMOWL"],
-      "respuesta_correcta": 0,
-      "explicacion": "La fuente muestra el identificador del piloto con formato ESP-RP-0000000XXXXX.",
-      "error_habitual": "Confundirlo con un codigo de guia o software.",
-      "referencia_concepto": "Numero de Identificacion de Piloto"
-    },
-    {
-      "id": "B1-T-015",
-      "tema": "Identificacion del piloto",
-      "subtema": "Funcion",
-      "dificultad": "facil",
-      "pregunta": "Que conecta el Numero de Identificacion de Piloto?",
-      "respuestas": ["Al individuo con su registro en AESA", "Al examen con la webcam", "A la firma con el microfono", "A la practica con una nota final"],
-      "respuesta_correcta": 0,
-      "explicacion": "El identificador ESP-RP corresponde al piloto como persona registrada.",
-      "error_habitual": "Pensar que identifica cualquier rol del entorno UAS.",
-      "referencia_concepto": "Finalidad del ESP-RP"
-    },
-    {
-      "id": "B1-T-016",
-      "tema": "Examen A2",
-      "subtema": "Preguntas",
-      "dificultad": "facil",
-      "pregunta": "Cuantas preguntas tiene el examen teorico adicional A2?",
-      "respuestas": ["30 preguntas", "40 preguntas", "75 preguntas", "5 preguntas"],
-      "respuesta_correcta": 0,
-      "explicacion": "La fuente indica 30 preguntas para el examen A2.",
-      "error_habitual": "Responder 40 por arrastre del examen A1/A3.",
-      "referencia_concepto": "Examen teorico adicional A2"
-    },
-    {
-      "id": "B1-T-017",
-      "tema": "Examen A2",
-      "subtema": "Duracion",
-      "dificultad": "facil",
-      "pregunta": "Cuanto dura el examen A2?",
-      "respuestas": ["30 minutos", "30 dias habiles", "5 anos", "40 minutos"],
-      "respuesta_correcta": 0,
-      "explicacion": "La duracion indicada para el examen A2 es de 30 minutos.",
-      "error_habitual": "Confundir duracion con plazo para presentarse.",
-      "referencia_concepto": "Duracion del examen"
-    },
-    {
-      "id": "B1-T-018",
-      "tema": "Examen A2",
-      "subtema": "Aprobado",
-      "dificultad": "facil",
-      "pregunta": "Que porcentaje minimo de aciertos se exige para aprobar?",
-      "respuestas": ["75%", "50%", "60%", "90%"],
-      "respuesta_correcta": 0,
-      "explicacion": "El bloque fija el umbral de aprobado en el 75%.",
-      "error_habitual": "No asociar el 75% con la nota minima.",
-      "referencia_concepto": "Umbral de aprobado"
-    },
-    {
-      "id": "B1-T-019",
-      "tema": "Televigilancia",
-      "subtema": "Sistema",
-      "dificultad": "facil",
-      "pregunta": "Que herramienta de televigilancia aparece en la fuente?",
-      "respuestas": ["SMOWL o herramienta vigente", "ESP-RP", "FOR-UAS-P01-GU07", "Certificado digital"],
-      "respuesta_correcta": 0,
-      "explicacion": "La fuente cita SMOWL o la herramienta de televigilancia vigente.",
-      "error_habitual": "Confundir herramienta de examen con identificador de piloto.",
-      "referencia_concepto": "Televigilancia"
-    },
-    {
-      "id": "B1-T-020",
-      "tema": "Certificado A2",
-      "subtema": "Vigencia",
-      "dificultad": "facil",
-      "pregunta": "Que vigencia tiene el certificado A2?",
-      "respuestas": ["5 anos desde su emision", "30 dias habiles", "30 minutos desde el examen", "Sin vigencia indicada"],
-      "respuesta_correcta": 0,
-      "explicacion": "La fuente marca 5 anos desde la emision como vigencia del certificado.",
-      "error_habitual": "Confundir vigencia con plazo de examen.",
-      "referencia_concepto": "Vigencia del certificado"
-    },
-    {
-      "id": "B1-T-021",
-      "tema": "Itinerario administrativo",
-      "subtema": "Secuencia",
-      "dificultad": "media",
-      "pregunta": "Cual es la secuencia correcta del itinerario A2?",
-      "respuestas": ["A1/A3, autoformacion, declaracion, matriculacion, examen, certificado", "Matriculacion, certificado, autoformacion, A1/A3, examen, declaracion", "Examen, declaracion, A1/A3, certificado, matriculacion, autoformacion", "Certificado, examen, matriculacion, declaracion, autoformacion, A1/A3"],
-      "respuesta_correcta": 0,
-      "explicacion": "El bloque presenta A2 como cadena ordenada de dependencias.",
-      "error_habitual": "Saltar directamente al examen.",
-      "referencia_concepto": "Grafo de conocimiento del Bloque 1"
-    },
-    {
-      "id": "B1-T-022",
-      "tema": "Itinerario administrativo",
-      "subtema": "Dependencias",
-      "dificultad": "media",
-      "pregunta": "Por que A2 no se reduce a realizar un examen?",
-      "respuestas": ["Porque exige requisitos previos, practica, declaracion y tramite antes del certificado", "Porque solo consiste en instalar webcam", "Porque depende unicamente de comprar un UAS C2", "Porque lo importante es imprimir apuntes"],
-      "respuesta_correcta": 0,
-      "explicacion": "El examen forma parte de un itinerario mas amplio.",
-      "error_habitual": "Preparar solo preguntas y olvidar tramites.",
-      "referencia_concepto": "Cadena A2"
-    },
-    {
-      "id": "B1-T-023",
-      "tema": "A1/A3",
-      "subtema": "Doble funcion",
-      "dificultad": "media",
-      "pregunta": "A1/A3 cumple que doble funcion en este bloque?",
-      "respuestas": ["Formativa y administrativa", "Economica y meteorologica", "Tecnica y de televigilancia", "De firma y de webcam"],
-      "respuesta_correcta": 0,
-      "explicacion": "A1/A3 aporta base aeronautica y habilita el siguiente tramite.",
-      "error_habitual": "Ver A1/A3 solo como un documento.",
-      "referencia_concepto": "Finalidad e importancia A1/A3"
-    },
-    {
-      "id": "B1-T-024",
-      "tema": "Autoformacion",
-      "subtema": "Concepto puente",
-      "dificultad": "media",
-      "pregunta": "Por que A3 actua como entorno puente hacia A2?",
-      "respuestas": ["Porque permite practicar en bajo riesgo antes del nivel A2", "Porque sustituye al certificado A2", "Porque elimina la declaracion de practicas", "Porque es la herramienta de examen"],
-      "respuesta_correcta": 0,
-      "explicacion": "A3 se usa aqui como entorno seguro para entrenar antes de A2.",
-      "error_habitual": "Desarrollar A3 como si fuera el objetivo del bloque.",
-      "referencia_concepto": "Concepto puente A3"
-    },
-    {
-      "id": "B1-T-025",
-      "tema": "Autoformacion",
-      "subtema": "Practica guiada",
-      "dificultad": "media",
-      "pregunta": "Que interpretacion de autoformacion es correcta?",
-      "respuestas": ["Entrenar autonomamente siguiendo una guia oficial", "Volar donde resulte mas comodo", "Firmar una declaracion sin practicar", "Sustituir la formacion previa A1/A3"],
-      "respuesta_correcta": 0,
-      "explicacion": "Autoformacion combina autonomia con estructura marcada por la guia.",
-      "error_habitual": "Confundir autonomia con ausencia de reglas.",
-      "referencia_concepto": "Autoformacion practica"
-    },
-    {
-      "id": "B1-T-026",
-      "tema": "Instrucciones del fabricante",
-      "subtema": "Gestion de emergencias",
-      "dificultad": "media",
-      "pregunta": "Que riesgo se incrementa si se practica sin conocer las instrucciones del fabricante?",
-      "respuestas": ["No saber gestionar limites, configuraciones o emergencias", "Aprobar automaticamente A2", "Reducir el plazo de examen", "Cambiar el identificador ESP-RP"],
-      "respuesta_correcta": 0,
-      "explicacion": "Conocer el equipo forma parte de una practica responsable.",
-      "error_habitual": "Separar seguridad operacional y tramite administrativo.",
-      "referencia_concepto": "Instrucciones del fabricante"
-    },
-    {
-      "id": "B1-T-027",
-      "tema": "Declaracion de practicas",
-      "subtema": "Orden",
-      "dificultad": "media",
-      "pregunta": "Cuando debe firmarse la declaracion de conclusion de autoformacion?",
-      "respuestas": ["Despues de completar las practicas requeridas", "Antes de iniciar cualquier practica", "Antes de superar A1/A3", "Despues de que caduque el certificado"],
-      "respuesta_correcta": 0,
-      "explicacion": "La declaracion confirma practicas ya completadas.",
-      "error_habitual": "Declarar antes de entrenar.",
-      "referencia_concepto": "Dependencia de declaracion"
-    },
-    {
-      "id": "B1-T-028",
-      "tema": "Declaracion de practicas",
-      "subtema": "Riesgo juridico-administrativo",
-      "dificultad": "media",
-      "pregunta": "Que consecuencia se cita ante una declaracion de autoformacion falsa?",
-      "respuestas": ["Revocacion", "Aumento automatico de vigencia", "Examen sin televigilancia", "Eliminacion del plazo"],
-      "respuesta_correcta": 0,
-      "explicacion": "La fuente advierte que la falsedad puede causar revocacion.",
-      "error_habitual": "Tratar la declaracion como un tramite inocuo.",
-      "referencia_concepto": "Riesgo de declaracion falsa"
-    },
-    {
-      "id": "B1-T-029",
-      "tema": "Matricula",
-      "subtema": "Bloqueo",
-      "dificultad": "media",
-      "pregunta": "Un alumno sabe la teoria pero no puede cerrar la inscripcion. Que debe revisar primero?",
-      "respuestas": ["Firma electronica y certificado digital", "Numero de preguntas A1/A3", "Vigencia futura del certificado", "Materias especificas del examen"],
-      "respuesta_correcta": 0,
-      "explicacion": "La fuente identifica firma y certificado digital como dependencias de matriculacion.",
-      "error_habitual": "Buscar el fallo en el temario cuando es administrativo.",
-      "referencia_concepto": "Riesgos administrativos"
-    },
-    {
-      "id": "B1-T-030",
-      "tema": "Identificacion del piloto",
-      "subtema": "Error administrativo",
-      "dificultad": "media",
-      "pregunta": "Que error administrativo destaca la fuente sobre identificadores?",
-      "respuestas": ["Confundir el numero de piloto con el numero de operador", "Confundir 75% con 5 anos", "Confundir webcam con pantalla", "Confundir autoformacion con examen"],
-      "respuesta_correcta": 0,
-      "explicacion": "El Numero de Identificacion de Piloto ESP-RP no debe mezclarse con el numero de operador.",
-      "error_habitual": "Copiar el numero de operador en una casilla del piloto.",
-      "referencia_concepto": "ESP-RP vs operador"
-    },
-    {
-      "id": "B1-T-031",
-      "tema": "Identificacion del piloto",
-      "subtema": "Rol",
-      "dificultad": "media",
-      "pregunta": "Si un tramite pregunta por el piloto como individuo, que identificador debe reconocerse?",
-      "respuestas": ["ESP-RP-...", "Numero de operador", "Duracion del examen", "Herramienta de televigilancia"],
-      "respuesta_correcta": 0,
-      "explicacion": "ESP-RP identifica al piloto en su registro.",
-      "error_habitual": "No preguntar si el tramite se refiere a persona piloto u operador.",
-      "referencia_concepto": "Identificador del piloto"
-    },
-    {
-      "id": "B1-T-032",
-      "tema": "Examen A2",
-      "subtema": "Materias",
-      "dificultad": "media",
-      "pregunta": "Que materias aparecen asociadas al examen teorico adicional A2?",
-      "respuestas": ["Meteorologia, rendimiento y atenuaciones", "Firma electronica, webcam y pantalla", "Autoformacion, declaracion y matricula", "A1/A3, ESP-RP y certificado digital"],
-      "respuesta_correcta": 0,
-      "explicacion": "El examen A2 evalua materias especificas citadas por la fuente.",
-      "error_habitual": "Responder con tramites en lugar de materias.",
-      "referencia_concepto": "Materias del examen A2"
-    },
-    {
-      "id": "B1-T-033",
-      "tema": "Examen A2",
-      "subtema": "Combinacion critica",
-      "dificultad": "media",
-      "pregunta": "Que combinacion de datos corresponde al examen A2?",
-      "respuestas": ["30 preguntas, 30 minutos, 75% de aciertos", "40 preguntas, 30 dias habiles, 5 anos", "30 preguntas, 5 anos, sin vigilancia", "75 preguntas, 40 minutos, 30%"],
-      "respuesta_correcta": 0,
-      "explicacion": "30-30-75 resume numero de preguntas, tiempo y aprobado.",
-      "error_habitual": "Mezclar datos de A1/A3, plazo y vigencia.",
-      "referencia_concepto": "Datos criticos del examen"
-    },
-    {
-      "id": "B1-T-034",
-      "tema": "Plazos",
-      "subtema": "Notificacion",
-      "dificultad": "media",
-      "pregunta": "Desde que momento se cuenta el plazo de 30 dias habiles para realizar el examen?",
-      "respuestas": ["Desde la notificacion de acceso", "Desde la emision del certificado", "Desde la lectura del manual", "Desde la practica en A3"],
-      "respuesta_correcta": 0,
-      "explicacion": "La fuente vincula los 30 dias habiles a la notificacion de acceso.",
-      "error_habitual": "No controlar el plazo desde la notificacion.",
-      "referencia_concepto": "Plazo de examen"
-    },
-    {
-      "id": "B1-T-035",
-      "tema": "Televigilancia",
-      "subtema": "Elementos",
-      "dificultad": "media",
-      "pregunta": "Que elementos usa la televigilancia durante el examen?",
-      "respuestas": ["Webcam, microfono y pantalla", "Firma, certificado y declaracion", "A1/A3, autoformacion y matricula", "Manual, pizarra y tarjetas"],
-      "respuesta_correcta": 0,
-      "explicacion": "La fuente cita webcam, microfono y pantalla como elementos de televigilancia.",
-      "error_habitual": "No preparar el equipo tecnico antes del examen.",
-      "referencia_concepto": "Elementos de televigilancia"
-    },
-    {
-      "id": "B1-T-036",
-      "tema": "Televigilancia",
-      "subtema": "Finalidad",
-      "dificultad": "media",
-      "pregunta": "Cual es la finalidad de la televigilancia en el examen?",
-      "respuestas": ["Controlar identidad, entorno y comportamiento durante la prueba", "Sustituir la matriculacion telematica", "Emitir automaticamente el ESP-RP", "Ampliar la vigencia del certificado"],
-      "respuesta_correcta": 0,
-      "explicacion": "La televigilancia verifica el entorno y la integridad del examen.",
-      "error_habitual": "Pensar que el examen online no tiene control real.",
-      "referencia_concepto": "Finalidad de la televigilancia"
-    },
-    {
-      "id": "B1-T-037",
-      "tema": "Televigilancia",
-      "subtema": "Conducta",
-      "dificultad": "media",
-      "pregunta": "Que comportamiento se cita como irregularidad detectada por televigilancia?",
-      "respuestas": ["Consultar un manual fisico durante el examen", "Tener certificado digital preparado", "Realizar la prueba dentro de plazo", "Usar el identificador ESP-RP correcto"],
-      "respuesta_correcta": 0,
-      "explicacion": "El escenario del bloque muestra la consulta de un manual fisico como incidencia.",
-      "error_habitual": "Preparar el examen como si permitiera consultar materiales.",
-      "referencia_concepto": "Escenario de irregularidad"
-    },
-    {
-      "id": "B1-T-038",
-      "tema": "Certificado A2",
-      "subtema": "Resultado",
-      "dificultad": "media",
-      "pregunta": "Cuando aparece el certificado de competencia A2 dentro del flujo?",
-      "respuestas": ["Al final, tras superar la cadena requerida", "Antes de A1/A3", "Antes de la autoformacion", "Antes de la matriculacion"],
-      "respuesta_correcta": 0,
-      "explicacion": "El certificado es el resultado de cumplir requisitos y aprobar el examen.",
-      "error_habitual": "Confundir certificado con declaracion.",
-      "referencia_concepto": "Certificado de competencia A2"
-    },
-    {
-      "id": "B1-T-039",
-      "tema": "Conceptos estables",
-      "subtema": "Coste y formato",
-      "dificultad": "media",
-      "pregunta": "Que indica la fuente sobre coste y formato del proceso en AESA?",
-      "respuestas": ["No tiene coste y es online y telematico", "Tiene coste variable y es presencial", "Depende del UAS y no usa plataforma", "Solo es presencial tras la declaracion"],
-      "respuesta_correcta": 0,
-      "explicacion": "La fuente presenta gratuidad, online y telematico como datos estables.",
-      "error_habitual": "Inventar costes no citados.",
-      "referencia_concepto": "Conceptos estables"
-    },
-    {
-      "id": "B1-T-040",
-      "tema": "Conceptos variables",
-      "subtema": "Syllabus",
-      "dificultad": "media",
-      "pregunta": "Que significa que el syllabus sea un concepto variable?",
-      "respuestas": ["Que debe comprobarse la edicion vigente", "Que no existe guia de materias", "Que sustituye al examen", "Que no afecta al alumno"],
-      "respuesta_correcta": 0,
-      "explicacion": "Variable no significa falso; significa que puede actualizarse.",
-      "error_habitual": "Memorizar una edicion como permanente.",
-      "referencia_concepto": "Conceptos variables"
-    },
-    {
-      "id": "B1-T-041",
-      "tema": "Plazos",
-      "subtema": "Comparacion",
-      "dificultad": "dificil",
-      "pregunta": "Que asociacion temporal es correcta?",
-      "respuestas": ["30 minutos examen, 30 dias habiles plazo, 5 anos vigencia", "30 dias examen, 5 anos plazo, 30 minutos vigencia", "5 anos examen, 30 minutos plazo, 30 dias vigencia", "40 minutos examen, 75 dias plazo, 30 anos vigencia"],
-      "respuesta_correcta": 0,
-      "explicacion": "Son tres datos temporales distintos: duracion, plazo y vigencia.",
-      "error_habitual": "Usar un dato temporal correcto en la categoria incorrecta.",
-      "referencia_concepto": "Datos criticos y conceptos estables"
-    },
-    {
-      "id": "B1-T-042",
-      "tema": "Errores administrativos",
-      "subtema": "Diagnostico",
-      "dificultad": "dificil",
-      "pregunta": "Un alumno introduce el numero de operador donde se pide el identificador del piloto. Que concepto no ha entendido?",
-      "respuestas": ["La diferencia entre ESP-RP y numero de operador", "La duracion del examen A2", "El numero de preguntas A1/A3", "La distancia de practicas A3"],
-      "respuesta_correcta": 0,
-      "explicacion": "El ESP-RP identifica al piloto, no al operador del UAS.",
-      "error_habitual": "Pensar que todos los numeros administrativos son equivalentes.",
-      "referencia_concepto": "Concepto puente ESP-RP"
-    },
-    {
-      "id": "B1-T-043",
-      "tema": "Errores administrativos",
-      "subtema": "Matricula",
-      "dificultad": "dificil",
-      "pregunta": "Que combinacion de fallos administrativos destaca el bloque?",
-      "respuestas": ["Confundir identificadores y no disponer de firma electronica", "No recordar meteorologia y rendimiento", "No imprimir apuntes y no usar tarjetas", "Confundir 5 m y 30 m"],
-      "respuesta_correcta": 0,
-      "explicacion": "El bloque resalta numero de piloto/operador y firma electronica como riesgos administrativos.",
-      "error_habitual": "Creer que todos los fallos son de contenido teorico.",
-      "referencia_concepto": "Riesgos administrativos"
-    },
-    {
-      "id": "B1-T-044",
-      "tema": "Declaracion de practicas",
-      "subtema": "Dependencia critica",
-      "dificultad": "dificil",
-      "pregunta": "Por que la declaracion de autoformacion es critica para la legalidad del certificado?",
-      "respuestas": ["Porque acredita que la practica requerida ya se ha completado", "Porque sustituye el examen A2", "Porque elimina la matriculacion", "Porque modifica la vigencia del certificado"],
-      "respuesta_correcta": 0,
-      "explicacion": "La declaracion conecta practica realizada y continuidad del itinerario.",
-      "error_habitual": "Verla como un papel sin relacion con la practica real.",
-      "referencia_concepto": "Declaracion de conclusion"
-    },
-    {
-      "id": "B1-T-045",
-      "tema": "Autoformacion",
-      "subtema": "Escenario",
-      "dificultad": "dificil",
-      "pregunta": "Un piloto quiere entrenar cerca de edificios antes de obtener A2. Que error operacional aparece?",
-      "respuestas": ["No practicar en condiciones A3 de bajo riesgo", "No superar el 75% del examen", "Usar correctamente el ESP-RP", "Preparar firma electronica antes de tiempo"],
-      "respuesta_correcta": 0,
-      "explicacion": "Las practicas deben realizarse en condiciones A3, lejos de zonas urbanas y personas ajenas.",
-      "error_habitual": "Confundir entrenamiento A2 con permiso para operar en urbano.",
-      "referencia_concepto": "Practicas en condiciones A3"
-    },
-    {
-      "id": "B1-T-046",
-      "tema": "Examen A2",
-      "subtema": "Pregunta tipica",
-      "dificultad": "dificil",
-      "pregunta": "Que respuesta resume correctamente el examen teorico adicional A2?",
-      "respuestas": ["30 preguntas sobre meteorologia, rendimiento y atenuaciones", "40 preguntas sobre A1/A3 y firma electronica", "30 dias habiles sobre declaracion y certificado", "5 anos sobre televigilancia y practica"],
-      "respuesta_correcta": 0,
-      "explicacion": "El examen A2 combina 30 preguntas con materias especificas.",
-      "error_habitual": "Responder con datos administrativos en lugar de contenido del examen.",
-      "referencia_concepto": "Examen teorico adicional A2"
-    },
-    {
-      "id": "B1-T-047",
-      "tema": "Televigilancia",
-      "subtema": "Preparacion del puesto",
-      "dificultad": "dificil",
-      "pregunta": "Antes de iniciar un examen televigilado, que preparacion reduce el riesgo de irregularidad?",
-      "respuestas": ["Mesa limpia, equipo tecnico preparado y sin ayudas no autorizadas", "Tener abierta una guia para consultar", "Esperar a configurar la webcam durante el examen", "Pedir a otra persona que revise las respuestas"],
-      "respuesta_correcta": 0,
-      "explicacion": "El entorno debe prepararse antes para evitar incidencias de proctoring.",
-      "error_habitual": "Improvisar una vez iniciada la prueba.",
-      "referencia_concepto": "Escenario de televigilancia"
-    },
-    {
-      "id": "B1-T-048",
-      "tema": "Conceptos variables",
-      "subtema": "Software",
-      "dificultad": "dificil",
-      "pregunta": "Por que el software de televigilancia debe tratarse como dato variable?",
-      "respuestas": ["Porque depende de la herramienta vigente y del sistema operativo", "Porque reemplaza al examen A2", "Porque siempre evita la firma electronica", "Porque caduca a los 5 anos"],
-      "respuesta_correcta": 0,
-      "explicacion": "La fuente indica que la guia de instalacion puede depender de Windows, Mac o Linux y de la herramienta vigente.",
-      "error_habitual": "Asumir que la configuracion tecnica no cambia.",
-      "referencia_concepto": "Conceptos variables"
-    },
-    {
-      "id": "B1-T-049",
-      "tema": "Escenarios reales",
-      "subtema": "Piloto que se profesionaliza",
-      "dificultad": "dificil",
-      "pregunta": "Un piloto con A1/A3 quiere profesionalizarse. Que debe comprobar antes de pensar en operar?",
-      "respuestas": ["Que puede completar practica, declaracion, matriculacion, examen y certificado", "Que puede saltar directamente al vuelo urbano", "Que el certificado A2 se emite antes del examen", "Que la declaracion sustituye el requisito A1/A3"],
-      "respuesta_correcta": 0,
-      "explicacion": "El objetivo profesional no elimina los pasos administrativos y formativos.",
-      "error_habitual": "Pasar de la intencion profesional a la operacion sin cerrar requisitos.",
-      "referencia_concepto": "Escenario de profesionalizacion"
-    },
-    {
-      "id": "B1-T-050",
-      "tema": "Auditoria del bloque",
-      "subtema": "Imprescindible",
-      "dificultad": "dificil",
-      "pregunta": "Que conjunto resume lo imprescindible del Bloque 1 A2?",
-      "respuestas": ["A1/A3, autoformacion, declaracion, matriculacion y televigilancia", "Solo materias teoricas del examen", "Solo distancias operativas posteriores", "Solo instalacion de software"],
-      "respuesta_correcta": 0,
-      "explicacion": "El bloque se centra en requisitos legales y tramites del acceso A2.",
-      "error_habitual": "Repasar elementos aislados sin reconstruir la cadena principal.",
-      "referencia_concepto": "Auditoria del Bloque 1"
-    }
-  ]
+﻿{
+    "curso":  "DronLab A2",
+    "bloque":  "Bloque 1: Requisitos Legales y Tramites para la Subcategoria A2",
+    "titulo":  "Test Bloque 1 A2",
+    "total":  50,
+    "distribucion":  {
+                         "facil":  20,
+                         "media":  20,
+                         "dificil":  10
+                     },
+    "preguntas":  [
+                      {
+                          "id":  "B1-T-001",
+                          "tema":  "Requisitos previos A1/A3",
+                          "subtema":  "Documento previo",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que acredita la prueba de superacion A1/A3?",
+                          "respuestas":  [
+                                             "Que se ha superado el curso y examen inicial A1/A3",
+                                             "Que se ha completado el examen teorico adicional A2",
+                                             "Que se ha instalado la televigilancia",
+                                             "Que se ha emitido el certificado A2"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "La prueba A1/A3 acredita la formacion inicial superada en esas subcategorias.",
+                          "error_habitual":  "Confundir el requisito previo con el certificado A2 final.",
+                          "referencia_concepto":  "Prueba de superacion A1/A3"
+                      },
+                      {
+                          "id":  "B1-T-002",
+                          "tema":  "Requisitos previos A1/A3",
+                          "subtema":  "Funcion",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que papel cumple A1/A3 dentro del itinerario A2?",
+                          "respuestas":  [
+                                             "Sustituto de la declaracion de practicas",
+                                             "Herramienta de televigilancia",
+                                             "Documento de identificacion del operador",
+                                             "Base de conocimiento y requisito administrativo previo"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "A1/A3 funciona como cimiento formativo y llave administrativa para continuar.",
+                          "error_habitual":  "Tratar A1/A3 como un curso sin relacion con A2.",
+                          "referencia_concepto":  "Finalidad de A1/A3"
+                      },
+                      {
+                          "id":  "B1-T-003",
+                          "tema":  "Requisitos previos A1/A3",
+                          "subtema":  "Examen previo",
+                          "dificultad":  "facil",
+                          "pregunta":  "Cuantas preguntas tiene el examen online A1/A3 segun la fuente?",
+                          "respuestas":  [
+                                             "30 preguntas",
+                                             "30 preguntas en 30 minutos",
+                                             "40 preguntas",
+                                             "75 preguntas"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "La fuente indica 40 preguntas para el examen online A1/A3.",
+                          "error_habitual":  "Mezclar las 40 preguntas de A1/A3 con las 30 de A2.",
+                          "referencia_concepto":  "Datos criticos A1/A3"
+                      },
+                      {
+                          "id":  "B1-T-004",
+                          "tema":  "Autoformacion",
+                          "subtema":  "Definicion",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que es la autoformacion de habilidades practicas A2?",
+                          "respuestas":  [
+                                             "Una clase presencial con examinador obligatorio",
+                                             "Entrenamiento autonomo siguiendo la Guia FOR-UAS-P01-GU07",
+                                             "Una prueba teorica de 40 preguntas",
+                                             "La instalacion de firma electronica"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "La autoformacion es entrenamiento autonomo guiado por el syllabus oficial citado.",
+                          "error_habitual":  "Entender autoformacion como practica sin criterio.",
+                          "referencia_concepto":  "Autoformacion de habilidades practicas"
+                      },
+                      {
+                          "id":  "B1-T-005",
+                          "tema":  "Autoformacion",
+                          "subtema":  "Guia",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que guia aparece vinculada a la autoformacion practica?",
+                          "respuestas":  [
+                                             "ESP-RP-0000000XXXXX",
+                                             "SMOWL",
+                                             "Edicion de certificado",
+                                             "FOR-UAS-P01-GU07"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "La Guia FOR-UAS-P01-GU07 aparece como referencia para el entrenamiento autonomo.",
+                          "error_habitual":  "Memorizar que hay practica, pero olvidar que sigue una guia concreta.",
+                          "referencia_concepto":  "Syllabus oficial de autoformacion"
+                      },
+                      {
+                          "id":  "B1-T-006",
+                          "tema":  "Autoformacion",
+                          "subtema":  "Condiciones",
+                          "dificultad":  "facil",
+                          "pregunta":  "En que condiciones debe realizarse la practica puente hacia A2?",
+                          "respuestas":  [
+                                             "En condiciones A3, en zona aislada y de bajo riesgo",
+                                             "En cualquier zona urbana si dura poco",
+                                             "Solo durante el examen teorico",
+                                             "Despues de obtener el certificado A2"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "A3 se usa como entorno seguro de practicas antes de llegar a A2.",
+                          "error_habitual":  "Practicar en entornos urbanos antes de estar habilitado.",
+                          "referencia_concepto":  "Practicas en condiciones A3"
+                      },
+                      {
+                          "id":  "B1-T-007",
+                          "tema":  "Autoformacion",
+                          "subtema":  "Distancia",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que distancia se cita respecto a zonas urbanas para las practicas A3?",
+                          "respuestas":  [
+                                             "30 m",
+                                             "5 m",
+                                             "30 dias habiles",
+                                             "Mas de 150 m"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "La fuente indica practicar a mas de 150 m de zonas urbanas.",
+                          "error_habitual":  "Confundir distancia de practica con plazos o distancias operativas posteriores.",
+                          "referencia_concepto":  "Distancia de practicas A3"
+                      },
+                      {
+                          "id":  "B1-T-008",
+                          "tema":  "Autoformacion",
+                          "subtema":  "Seguridad",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que debe evitarse durante las practicas en condiciones A3?",
+                          "respuestas":  [
+                                             "Firma electronica",
+                                             "Certificado digital",
+                                             "La guia de autoformacion",
+                                             "Personas ajenas"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "El entorno de practicas debe ser aislado y de bajo riesgo.",
+                          "error_habitual":  "Elegir un lugar comodo pero con personas no implicadas.",
+                          "referencia_concepto":  "Entorno de bajo riesgo"
+                      },
+                      {
+                          "id":  "B1-T-009",
+                          "tema":  "Instrucciones del fabricante",
+                          "subtema":  "Preparacion",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que debe conocer el piloto para que la practica sea responsable?",
+                          "respuestas":  [
+                                             "El resultado del examen antes de hacerlo",
+                                             "Las instrucciones del fabricante",
+                                             "El identificador de otro piloto",
+                                             "Una guia de instalacion no relacionada"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "La fuente conecta la practica con estar familiarizado con las instrucciones del fabricante.",
+                          "error_habitual":  "Practicar sin revisar las instrucciones del UAS.",
+                          "referencia_concepto":  "Instrucciones del fabricante"
+                      },
+                      {
+                          "id":  "B1-T-010",
+                          "tema":  "Declaracion de practicas",
+                          "subtema":  "Documento",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que documento confirma haber completado las practicas requeridas?",
+                          "respuestas":  [
+                                             "Prueba A1/A3",
+                                             "Certificado digital",
+                                             "Resultado de televigilancia",
+                                             "Declaracion de conclusion de autoformacion"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "La declaracion confirma que se han completado las practicas requeridas.",
+                          "error_habitual":  "Creer que la declaracion sustituye a la practica.",
+                          "referencia_concepto":  "Declaracion de conclusion de autoformacion"
+                      },
+                      {
+                          "id":  "B1-T-011",
+                          "tema":  "Declaracion de practicas",
+                          "subtema":  "Naturaleza",
+                          "dificultad":  "facil",
+                          "pregunta":  "Como se describe la declaracion de conclusion de autoformacion?",
+                          "respuestas":  [
+                                             "Como una pregunta de examen",
+                                             "Como una herramienta de webcam",
+                                             "Como un documento jurado",
+                                             "Como una matricula automatica"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "El piloto confirma mediante declaracion jurada que ha realizado las practicas.",
+                          "error_habitual":  "Firmarla como un formalismo vacio.",
+                          "referencia_concepto":  "Naturaleza de la declaracion"
+                      },
+                      {
+                          "id":  "B1-T-012",
+                          "tema":  "Matricula",
+                          "subtema":  "Dependencias",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que dos elementos administrativos se citan como necesarios para la matriculacion A2?",
+                          "respuestas":  [
+                                             "Webcam y microfono",
+                                             "Manual fisico y pantalla",
+                                             "40 preguntas y 5 anos",
+                                             "Firma electronica y certificado digital"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "La matriculacion depende de firma electronica y certificado digital.",
+                          "error_habitual":  "Preparar el temario sin preparar la identificacion electronica.",
+                          "referencia_concepto":  "Matriculacion telematica"
+                      },
+                      {
+                          "id":  "B1-T-013",
+                          "tema":  "Matricula",
+                          "subtema":  "Resultado",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que desbloquea la matriculacion A2?",
+                          "respuestas":  [
+                                             "La prueba A1/A3 previa",
+                                             "El acceso a la plataforma de examen",
+                                             "La validez automatica de 5 anos",
+                                             "La eliminacion de la autoformacion"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "La matriculacion telematica abre el acceso a la plataforma de examen.",
+                          "error_habitual":  "Ubicar la matricula despues del examen.",
+                          "referencia_concepto":  "Desbloqueo de matriculacion"
+                      },
+                      {
+                          "id":  "B1-T-014",
+                          "tema":  "Identificacion del piloto",
+                          "subtema":  "ESP-RP",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que formato aparece para el Numero de Identificacion de Piloto?",
+                          "respuestas":  [
+                                             "ESP-RP-0000000XXXXX",
+                                             "FOR-UAS-P01-GU07",
+                                             "30/30/75",
+                                             "SMOWL"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "La fuente muestra el identificador del piloto con formato ESP-RP-0000000XXXXX.",
+                          "error_habitual":  "Confundirlo con un codigo de guia o software.",
+                          "referencia_concepto":  "Numero de Identificacion de Piloto"
+                      },
+                      {
+                          "id":  "B1-T-015",
+                          "tema":  "Identificacion del piloto",
+                          "subtema":  "Funcion",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que conecta el Numero de Identificacion de Piloto?",
+                          "respuestas":  [
+                                             "Al individuo con su registro en AESA",
+                                             "Al examen con la webcam",
+                                             "A la firma con el microfono",
+                                             "A la practica con una nota final"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "El identificador ESP-RP corresponde al piloto como persona registrada.",
+                          "error_habitual":  "Pensar que identifica cualquier rol del entorno UAS.",
+                          "referencia_concepto":  "Finalidad del ESP-RP"
+                      },
+                      {
+                          "id":  "B1-T-016",
+                          "tema":  "Examen A2",
+                          "subtema":  "Preguntas",
+                          "dificultad":  "facil",
+                          "pregunta":  "Cuantas preguntas tiene el examen teorico adicional A2?",
+                          "respuestas":  [
+                                             "30 preguntas",
+                                             "40 preguntas",
+                                             "75 preguntas",
+                                             "5 preguntas"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "La fuente indica 30 preguntas para el examen A2.",
+                          "error_habitual":  "Responder 40 por arrastre del examen A1/A3.",
+                          "referencia_concepto":  "Examen teorico adicional A2"
+                      },
+                      {
+                          "id":  "B1-T-017",
+                          "tema":  "Examen A2",
+                          "subtema":  "Duracion",
+                          "dificultad":  "facil",
+                          "pregunta":  "Cuanto dura el examen A2?",
+                          "respuestas":  [
+                                             "30 dias habiles",
+                                             "30 minutos",
+                                             "5 anos",
+                                             "40 minutos"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "La duracion indicada para el examen A2 es de 30 minutos.",
+                          "error_habitual":  "Confundir duracion con plazo para presentarse.",
+                          "referencia_concepto":  "Duracion del examen"
+                      },
+                      {
+                          "id":  "B1-T-018",
+                          "tema":  "Examen A2",
+                          "subtema":  "Aprobado",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que porcentaje minimo de aciertos se exige para aprobar?",
+                          "respuestas":  [
+                                             "50%",
+                                             "60%",
+                                             "75%",
+                                             "90%"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "El bloque fija el umbral de aprobado en el 75%.",
+                          "error_habitual":  "No asociar el 75% con la nota minima.",
+                          "referencia_concepto":  "Umbral de aprobado"
+                      },
+                      {
+                          "id":  "B1-T-019",
+                          "tema":  "Televigilancia",
+                          "subtema":  "Sistema",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que herramienta de televigilancia aparece en la fuente?",
+                          "respuestas":  [
+                                             "ESP-RP",
+                                             "SMOWL o herramienta vigente",
+                                             "FOR-UAS-P01-GU07",
+                                             "Certificado digital"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "La fuente cita SMOWL o la herramienta de televigilancia vigente.",
+                          "error_habitual":  "Confundir herramienta de examen con identificador de piloto.",
+                          "referencia_concepto":  "Televigilancia"
+                      },
+                      {
+                          "id":  "B1-T-020",
+                          "tema":  "Certificado A2",
+                          "subtema":  "Vigencia",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que vigencia tiene el certificado A2?",
+                          "respuestas":  [
+                                             "30 dias habiles",
+                                             "30 minutos desde el examen",
+                                             "5 anos desde su emision",
+                                             "Sin vigencia indicada"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "La fuente marca 5 anos desde la emision como vigencia del certificado.",
+                          "error_habitual":  "Confundir vigencia con plazo de examen.",
+                          "referencia_concepto":  "Vigencia del certificado"
+                      },
+                      {
+                          "id":  "B1-T-021",
+                          "tema":  "Itinerario administrativo",
+                          "subtema":  "Secuencia",
+                          "dificultad":  "media",
+                          "pregunta":  "Cual es la secuencia correcta del itinerario A2?",
+                          "respuestas":  [
+                                             "Matriculacion, certificado, autoformacion, A1/A3, examen, declaracion",
+                                             "Examen, declaracion, A1/A3, certificado, matriculacion, autoformacion",
+                                             "Certificado, examen, matriculacion, declaracion, autoformacion, A1/A3",
+                                             "A1/A3, autoformacion, declaracion, matriculacion, examen, certificado"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "El bloque presenta A2 como cadena ordenada de dependencias.",
+                          "error_habitual":  "Saltar directamente al examen.",
+                          "referencia_concepto":  "Grafo de conocimiento del Bloque 1"
+                      },
+                      {
+                          "id":  "B1-T-022",
+                          "tema":  "Itinerario administrativo",
+                          "subtema":  "Dependencias",
+                          "dificultad":  "media",
+                          "pregunta":  "Por que A2 no se reduce a realizar un examen?",
+                          "respuestas":  [
+                                             "Porque solo consiste en instalar webcam",
+                                             "Porque exige requisitos previos, practica, declaracion y tramite antes del certificado",
+                                             "Porque depende unicamente de comprar un UAS C2",
+                                             "Porque lo importante es imprimir apuntes"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "El examen forma parte de un itinerario mas amplio.",
+                          "error_habitual":  "Preparar solo preguntas y olvidar tramites.",
+                          "referencia_concepto":  "Cadena A2"
+                      },
+                      {
+                          "id":  "B1-T-023",
+                          "tema":  "A1/A3",
+                          "subtema":  "Doble funcion",
+                          "dificultad":  "media",
+                          "pregunta":  "A1/A3 cumple que doble funcion en este bloque?",
+                          "respuestas":  [
+                                             "Economica y meteorologica",
+                                             "Formativa y administrativa",
+                                             "Tecnica y de televigilancia",
+                                             "De firma y de webcam"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "A1/A3 aporta base aeronautica y habilita el siguiente tramite.",
+                          "error_habitual":  "Ver A1/A3 solo como un documento.",
+                          "referencia_concepto":  "Finalidad e importancia A1/A3"
+                      },
+                      {
+                          "id":  "B1-T-024",
+                          "tema":  "Autoformacion",
+                          "subtema":  "Concepto puente",
+                          "dificultad":  "media",
+                          "pregunta":  "Por que A3 actua como entorno puente hacia A2?",
+                          "respuestas":  [
+                                             "Porque sustituye al certificado A2",
+                                             "Porque elimina la declaracion de practicas",
+                                             "Porque permite practicar en bajo riesgo antes del nivel A2",
+                                             "Porque es la herramienta de examen"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "A3 se usa aqui como entorno seguro para entrenar antes de A2.",
+                          "error_habitual":  "Desarrollar A3 como si fuera el objetivo del bloque.",
+                          "referencia_concepto":  "Concepto puente A3"
+                      },
+                      {
+                          "id":  "B1-T-025",
+                          "tema":  "Autoformacion",
+                          "subtema":  "Practica guiada",
+                          "dificultad":  "media",
+                          "pregunta":  "Que interpretacion de autoformacion es correcta?",
+                          "respuestas":  [
+                                             "Entrenar autonomamente siguiendo una guia oficial",
+                                             "Volar donde resulte mas comodo",
+                                             "Firmar una declaracion sin practicar",
+                                             "Sustituir la formacion previa A1/A3"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "Autoformacion combina autonomia con estructura marcada por la guia.",
+                          "error_habitual":  "Confundir autonomia con ausencia de reglas.",
+                          "referencia_concepto":  "Autoformacion practica"
+                      },
+                      {
+                          "id":  "B1-T-026",
+                          "tema":  "Instrucciones del fabricante",
+                          "subtema":  "Gestion de emergencias",
+                          "dificultad":  "media",
+                          "pregunta":  "Que riesgo se incrementa si se practica sin conocer las instrucciones del fabricante?",
+                          "respuestas":  [
+                                             "Aprobar automaticamente A2",
+                                             "No saber gestionar limites, configuraciones o emergencias",
+                                             "Reducir el plazo de examen",
+                                             "Cambiar el identificador ESP-RP"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "Conocer el equipo forma parte de una practica responsable.",
+                          "error_habitual":  "Separar seguridad operacional y tramite administrativo.",
+                          "referencia_concepto":  "Instrucciones del fabricante"
+                      },
+                      {
+                          "id":  "B1-T-027",
+                          "tema":  "Declaracion de practicas",
+                          "subtema":  "Orden",
+                          "dificultad":  "media",
+                          "pregunta":  "Cuando debe firmarse la declaracion de conclusion de autoformacion?",
+                          "respuestas":  [
+                                             "Antes de iniciar cualquier practica",
+                                             "Despues de completar las practicas requeridas",
+                                             "Antes de superar A1/A3",
+                                             "Despues de que caduque el certificado"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "La declaracion confirma practicas ya completadas.",
+                          "error_habitual":  "Declarar antes de entrenar.",
+                          "referencia_concepto":  "Dependencia de declaracion"
+                      },
+                      {
+                          "id":  "B1-T-028",
+                          "tema":  "Declaracion de practicas",
+                          "subtema":  "Riesgo juridico-administrativo",
+                          "dificultad":  "media",
+                          "pregunta":  "Que consecuencia se cita ante una declaracion de autoformacion falsa?",
+                          "respuestas":  [
+                                             "Aumento automatico de vigencia",
+                                             "Examen sin televigilancia",
+                                             "Eliminacion del plazo",
+                                             "Revocacion"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "La fuente advierte que la falsedad puede causar revocacion.",
+                          "error_habitual":  "Tratar la declaracion como un tramite inocuo.",
+                          "referencia_concepto":  "Riesgo de declaracion falsa"
+                      },
+                      {
+                          "id":  "B1-T-029",
+                          "tema":  "Matricula",
+                          "subtema":  "Bloqueo",
+                          "dificultad":  "media",
+                          "pregunta":  "Un alumno sabe la teoria pero no puede cerrar la inscripcion. Que debe revisar primero?",
+                          "respuestas":  [
+                                             "Numero de preguntas A1/A3",
+                                             "Firma electronica y certificado digital",
+                                             "Vigencia futura del certificado",
+                                             "Materias especificas del examen"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "La fuente identifica firma y certificado digital como dependencias de matriculacion.",
+                          "error_habitual":  "Buscar el fallo en el temario cuando es administrativo.",
+                          "referencia_concepto":  "Riesgos administrativos"
+                      },
+                      {
+                          "id":  "B1-T-030",
+                          "tema":  "Identificacion del piloto",
+                          "subtema":  "Error administrativo",
+                          "dificultad":  "media",
+                          "pregunta":  "Que error administrativo destaca la fuente sobre identificadores?",
+                          "respuestas":  [
+                                             "Confundir el numero de piloto con el numero de operador",
+                                             "Confundir 75% con 5 anos",
+                                             "Confundir webcam con pantalla",
+                                             "Confundir autoformacion con examen"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "El Numero de Identificacion de Piloto ESP-RP no debe mezclarse con el numero de operador.",
+                          "error_habitual":  "Copiar el numero de operador en una casilla del piloto.",
+                          "referencia_concepto":  "ESP-RP vs operador"
+                      },
+                      {
+                          "id":  "B1-T-031",
+                          "tema":  "Identificacion del piloto",
+                          "subtema":  "Rol",
+                          "dificultad":  "media",
+                          "pregunta":  "Si un tramite pregunta por el piloto como individuo, que identificador debe reconocerse?",
+                          "respuestas":  [
+                                             "ESP-RP-...",
+                                             "Numero de operador",
+                                             "Duracion del examen",
+                                             "Herramienta de televigilancia"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "ESP-RP identifica al piloto en su registro.",
+                          "error_habitual":  "No preguntar si el tramite se refiere a persona piloto u operador.",
+                          "referencia_concepto":  "Identificador del piloto"
+                      },
+                      {
+                          "id":  "B1-T-032",
+                          "tema":  "Examen A2",
+                          "subtema":  "Materias",
+                          "dificultad":  "media",
+                          "pregunta":  "Que materias aparecen asociadas al examen teorico adicional A2?",
+                          "respuestas":  [
+                                             "Meteorologia, rendimiento y atenuaciones",
+                                             "Firma electronica, webcam y pantalla",
+                                             "Autoformacion, declaracion y matricula",
+                                             "A1/A3, ESP-RP y certificado digital"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "El examen A2 evalua materias especificas citadas por la fuente.",
+                          "error_habitual":  "Responder con tramites en lugar de materias.",
+                          "referencia_concepto":  "Materias del examen A2"
+                      },
+                      {
+                          "id":  "B1-T-033",
+                          "tema":  "Examen A2",
+                          "subtema":  "Combinacion critica",
+                          "dificultad":  "media",
+                          "pregunta":  "Que combinacion de datos corresponde al examen A2?",
+                          "respuestas":  [
+                                             "40 preguntas, 30 dias habiles, 5 anos",
+                                             "30 preguntas, 5 anos, sin vigilancia",
+                                             "30 preguntas, 30 minutos, 75% de aciertos",
+                                             "75 preguntas, 40 minutos, 30%"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "30-30-75 resume numero de preguntas, tiempo y aprobado.",
+                          "error_habitual":  "Mezclar datos de A1/A3, plazo y vigencia.",
+                          "referencia_concepto":  "Datos criticos del examen"
+                      },
+                      {
+                          "id":  "B1-T-034",
+                          "tema":  "Plazos",
+                          "subtema":  "Notificacion",
+                          "dificultad":  "media",
+                          "pregunta":  "Desde que momento se cuenta el plazo de 30 dias habiles para realizar el examen?",
+                          "respuestas":  [
+                                             "Desde la notificacion de acceso",
+                                             "Desde la emision del certificado",
+                                             "Desde la lectura del manual",
+                                             "Desde la practica en A3"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "La fuente vincula los 30 dias habiles a la notificacion de acceso.",
+                          "error_habitual":  "No controlar el plazo desde la notificacion.",
+                          "referencia_concepto":  "Plazo de examen"
+                      },
+                      {
+                          "id":  "B1-T-035",
+                          "tema":  "Televigilancia",
+                          "subtema":  "Elementos",
+                          "dificultad":  "media",
+                          "pregunta":  "Que elementos usa la televigilancia durante el examen?",
+                          "respuestas":  [
+                                             "Firma, certificado y declaracion",
+                                             "A1/A3, autoformacion y matricula",
+                                             "Webcam, microfono y pantalla",
+                                             "Manual, pizarra y tarjetas"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "La fuente cita webcam, microfono y pantalla como elementos de televigilancia.",
+                          "error_habitual":  "No preparar el equipo tecnico antes del examen.",
+                          "referencia_concepto":  "Elementos de televigilancia"
+                      },
+                      {
+                          "id":  "B1-T-036",
+                          "tema":  "Televigilancia",
+                          "subtema":  "Finalidad",
+                          "dificultad":  "media",
+                          "pregunta":  "Cual es la finalidad de la televigilancia en el examen?",
+                          "respuestas":  [
+                                             "Sustituir la matriculacion telematica",
+                                             "Emitir automaticamente el ESP-RP",
+                                             "Ampliar la vigencia del certificado",
+                                             "Controlar identidad, entorno y comportamiento durante la prueba"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "La televigilancia verifica el entorno y la integridad del examen.",
+                          "error_habitual":  "Pensar que el examen online no tiene control real.",
+                          "referencia_concepto":  "Finalidad de la televigilancia"
+                      },
+                      {
+                          "id":  "B1-T-037",
+                          "tema":  "Televigilancia",
+                          "subtema":  "Conducta",
+                          "dificultad":  "media",
+                          "pregunta":  "Que comportamiento se cita como irregularidad detectada por televigilancia?",
+                          "respuestas":  [
+                                             "Tener certificado digital preparado",
+                                             "Realizar la prueba dentro de plazo",
+                                             "Consultar un manual fisico durante el examen",
+                                             "Usar el identificador ESP-RP correcto"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "El escenario del bloque muestra la consulta de un manual fisico como incidencia.",
+                          "error_habitual":  "Preparar el examen como si permitiera consultar materiales.",
+                          "referencia_concepto":  "Escenario de irregularidad"
+                      },
+                      {
+                          "id":  "B1-T-038",
+                          "tema":  "Certificado A2",
+                          "subtema":  "Resultado",
+                          "dificultad":  "media",
+                          "pregunta":  "Cuando aparece el certificado de competencia A2 dentro del flujo?",
+                          "respuestas":  [
+                                             "Antes de A1/A3",
+                                             "Antes de la autoformacion",
+                                             "Antes de la matriculacion",
+                                             "Al final, tras superar la cadena requerida"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "El certificado es el resultado de cumplir requisitos y aprobar el examen.",
+                          "error_habitual":  "Confundir certificado con declaracion.",
+                          "referencia_concepto":  "Certificado de competencia A2"
+                      },
+                      {
+                          "id":  "B1-T-039",
+                          "tema":  "Conceptos estables",
+                          "subtema":  "Coste y formato",
+                          "dificultad":  "media",
+                          "pregunta":  "Que indica la fuente sobre coste y formato del proceso en AESA?",
+                          "respuestas":  [
+                                             "Tiene coste variable y es presencial",
+                                             "Depende del UAS y no usa plataforma",
+                                             "No tiene coste y es online y telematico",
+                                             "Solo es presencial tras la declaracion"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "La fuente presenta gratuidad, online y telematico como datos estables.",
+                          "error_habitual":  "Inventar costes no citados.",
+                          "referencia_concepto":  "Conceptos estables"
+                      },
+                      {
+                          "id":  "B1-T-040",
+                          "tema":  "Conceptos variables",
+                          "subtema":  "Syllabus",
+                          "dificultad":  "media",
+                          "pregunta":  "Que significa que el syllabus sea un concepto variable?",
+                          "respuestas":  [
+                                             "Que no existe guia de materias",
+                                             "Que sustituye al examen",
+                                             "Que debe comprobarse la edicion vigente",
+                                             "Que no afecta al alumno"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "Variable no significa falso; significa que puede actualizarse.",
+                          "error_habitual":  "Memorizar una edicion como permanente.",
+                          "referencia_concepto":  "Conceptos variables"
+                      },
+                      {
+                          "id":  "B1-T-041",
+                          "tema":  "Plazos",
+                          "subtema":  "Comparacion",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Que asociacion temporal es correcta?",
+                          "respuestas":  [
+                                             "30 dias examen, 5 anos plazo, 30 minutos vigencia",
+                                             "30 minutos examen, 30 dias habiles plazo, 5 anos vigencia",
+                                             "5 anos examen, 30 minutos plazo, 30 dias vigencia",
+                                             "40 minutos examen, 75 dias plazo, 30 anos vigencia"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "Son tres datos temporales distintos: duracion, plazo y vigencia.",
+                          "error_habitual":  "Usar un dato temporal correcto en la categoria incorrecta.",
+                          "referencia_concepto":  "Datos criticos y conceptos estables"
+                      },
+                      {
+                          "id":  "B1-T-042",
+                          "tema":  "Errores administrativos",
+                          "subtema":  "Diagnostico",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Un alumno introduce el numero de operador donde se pide el identificador del piloto. Que concepto no ha entendido?",
+                          "respuestas":  [
+                                             "La duracion del examen A2",
+                                             "El numero de preguntas A1/A3",
+                                             "La diferencia entre ESP-RP y numero de operador",
+                                             "La distancia de practicas A3"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "El ESP-RP identifica al piloto, no al operador del UAS.",
+                          "error_habitual":  "Pensar que todos los numeros administrativos son equivalentes.",
+                          "referencia_concepto":  "Concepto puente ESP-RP"
+                      },
+                      {
+                          "id":  "B1-T-043",
+                          "tema":  "Errores administrativos",
+                          "subtema":  "Matricula",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Que combinacion de fallos administrativos destaca el bloque?",
+                          "respuestas":  [
+                                             "No recordar meteorologia y rendimiento",
+                                             "No imprimir apuntes y no usar tarjetas",
+                                             "Confundir identificadores y no disponer de firma electronica",
+                                             "Confundir 5 m y 30 m"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "El bloque resalta numero de piloto/operador y firma electronica como riesgos administrativos.",
+                          "error_habitual":  "Creer que todos los fallos son de contenido teorico.",
+                          "referencia_concepto":  "Riesgos administrativos"
+                      },
+                      {
+                          "id":  "B1-T-044",
+                          "tema":  "Declaracion de practicas",
+                          "subtema":  "Dependencia critica",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Por que la declaracion de autoformacion es critica para la legalidad del certificado?",
+                          "respuestas":  [
+                                             "Porque acredita que la practica requerida ya se ha completado",
+                                             "Porque sustituye el examen A2",
+                                             "Porque elimina la matriculacion",
+                                             "Porque modifica la vigencia del certificado"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "La declaracion conecta practica realizada y continuidad del itinerario.",
+                          "error_habitual":  "Verla como un papel sin relacion con la practica real.",
+                          "referencia_concepto":  "Declaracion de conclusion"
+                      },
+                      {
+                          "id":  "B1-T-045",
+                          "tema":  "Autoformacion",
+                          "subtema":  "Escenario",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Un piloto quiere entrenar cerca de edificios antes de obtener A2. Que error operacional aparece?",
+                          "respuestas":  [
+                                             "No superar el 75% del examen",
+                                             "Usar correctamente el ESP-RP",
+                                             "No practicar en condiciones A3 de bajo riesgo",
+                                             "Preparar firma electronica antes de tiempo"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "Las practicas deben realizarse en condiciones A3, lejos de zonas urbanas y personas ajenas.",
+                          "error_habitual":  "Confundir entrenamiento A2 con permiso para operar en urbano.",
+                          "referencia_concepto":  "Practicas en condiciones A3"
+                      },
+                      {
+                          "id":  "B1-T-046",
+                          "tema":  "Examen A2",
+                          "subtema":  "Pregunta tipica",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Que respuesta resume correctamente el examen teorico adicional A2?",
+                          "respuestas":  [
+                                             "40 preguntas sobre A1/A3 y firma electronica",
+                                             "30 dias habiles sobre declaracion y certificado",
+                                             "30 preguntas sobre meteorologia, rendimiento y atenuaciones",
+                                             "5 anos sobre televigilancia y practica"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "El examen A2 combina 30 preguntas con materias especificas.",
+                          "error_habitual":  "Responder con datos administrativos en lugar de contenido del examen.",
+                          "referencia_concepto":  "Examen teorico adicional A2"
+                      },
+                      {
+                          "id":  "B1-T-047",
+                          "tema":  "Televigilancia",
+                          "subtema":  "Preparacion del puesto",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Antes de iniciar un examen televigilado, que preparacion reduce el riesgo de irregularidad?",
+                          "respuestas":  [
+                                             "Tener abierta una guia para consultar",
+                                             "Mesa limpia, equipo tecnico preparado y sin ayudas no autorizadas",
+                                             "Esperar a configurar la webcam durante el examen",
+                                             "Pedir a otra persona que revise las respuestas"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "El entorno debe prepararse antes para evitar incidencias de proctoring.",
+                          "error_habitual":  "Improvisar una vez iniciada la prueba.",
+                          "referencia_concepto":  "Escenario de televigilancia"
+                      },
+                      {
+                          "id":  "B1-T-048",
+                          "tema":  "Conceptos variables",
+                          "subtema":  "Software",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Por que el software de televigilancia debe tratarse como dato variable?",
+                          "respuestas":  [
+                                             "Porque reemplaza al examen A2",
+                                             "Porque siempre evita la firma electronica",
+                                             "Porque caduca a los 5 anos",
+                                             "Porque depende de la herramienta vigente y del sistema operativo"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "La fuente indica que la guia de instalacion puede depender de Windows, Mac o Linux y de la herramienta vigente.",
+                          "error_habitual":  "Asumir que la configuracion tecnica no cambia.",
+                          "referencia_concepto":  "Conceptos variables"
+                      },
+                      {
+                          "id":  "B1-T-049",
+                          "tema":  "Escenarios reales",
+                          "subtema":  "Piloto que se profesionaliza",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Un piloto con A1/A3 quiere profesionalizarse. Que debe comprobar antes de pensar en operar?",
+                          "respuestas":  [
+                                             "Que puede saltar directamente al vuelo urbano",
+                                             "Que el certificado A2 se emite antes del examen",
+                                             "Que puede completar practica, declaracion, matriculacion, examen y certificado",
+                                             "Que la declaracion sustituye el requisito A1/A3"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "El objetivo profesional no elimina los pasos administrativos y formativos.",
+                          "error_habitual":  "Pasar de la intencion profesional a la operacion sin cerrar requisitos.",
+                          "referencia_concepto":  "Escenario de profesionalizacion"
+                      },
+                      {
+                          "id":  "B1-T-050",
+                          "tema":  "Auditoria del bloque",
+                          "subtema":  "Imprescindible",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Que conjunto resume lo imprescindible del Bloque 1 A2?",
+                          "respuestas":  [
+                                             "Solo materias teoricas del examen",
+                                             "A1/A3, autoformacion, declaracion, matriculacion y televigilancia",
+                                             "Solo distancias operativas posteriores",
+                                             "Solo instalacion de software"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "El bloque se centra en requisitos legales y tramites del acceso A2.",
+                          "error_habitual":  "Repasar elementos aislados sin reconstruir la cadena principal.",
+                          "referencia_concepto":  "Auditoria del Bloque 1"
+                      }
+                  ]
 }

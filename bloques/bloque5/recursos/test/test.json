@@ -1,58 +1,858 @@
-{
-  "curso": "DronLab A2",
-  "bloque": "Bloque 5: Rendimiento de Vuelo del UAS",
-  "titulo": "Test Bloque 5 A2 - Rendimiento de Vuelo del UAS",
-  "total": 50,
-  "preguntas": [
-    {"id":"B5-T-001","tema":"Fuerzas","subtema":"Identificacion","dificultad":"facil","pregunta":"Que fuerzas actuan sobre el UAS durante el vuelo?","respuestas":["Sustentacion, peso, empuje y resistencia","Altitud, humedad, temperatura y presion","Roll, pitch, yaw y CG","MTOM, payload, bateria y RPS"],"respuesta_correcta":0,"explicacion":"La ingenieria define las fuerzas como sustentacion, peso, empuje y resistencia.","error_habitual":"Olvidar resistencia o mezclar fuerzas con ejes.","referencia_concepto":"Fuerzas que actuan sobre el UAS"},
-    {"id":"B5-T-002","tema":"Fuerzas","subtema":"Finalidad","dificultad":"facil","pregunta":"Cual es la finalidad de comprender las fuerzas de vuelo?","respuestas":["Mantener el equilibrio aerodinamico para vuelo controlado","Evitar consultar el manual del fabricante","Sustituir la calibracion de sensores","Aumentar siempre la autonomia nominal"],"respuesta_correcta":0,"explicacion":"La fuente indica que su finalidad es mantener equilibrio aerodinamico.","error_habitual":"Ver las fuerzas como teoria sin aplicacion.","referencia_concepto":"Fuerzas que actuan sobre el UAS"},
-    {"id":"B5-T-003","tema":"Fuerzas","subtema":"Importancia","dificultad":"facil","pregunta":"Que permiten comprender las fuerzas de vuelo?","respuestas":["Estabilidad y capacidad de maniobra","Codigos METAR/TAF","Tramites administrativos A2","Radiofonia UAS"],"respuesta_correcta":0,"explicacion":"La importancia indicada es comprender estabilidad y maniobrabilidad.","error_habitual":"Confundir rendimiento con gestion administrativa.","referencia_concepto":"Fuerzas que actuan sobre el UAS"},
-    {"id":"B5-T-004","tema":"Ejes","subtema":"Definicion","dificultad":"facil","pregunta":"Como se describen los ejes de vuelo?","respuestas":["Tres lineas imaginarias que se cruzan en el CG","Tres limites de peso definidos por fabricante","Tres sensores obligatorios de navegacion","Tres tipos de nubes operacionales"],"respuesta_correcta":0,"explicacion":"La ingenieria define los ejes como tres lineas imaginarias que se cruzan en el CG.","error_habitual":"Pensar que los ejes son componentes fisicos visibles.","referencia_concepto":"Ejes de Vuelo y Rotacion"},
-    {"id":"B5-T-005","tema":"Ejes","subtema":"Longitudinal","dificultad":"facil","pregunta":"Que movimiento corresponde al eje longitudinal?","respuestas":["Alabeo o roll","Cabeceo o pitch","Guinada o yaw","Ascenso vertical"],"respuesta_correcta":0,"explicacion":"La fuente asocia eje longitudinal con alabeo/roll.","error_habitual":"Confundir roll con yaw.","referencia_concepto":"Ejes de Vuelo y Rotacion"},
-    {"id":"B5-T-006","tema":"Ejes","subtema":"Lateral","dificultad":"facil","pregunta":"Que movimiento corresponde al eje lateral o transversal?","respuestas":["Cabeceo o pitch","Alabeo o roll","Guinada o yaw","Resistencia"],"respuesta_correcta":0,"explicacion":"La ingenieria asocia eje lateral/transversal con cabeceo/pitch.","error_habitual":"Asociar cabeceo al eje vertical.","referencia_concepto":"Ejes de Vuelo y Rotacion"},
-    {"id":"B5-T-007","tema":"Ejes","subtema":"Vertical","dificultad":"facil","pregunta":"Que movimiento corresponde al eje vertical?","respuestas":["Guinada o yaw","Cabeceo o pitch","Alabeo o roll","Sustentacion"],"respuesta_correcta":0,"explicacion":"El eje vertical corresponde a guinada/yaw.","error_habitual":"Mezclar yaw y pitch.","referencia_concepto":"Ejes de Vuelo y Rotacion"},
-    {"id":"B5-T-008","tema":"CG","subtema":"Definicion","dificultad":"facil","pregunta":"Que es el Centro de Gravedad del dron?","respuestas":["Punto imaginario donde se considera concentrada toda la masa","Altura maxima autorizada","Centro de presiones avanzado de ala fija","Sensor que mide el viento"],"respuesta_correcta":0,"explicacion":"La fuente define el CG como punto imaginario donde se concentra la masa.","error_habitual":"Confundir CG con centro geometrico.","referencia_concepto":"Centro de Gravedad"},
-    {"id":"B5-T-009","tema":"CG","subtema":"Rotacion","dificultad":"facil","pregunta":"Sobre que punto rotan los tres ejes del UAS?","respuestas":["Centro de Gravedad","MTOM","RPS","Indice K"],"respuesta_correcta":0,"explicacion":"Los tres ejes se cruzan y rotan sobre el CG.","error_habitual":"Separar ejes y CG.","referencia_concepto":"Centro de Gravedad"},
-    {"id":"B5-T-010","tema":"Perfil aerodinamico","subtema":"Definicion","dificultad":"facil","pregunta":"Que es un perfil aerodinamico?","respuestas":["Forma transversal de un ala o pala que genera sustentacion por diferencia de presiones","Limite de masa total al despegue","Indice geomagnetico de posicionamiento","Version de software de la RPS"],"respuesta_correcta":0,"explicacion":"La ingenieria define perfil como forma transversal de ala o pala.","error_habitual":"Pensar solo en ala fija y olvidar palas.","referencia_concepto":"Perfil Aerodinamico y Principio de Bernoulli"},
-    {"id":"B5-T-011","tema":"Bernoulli","subtema":"Finalidad","dificultad":"facil","pregunta":"Que ayuda a explicar Bernoulli en el Bloque 5?","respuestas":["La eficiencia del dron segun la velocidad del aire sobre sus palas","La matricula del piloto remoto","La prohibicion de BVLOS","El contenido de Profesor Plus"],"respuesta_correcta":0,"explicacion":"La fuente conecta Bernoulli con presiones y eficiencia sobre las palas.","error_habitual":"Memorizar Bernoulli sin aplicarlo al rotor.","referencia_concepto":"Perfil Aerodinamico y Principio de Bernoulli"},
-    {"id":"B5-T-012","tema":"MTOM","subtema":"Definicion","dificultad":"facil","pregunta":"Que es la MTOM?","respuestas":["Limite de peso total aeronave mas carga establecido por fabricante","Altura maxima AGL","Indice de actividad geomagnetica","Movimiento alrededor del eje vertical"],"respuesta_correcta":0,"explicacion":"MTOM es Masa Maxima al Despegue y no debe superarse nunca.","error_habitual":"Olvidar que incluye carga.","referencia_concepto":"Masa Maxima al Despegue"},
-    {"id":"B5-T-013","tema":"MTOM","subtema":"Dato C2","dificultad":"facil","pregunta":"Que masa maxima C2 indica la ingenieria?","respuestas":["< 4 kg","4 kg exactos","120 metros","75%"],"respuesta_correcta":0,"explicacion":"El dato critico de Masa Maxima C2 es < 4 kg.","error_habitual":"Perder el signo menor que.","referencia_concepto":"Datos criticos"},
-    {"id":"B5-T-014","tema":"Altura","subtema":"AGL","dificultad":"facil","pregunta":"Que altura maxima AGL aparece como dato critico?","respuestas":["120 metros (400 ft)","60 metros exactos","< 4 kg","Indice K < 4"],"respuesta_correcta":0,"explicacion":"La fuente recoge 120 metros (400 ft).","error_habitual":"Confundir altura con masa maxima.","referencia_concepto":"Datos criticos"},
-    {"id":"B5-T-015","tema":"Indice K","subtema":"Dato critico","dificultad":"facil","pregunta":"Que Indice K planetario se indica para operar con seguridad?","respuestas":["< 4",">= 4","75%","120 m"],"respuesta_correcta":0,"explicacion":"La fuente indica Indice K Planetario < 4 para operar con seguridad.","error_habitual":"Invertir la condicion.","referencia_concepto":"Datos criticos"},
-    {"id":"B5-T-016","tema":"Asistencia barometrica","subtema":"Altura","dificultad":"facil","pregunta":"Para que se requiere la asistencia barometrica?","respuestas":["Para precision en altura","Para aumentar la MTOM","Para cambiar el eje longitudinal","Para sustituir la carga util"],"respuesta_correcta":0,"explicacion":"Es requerida para precision en altura.","error_habitual":"No relacionar barometro y altura.","referencia_concepto":"Datos criticos"},
-    {"id":"B5-T-017","tema":"Examen","subtema":"Aprobado","dificultad":"facil","pregunta":"Que umbral de aprobado aparece en la ingenieria?","respuestas":["75% de aciertos","< 4 kg","120 metros","Indice K >= 4"],"respuesta_correcta":0,"explicacion":"Los datos criticos incluyen umbral de aprobado del 75% de aciertos.","error_habitual":"Mezclar porcentaje con otros bloques.","referencia_concepto":"Datos criticos"},
-    {"id":"B5-T-018","tema":"Alcance","subtema":"Fuera de alcance","dificultad":"facil","pregunta":"Que contenido queda fuera del alcance del A2 en este bloque?","respuestas":["Performances BVLOS y calculos avanzados de centro de presiones para ala fija","Ejes de vuelo y CG","MTOM y densidad del aire","Fuerzas aerodinamicas basicas"],"respuesta_correcta":0,"explicacion":"La auditoria clasifica BVLOS y calculos avanzados como fuera de alcance.","error_habitual":"Desarrollar BVLOS dentro de este bloque.","referencia_concepto":"Auditoria"},
-    {"id":"B5-T-019","tema":"Carga util","subtema":"Puente","dificultad":"facil","pregunta":"Que otro nombre usa la ingenieria para carga util?","respuestas":["Payload","Pitch","Yaw","Indice K"],"respuesta_correcta":0,"explicacion":"El concepto puente se denomina Carga util o Payload.","error_habitual":"Confundir payload con eje de vuelo.","referencia_concepto":"Conceptos puente"},
-    {"id":"B5-T-020","tema":"Calibracion","subtema":"Sensores","dificultad":"facil","pregunta":"Que sensores cita la ingenieria como ejemplo de instrumentos mal calibrados?","respuestas":["IMU y brujula","Altimetro y microfono","Camara y payload","Bateria y motor"],"respuesta_correcta":0,"explicacion":"La fuente cita IMU y brujula.","error_habitual":"Hablar de sensores no citados como eje central.","referencia_concepto":"Calibracion de instrumentos"},
-    {"id":"B5-T-021","tema":"Sustentacion","subtema":"Dependencias","dificultad":"media","pregunta":"Segun la tabla, de que depende la sustentacion?","respuestas":["Perfil aerodinamico y aire","CG y RPS solamente","Indice K y software","Altura maxima y umbral de aprobado"],"respuesta_correcta":0,"explicacion":"La tabla de dependencias indica perfil aerodinamico/aire.","error_habitual":"Responder solo motores.","referencia_concepto":"Dependencias"},
-    {"id":"B5-T-022","tema":"Sustentacion","subtema":"Desbloquea","dificultad":"media","pregunta":"Que desbloquea la sustentacion?","respuestas":["Capacidad de carga y ascenso","Precision en altura H<60m","Compatibilidad RPS-dron","Indice K seguro"],"respuesta_correcta":0,"explicacion":"La tabla dice que desbloquea capacidad de carga y ascenso.","error_habitual":"Confundirlo con calibracion.","referencia_concepto":"Dependencias"},
-    {"id":"B5-T-023","tema":"Estabilidad","subtema":"Dependencia","dificultad":"media","pregunta":"De que depende la estabilidad segun la tabla de dependencias?","respuestas":["Centro de Gravedad","Umbral de aprobado","Codigo METAR","BVLOS"],"respuesta_correcta":0,"explicacion":"La estabilidad depende del CG.","error_habitual":"Asociarla solo a potencia.","referencia_concepto":"Dependencias"},
-    {"id":"B5-T-024","tema":"Estabilidad","subtema":"Desbloquea","dificultad":"media","pregunta":"Que desbloquea un CG correcto?","respuestas":["Control seguro en los 3 ejes","Aumento de MTOM","Operacion BVLOS","Aprobado automatico"],"respuesta_correcta":0,"explicacion":"La tabla indica control seguro en los tres ejes.","error_habitual":"No unir CG y ejes.","referencia_concepto":"Dependencias"},
-    {"id":"B5-T-025","tema":"Control de altura","subtema":"Barometria","dificultad":"media","pregunta":"Que depende de la asistencia barometrica?","respuestas":["Control de altura","MTOM","Carga util","Roll"],"respuesta_correcta":0,"explicacion":"La tabla indica que el control de altura depende de asistencia barometrica.","error_habitual":"Ignorar sensores en precision de altura.","referencia_concepto":"Dependencias"},
-    {"id":"B5-T-026","tema":"Maniobrabilidad","subtema":"Calibracion","dificultad":"media","pregunta":"De que depende la maniobrabilidad segun el bloque?","respuestas":["Calibracion de instrumentos","Umbral de aprobado","Centro de presiones avanzado","BVLOS"],"respuesta_correcta":0,"explicacion":"La tabla de dependencias asocia maniobrabilidad con calibracion.","error_habitual":"Tratar calibracion como secundaria.","referencia_concepto":"Dependencias"},
-    {"id":"B5-T-027","tema":"Carga util","subtema":"Rendimiento","dificultad":"media","pregunta":"Que conecta la carga util como concepto puente?","respuestas":["Configuracion tecnica y rendimiento real","Meteorologia y radiofonista","Categoria especifica y certificada","Presion estatica y examen"],"respuesta_correcta":0,"explicacion":"La carga util conecta configuracion tecnica con rendimiento real.","error_habitual":"Pensar solo en peso.","referencia_concepto":"Conceptos puente"},
-    {"id":"B5-T-028","tema":"Carga util","subtema":"Comprobacion","dificultad":"media","pregunta":"Que debe evaluar el piloto al anadir camara o sensores?","respuestas":["Compatibilidad con MTOM y efecto sobre CG","Solo color y resolucion de camara","Solo version de app","Solo altura AGL"],"respuesta_correcta":0,"explicacion":"La fuente exige valorar MTOM y CG.","error_habitual":"Comprobar solo fijacion fisica.","referencia_concepto":"Carga util"},
-    {"id":"B5-T-029","tema":"CG","subtema":"Riesgo","dificultad":"media","pregunta":"Que puede causar una carga mal fijada que desplaza el CG?","respuestas":["Trabajo asimetrico y agotamiento prematuro de baterias o motores","Aumento de masa maxima permitida","Reduccion garantizada de resistencia","Mejora de precision barometrica"],"respuesta_correcta":0,"explicacion":"La fuente lo clasifica como riesgo operacional.","error_habitual":"Pensar que el mando compensa siempre.","referencia_concepto":"Riesgos operacionales"},
-    {"id":"B5-T-030","tema":"Densidad","subtema":"Variables","dificultad":"media","pregunta":"Que variables cambian la densidad del aire?","respuestas":["Altitud, temperatura y humedad","MTOM, CG y RPS","Roll, pitch y yaw","75%, 120 m y <4 kg"],"respuesta_correcta":0,"explicacion":"La fuente lista altitud, temperatura y humedad.","error_habitual":"Olvidar humedad o altitud.","referencia_concepto":"Conceptos variables"},
-    {"id":"B5-T-031","tema":"Densidad","subtema":"Helices","dificultad":"media","pregunta":"A que afecta directamente la densidad del aire?","respuestas":["Al rendimiento de las helices","A la existencia de Profesor Plus","Al nombre del piloto","A la carga de documentos"],"respuesta_correcta":0,"explicacion":"La ingenieria afirma que afecta directamente al rendimiento de las helices.","error_habitual":"Creer que solo afecta a alas fijas.","referencia_concepto":"Densidad del aire"},
-    {"id":"B5-T-032","tema":"Calor","subtema":"Riesgo habitual","dificultad":"media","pregunta":"Que error habitual cita la ingenieria sobre calor extremo?","respuestas":["Ignorar que reduce potencia disponible al afectar a la densidad del aire","Confundirlo con Indice K","Pensar que aumenta siempre la bateria","Desarrollar METAR/TAF"],"respuesta_correcta":0,"explicacion":"La fuente cita el calor extremo como error habitual si se ignora.","error_habitual":"Mirar solo viento.","referencia_concepto":"Riesgos y errores"},
-    {"id":"B5-T-033","tema":"Indice K","subtema":"Posicionamiento","dificultad":"media","pregunta":"Que puede ocurrir si el Indice K es >= 4?","respuestas":["Puede degradar sistemas de posicionamiento","Aumenta la MTOM","Anula el peso del dron","Cambia roll por yaw"],"respuesta_correcta":0,"explicacion":"La actividad geomagnetica puede degradar posicionamiento si K es >=4.","error_habitual":"Invertir el umbral seguro.","referencia_concepto":"Conceptos variables"},
-    {"id":"B5-T-034","tema":"Autonomia","subtema":"Variables","dificultad":"media","pregunta":"De que varia la autonomia de bateria?","respuestas":["Peso de carga util y resistencia al viento enfrentada","Solo numero de pantallas del bloque","Solo altura maxima AGL","Solo umbral de aprobado"],"respuesta_correcta":0,"explicacion":"La fuente lista carga util y resistencia al viento.","error_habitual":"Usar autonomia nominal como real.","referencia_concepto":"Conceptos variables"},
-    {"id":"B5-T-035","tema":"RPS","subtema":"Compatibilidad","dificultad":"media","pregunta":"Por que deben ser compatibles las versiones de software de RPS y dron?","respuestas":["Para garantizar el rendimiento de vuelo","Para cambiar la clase C2 a otra categoria","Para eliminar el CG","Para superar MTOM"],"respuesta_correcta":0,"explicacion":"Es una pregunta nacida del bloque y se relaciona con rendimiento.","error_habitual":"Separar software de rendimiento.","referencia_concepto":"Preguntas que nacen del bloque"},
-    {"id":"B5-T-036","tema":"Efecto suelo","subtema":"Escenario","dificultad":"media","pregunta":"Que escenario cita la ingenieria sobre efecto suelo?","respuestas":["Vuelo de precision a baja altura donde la turbulencia propia afecta estabilidad","Operacion BVLOS nocturna","Examen por televigilancia","Registro administrativo de operador"],"respuesta_correcta":0,"explicacion":"Es uno de los escenarios reales implicitos.","error_habitual":"Pensar que baja altura siempre facilita estabilidad.","referencia_concepto":"Escenarios reales implicitos"},
-    {"id":"B5-T-037","tema":"Gran altitud","subtema":"Escenario","dificultad":"media","pregunta":"Por que se pierde rendimiento a gran altitud sobre el nivel del mar?","respuestas":["Por menor densidad del aire","Por mayor MTOM permitida","Por desaparecer la resistencia","Por no existir CG"],"respuesta_correcta":0,"explicacion":"La fuente relaciona gran altitud con menor densidad del aire.","error_habitual":"No considerar altitud como variable de rendimiento.","referencia_concepto":"Escenarios reales implicitos"},
-    {"id":"B5-T-038","tema":"Complementario","subtema":"Presiones","dificultad":"media","pregunta":"Que contenido sobre presiones es complementario?","respuestas":["Diferencia detallada entre presion estatica y dinamica","Ejes de vuelo","MTOM C2","Centro de Gravedad"],"respuesta_correcta":0,"explicacion":"La auditoria lo marca como complementario.","error_habitual":"Convertir el detalle en eje principal.","referencia_concepto":"Auditoria"},
-    {"id":"B5-T-039","tema":"Complementario","subtema":"Humedad","dificultad":"media","pregunta":"Como clasifica la auditoria el impacto especifico de la humedad?","respuestas":["Complementario","Fuera del alcance siempre","Dato no mencionado","Sustituto de MTOM"],"respuesta_correcta":0,"explicacion":"La auditoria lo incluye como complementario.","error_habitual":"Inventar valores de humedad.","referencia_concepto":"Auditoria"},
-    {"id":"B5-T-040","tema":"Aplicacion","subtema":"Pre-vuelo","dificultad":"media","pregunta":"Que aplicacion final aparece en el grafo de conocimiento?","respuestas":["Gestion de estabilidad, evaluacion de carga util y calibracion pre-vuelo","Generacion de normativa externa","Operacion BVLOS avanzada","Calculo de centro de presiones para ala fija"],"respuesta_correcta":0,"explicacion":"El grafo termina en estabilidad, payload y calibracion pre-vuelo.","error_habitual":"Saltar a contenidos fuera del alcance.","referencia_concepto":"Grafo de conocimiento"},
-    {"id":"B5-T-041","tema":"Ejes","subtema":"Error de examen","dificultad":"dificil","pregunta":"Cual es un error de examen citado literalmente en el bloque?","respuestas":["Asociar cabeceo al eje vertical en lugar de al lateral","Confundir MTOM con ESP-RP","Decir que VLOS no importa","Aplicar STS al Bloque 5"],"respuesta_correcta":0,"explicacion":"La fuente cita ese ejemplo de confusion de ejes.","error_habitual":"Aprender movimientos sin eje asociado.","referencia_concepto":"Riesgos y errores"},
-    {"id":"B5-T-042","tema":"CG","subtema":"Critico","dificultad":"dificil","pregunta":"Por que un CG desplazado fuera de limites es critico?","respuestas":["Impide el control y puede causar la caida de la aeronave","Permite superar la MTOM","Reduce toda resistencia","Mejora la autonomia siempre"],"respuesta_correcta":0,"explicacion":"La ingenieria marca ese riesgo en la importancia del CG.","error_habitual":"Pensar que basta con corregir con mando.","referencia_concepto":"Centro de Gravedad"},
-    {"id":"B5-T-043","tema":"MTOM","subtema":"Seguridad","dificultad":"dificil","pregunta":"Que garantiza respetar la MTOM segun la fuente?","respuestas":["Que rendimiento de motores y resistencia estructural sean adecuados para seguridad","Que el Indice K sea menor que 4","Que no haya humedad","Que no sea necesaria calibracion"],"respuesta_correcta":0,"explicacion":"La finalidad de MTOM es garantizar motores y estructura adecuados.","error_habitual":"Ver MTOM como recomendacion.","referencia_concepto":"Masa Maxima al Despegue"},
-    {"id":"B5-T-044","tema":"Bernoulli","subtema":"Presion","dificultad":"dificil","pregunta":"Si aumenta la velocidad del aire sobre el perfil, con que debe relacionarlo el alumno?","respuestas":["Con Bernoulli y la diferencia de presiones estatica y dinamica","Con tramites administrativos","Con BVLOS","Con la desaparicion del peso"],"respuesta_correcta":0,"explicacion":"La fuente plantea esa pregunta sin pedir calculo numerico.","error_habitual":"Inventar formulas no presentes.","referencia_concepto":"Preguntas que nacen del bloque"},
-    {"id":"B5-T-045","tema":"Grafo","subtema":"Secuencia","dificultad":"dificil","pregunta":"Cual es la secuencia correcta del grafo de conocimiento?","respuestas":["Fuerzas/perfil/Bernoulli -> ejes/CG -> densidad/MTOM -> estabilidad/carga/calibracion","MTOM -> BVLOS -> radiofonista -> SORA","Prompts -> test -> fuerzas -> recursos","Indice K -> certificado -> matricula -> firma"],"respuesta_correcta":0,"explicacion":"El grafo organiza aprendizaje desde fisica basica hasta aplicacion operacional.","error_habitual":"Empezar por aplicacion sin conceptos iniciales.","referencia_concepto":"Grafo de conocimiento"},
-    {"id":"B5-T-046","tema":"Calibracion","subtema":"Ejes","dificultad":"dificil","pregunta":"Por que sensores mal calibrados comprometen la estabilidad?","respuestas":["Porque distorsionan la percepcion del UAS sobre sus ejes de rotacion","Porque aumentan legalmente la MTOM","Porque eliminan la resistencia","Porque reducen el umbral de aprobado"],"respuesta_correcta":0,"explicacion":"La fuente cita IMU y brujula mal calibradas como puente electronica-estabilidad.","error_habitual":"No conectar sensores con actitud.","referencia_concepto":"Calibracion de instrumentos"},
-    {"id":"B5-T-047","tema":"Payload","subtema":"Escenario","dificultad":"dificil","pregunta":"Un piloto instala un sensor adicional. Que debe comprobar segun el bloque?","respuestas":["MTOM y posible efecto negativo en el CG","Solo que el sensor tenga buena resolucion","Solo la altura maxima AGL","Solo el Indice K"],"respuesta_correcta":0,"explicacion":"Carga util exige evaluar compatibilidad con MTOM y efecto sobre CG.","error_habitual":"Comprobar solo que el accesorio encaja.","referencia_concepto":"Carga util"},
-    {"id":"B5-T-048","tema":"Rendimiento","subtema":"Integracion","dificultad":"dificil","pregunta":"Que combinacion explica mejor que el rendimiento real no sea fijo?","respuestas":["Masa, CG, densidad del aire, viento, calibracion, software, bateria e Indice K","Solo porcentaje de bateria","Solo modelo comercial del dron","Solo numero de helices"],"respuesta_correcta":0,"explicacion":"El bloque presenta esos factores como conceptos, variables o puentes.","error_habitual":"Reducir rendimiento a bateria.","referencia_concepto":"Conceptos principales y variables"},
-    {"id":"B5-T-049","tema":"Auditoria","subtema":"Imprescindible","dificultad":"dificil","pregunta":"Que conjunto es imprescindible para el Bloque 5 A2?","respuestas":["Ejes, CG, MTOM, fuerzas aerodinamicas y densidad del aire","BVLOS, SORA y centro de presiones avanzado","Solo presiones detalladas e humedad especifica","Solo flashcards y prompts"],"respuesta_correcta":0,"explicacion":"La auditoria clasifica esos conceptos como imprescindibles.","error_habitual":"Priorizar contenidos complementarios o fuera de alcance.","referencia_concepto":"Auditoria"},
-    {"id":"B5-T-050","tema":"Alcance","subtema":"Fuera del A2","dificultad":"dificil","pregunta":"Si aparece BVLOS al desarrollar rendimiento, que debe hacerse en este curso?","respuestas":["Marcarlo fuera del alcance del curso A2 y no desarrollarlo","Desarrollarlo como parte central","Sustituir MTOM por BVLOS","Eliminar los ejes de vuelo"],"respuesta_correcta":0,"explicacion":"La auditoria indica que performances BVLOS estan fuera del alcance A2.","error_habitual":"Abrir categoria fuera del alcance.","referencia_concepto":"Fuera del alcance"}
-  ]
+﻿{
+    "curso":  "DronLab A2",
+    "bloque":  "Bloque 5: Rendimiento de Vuelo del UAS",
+    "titulo":  "Test Bloque 5 A2 - Rendimiento de Vuelo del UAS",
+    "total":  50,
+    "preguntas":  [
+                      {
+                          "id":  "B5-T-001",
+                          "tema":  "Fuerzas",
+                          "subtema":  "Identificacion",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que fuerzas actuan sobre el UAS durante el vuelo?",
+                          "respuestas":  [
+                                             "Altitud, humedad, temperatura y presion",
+                                             "Roll, pitch, yaw y CG",
+                                             "MTOM, payload, bateria y RPS",
+                                             "Sustentacion, peso, empuje y resistencia"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "La ingenieria define las fuerzas como sustentacion, peso, empuje y resistencia.",
+                          "error_habitual":  "Olvidar resistencia o mezclar fuerzas con ejes.",
+                          "referencia_concepto":  "Fuerzas que actuan sobre el UAS"
+                      },
+                      {
+                          "id":  "B5-T-002",
+                          "tema":  "Fuerzas",
+                          "subtema":  "Finalidad",
+                          "dificultad":  "facil",
+                          "pregunta":  "Cual es la finalidad de comprender las fuerzas de vuelo?",
+                          "respuestas":  [
+                                             "Evitar consultar el manual del fabricante",
+                                             "Sustituir la calibracion de sensores",
+                                             "Aumentar siempre la autonomia nominal",
+                                             "Mantener el equilibrio aerodinamico para vuelo controlado"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "La fuente indica que su finalidad es mantener equilibrio aerodinamico.",
+                          "error_habitual":  "Ver las fuerzas como teoria sin aplicacion.",
+                          "referencia_concepto":  "Fuerzas que actuan sobre el UAS"
+                      },
+                      {
+                          "id":  "B5-T-003",
+                          "tema":  "Fuerzas",
+                          "subtema":  "Importancia",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que permiten comprender las fuerzas de vuelo?",
+                          "respuestas":  [
+                                             "Codigos METAR/TAF",
+                                             "Tramites administrativos A2",
+                                             "Estabilidad y capacidad de maniobra",
+                                             "Radiofonia UAS"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "La importancia indicada es comprender estabilidad y maniobrabilidad.",
+                          "error_habitual":  "Confundir rendimiento con gestion administrativa.",
+                          "referencia_concepto":  "Fuerzas que actuan sobre el UAS"
+                      },
+                      {
+                          "id":  "B5-T-004",
+                          "tema":  "Ejes",
+                          "subtema":  "Definicion",
+                          "dificultad":  "facil",
+                          "pregunta":  "Como se describen los ejes de vuelo?",
+                          "respuestas":  [
+                                             "Tres limites de peso definidos por fabricante",
+                                             "Tres sensores obligatorios de navegacion",
+                                             "Tres tipos de nubes operacionales",
+                                             "Tres lineas imaginarias que se cruzan en el CG"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "La ingenieria define los ejes como tres lineas imaginarias que se cruzan en el CG.",
+                          "error_habitual":  "Pensar que los ejes son componentes fisicos visibles.",
+                          "referencia_concepto":  "Ejes de Vuelo y Rotacion"
+                      },
+                      {
+                          "id":  "B5-T-005",
+                          "tema":  "Ejes",
+                          "subtema":  "Longitudinal",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que movimiento corresponde al eje longitudinal?",
+                          "respuestas":  [
+                                             "Cabeceo o pitch",
+                                             "Guinada o yaw",
+                                             "Alabeo o roll",
+                                             "Ascenso vertical"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "La fuente asocia eje longitudinal con alabeo/roll.",
+                          "error_habitual":  "Confundir roll con yaw.",
+                          "referencia_concepto":  "Ejes de Vuelo y Rotacion"
+                      },
+                      {
+                          "id":  "B5-T-006",
+                          "tema":  "Ejes",
+                          "subtema":  "Lateral",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que movimiento corresponde al eje lateral o transversal?",
+                          "respuestas":  [
+                                             "Alabeo o roll",
+                                             "Guinada o yaw",
+                                             "Cabeceo o pitch",
+                                             "Resistencia"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "La ingenieria asocia eje lateral/transversal con cabeceo/pitch.",
+                          "error_habitual":  "Asociar cabeceo al eje vertical.",
+                          "referencia_concepto":  "Ejes de Vuelo y Rotacion"
+                      },
+                      {
+                          "id":  "B5-T-007",
+                          "tema":  "Ejes",
+                          "subtema":  "Vertical",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que movimiento corresponde al eje vertical?",
+                          "respuestas":  [
+                                             "Guinada o yaw",
+                                             "Cabeceo o pitch",
+                                             "Alabeo o roll",
+                                             "Sustentacion"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "El eje vertical corresponde a guinada/yaw.",
+                          "error_habitual":  "Mezclar yaw y pitch.",
+                          "referencia_concepto":  "Ejes de Vuelo y Rotacion"
+                      },
+                      {
+                          "id":  "B5-T-008",
+                          "tema":  "CG",
+                          "subtema":  "Definicion",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que es el Centro de Gravedad del dron?",
+                          "respuestas":  [
+                                             "Altura maxima autorizada",
+                                             "Centro de presiones avanzado de ala fija",
+                                             "Sensor que mide el viento",
+                                             "Punto imaginario donde se considera concentrada toda la masa"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "La fuente define el CG como punto imaginario donde se concentra la masa.",
+                          "error_habitual":  "Confundir CG con centro geometrico.",
+                          "referencia_concepto":  "Centro de Gravedad"
+                      },
+                      {
+                          "id":  "B5-T-009",
+                          "tema":  "CG",
+                          "subtema":  "Rotacion",
+                          "dificultad":  "facil",
+                          "pregunta":  "Sobre que punto rotan los tres ejes del UAS?",
+                          "respuestas":  [
+                                             "MTOM",
+                                             "Centro de Gravedad",
+                                             "RPS",
+                                             "Indice K"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "Los tres ejes se cruzan y rotan sobre el CG.",
+                          "error_habitual":  "Separar ejes y CG.",
+                          "referencia_concepto":  "Centro de Gravedad"
+                      },
+                      {
+                          "id":  "B5-T-010",
+                          "tema":  "Perfil aerodinamico",
+                          "subtema":  "Definicion",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que es un perfil aerodinamico?",
+                          "respuestas":  [
+                                             "Limite de masa total al despegue",
+                                             "Indice geomagnetico de posicionamiento",
+                                             "Forma transversal de un ala o pala que genera sustentacion por diferencia de presiones",
+                                             "Version de software de la RPS"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "La ingenieria define perfil como forma transversal de ala o pala.",
+                          "error_habitual":  "Pensar solo en ala fija y olvidar palas.",
+                          "referencia_concepto":  "Perfil Aerodinamico y Principio de Bernoulli"
+                      },
+                      {
+                          "id":  "B5-T-011",
+                          "tema":  "Bernoulli",
+                          "subtema":  "Finalidad",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que ayuda a explicar Bernoulli en el Bloque 5?",
+                          "respuestas":  [
+                                             "La matricula del piloto remoto",
+                                             "La prohibicion de BVLOS",
+                                             "La eficiencia del dron segun la velocidad del aire sobre sus palas",
+                                             "El contenido de Profesor Plus"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "La fuente conecta Bernoulli con presiones y eficiencia sobre las palas.",
+                          "error_habitual":  "Memorizar Bernoulli sin aplicarlo al rotor.",
+                          "referencia_concepto":  "Perfil Aerodinamico y Principio de Bernoulli"
+                      },
+                      {
+                          "id":  "B5-T-012",
+                          "tema":  "MTOM",
+                          "subtema":  "Definicion",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que es la MTOM?",
+                          "respuestas":  [
+                                             "Altura maxima AGL",
+                                             "Limite de peso total aeronave mas carga establecido por fabricante",
+                                             "Indice de actividad geomagnetica",
+                                             "Movimiento alrededor del eje vertical"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "MTOM es Masa Maxima al Despegue y no debe superarse nunca.",
+                          "error_habitual":  "Olvidar que incluye carga.",
+                          "referencia_concepto":  "Masa Maxima al Despegue"
+                      },
+                      {
+                          "id":  "B5-T-013",
+                          "tema":  "MTOM",
+                          "subtema":  "Dato C2",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que masa maxima C2 indica la ingenieria?",
+                          "respuestas":  [
+                                             "4 kg exactos",
+                                             "\u003c 4 kg",
+                                             "120 metros",
+                                             "75%"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "El dato critico de Masa Maxima C2 es \u003c 4 kg.",
+                          "error_habitual":  "Perder el signo menor que.",
+                          "referencia_concepto":  "Datos criticos"
+                      },
+                      {
+                          "id":  "B5-T-014",
+                          "tema":  "Altura",
+                          "subtema":  "AGL",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que altura maxima AGL aparece como dato critico?",
+                          "respuestas":  [
+                                             "60 metros exactos",
+                                             "120 metros (400 ft)",
+                                             "\u003c 4 kg",
+                                             "Indice K \u003c 4"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "La fuente recoge 120 metros (400 ft).",
+                          "error_habitual":  "Confundir altura con masa maxima.",
+                          "referencia_concepto":  "Datos criticos"
+                      },
+                      {
+                          "id":  "B5-T-015",
+                          "tema":  "Indice K",
+                          "subtema":  "Dato critico",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que Indice K planetario se indica para operar con seguridad?",
+                          "respuestas":  [
+                                             "\u003e= 4",
+                                             "75%",
+                                             "120 m",
+                                             "\u003c 4"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "La fuente indica Indice K Planetario \u003c 4 para operar con seguridad.",
+                          "error_habitual":  "Invertir la condicion.",
+                          "referencia_concepto":  "Datos criticos"
+                      },
+                      {
+                          "id":  "B5-T-016",
+                          "tema":  "Asistencia barometrica",
+                          "subtema":  "Altura",
+                          "dificultad":  "facil",
+                          "pregunta":  "Para que se requiere la asistencia barometrica?",
+                          "respuestas":  [
+                                             "Para aumentar la MTOM",
+                                             "Para precision en altura",
+                                             "Para cambiar el eje longitudinal",
+                                             "Para sustituir la carga util"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "Es requerida para precision en altura.",
+                          "error_habitual":  "No relacionar barometro y altura.",
+                          "referencia_concepto":  "Datos criticos"
+                      },
+                      {
+                          "id":  "B5-T-017",
+                          "tema":  "Examen",
+                          "subtema":  "Aprobado",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que umbral de aprobado aparece en la ingenieria?",
+                          "respuestas":  [
+                                             "\u003c 4 kg",
+                                             "75% de aciertos",
+                                             "120 metros",
+                                             "Indice K \u003e= 4"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "Los datos criticos incluyen umbral de aprobado del 75% de aciertos.",
+                          "error_habitual":  "Mezclar porcentaje con otros bloques.",
+                          "referencia_concepto":  "Datos criticos"
+                      },
+                      {
+                          "id":  "B5-T-018",
+                          "tema":  "Alcance",
+                          "subtema":  "Fuera de alcance",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que contenido queda fuera del alcance del A2 en este bloque?",
+                          "respuestas":  [
+                                             "Ejes de vuelo y CG",
+                                             "MTOM y densidad del aire",
+                                             "Fuerzas aerodinamicas basicas",
+                                             "Performances BVLOS y calculos avanzados de centro de presiones para ala fija"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "La auditoria clasifica BVLOS y calculos avanzados como fuera de alcance.",
+                          "error_habitual":  "Desarrollar BVLOS dentro de este bloque.",
+                          "referencia_concepto":  "Auditoria"
+                      },
+                      {
+                          "id":  "B5-T-019",
+                          "tema":  "Carga util",
+                          "subtema":  "Puente",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que otro nombre usa la ingenieria para carga util?",
+                          "respuestas":  [
+                                             "Pitch",
+                                             "Payload",
+                                             "Yaw",
+                                             "Indice K"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "El concepto puente se denomina Carga util o Payload.",
+                          "error_habitual":  "Confundir payload con eje de vuelo.",
+                          "referencia_concepto":  "Conceptos puente"
+                      },
+                      {
+                          "id":  "B5-T-020",
+                          "tema":  "Calibracion",
+                          "subtema":  "Sensores",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que sensores cita la ingenieria como ejemplo de instrumentos mal calibrados?",
+                          "respuestas":  [
+                                             "Altimetro y microfono",
+                                             "IMU y brujula",
+                                             "Camara y payload",
+                                             "Bateria y motor"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "La fuente cita IMU y brujula.",
+                          "error_habitual":  "Hablar de sensores no citados como eje central.",
+                          "referencia_concepto":  "Calibracion de instrumentos"
+                      },
+                      {
+                          "id":  "B5-T-021",
+                          "tema":  "Sustentacion",
+                          "subtema":  "Dependencias",
+                          "dificultad":  "media",
+                          "pregunta":  "Segun la tabla, de que depende la sustentacion?",
+                          "respuestas":  [
+                                             "CG y RPS solamente",
+                                             "Indice K y software",
+                                             "Perfil aerodinamico y aire",
+                                             "Altura maxima y umbral de aprobado"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "La tabla de dependencias indica perfil aerodinamico/aire.",
+                          "error_habitual":  "Responder solo motores.",
+                          "referencia_concepto":  "Dependencias"
+                      },
+                      {
+                          "id":  "B5-T-022",
+                          "tema":  "Sustentacion",
+                          "subtema":  "Desbloquea",
+                          "dificultad":  "media",
+                          "pregunta":  "Que desbloquea la sustentacion?",
+                          "respuestas":  [
+                                             "Precision en altura H\u003c60m",
+                                             "Compatibilidad RPS-dron",
+                                             "Capacidad de carga y ascenso",
+                                             "Indice K seguro"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "La tabla dice que desbloquea capacidad de carga y ascenso.",
+                          "error_habitual":  "Confundirlo con calibracion.",
+                          "referencia_concepto":  "Dependencias"
+                      },
+                      {
+                          "id":  "B5-T-023",
+                          "tema":  "Estabilidad",
+                          "subtema":  "Dependencia",
+                          "dificultad":  "media",
+                          "pregunta":  "De que depende la estabilidad segun la tabla de dependencias?",
+                          "respuestas":  [
+                                             "Centro de Gravedad",
+                                             "Umbral de aprobado",
+                                             "Codigo METAR",
+                                             "BVLOS"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "La estabilidad depende del CG.",
+                          "error_habitual":  "Asociarla solo a potencia.",
+                          "referencia_concepto":  "Dependencias"
+                      },
+                      {
+                          "id":  "B5-T-024",
+                          "tema":  "Estabilidad",
+                          "subtema":  "Desbloquea",
+                          "dificultad":  "media",
+                          "pregunta":  "Que desbloquea un CG correcto?",
+                          "respuestas":  [
+                                             "Control seguro en los 3 ejes",
+                                             "Aumento de MTOM",
+                                             "Operacion BVLOS",
+                                             "Aprobado automatico"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "La tabla indica control seguro en los tres ejes.",
+                          "error_habitual":  "No unir CG y ejes.",
+                          "referencia_concepto":  "Dependencias"
+                      },
+                      {
+                          "id":  "B5-T-025",
+                          "tema":  "Control de altura",
+                          "subtema":  "Barometria",
+                          "dificultad":  "media",
+                          "pregunta":  "Que depende de la asistencia barometrica?",
+                          "respuestas":  [
+                                             "MTOM",
+                                             "Carga util",
+                                             "Control de altura",
+                                             "Roll"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "La tabla indica que el control de altura depende de asistencia barometrica.",
+                          "error_habitual":  "Ignorar sensores en precision de altura.",
+                          "referencia_concepto":  "Dependencias"
+                      },
+                      {
+                          "id":  "B5-T-026",
+                          "tema":  "Maniobrabilidad",
+                          "subtema":  "Calibracion",
+                          "dificultad":  "media",
+                          "pregunta":  "De que depende la maniobrabilidad segun el bloque?",
+                          "respuestas":  [
+                                             "Umbral de aprobado",
+                                             "Centro de presiones avanzado",
+                                             "BVLOS",
+                                             "Calibracion de instrumentos"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "La tabla de dependencias asocia maniobrabilidad con calibracion.",
+                          "error_habitual":  "Tratar calibracion como secundaria.",
+                          "referencia_concepto":  "Dependencias"
+                      },
+                      {
+                          "id":  "B5-T-027",
+                          "tema":  "Carga util",
+                          "subtema":  "Rendimiento",
+                          "dificultad":  "media",
+                          "pregunta":  "Que conecta la carga util como concepto puente?",
+                          "respuestas":  [
+                                             "Configuracion tecnica y rendimiento real",
+                                             "Meteorologia y radiofonista",
+                                             "Categoria especifica y certificada",
+                                             "Presion estatica y examen"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "La carga util conecta configuracion tecnica con rendimiento real.",
+                          "error_habitual":  "Pensar solo en peso.",
+                          "referencia_concepto":  "Conceptos puente"
+                      },
+                      {
+                          "id":  "B5-T-028",
+                          "tema":  "Carga util",
+                          "subtema":  "Comprobacion",
+                          "dificultad":  "media",
+                          "pregunta":  "Que debe evaluar el piloto al anadir camara o sensores?",
+                          "respuestas":  [
+                                             "Solo color y resolucion de camara",
+                                             "Solo version de app",
+                                             "Solo altura AGL",
+                                             "Compatibilidad con MTOM y efecto sobre CG"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "La fuente exige valorar MTOM y CG.",
+                          "error_habitual":  "Comprobar solo fijacion fisica.",
+                          "referencia_concepto":  "Carga util"
+                      },
+                      {
+                          "id":  "B5-T-029",
+                          "tema":  "CG",
+                          "subtema":  "Riesgo",
+                          "dificultad":  "media",
+                          "pregunta":  "Que puede causar una carga mal fijada que desplaza el CG?",
+                          "respuestas":  [
+                                             "Trabajo asimetrico y agotamiento prematuro de baterias o motores",
+                                             "Aumento de masa maxima permitida",
+                                             "Reduccion garantizada de resistencia",
+                                             "Mejora de precision barometrica"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "La fuente lo clasifica como riesgo operacional.",
+                          "error_habitual":  "Pensar que el mando compensa siempre.",
+                          "referencia_concepto":  "Riesgos operacionales"
+                      },
+                      {
+                          "id":  "B5-T-030",
+                          "tema":  "Densidad",
+                          "subtema":  "Variables",
+                          "dificultad":  "media",
+                          "pregunta":  "Que variables cambian la densidad del aire?",
+                          "respuestas":  [
+                                             "MTOM, CG y RPS",
+                                             "Roll, pitch y yaw",
+                                             "Altitud, temperatura y humedad",
+                                             "75%, 120 m y \u003c4 kg"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "La fuente lista altitud, temperatura y humedad.",
+                          "error_habitual":  "Olvidar humedad o altitud.",
+                          "referencia_concepto":  "Conceptos variables"
+                      },
+                      {
+                          "id":  "B5-T-031",
+                          "tema":  "Densidad",
+                          "subtema":  "Helices",
+                          "dificultad":  "media",
+                          "pregunta":  "A que afecta directamente la densidad del aire?",
+                          "respuestas":  [
+                                             "A la existencia de Profesor Plus",
+                                             "Al nombre del piloto",
+                                             "Al rendimiento de las helices",
+                                             "A la carga de documentos"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "La ingenieria afirma que afecta directamente al rendimiento de las helices.",
+                          "error_habitual":  "Creer que solo afecta a alas fijas.",
+                          "referencia_concepto":  "Densidad del aire"
+                      },
+                      {
+                          "id":  "B5-T-032",
+                          "tema":  "Calor",
+                          "subtema":  "Riesgo habitual",
+                          "dificultad":  "media",
+                          "pregunta":  "Que error habitual cita la ingenieria sobre calor extremo?",
+                          "respuestas":  [
+                                             "Confundirlo con Indice K",
+                                             "Pensar que aumenta siempre la bateria",
+                                             "Desarrollar METAR/TAF",
+                                             "Ignorar que reduce potencia disponible al afectar a la densidad del aire"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "La fuente cita el calor extremo como error habitual si se ignora.",
+                          "error_habitual":  "Mirar solo viento.",
+                          "referencia_concepto":  "Riesgos y errores"
+                      },
+                      {
+                          "id":  "B5-T-033",
+                          "tema":  "Indice K",
+                          "subtema":  "Posicionamiento",
+                          "dificultad":  "media",
+                          "pregunta":  "Que puede ocurrir si el Indice K es \u003e= 4?",
+                          "respuestas":  [
+                                             "Aumenta la MTOM",
+                                             "Puede degradar sistemas de posicionamiento",
+                                             "Anula el peso del dron",
+                                             "Cambia roll por yaw"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "La actividad geomagnetica puede degradar posicionamiento si K es \u003e=4.",
+                          "error_habitual":  "Invertir el umbral seguro.",
+                          "referencia_concepto":  "Conceptos variables"
+                      },
+                      {
+                          "id":  "B5-T-034",
+                          "tema":  "Autonomia",
+                          "subtema":  "Variables",
+                          "dificultad":  "media",
+                          "pregunta":  "De que varia la autonomia de bateria?",
+                          "respuestas":  [
+                                             "Solo numero de pantallas del bloque",
+                                             "Solo altura maxima AGL",
+                                             "Solo umbral de aprobado",
+                                             "Peso de carga util y resistencia al viento enfrentada"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "La fuente lista carga util y resistencia al viento.",
+                          "error_habitual":  "Usar autonomia nominal como real.",
+                          "referencia_concepto":  "Conceptos variables"
+                      },
+                      {
+                          "id":  "B5-T-035",
+                          "tema":  "RPS",
+                          "subtema":  "Compatibilidad",
+                          "dificultad":  "media",
+                          "pregunta":  "Por que deben ser compatibles las versiones de software de RPS y dron?",
+                          "respuestas":  [
+                                             "Para cambiar la clase C2 a otra categoria",
+                                             "Para eliminar el CG",
+                                             "Para garantizar el rendimiento de vuelo",
+                                             "Para superar MTOM"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "Es una pregunta nacida del bloque y se relaciona con rendimiento.",
+                          "error_habitual":  "Separar software de rendimiento.",
+                          "referencia_concepto":  "Preguntas que nacen del bloque"
+                      },
+                      {
+                          "id":  "B5-T-036",
+                          "tema":  "Efecto suelo",
+                          "subtema":  "Escenario",
+                          "dificultad":  "media",
+                          "pregunta":  "Que escenario cita la ingenieria sobre efecto suelo?",
+                          "respuestas":  [
+                                             "Operacion BVLOS nocturna",
+                                             "Examen por televigilancia",
+                                             "Vuelo de precision a baja altura donde la turbulencia propia afecta estabilidad",
+                                             "Registro administrativo de operador"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "Es uno de los escenarios reales implicitos.",
+                          "error_habitual":  "Pensar que baja altura siempre facilita estabilidad.",
+                          "referencia_concepto":  "Escenarios reales implicitos"
+                      },
+                      {
+                          "id":  "B5-T-037",
+                          "tema":  "Gran altitud",
+                          "subtema":  "Escenario",
+                          "dificultad":  "media",
+                          "pregunta":  "Por que se pierde rendimiento a gran altitud sobre el nivel del mar?",
+                          "respuestas":  [
+                                             "Por menor densidad del aire",
+                                             "Por mayor MTOM permitida",
+                                             "Por desaparecer la resistencia",
+                                             "Por no existir CG"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "La fuente relaciona gran altitud con menor densidad del aire.",
+                          "error_habitual":  "No considerar altitud como variable de rendimiento.",
+                          "referencia_concepto":  "Escenarios reales implicitos"
+                      },
+                      {
+                          "id":  "B5-T-038",
+                          "tema":  "Complementario",
+                          "subtema":  "Presiones",
+                          "dificultad":  "media",
+                          "pregunta":  "Que contenido sobre presiones es complementario?",
+                          "respuestas":  [
+                                             "Diferencia detallada entre presion estatica y dinamica",
+                                             "Ejes de vuelo",
+                                             "MTOM C2",
+                                             "Centro de Gravedad"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "La auditoria lo marca como complementario.",
+                          "error_habitual":  "Convertir el detalle en eje principal.",
+                          "referencia_concepto":  "Auditoria"
+                      },
+                      {
+                          "id":  "B5-T-039",
+                          "tema":  "Complementario",
+                          "subtema":  "Humedad",
+                          "dificultad":  "media",
+                          "pregunta":  "Como clasifica la auditoria el impacto especifico de la humedad?",
+                          "respuestas":  [
+                                             "Fuera del alcance siempre",
+                                             "Complementario",
+                                             "Dato no mencionado",
+                                             "Sustituto de MTOM"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "La auditoria lo incluye como complementario.",
+                          "error_habitual":  "Inventar valores de humedad.",
+                          "referencia_concepto":  "Auditoria"
+                      },
+                      {
+                          "id":  "B5-T-040",
+                          "tema":  "Aplicacion",
+                          "subtema":  "Pre-vuelo",
+                          "dificultad":  "media",
+                          "pregunta":  "Que aplicacion final aparece en el grafo de conocimiento?",
+                          "respuestas":  [
+                                             "Generacion de normativa externa",
+                                             "Gestion de estabilidad, evaluacion de carga util y calibracion pre-vuelo",
+                                             "Operacion BVLOS avanzada",
+                                             "Calculo de centro de presiones para ala fija"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "El grafo termina en estabilidad, payload y calibracion pre-vuelo.",
+                          "error_habitual":  "Saltar a contenidos fuera del alcance.",
+                          "referencia_concepto":  "Grafo de conocimiento"
+                      },
+                      {
+                          "id":  "B5-T-041",
+                          "tema":  "Ejes",
+                          "subtema":  "Error de examen",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Cual es un error de examen citado literalmente en el bloque?",
+                          "respuestas":  [
+                                             "Asociar cabeceo al eje vertical en lugar de al lateral",
+                                             "Confundir MTOM con ESP-RP",
+                                             "Decir que VLOS no importa",
+                                             "Aplicar STS al Bloque 5"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "La fuente cita ese ejemplo de confusion de ejes.",
+                          "error_habitual":  "Aprender movimientos sin eje asociado.",
+                          "referencia_concepto":  "Riesgos y errores"
+                      },
+                      {
+                          "id":  "B5-T-042",
+                          "tema":  "CG",
+                          "subtema":  "Critico",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Por que un CG desplazado fuera de limites es critico?",
+                          "respuestas":  [
+                                             "Permite superar la MTOM",
+                                             "Reduce toda resistencia",
+                                             "Mejora la autonomia siempre",
+                                             "Impide el control y puede causar la caida de la aeronave"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "La ingenieria marca ese riesgo en la importancia del CG.",
+                          "error_habitual":  "Pensar que basta con corregir con mando.",
+                          "referencia_concepto":  "Centro de Gravedad"
+                      },
+                      {
+                          "id":  "B5-T-043",
+                          "tema":  "MTOM",
+                          "subtema":  "Seguridad",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Que garantiza respetar la MTOM segun la fuente?",
+                          "respuestas":  [
+                                             "Que el Indice K sea menor que 4",
+                                             "Que rendimiento de motores y resistencia estructural sean adecuados para seguridad",
+                                             "Que no haya humedad",
+                                             "Que no sea necesaria calibracion"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "La finalidad de MTOM es garantizar motores y estructura adecuados.",
+                          "error_habitual":  "Ver MTOM como recomendacion.",
+                          "referencia_concepto":  "Masa Maxima al Despegue"
+                      },
+                      {
+                          "id":  "B5-T-044",
+                          "tema":  "Bernoulli",
+                          "subtema":  "Presion",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Si aumenta la velocidad del aire sobre el perfil, con que debe relacionarlo el alumno?",
+                          "respuestas":  [
+                                             "Con Bernoulli y la diferencia de presiones estatica y dinamica",
+                                             "Con tramites administrativos",
+                                             "Con BVLOS",
+                                             "Con la desaparicion del peso"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "La fuente plantea esa pregunta sin pedir calculo numerico.",
+                          "error_habitual":  "Inventar formulas no presentes.",
+                          "referencia_concepto":  "Preguntas que nacen del bloque"
+                      },
+                      {
+                          "id":  "B5-T-045",
+                          "tema":  "Grafo",
+                          "subtema":  "Secuencia",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Cual es la secuencia correcta del grafo de conocimiento?",
+                          "respuestas":  [
+                                             "MTOM -\u003e BVLOS -\u003e radiofonista -\u003e SORA",
+                                             "Fuerzas/perfil/Bernoulli -\u003e ejes/CG -\u003e densidad/MTOM -\u003e estabilidad/carga/calibracion",
+                                             "Prompts -\u003e test -\u003e fuerzas -\u003e recursos",
+                                             "Indice K -\u003e certificado -\u003e matricula -\u003e firma"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "El grafo organiza aprendizaje desde fisica basica hasta aplicacion operacional.",
+                          "error_habitual":  "Empezar por aplicacion sin conceptos iniciales.",
+                          "referencia_concepto":  "Grafo de conocimiento"
+                      },
+                      {
+                          "id":  "B5-T-046",
+                          "tema":  "Calibracion",
+                          "subtema":  "Ejes",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Por que sensores mal calibrados comprometen la estabilidad?",
+                          "respuestas":  [
+                                             "Porque aumentan legalmente la MTOM",
+                                             "Porque eliminan la resistencia",
+                                             "Porque distorsionan la percepcion del UAS sobre sus ejes de rotacion",
+                                             "Porque reducen el umbral de aprobado"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "La fuente cita IMU y brujula mal calibradas como puente electronica-estabilidad.",
+                          "error_habitual":  "No conectar sensores con actitud.",
+                          "referencia_concepto":  "Calibracion de instrumentos"
+                      },
+                      {
+                          "id":  "B5-T-047",
+                          "tema":  "Payload",
+                          "subtema":  "Escenario",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Un piloto instala un sensor adicional. Que debe comprobar segun el bloque?",
+                          "respuestas":  [
+                                             "MTOM y posible efecto negativo en el CG",
+                                             "Solo que el sensor tenga buena resolucion",
+                                             "Solo la altura maxima AGL",
+                                             "Solo el Indice K"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "Carga util exige evaluar compatibilidad con MTOM y efecto sobre CG.",
+                          "error_habitual":  "Comprobar solo que el accesorio encaja.",
+                          "referencia_concepto":  "Carga util"
+                      },
+                      {
+                          "id":  "B5-T-048",
+                          "tema":  "Rendimiento",
+                          "subtema":  "Integracion",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Que combinacion explica mejor que el rendimiento real no sea fijo?",
+                          "respuestas":  [
+                                             "Solo porcentaje de bateria",
+                                             "Solo modelo comercial del dron",
+                                             "Masa, CG, densidad del aire, viento, calibracion, software, bateria e Indice K",
+                                             "Solo numero de helices"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "El bloque presenta esos factores como conceptos, variables o puentes.",
+                          "error_habitual":  "Reducir rendimiento a bateria.",
+                          "referencia_concepto":  "Conceptos principales y variables"
+                      },
+                      {
+                          "id":  "B5-T-049",
+                          "tema":  "Auditoria",
+                          "subtema":  "Imprescindible",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Que conjunto es imprescindible para el Bloque 5 A2?",
+                          "respuestas":  [
+                                             "BVLOS, SORA y centro de presiones avanzado",
+                                             "Solo presiones detalladas e humedad especifica",
+                                             "Ejes, CG, MTOM, fuerzas aerodinamicas y densidad del aire",
+                                             "Solo flashcards y prompts"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "La auditoria clasifica esos conceptos como imprescindibles.",
+                          "error_habitual":  "Priorizar contenidos complementarios o fuera de alcance.",
+                          "referencia_concepto":  "Auditoria"
+                      },
+                      {
+                          "id":  "B5-T-050",
+                          "tema":  "Alcance",
+                          "subtema":  "Fuera del A2",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Si aparece BVLOS al desarrollar rendimiento, que debe hacerse en este curso?",
+                          "respuestas":  [
+                                             "Marcarlo fuera del alcance del curso A2 y no desarrollarlo",
+                                             "Desarrollarlo como parte central",
+                                             "Sustituir MTOM por BVLOS",
+                                             "Eliminar los ejes de vuelo"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "La auditoria indica que performances BVLOS estan fuera del alcance A2.",
+                          "error_habitual":  "Abrir categoria fuera del alcance.",
+                          "referencia_concepto":  "Fuera del alcance"
+                      }
+                  ]
 }
