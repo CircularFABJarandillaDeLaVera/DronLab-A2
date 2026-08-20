@@ -63,6 +63,7 @@
 
   function correct() {
     let score = 0;
+    const failed = [];
     const visible = visibleQuestions();
     visible.forEach(question => {
       const section = document.querySelector(`.question[data-id="${question.id}"]`);
@@ -74,8 +75,14 @@
         else if (selected[question.id] === value) option.classList.add('wrong');
       });
       if (selected[question.id] === question.respuesta_correcta) score++;
+      else failed.push(question);
     });
-    document.getElementById('resultado').textContent = `Resultado: ${score} / ${visible.length}`;
+    renderReview(score, visible.length, failed);
+  }
+
+  function renderReview(score, total, failed) {
+    const groups = Object.entries(failed.reduce((acc, question) => { const label = question.referencia_concepto || question.referencia || [question.tema, question.subtema].filter(Boolean).join(' / ') || 'Sin referencia'; acc[label] = (acc[label] || 0) + 1; return acc; }, {})).sort(([, a], [, b]) => b - a);
+    document.getElementById('resultado').innerHTML = `<h2>Resultado: ${score} / ${total}</h2><h2>Preguntas a repasar</h2>${failed.length ? failed.map(question => { const answer = selected[question.id]; return `<article class="review-card"><h3>${question.pregunta}</h3><p><b>Tu respuesta:</b> ${answer === undefined ? 'Sin respuesta' : question.respuestas[answer]}</p><p><b>Respuesta correcta:</b> ${question.respuestas[question.respuesta_correcta]}</p><p><b>Explicacion:</b> ${question.explicacion || 'No disponible'}</p><p><b>Error habitual:</b> ${question.error_habitual || question.errorHabitual || 'No disponible'}</p><p><b>Concepto a repasar:</b> ${question.referencia_concepto || question.referencia || question.tema || 'No disponible'}</p><p><b>Bloque/Tema:</b> ${[data.bloque, question.tema, question.subtema].filter(Boolean).join(' / ')}</p></article>`; }).join('') : '<p>No hay preguntas falladas.</p>'}<h2>Que deberias repasar</h2>${groups.length ? `<ul class="review-groups">${groups.map(([label, count]) => `<li><span>${label}</span><strong>${count} ${count === 1 ? 'error' : 'errores'}</strong></li>`).join('')}</ul>` : '<p>No hay conceptos pendientes de repaso.</p>'}`;
   }
 
   document.querySelectorAll('nav button[data-filter]').forEach(button => {
@@ -101,3 +108,4 @@
       main.innerHTML = '<section class="panel">No se pudo cargar el test. Abre esta vista desde Live Server.</section>';
     });
 })();
+
