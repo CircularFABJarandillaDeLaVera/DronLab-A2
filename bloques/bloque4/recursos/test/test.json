@@ -22,7 +22,7 @@
                                              "Una funcion automatica del UAS C2"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria define los efectos locales como perturbaciones del flujo del aire causadas por topografia y obstaculos.",
+                          "explicacion":  "la materia A2 define los efectos locales como perturbaciones del flujo del aire causadas por topografia y obstaculos.",
                           "error_habitual":  "Pensar que el viento es uniforme en toda la zona.",
                           "referencia_concepto":  "Efectos locales del viento"
                       },
@@ -56,7 +56,7 @@
                                              "Cambio de numero ESP-RP"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "La ingenieria cita desplazamientos laterales, ascensos y descensos bruscos cerca de construcciones.",
+                          "explicacion":  "la materia A2 cita desplazamientos laterales, ascensos y descensos bruscos cerca de construcciones.",
                           "error_habitual":  "Reducir la turbulencia a una simple molestia.",
                           "referencia_concepto":  "Turbulencia urbana"
                       },
@@ -141,7 +141,7 @@
                                              "Los codigos METAR obligatorios"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "La ingenieria define los limites meteorologicos del fabricante como esos umbrales tecnicos.",
+                          "explicacion":  "la materia A2 define los limites meteorologicos del fabricante como esos umbrales tecnicos.",
                           "error_habitual":  "Inventar limites universales.",
                           "referencia_concepto":  "Limites meteorologicos del fabricante"
                       },
@@ -201,7 +201,7 @@
                           "tema":  "MEUH",
                           "subtema":  "M",
                           "dificultad":  "facil",
-                          "pregunta":  "Que representa la M en MEUH dentro de este bloque?",
+                          "pregunta":  "Que representa la M en la metodologia MEUH?",
                           "respuestas":  [
                                              "Manual de examen",
                                              "Mapa mental",
@@ -337,17 +337,17 @@
                           "tema":  "Alcance",
                           "subtema":  "Fuera de alcance",
                           "dificultad":  "facil",
-                          "pregunta":  "Que debe hacerse con METAR/TAF en este bloque?",
+                          "pregunta":  "Como deben tratarse METAR/TAF en la preparacion meteorologica A2 estandar?",
                           "respuestas":  [
                                              "Desarrollarlos como contenido central",
                                              "Sustituir la nubosidad por METAR",
-                                             "Marcarlos como fuera del alcance del curso A2",
+                                             "Considerarlos fuera del alcance del examen teorico A2 estandar",
                                              "Usarlos para radiofonista"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La auditoria C marca codigos METAR/TAF fuera del alcance.",
+                          "explicacion":  "La alcance C marca codigos METAR/TAF fuera del alcance.",
                           "error_habitual":  "Abrir contenido de radiofonista no obligatorio para A2 estandar.",
-                          "referencia_concepto":  "Auditoria C"
+                          "referencia_concepto":  "alcance C"
                       },
                       {
                           "id":  "B4-T-021",
@@ -379,9 +379,9 @@
                                              "Que puede cambiar la velocidad y direccion del viento local"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La ingenieria plantea esa pregunta para razonar efectos locales del viento.",
+                          "explicacion":  "la materia A2 plantea esa pregunta para razonar efectos locales del viento.",
                           "error_habitual":  "Aplicar la prevision general sin analizar la calle.",
-                          "referencia_concepto":  "Preguntas que nacen del bloque"
+                          "referencia_concepto":  "Efectos locales del viento"
                       },
                       {
                           "id":  "B4-T-023",
@@ -413,7 +413,7 @@
                                              "Flashcards y test"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria la define como puente entre fisica del vuelo y seguridad A2.",
+                          "explicacion":  "la materia A2 la define como puente entre fisica del vuelo y seguridad A2.",
                           "error_habitual":  "Separar fenomeno fisico y decision de seguridad.",
                           "referencia_concepto":  "Conceptos puente"
                       },
@@ -473,7 +473,7 @@
                           "tema":  "Fabricante",
                           "subtema":  "Limite legal tecnico",
                           "dificultad":  "media",
-                          "pregunta":  "Como califica la ingenieria los limites meteorologicos del fabricante para el piloto?",
+                          "pregunta":  "Como califica la materia A2 los limites meteorologicos del fabricante para el piloto?",
                           "respuestas":  [
                                              "Recomendacion decorativa",
                                              "Limite legal y tecnico",
@@ -541,7 +541,7 @@
                           "tema":  "MEUH",
                           "subtema":  "Campo",
                           "dificultad":  "media",
-                          "pregunta":  "Que conecta MEUH segun la ingenieria?",
+                          "pregunta":  "Que conecta MEUH ?",
                           "respuestas":  [
                                              "Solo mapas mentales y flashcards",
                                              "Categoria certificada y radiofonista",
@@ -634,7 +634,7 @@
                                              "Grabacion de evento en plaza rodeada de edificios altos con viento cruzado"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La ingenieria cita ese escenario como implicito.",
+                          "explicacion":  "la materia A2 cita ese escenario como implicito.",
                           "error_habitual":  "Tratar la plaza como aire limpio por estar abierta.",
                           "referencia_concepto":  "Escenarios reales implicitos"
                       },
@@ -660,7 +660,7 @@
                           "tema":  "Alcance",
                           "subtema":  "Complementario",
                           "dificultad":  "media",
-                          "pregunta":  "Que contenido es complementario en la auditoria del Bloque 4?",
+                          "pregunta":  "Que contenido es complementario en meteorologia aplicada A2?",
                           "respuestas":  [
                                              "Frentes calidos/frios complejos como eje central",
                                              "METAR/TAF obligatorio",
@@ -668,16 +668,16 @@
                                              "Diferencia entre presion estatica y dinamica para entender sensores"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La auditoria B lo clasifica como complementario.",
+                          "explicacion":  "La diferencia entre presion estatica y dinamica ayuda a entender sensores, pero no es el eje central.",
                           "error_habitual":  "Convertir lo complementario en contenido central.",
-                          "referencia_concepto":  "Auditoria B"
+                          "referencia_concepto":  "alcance B"
                       },
                       {
                           "id":  "B4-T-040",
                           "tema":  "Alcance",
                           "subtema":  "Imprescindible",
                           "dificultad":  "media",
-                          "pregunta":  "Que contenido es imprescindible para el Bloque 4 A2?",
+                          "pregunta":  "Que contenido meteorologico es imprescindible para operaciones A2?",
                           "respuestas":  [
                                              "Turbulencias urbanas, formacion de nubes y limites meteorologicos del fabricante",
                                              "Solo METAR/TAF",
@@ -685,9 +685,9 @@
                                              "Solo radiofonista"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La auditoria A clasifica esos contenidos como imprescindibles.",
+                          "explicacion":  "Turbulencias urbanas, nubes y limites del fabricante son contenidos esenciales para decidir Go/No-Go.",
                           "error_habitual":  "Desplazar el foco hacia meteorologia avanzada.",
-                          "referencia_concepto":  "Auditoria A"
+                          "referencia_concepto":  "alcance A"
                       },
                       {
                           "id":  "B4-T-041",
@@ -703,8 +703,8 @@
                                          ],
                           "respuesta_correcta":  1,
                           "explicacion":  "La fuente no da un procedimiento detallado; el principio disponible es respetar el limite del fabricante.",
-                          "error_habitual":  "Inventar maniobras no presentes en la ingenieria.",
-                          "referencia_concepto":  "Pregunta nacida del bloque"
+                          "error_habitual":  "Inventar maniobras no presentes en la materia A2.",
+                          "referencia_concepto":  "Limites meteorologicos del fabricante"
                       },
                       {
                           "id":  "B4-T-042",
@@ -788,7 +788,7 @@
                                          ],
                           "respuesta_correcta":  3,
                           "explicacion":  "La fuente cita viento, temperatura y humedad como limites del manual.",
-                          "error_habitual":  "Mezclar datos de otros bloques.",
+                          "error_habitual":  "Mezclar datos de otras materias.",
                           "referencia_concepto":  "Limites meteorologicos del fabricante"
                       },
                       {
@@ -813,7 +813,7 @@
                           "tema":  "Fuera de alcance",
                           "subtema":  "Meteorologia avanzada",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que contenidos meteorologicos quedan fuera del alcance segun la auditoria?",
+                          "pregunta":  "Que contenidos meteorologicos quedan fuera del alcance segun la alcance?",
                           "respuestas":  [
                                              "Meteorologia de gran escala, frentes calidos/frios complejos y METAR/TAF",
                                              "Turbulencia urbana y nubes",
@@ -821,16 +821,16 @@
                                              "MEUH y Go/No-Go"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La auditoria C marca esos contenidos como fuera del alcance.",
+                          "explicacion":  "La alcance C marca esos contenidos como fuera del alcance.",
                           "error_habitual":  "Desarrollar radiofonista o meteorologia avanzada.",
-                          "referencia_concepto":  "Auditoria C"
+                          "referencia_concepto":  "alcance C"
                       },
                       {
                           "id":  "B4-T-049",
                           "tema":  "Sintesis",
-                          "subtema":  "Grafo",
+                          "subtema":  "secuencia conceptual",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que secuencia resume mejor el grafo de conocimiento del Bloque 4?",
+                          "pregunta":  "Que secuencia resume mejor una decision meteorologica A2?",
                           "respuestas":  [
                                              "Prevision y MEUH, temperatura/humedad y nubes, viento local y limites, planificacion y Go/No-Go",
                                              "Examen, firma, ESP-RP y certificado",
@@ -838,9 +838,9 @@
                                              "Solo nubes y frentes complejos"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "El grafo avanza desde consulta y MEUH hasta aplicacion Go/No-Go.",
+                          "explicacion":  "La decision avanza desde prevision y MEUH hasta condiciones locales, limites del fabricante y Go/No-Go.",
                           "error_habitual":  "Saltar de un dato aislado a la decision sin dependencias.",
-                          "referencia_concepto":  "Grafo de conocimiento"
+                          "referencia_concepto":  "secuencia conceptual"
                       },
                       {
                           "id":  "B4-T-050",
@@ -850,7 +850,7 @@
                           "pregunta":  "Por que meteorologia A2 no debe estudiarse como teoria aislada?",
                           "respuestas":  [
                                              "Porque esta fuera del examen",
-                                             "Porque sustituye todo el curso",
+                                             "Porque sustituye todo el formacion",
                                              "Porque cada concepto debe convertirse en decision de seguridad, VLOS, limites y Go/No-Go",
                                              "Porque solo sirve para radiofonista"
                                          ],

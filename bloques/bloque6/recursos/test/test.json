@@ -17,7 +17,7 @@
                                              "Requisitos de categoria certificada"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria las define como funciones o dispositivos integrados en el UAS C2.",
+                          "explicacion":  "la materia A2 las define como funciones o dispositivos integrados en el UAS C2.",
                           "error_habitual":  "Confundirlas con maniobras del piloto.",
                           "referencia_concepto":  "Atenuaciones tecnicas"
                       },
@@ -51,7 +51,7 @@
                                              "Firma electronica y matricula"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria cita marcado C2 y configuracion correcta del software por el piloto.",
+                          "explicacion":  "la materia A2 cita marcado C2 y configuracion correcta del software por el piloto.",
                           "error_habitual":  "Creer que el sistema actua correctamente sin configuracion.",
                           "referencia_concepto":  "Dependencias tecnicas"
                       },
@@ -85,7 +85,7 @@
                                              "Reemplazar el marcado C2"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria vincula su finalidad a margenes dinamicos y observacion.",
+                          "explicacion":  "la materia A2 vincula su finalidad a margenes dinamicos y observacion.",
                           "error_habitual":  "Aplicar una regla fija sin observar cambios.",
                           "referencia_concepto":  "Atenuaciones operacionales"
                       },
@@ -153,7 +153,7 @@
                                              "120 m AGL"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "La ingenieria indica velocidad maxima modo lento \u003c= 3 m/s.",
+                          "explicacion":  "la materia A2 indica velocidad maxima modo lento \u003c= 3 m/s.",
                           "error_habitual":  "Olvidar el limite de velocidad asociado al modo lento.",
                           "referencia_concepto":  "Datos criticos"
                       },
@@ -179,7 +179,7 @@
                           "tema":  "Examen A2",
                           "subtema":  "Umbral",
                           "dificultad":  "facil",
-                          "pregunta":  "Que umbral de aprobado aparece en la ingenieria?",
+                          "pregunta":  "Que porcentaje de aciertos se asocia al aprobado del examen especifico A2?",
                           "respuestas":  [
                                              "30 metros",
                                              "75% de aciertos",
@@ -221,7 +221,7 @@
                                              "Volar sobre concentraciones si hay observador"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "La ingenieria lo lista como concepto estable.",
+                          "explicacion":  "la materia A2 lo lista como concepto estable.",
                           "error_habitual":  "Tratarlo como una excepcion operativa.",
                           "referencia_concepto":  "Conceptos estables"
                       },
@@ -272,7 +272,7 @@
                                              "Solo el color de la aeronave"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria define la evaluacion como analisis previo del entorno.",
+                          "explicacion":  "la materia A2 define la evaluacion como analisis previo del entorno.",
                           "error_habitual":  "Olvidar personas no participantes u obstaculos.",
                           "referencia_concepto":  "Evaluacion del riesgo relacionado con el lugar"
                       },
@@ -332,7 +332,7 @@
                           "tema":  "Alcance",
                           "subtema":  "Fuera de alcance",
                           "dificultad":  "facil",
-                          "pregunta":  "Que contenido queda fuera del alcance del Bloque 6 A2?",
+                          "pregunta":  "Que contenido queda fuera del alcance de las atenuaciones A2?",
                           "respuestas":  [
                                              "Distancias 30 m y 5 m",
                                              "Modo baja velocidad",
@@ -340,9 +340,9 @@
                                              "Evaluacion del lugar"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La auditoria C clasifica esos contenidos fuera del alcance.",
+                          "explicacion":  "La alcance C clasifica esos contenidos fuera del alcance.",
                           "error_habitual":  "Desarrollar categoria especifica dentro de A2.",
-                          "referencia_concepto":  "Auditoria"
+                          "referencia_concepto":  "alcance"
                       },
                       {
                           "id":  "B6-T-021",
@@ -493,7 +493,7 @@
                                              "Solo del fabricante"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria cita esas dependencias.",
+                          "explicacion":  "la materia A2 cita esas dependencias.",
                           "error_habitual":  "Evaluar sin informacion previa suficiente.",
                           "referencia_concepto":  "Evaluacion del lugar"
                       },
@@ -544,7 +544,7 @@
                                              "No actualizar datos geograficos y operar con limites obsoletos"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La ingenieria lo marca como riesgo operacional.",
+                          "explicacion":  "la materia A2 lo marca como riesgo operacional.",
                           "error_habitual":  "Confiar en limites digitales no revisados.",
                           "referencia_concepto":  "Riesgos y errores"
                       },
@@ -595,7 +595,7 @@
                                              "Eliminan las distancias A2"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria las clasifica como variables.",
+                          "explicacion":  "la materia A2 las clasifica como variables.",
                           "error_habitual":  "Tratarlas como requisito fijo universal.",
                           "referencia_concepto":  "Conceptos variables"
                       },
@@ -629,7 +629,7 @@
                                              "Para eliminar la evaluacion del lugar"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria cita la contencion virtual en ese escenario.",
+                          "explicacion":  "la materia A2 cita la contencion virtual en ese escenario.",
                           "error_habitual":  "Planificar sin contencion lateral.",
                           "referencia_concepto":  "Escenarios reales implicitos"
                       },
@@ -653,9 +653,9 @@
                       {
                           "id":  "B6-T-039",
                           "tema":  "Personas no participantes",
-                          "subtema":  "Grafo inicial",
+                          "subtema":  "Riesgo inicial",
                           "dificultad":  "media",
-                          "pregunta":  "Con que empieza el grafo de conocimiento del bloque?",
+                          "pregunta":  "Que debe identificarse antes de seleccionar atenuaciones en tierra?",
                           "respuestas":  [
                                              "Prompts y Profesor Plus",
                                              "EAS complejo y SORA",
@@ -663,16 +663,16 @@
                                              "Identificacion de personas no participantes y deteccion de obstaculos en tierra"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "El grafo comienza con personas no participantes y obstaculos.",
+                          "explicacion":  "La evaluacion comienza con personas no participantes y obstaculos.",
                           "error_habitual":  "Saltar directamente a distancias sin identificar riesgos.",
-                          "referencia_concepto":  "Grafo de conocimiento"
+                          "referencia_concepto":  "secuencia conceptual"
                       },
                       {
                           "id":  "B6-T-040",
                           "tema":  "Aplicacion",
-                          "subtema":  "Grafo final",
+                          "subtema":  "secuencia conceptual final",
                           "dificultad":  "media",
-                          "pregunta":  "En que culmina el grafo de conocimiento?",
+                          "pregunta":  "En que culmina el secuencia conceptual?",
                           "respuestas":  [
                                              "Inscripcion administrativa al examen",
                                              "Vuelo seguro en entornos complejos y gestion de incursiones de terceros",
@@ -682,14 +682,14 @@
                           "respuesta_correcta":  1,
                           "explicacion":  "La aplicacion final citada es vuelo seguro y gestion de incursiones.",
                           "error_habitual":  "Confundirlo con tramites administrativos.",
-                          "referencia_concepto":  "Grafo de conocimiento"
+                          "referencia_concepto":  "secuencia conceptual"
                       },
                       {
                           "id":  "B6-T-041",
                           "tema":  "Error de examen",
                           "subtema":  "Clasificacion",
                           "dificultad":  "dificil",
-                          "pregunta":  "Cual es el error de examen principal del bloque?",
+                          "pregunta":  "Cual es un error habitual al clasificar atenuaciones A2?",
                           "respuestas":  [
                                              "Confundir 75% con nota de aprobado",
                                              "Recordar 30 m como distancia normal",
@@ -697,7 +697,7 @@
                                              "Confundir atenuaciones tecnicas con operacionales"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La ingenieria cita literalmente esa confusion como error de examen.",
+                          "explicacion":  "La confusion relevante es mezclar atenuaciones tecnicas con operacionales.",
                           "error_habitual":  "No separar hardware/software de maniobras/distancias.",
                           "referencia_concepto":  "Riesgos y errores"
                       },
@@ -716,7 +716,7 @@
                           "respuesta_correcta":  0,
                           "explicacion":  "La finalidad de las atenuaciones operacionales es minimizar exposicion de personas no participantes.",
                           "error_habitual":  "No adaptar la operacion al cambio del entorno.",
-                          "referencia_concepto":  "Preguntas que nacen del bloque"
+                          "referencia_concepto":  "Incursion de terceros"
                       },
                       {
                           "id":  "B6-T-043",
@@ -799,33 +799,33 @@
                                              "Porque pertenece a categoria certificada"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria la califica como troncal.",
+                          "explicacion":  "la materia A2 la califica como troncal.",
                           "error_habitual":  "Aplicar mitigaciones sin analizar el entorno.",
                           "referencia_concepto":  "Evaluacion del riesgo relacionado con el lugar"
                       },
                       {
                           "id":  "B6-T-048",
-                          "tema":  "Grafo",
+                          "tema":  "secuencia conceptual",
                           "subtema":  "Secuencia completa",
                           "dificultad":  "dificil",
-                          "pregunta":  "Cual es la secuencia correcta del grafo de conocimiento?",
+                          "pregunta":  "Que secuencia describe mejor la aplicacion de atenuaciones A2?",
                           "respuestas":  [
                                              "Examen -\u003e certificado -\u003e SORA -\u003e categoria certificada",
                                              "Geofencing -\u003e radiofonista -\u003e BVLOS -\u003e EAS",
                                              "Personas/obstaculos -\u003e atenuaciones tecnicas -\u003e distancias 30m/5m y Regla 1:1 -\u003e vuelo seguro e incursiones",
-                                             "Prompts -\u003e test -\u003e flashcards -\u003e ingenieria"
+                                             "Prompts -\u003e test -\u003e flashcards -\u003e materia A2"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La fuente organiza el bloque con esa progresion.",
+                          "explicacion":  "La secuencia pasa de riesgos iniciales a mitigaciones y gestion de incursiones.",
                           "error_habitual":  "Saltar a aplicacion sin conceptos iniciales.",
-                          "referencia_concepto":  "Grafo de conocimiento"
+                          "referencia_concepto":  "secuencia conceptual"
                       },
                       {
                           "id":  "B6-T-049",
-                          "tema":  "Auditoria",
+                          "tema":  "alcance",
                           "subtema":  "Imprescindibles",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que conjunto es imprescindible para el Bloque 6 A2?",
+                          "pregunta":  "Que conjunto es imprescindible para aplicar atenuaciones A2?",
                           "respuestas":  [
                                              "Distancias 30m/5m, modo baja velocidad, geoconsciencia, limitacion de altura, Regla 1:1 y evaluacion del lugar",
                                              "SORA completa, EAS complejo y transpondedor modo S",
@@ -833,24 +833,24 @@
                                              "Solo examen 75%"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La auditoria A enumera esos contenidos imprescindibles.",
+                          "explicacion":  "Las distancias, modo lento, geoconsciencia, limitacion de altura, regla 1:1 y evaluacion del lugar son elementos esenciales.",
                           "error_habitual":  "Centrar la clase en contenidos complementarios o fuera de alcance.",
-                          "referencia_concepto":  "Auditoria"
+                          "referencia_concepto":  "alcance"
                       },
                       {
                           "id":  "B6-T-050",
                           "tema":  "Alcance",
                           "subtema":  "Fuera del A2",
                           "dificultad":  "dificil",
-                          "pregunta":  "Si aparece SORA completa o EAS complejo al trabajar este bloque, que debe hacerse?",
+                          "pregunta":  "Como deben tratarse SORA completa o EAS complejos al estudiar atenuaciones A2?",
                           "respuestas":  [
-                                             "Convertirlo en contenido central",
+                                             "Convertirlos en contenido central",
                                              "Sustituir el modo lento por SORA",
                                              "Eliminar las distancias A2",
-                                             "Marcarlo fuera del alcance del curso A2 y no desarrollarlo"
+                                             "Considerarlos fuera del alcance de A2 y no desarrollarlos"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La auditoria C lo clasifica fuera del alcance del A2.",
+                          "explicacion":  "SORA completa y EAS complejos pertenecen a contenidos fuera del alcance de A2.",
                           "error_habitual":  "Abrir contenidos de categoria especifica.",
                           "referencia_concepto":  "Fuera del alcance"
                       }

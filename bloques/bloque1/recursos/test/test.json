@@ -16,7 +16,7 @@
                           "dificultad":  "facil",
                           "pregunta":  "Que acredita la prueba de superacion A1/A3?",
                           "respuestas":  [
-                                             "Que se ha superado el curso y examen inicial A1/A3",
+                                             "Que se ha superado el formacion y examen inicial A1/A3",
                                              "Que se ha completado el examen teorico adicional A2",
                                              "Que se ha instalado la televigilancia",
                                              "Que se ha emitido el certificado A2"
@@ -40,7 +40,7 @@
                                          ],
                           "respuesta_correcta":  3,
                           "explicacion":  "A1/A3 funciona como cimiento formativo y llave administrativa para continuar.",
-                          "error_habitual":  "Tratar A1/A3 como un curso sin relacion con A2.",
+                          "error_habitual":  "Tratar A1/A3 como un formacion sin relacion con A2.",
                           "referencia_concepto":  "Finalidad de A1/A3"
                       },
                       {
@@ -311,7 +311,7 @@
                                              "90%"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "El bloque fija el umbral de aprobado en el 75%.",
+                          "explicacion":  "La prueba A2 exige un umbral minimo de aprobado del 75% de aciertos.",
                           "error_habitual":  "No asociar el 75% con la nota minima.",
                           "referencia_concepto":  "Umbral de aprobado"
                       },
@@ -362,9 +362,9 @@
                                              "A1/A3, autoformacion, declaracion, matriculacion, examen, certificado"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "El bloque presenta A2 como cadena ordenada de dependencias.",
+                          "explicacion":  "A2 sigue una cadena ordenada de dependencias: A1/A3, autoformacion, declaracion, matriculacion, examen y certificado.",
                           "error_habitual":  "Saltar directamente al examen.",
-                          "referencia_concepto":  "Grafo de conocimiento del Bloque 1"
+                          "referencia_concepto":  "Itinerario administrativo A2"
                       },
                       {
                           "id":  "B1-T-022",
@@ -388,7 +388,7 @@
                           "tema":  "A1/A3",
                           "subtema":  "Doble funcion",
                           "dificultad":  "media",
-                          "pregunta":  "A1/A3 cumple que doble funcion en este bloque?",
+                          "pregunta":  "Que doble funcion cumple A1/A3 en el itinerario A2?",
                           "respuestas":  [
                                              "Economica y meteorologica",
                                              "Formativa y administrativa",
@@ -413,8 +413,8 @@
                                              "Porque es la herramienta de examen"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "A3 se usa aqui como entorno seguro para entrenar antes de A2.",
-                          "error_habitual":  "Desarrollar A3 como si fuera el objetivo del bloque.",
+                          "explicacion":  "A3 se usa como entorno seguro para entrenar antes de operar con exigencias A2.",
+                          "error_habitual":  "Desarrollar A3 como si fuera el objetivo final de la habilitacion A2.",
                           "referencia_concepto":  "Concepto puente A3"
                       },
                       {
@@ -490,7 +490,7 @@
                           "tema":  "Matricula",
                           "subtema":  "Bloqueo",
                           "dificultad":  "media",
-                          "pregunta":  "Un alumno sabe la teoria pero no puede cerrar la inscripcion. Que debe revisar primero?",
+                          "pregunta":  "Un aspirante sabe la teoria pero no puede cerrar la inscripcion. Que debe revisar primero?",
                           "respuestas":  [
                                              "Numero de preguntas A1/A3",
                                              "Firma electronica y certificado digital",
@@ -634,7 +634,7 @@
                                              "Usar el identificador ESP-RP correcto"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "El escenario del bloque muestra la consulta de un manual fisico como incidencia.",
+                          "explicacion":  "Consultar un manual fisico durante el examen televigilado es una incidencia de integridad.",
                           "error_habitual":  "Preparar el examen como si permitiera consultar materiales.",
                           "referencia_concepto":  "Escenario de irregularidad"
                       },
@@ -682,7 +682,7 @@
                                              "Que no existe guia de materias",
                                              "Que sustituye al examen",
                                              "Que debe comprobarse la edicion vigente",
-                                             "Que no afecta al alumno"
+                                             "Que no afecta al aspirante"
                                          ],
                           "respuesta_correcta":  2,
                           "explicacion":  "Variable no significa falso; significa que puede actualizarse.",
@@ -711,7 +711,7 @@
                           "tema":  "Errores administrativos",
                           "subtema":  "Diagnostico",
                           "dificultad":  "dificil",
-                          "pregunta":  "Un alumno introduce el numero de operador donde se pide el identificador del piloto. Que concepto no ha entendido?",
+                          "pregunta":  "Un aspirante introduce el numero de operador donde se pide el identificador del piloto. Que concepto no ha entendido?",
                           "respuestas":  [
                                              "La duracion del examen A2",
                                              "El numero de preguntas A1/A3",
@@ -728,7 +728,7 @@
                           "tema":  "Errores administrativos",
                           "subtema":  "Matricula",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que combinacion de fallos administrativos destaca el bloque?",
+                          "pregunta":  "Que combinacion de fallos administrativos debe evitarse en la matriculacion A2?",
                           "respuestas":  [
                                              "No recordar meteorologia y rendimiento",
                                              "No imprimir apuntes y no usar tarjetas",
@@ -736,7 +736,7 @@
                                              "Confundir 5 m y 30 m"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "El bloque resalta numero de piloto/operador y firma electronica como riesgos administrativos.",
+                          "explicacion":  "Confundir el numero de piloto u operador y no disponer de firma electronica son riesgos administrativos relevantes.",
                           "error_habitual":  "Creer que todos los fallos son de contenido teorico.",
                           "referencia_concepto":  "Riesgos administrativos"
                       },
@@ -844,10 +844,10 @@
                       },
                       {
                           "id":  "B1-T-050",
-                          "tema":  "Auditoria del bloque",
+                          "tema":  "Requisitos legales",
                           "subtema":  "Imprescindible",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que conjunto resume lo imprescindible del Bloque 1 A2?",
+                          "pregunta":  "Que conjunto resume los requisitos legales y tramites esenciales para acceder a A2?",
                           "respuestas":  [
                                              "Solo materias teoricas del examen",
                                              "A1/A3, autoformacion, declaracion, matriculacion y televigilancia",
@@ -855,9 +855,9 @@
                                              "Solo instalacion de software"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "El bloque se centra en requisitos legales y tramites del acceso A2.",
+                          "explicacion":  "El acceso A2 integra A1/A3, autoformacion, declaracion, matriculacion y televigilancia.",
                           "error_habitual":  "Repasar elementos aislados sin reconstruir la cadena principal.",
-                          "referencia_concepto":  "Auditoria del Bloque 1"
+                          "referencia_concepto":  "Requisitos legales y tramites A2"
                       }
                   ]
 }

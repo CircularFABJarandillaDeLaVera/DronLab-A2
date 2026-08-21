@@ -10,848 +10,848 @@
                           "dificultad":  "facil",
                           "pregunta":  "Que es la matriculacion en el examen A2?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque.",
-                                             "Tramite telematico en la Sede Electronica de AESA para solicitar acceso a la prueba teorica adicional."
+                                             "La declaracion de operador UAS.",
+                                             "Una practica STS evaluada por examinador.",
+                                             "La descarga automatica del certificado.",
+                                             "Un tramite telematico ante AESA para solicitar acceso a la prueba teorica adicional A2."
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "Activa el expediente de certificacion.",
-                          "error_habitual":  "Confundir estudio con expediente activo.",
-                          "referencia_concepto":  "Tramite"
+                          "explicacion":  "La matriculacion se realiza por la Sede Electronica de AESA para acceder a la prueba.",
+                          "error_habitual":  "Confundir matriculacion con certificado ya obtenido.",
+                          "referencia_concepto":  "Matriculacion A2"
                       },
                       {
                           "id":  "B8-T-02",
                           "tema":  "Acceso",
                           "subtema":  "Dependencias",
                           "dificultad":  "facil",
-                          "pregunta":  "Que requisitos desbloquean el acceso al examen A2?",
+                          "pregunta":  "Que requisitos previos desbloquean el acceso al examen teorico A2?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "A1/A3 superado y declaracion de autoformacion practica presentada.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Solo instalar webcam y microfono.",
+                                             "A1/A3 superado y declaracion de practicas completada.",
+                                             "Solo conocer meteorologia.",
+                                             "Solo registrar el operador UAS."
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "Son dependencias criticas.",
-                          "error_habitual":  "Omitir la declaracion.",
-                          "referencia_concepto":  "Dependencias"
+                          "explicacion":  "El acceso depende de la formacion previa A1/A3 y la declaracion de autoformacion.",
+                          "error_habitual":  "Intentar acceder al examen sin completar requisitos previos.",
+                          "referencia_concepto":  "Acceso examen A2"
                       },
                       {
                           "id":  "B8-T-03",
                           "tema":  "ESP-RP",
                           "subtema":  "Identidad",
                           "dificultad":  "facil",
-                          "pregunta":  "Que error administrativo debe evitarse con el ESP-RP?",
+                          "pregunta":  "Que error debe evitarse al introducir el ESP-RP?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "No confundir el identificador de piloto ESP-RP con el numero de operador UAS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Confundir 30 minutos con 30 preguntas.",
+                                             "Confundir el identificador de piloto con el numero de operador UAS.",
+                                             "Confundir VLOS con BVLOS.",
+                                             "Confundir meteorologia con rendimiento."
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "Conecta identidad y expediente.",
-                          "error_habitual":  "Introducir el operador UAS.",
-                          "referencia_concepto":  "Identidad"
+                          "explicacion":  "El ESP-RP conecta identidad del aspirante y expediente; no es el numero de operador.",
+                          "error_habitual":  "Usar identificadores administrativos intercambiables.",
+                          "referencia_concepto":  "Identificador ESP-RP"
                       },
                       {
                           "id":  "B8-T-04",
-                          "tema":  "Proctoring",
+                          "tema":  "Televigilancia",
                           "subtema":  "SMOWL",
                           "dificultad":  "facil",
-                          "pregunta":  "Que requiere el sistema de televigilancia?",
+                          "pregunta":  "Que elementos necesita el sistema de televigilancia remoto?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Acceso a webcam, microfono y pantalla durante el examen.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Solo un manual fisico abierto.",
+                                             "Acceso a webcam, microfono y pantalla.",
+                                             "Solo el certificado A2 final.",
+                                             "Solo una emisora aeronautica."
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "Garantiza integridad academica.",
-                          "error_habitual":  "No conceder permisos tecnicos.",
-                          "referencia_concepto":  "SMOWL"
+                          "explicacion":  "SMOWL monitoriza remotamente identidad, entorno y actividad de pantalla.",
+                          "error_habitual":  "Preparar el examen sin probar camara o microfono.",
+                          "referencia_concepto":  "Televigilancia"
                       },
                       {
                           "id":  "B8-T-05",
                           "tema":  "Integridad",
                           "subtema":  "Conducta",
                           "dificultad":  "facil",
-                          "pregunta":  "Que conductas estan prohibidas durante la prueba?",
+                          "pregunta":  "Que conductas comprometen la integridad durante la prueba televigilada?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Presencia de terceros, dispositivos no autorizados o desvio de la mirada.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Mantener webcam activa.",
+                                             "Presencia de terceros, dispositivos no autorizados, hablar o desviar la mirada.",
+                                             "Realizar la prueba dentro de plazo.",
+                                             "Usar credenciales oficiales."
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "Pueden invalidar el intento.",
-                          "error_habitual":  "Hablar o mirar fuera.",
-                          "referencia_concepto":  "Conducta"
+                          "explicacion":  "La prueba exige un entorno controlado sin ayudas ni terceros.",
+                          "error_habitual":  "Pensar que se puede consultar material durante la prueba.",
+                          "referencia_concepto":  "Integridad"
                       },
                       {
                           "id":  "B8-T-06",
                           "tema":  "Estructura",
-                          "subtema":  "Examen",
+                          "subtema":  "Preguntas",
                           "dificultad":  "facil",
-                          "pregunta":  "Cuantas preguntas tiene el examen A2?",
+                          "pregunta":  "Cuantas preguntas tiene la prueba teorica A2?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "30 preguntas tipo test de opcion multiple.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "40 preguntas A1/A3.",
+                                             "75 preguntas tecnicas.",
+                                             "30 preguntas de opcion multiple.",
+                                             "2 preguntas practicas."
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "Dato estable del formato.",
-                          "error_habitual":  "Confundir numero de preguntas.",
-                          "referencia_concepto":  "Examen"
+                          "explicacion":  "La estructura estable indicada para A2 es de 30 preguntas.",
+                          "error_habitual":  "Mezclar el examen A2 con A1/A3.",
+                          "referencia_concepto":  "Preguntas examen A2"
                       },
                       {
                           "id":  "B8-T-07",
                           "tema":  "Tiempo",
-                          "subtema":  "Examen",
+                          "subtema":  "Duracion",
                           "dificultad":  "facil",
-                          "pregunta":  "Cuanto dura el examen A2?",
+                          "pregunta":  "Cuanto dura el examen teorico A2?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque.",
+                                             "23 minutos.",
+                                             "75 minutos.",
+                                             "30 dias habiles.",
                                              "30 minutos."
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "Dato estable de logistica.",
-                          "error_habitual":  "No controlar tiempo.",
-                          "referencia_concepto":  "Examen"
+                          "explicacion":  "El tiempo de prueba indicado es de 30 minutos.",
+                          "error_habitual":  "Confundir duracion de examen con plazo de convocatoria.",
+                          "referencia_concepto":  "Duracion examen A2"
                       },
                       {
                           "id":  "B8-T-08",
                           "tema":  "Aprobado",
                           "subtema":  "Umbral",
                           "dificultad":  "facil",
-                          "pregunta":  "Que nota de corte exige la prueba?",
+                          "pregunta":  "Que porcentaje minimo de aciertos exige la prueba A2?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "75% de aciertos, indicado como 23 preguntas correctas.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "50% de aciertos.",
+                                             "60% de aciertos.",
+                                             "75% de aciertos.",
+                                             "100% de aciertos."
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "Dato critico del apto.",
-                          "error_habitual":  "Confundir porcentaje y respuestas.",
-                          "referencia_concepto":  "Umbral"
+                          "explicacion":  "El umbral estable de aprobado es el 75%.",
+                          "error_habitual":  "Confundir la nota de corte con el numero de preguntas.",
+                          "referencia_concepto":  "Umbral de aprobado"
                       },
                       {
                           "id":  "B8-T-09",
                           "tema":  "Materias",
                           "subtema":  "Temario",
                           "dificultad":  "facil",
-                          "pregunta":  "Que materias evalua el examen?",
+                          "pregunta":  "Que materias evalua el examen teorico adicional A2?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
+                                             "Solo legislacion administrativa.",
+                                             "Solo comunicaciones de radiofonista.",
                                              "Meteorologia, rendimiento de vuelo y atenuaciones del riesgo en tierra.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Solo mantenimiento de aeronaves tripuladas."
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "Tres materias especificas.",
-                          "error_habitual":  "Anadir materias externas.",
-                          "referencia_concepto":  "Temario"
+                          "explicacion":  "La prueba A2 se centra en esas tres materias adicionales.",
+                          "error_habitual":  "Preparar materias ajenas al examen A2 adicional.",
+                          "referencia_concepto":  "Materias A2"
                       },
                       {
                           "id":  "B8-T-10",
                           "tema":  "Plazo",
                           "subtema":  "Convocatoria",
                           "dificultad":  "facil",
-                          "pregunta":  "Que plazo post-inscripcion aparece en la ingenieria?",
+                          "pregunta":  "Que plazo post-inscripcion se indica para realizar el examen?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
+                                             "5 anos desde la inscripcion.",
+                                             "75 minutos desde el pago.",
                                              "30 dias habiles segun guias de examen.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "2 anos naturales."
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "Dato logistico variable segun convocatoria.",
-                          "error_habitual":  "Dejar pasar el plazo.",
-                          "referencia_concepto":  "Convocatoria"
+                          "explicacion":  "El plazo post-inscripcion es un dato variable sujeto a guias vigentes, indicado como 30 dias habiles.",
+                          "error_habitual":  "Confundir plazo de convocatoria con vigencia del certificado.",
+                          "referencia_concepto":  "Plazo post-inscripcion"
                       },
                       {
                           "id":  "B8-T-11",
                           "tema":  "Intentos",
                           "subtema":  "Convocatoria",
                           "dificultad":  "facil",
-                          "pregunta":  "Cuantos intentos estandar aparecen?",
+                          "pregunta":  "Cuantos intentos estandar se indican para la convocatoria?",
                           "respuestas":  [
                                              "2 intentos.",
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "1 intento.",
+                                             "3 intentos ilimitados.",
+                                             "30 intentos."
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "Dato critico de logistica.",
-                          "error_habitual":  "Pensar en intentos ilimitados.",
-                          "referencia_concepto":  "Convocatoria"
+                          "explicacion":  "La fuente indica dos intentos estandar antes de reiniciar el proceso que corresponda.",
+                          "error_habitual":  "Creer que el examen puede repetirse indefinidamente sin gestion administrativa.",
+                          "referencia_concepto":  "Intentos estandar"
                       },
                       {
                           "id":  "B8-T-12",
                           "tema":  "Software",
                           "subtema":  "Variable",
                           "dificultad":  "facil",
-                          "pregunta":  "Como debe citarse SMOWL?",
+                          "pregunta":  "Como debe tratarse el software de proctoring indicado para la prueba?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque.",
-                                             "SMOWL u otro software designado, porque puede cambiar segun actualizaciones de AESA."
+                                             "Como un dato inmutable para siempre.",
+                                             "Como sustituto de webcam y microfono.",
+                                             "Como aplicacion opcional del aspirante.",
+                                             "Como SMOWL u otro sistema que AESA pueda designar."
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "Actualmente se cita SMOWL.",
-                          "error_habitual":  "Tratar SMOWL como inmutable.",
-                          "referencia_concepto":  "Variable"
+                          "explicacion":  "SMOWL es el sistema citado, pero el software puede cambiar por actualizaciones tecnologicas.",
+                          "error_habitual":  "Memorizar el nombre sin atender a la designacion vigente.",
+                          "referencia_concepto":  "Software de proctoring"
                       },
                       {
                           "id":  "B8-T-13",
                           "tema":  "Conexion",
                           "subtema":  "Riesgo",
                           "dificultad":  "facil",
-                          "pregunta":  "Que hacer si se pregunta por perdida de conexion?",
+                          "pregunta":  "Que riesgo logistico debe prevenirse antes de la prueba televigilada?",
                           "respuestas":  [
-                                             "Indicar que la ingenieria plantea la pregunta pero no aporta procedimiento detallado.",
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Intentar el examen sin comprobar compatibilidad de webcam, microfono y conexion.",
+                                             "Practicar hover en Fase C.",
+                                             "Revisar el centro de gravedad del dron.",
+                                             "Actualizar geoconsciencia del UAS."
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "No se debe inventar.",
-                          "error_habitual":  "Inventar protocolo.",
-                          "referencia_concepto":  "Riesgo"
+                          "explicacion":  "La preparacion tecnica del puesto evita incidencias durante la evaluacion remota.",
+                          "error_habitual":  "Dejar la comprobacion tecnica para el momento del examen.",
+                          "referencia_concepto":  "Riesgo logistico"
                       },
                       {
                           "id":  "B8-T-14",
                           "tema":  "Certificado",
                           "subtema":  "Resultado",
                           "dificultad":  "facil",
-                          "pregunta":  "Que sucede tras superar el umbral?",
+                          "pregunta":  "Que sucede tras superar el umbral del examen A2?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Aplicacion: descarga del Certificado de Competencia A2.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Se obtiene automaticamente una habilitacion STS.",
+                                             "Se elimina la necesidad de A1/A3.",
+                                             "Se desbloquea la obtencion del certificado A2.",
+                                             "Se autoriza BVLOS en categoria abierta."
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "Complementa el cierre del proceso.",
-                          "error_habitual":  "Olvidar descarga.",
-                          "referencia_concepto":  "Resultado"
+                          "explicacion":  "Superar el 75% permite obtener el certificado A2 conforme al itinerario.",
+                          "error_habitual":  "Confundir certificado A2 con permisos de categoria especifica.",
+                          "referencia_concepto":  "Certificado A2"
                       },
                       {
                           "id":  "B8-T-15",
-                          "tema":  "Fuera de alcance",
-                          "subtema":  "STS",
+                          "tema":  "STS",
+                          "subtema":  "Alcance",
                           "dificultad":  "facil",
-                          "pregunta":  "Como se tratan examenes STS?",
+                          "pregunta":  "Como se tratan los examenes o formaciones STS frente al examen A2 ordinario?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Fuera del alcance del curso A2.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Son parte de la misma auto-matriculacion simple.",
+                                             "Requieren entidades designadas y pertenecen a otro marco formativo.",
+                                             "Sustituyen el examen teorico A2.",
+                                             "Se aprueban con SMOWL sin formacion adicional."
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "Requieren entidades designadas y otro sistema.",
-                          "error_habitual":  "Desarrollar STS.",
-                          "referencia_concepto":  "STS"
+                          "explicacion":  "STS no forma parte del sistema simple de auto-matriculacion del examen A2 ordinario.",
+                          "error_habitual":  "Mezclar categoria especifica con subcategoria A2.",
+                          "referencia_concepto":  "Examenes STS"
                       },
                       {
                           "id":  "B8-T-16",
                           "tema":  "Matriculacion",
-                          "subtema":  "Tramite",
+                          "subtema":  "Sede AESA",
                           "dificultad":  "facil",
-                          "pregunta":  "Que es la matriculacion en el examen A2?",
+                          "pregunta":  "A traves de que via se solicita el acceso a la prueba A2?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque.",
-                                             "Tramite telematico en la Sede Electronica de AESA para solicitar acceso a la prueba teorica adicional."
+                                             "Mediante una entidad STS externa.",
+                                             "Mediante una llamada al fabricante del UAS.",
+                                             "Mediante una declaracion verbal al proctor.",
+                                             "Mediante tramite telematico en la Sede Electronica de AESA."
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "Activa el expediente de certificacion.",
-                          "error_habitual":  "Confundir estudio con expediente activo.",
-                          "referencia_concepto":  "Tramite"
+                          "explicacion":  "La solicitud de acceso se realiza ante AESA por via telematica.",
+                          "error_habitual":  "Buscar el tramite en canales no oficiales.",
+                          "referencia_concepto":  "Sede Electronica AESA"
                       },
                       {
                           "id":  "B8-T-17",
-                          "tema":  "Acceso",
-                          "subtema":  "Dependencias",
+                          "tema":  "Credenciales",
+                          "subtema":  "Acceso",
                           "dificultad":  "facil",
-                          "pregunta":  "Que requisitos desbloquean el acceso al examen A2?",
+                          "pregunta":  "Que funcion tienen las credenciales en el proceso de examen televigilado?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "A1/A3 superado y declaracion de autoformacion practica presentada.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Sustituyen el documento A1/A3.",
+                                             "Permiten acceder al entorno oficial de evaluacion tras la inscripcion.",
+                                             "Permiten volar sin certificado.",
+                                             "Cambian el numero de preguntas."
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "Son dependencias criticas.",
-                          "error_habitual":  "Omitir la declaracion.",
-                          "referencia_concepto":  "Dependencias"
+                          "explicacion":  "Las credenciales conectan la inscripcion con el acceso al examen online.",
+                          "error_habitual":  "Confundir credenciales de examen con identificadores del UAS.",
+                          "referencia_concepto":  "Credenciales"
                       },
                       {
                           "id":  "B8-T-18",
-                          "tema":  "ESP-RP",
-                          "subtema":  "Identidad",
+                          "tema":  "Identidad",
+                          "subtema":  "Validacion",
                           "dificultad":  "facil",
-                          "pregunta":  "Que error administrativo debe evitarse con el ESP-RP?",
+                          "pregunta":  "Que finalidad tiene la validacion de identidad en un examen remoto?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "No confundir el identificador de piloto ESP-RP con el numero de operador UAS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Medir la velocidad del UAS.",
+                                             "Asegurar que la persona evaluada es el aspirante correcto.",
+                                             "Calcular el Indice K.",
+                                             "Revisar el manual del fabricante."
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "Conecta identidad y expediente.",
-                          "error_habitual":  "Introducir el operador UAS.",
-                          "referencia_concepto":  "Identidad"
+                          "explicacion":  "La televigilancia verifica identidad y condiciones del entorno de prueba.",
+                          "error_habitual":  "Tratar la validacion como una formalidad sin impacto.",
+                          "referencia_concepto":  "Validacion de identidad"
                       },
                       {
                           "id":  "B8-T-19",
-                          "tema":  "Proctoring",
-                          "subtema":  "SMOWL",
+                          "tema":  "Televigilancia",
+                          "subtema":  "Pantalla",
                           "dificultad":  "facil",
-                          "pregunta":  "Que requiere el sistema de televigilancia?",
+                          "pregunta":  "Por que el sistema remoto monitoriza la pantalla?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque.",
-                                             "Acceso a webcam, microfono y pantalla durante el examen."
+                                             "Para medir viento local.",
+                                             "Para calibrar el altimetro.",
+                                             "Para emitir el certificado sin examen.",
+                                             "Para detectar ayudas, navegacion o actividad no permitida durante la prueba."
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "Garantiza integridad academica.",
-                          "error_habitual":  "No conceder permisos tecnicos.",
-                          "referencia_concepto":  "SMOWL"
+                          "explicacion":  "La monitorizacion de pantalla ayuda a proteger la integridad de la evaluacion.",
+                          "error_habitual":  "Pensar que solo importa la webcam.",
+                          "referencia_concepto":  "Monitorizacion de pantalla"
                       },
                       {
                           "id":  "B8-T-20",
-                          "tema":  "Integridad",
-                          "subtema":  "Conducta",
+                          "tema":  "Conducta",
+                          "subtema":  "Terceros",
                           "dificultad":  "facil",
-                          "pregunta":  "Que conductas estan prohibidas durante la prueba?",
+                          "pregunta":  "Por que no debe haber terceros en la habitacion durante la prueba?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque.",
-                                             "Presencia de terceros, dispositivos no autorizados o desvio de la mirada."
+                                             "Porque reduce la autonomia de bateria.",
+                                             "Porque cambia el identificador ESP-RP.",
+                                             "Porque anula el modo de baja velocidad.",
+                                             "Porque su presencia puede comprometer la integridad del examen."
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "Pueden invalidar el intento.",
-                          "error_habitual":  "Hablar o mirar fuera.",
-                          "referencia_concepto":  "Conducta"
+                          "explicacion":  "La presencia de otra persona es una conducta prohibida o alertable.",
+                          "error_habitual":  "Permitir acompanantes por considerarlos silenciosos.",
+                          "referencia_concepto":  "Presencia de terceros"
                       },
                       {
                           "id":  "B8-T-21",
                           "tema":  "Estructura",
-                          "subtema":  "Examen",
+                          "subtema":  "Equivalencia",
                           "dificultad":  "media",
-                          "pregunta":  "Cuantas preguntas tiene el examen A2?",
+                          "pregunta":  "Que equivalencia se indica para superar el 75% en un examen de 30 preguntas?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "30 preguntas tipo test de opcion multiple.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "15 preguntas correctas.",
+                                             "23 preguntas correctas.",
+                                             "20 preguntas correctas.",
+                                             "30 dias habiles."
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "Dato estable del formato.",
-                          "error_habitual":  "Confundir numero de preguntas.",
-                          "referencia_concepto":  "Examen"
+                          "explicacion":  "La fuente indica 23 respuestas correctas como equivalencia del 75%.",
+                          "error_habitual":  "Calcular el porcentaje sin redondeo aplicable indicado.",
+                          "referencia_concepto":  "Equivalencia 75%"
                       },
                       {
                           "id":  "B8-T-22",
                           "tema":  "Tiempo",
-                          "subtema":  "Examen",
+                          "subtema":  "Gestion",
                           "dificultad":  "media",
-                          "pregunta":  "Cuanto dura el examen A2?",
+                          "pregunta":  "Que relacion practica existe entre 30 preguntas y 30 minutos?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "30 minutos.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Permite consultar manuales entre preguntas.",
+                                             "Exige gestionar el tiempo con aproximadamente un minuto por pregunta.",
+                                             "Elimina la necesidad de preparar materias.",
+                                             "Convierte la prueba en oral."
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "Dato estable de logistica.",
-                          "error_habitual":  "No controlar tiempo.",
-                          "referencia_concepto":  "Examen"
+                          "explicacion":  "La estructura temporal obliga a responder con ritmo y preparacion previa.",
+                          "error_habitual":  "No entrenar gestion de tiempo.",
+                          "referencia_concepto":  "Gestion del tiempo"
                       },
                       {
                           "id":  "B8-T-23",
-                          "tema":  "Aprobado",
-                          "subtema":  "Umbral",
+                          "tema":  "Materias",
+                          "subtema":  "Meteorologia",
                           "dificultad":  "media",
-                          "pregunta":  "Que nota de corte exige la prueba?",
+                          "pregunta":  "Por que meteorologia forma parte del examen A2?",
                           "respuestas":  [
-                                             "75% de aciertos, indicado como 23 preguntas correctas.",
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Porque condiciona la seguridad y viabilidad de operaciones UAS.",
+                                             "Porque sustituye rendimiento de vuelo.",
+                                             "Porque solo sirve para radiofonista.",
+                                             "Porque define el ESP-RP."
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "Dato critico del apto.",
-                          "error_habitual":  "Confundir porcentaje y respuestas.",
-                          "referencia_concepto":  "Umbral"
+                          "explicacion":  "Meteorologia es una de las materias expresas de la prueba adicional.",
+                          "error_habitual":  "Estudiarla como contenido accesorio sin aplicacion operacional.",
+                          "referencia_concepto":  "Meteorologia A2"
                       },
                       {
                           "id":  "B8-T-24",
                           "tema":  "Materias",
-                          "subtema":  "Temario",
+                          "subtema":  "Rendimiento",
                           "dificultad":  "media",
-                          "pregunta":  "Que materias evalua el examen?",
+                          "pregunta":  "Que evalua la materia de rendimiento de vuelo en A2?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque.",
-                                             "Meteorologia, rendimiento de vuelo y atenuaciones del riesgo en tierra."
+                                             "Solo tramites de matriculacion.",
+                                             "Solo normas de conducta online.",
+                                             "Solo descarga de certificados.",
+                                             "Factores que afectan la performance y control del UAS."
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "Tres materias especificas.",
-                          "error_habitual":  "Anadir materias externas.",
-                          "referencia_concepto":  "Temario"
+                          "explicacion":  "Rendimiento de vuelo es una materia central del examen adicional A2.",
+                          "error_habitual":  "Confundir preparacion administrativa con materia tecnica.",
+                          "referencia_concepto":  "Rendimiento de vuelo"
                       },
                       {
                           "id":  "B8-T-25",
-                          "tema":  "Plazo",
-                          "subtema":  "Convocatoria",
+                          "tema":  "Materias",
+                          "subtema":  "Atenuaciones",
                           "dificultad":  "media",
-                          "pregunta":  "Que plazo post-inscripcion aparece en la ingenieria?",
+                          "pregunta":  "Que evalua la materia de atenuaciones del riesgo en tierra?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "30 dias habiles segun guias de examen.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Solo calculo de tasas administrativas.",
+                                             "Solo meteorologia de gran escala.",
+                                             "Medidas tecnicas y operacionales para reducir riesgo a terceros.",
+                                             "Solo normativa de categoria certificada."
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "Dato logistico variable segun convocatoria.",
-                          "error_habitual":  "Dejar pasar el plazo.",
-                          "referencia_concepto":  "Convocatoria"
+                          "explicacion":  "Las atenuaciones conectan operacion A2 y proteccion de personas en tierra.",
+                          "error_habitual":  "Memorizar distancias sin entender mitigaciones.",
+                          "referencia_concepto":  "Atenuaciones del riesgo"
                       },
                       {
                           "id":  "B8-T-26",
-                          "tema":  "Intentos",
-                          "subtema":  "Convocatoria",
+                          "tema":  "Plazo",
+                          "subtema":  "Variable",
                           "dificultad":  "media",
-                          "pregunta":  "Cuantos intentos estandar aparecen?",
+                          "pregunta":  "Por que los plazos de convocatoria deben comprobarse con informacion vigente de AESA?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "2 intentos.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Porque los fija el fabricante del UAS.",
+                                             "Porque estan sujetos a normativa o instrucciones vigentes tras la inscripcion.",
+                                             "Porque dependen del Indice K.",
+                                             "Porque sustituyen el umbral del 75%."
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "Dato critico de logistica.",
-                          "error_habitual":  "Pensar en intentos ilimitados.",
-                          "referencia_concepto":  "Convocatoria"
+                          "explicacion":  "La fuente clasifica los plazos como conceptos variables.",
+                          "error_habitual":  "Usar un plazo antiguo sin verificar la convocatoria aplicable.",
+                          "referencia_concepto":  "Plazos variables"
                       },
                       {
                           "id":  "B8-T-27",
-                          "tema":  "Software",
-                          "subtema":  "Variable",
+                          "tema":  "Intentos",
+                          "subtema":  "Gestion",
                           "dificultad":  "media",
-                          "pregunta":  "Como debe citarse SMOWL?",
+                          "pregunta":  "Que implica disponer de intentos limitados en la convocatoria?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque.",
-                                             "SMOWL u otro software designado, porque puede cambiar segun actualizaciones de AESA."
+                                             "Permite repetir sin consecuencias indefinidamente.",
+                                             "Elimina la necesidad de identificacion.",
+                                             "Reduce el examen a 2 preguntas.",
+                                             "Conviene preparar materias y entorno tecnico antes de iniciar la prueba."
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "Actualmente se cita SMOWL.",
-                          "error_habitual":  "Tratar SMOWL como inmutable.",
-                          "referencia_concepto":  "Variable"
+                          "explicacion":  "Con intentos limitados, los fallos tecnicos o de preparacion tienen coste.",
+                          "error_habitual":  "Agotar intentos por improvisar la prueba.",
+                          "referencia_concepto":  "Gestion de intentos"
                       },
                       {
                           "id":  "B8-T-28",
-                          "tema":  "Conexion",
-                          "subtema":  "Riesgo",
+                          "tema":  "SMOWL",
+                          "subtema":  "Compatibilidad",
                           "dificultad":  "media",
-                          "pregunta":  "Que hacer si se pregunta por perdida de conexion?",
+                          "pregunta":  "Que debe comprobarse antes de usar SMOWL o el sistema designado?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Indicar que la ingenieria plantea la pregunta pero no aporta procedimiento detallado.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "MTOM del dron C2.",
+                                             "Carga util del sensor.",
+                                             "Compatibilidad de equipo, webcam, microfono y pantalla.",
+                                             "Distancia horizontal de 5 m."
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "No se debe inventar.",
-                          "error_habitual":  "Inventar protocolo.",
-                          "referencia_concepto":  "Riesgo"
+                          "explicacion":  "La televigilancia depende de que el puesto tecnico funcione correctamente.",
+                          "error_habitual":  "Probar el sistema solo cuando empieza el examen.",
+                          "referencia_concepto":  "Compatibilidad tecnica"
                       },
                       {
                           "id":  "B8-T-29",
-                          "tema":  "Certificado",
-                          "subtema":  "Resultado",
+                          "tema":  "Conexion",
+                          "subtema":  "Incidencia",
                           "dificultad":  "media",
-                          "pregunta":  "Que sucede tras superar el umbral?",
+                          "pregunta":  "Que debe hacer el aspirante para reducir el riesgo de una perdida de conexion?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Aplicacion: descarga del Certificado de Competencia A2.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Abrir material de consulta por si falla.",
+                                             "Cambiar a examen STS.",
+                                             "Preparar un entorno tecnico estable y seguir las instrucciones oficiales de la prueba.",
+                                             "Ignorar la incidencia si sabe la respuesta."
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "Complementa el cierre del proceso.",
-                          "error_habitual":  "Olvidar descarga.",
-                          "referencia_concepto":  "Resultado"
+                          "explicacion":  "la materia A2 identifica la conexion como riesgo logistico a prevenir.",
+                          "error_habitual":  "Tratar conectividad como un detalle menor.",
+                          "referencia_concepto":  "Perdida de conexion"
                       },
                       {
                           "id":  "B8-T-30",
-                          "tema":  "Fuera de alcance",
-                          "subtema":  "STS",
+                          "tema":  "Certificado",
+                          "subtema":  "Operativa C2",
                           "dificultad":  "media",
-                          "pregunta":  "Como se tratan examenes STS?",
+                          "pregunta":  "Que habilita el certificado A2 dentro de su marco operativo?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Fuera del alcance del curso A2.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Volar BVLOS sin autorizacion.",
+                                             "Operar con UAS de clase C2 conforme a las condiciones A2 aplicables.",
+                                             "Sobrevolar concentraciones de personas.",
+                                             "Realizar STS sin entidad designada."
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "Requieren entidades designadas y otro sistema.",
-                          "error_habitual":  "Desarrollar STS.",
-                          "referencia_concepto":  "STS"
+                          "explicacion":  "El certificado A2 desbloquea operativa con Clase C2, no permisos ajenos a A2.",
+                          "error_habitual":  "Exagerar el alcance del certificado.",
+                          "referencia_concepto":  "Operativa con Clase C2"
                       },
                       {
                           "id":  "B8-T-31",
                           "tema":  "Matriculacion",
-                          "subtema":  "Tramite",
+                          "subtema":  "Dependencias",
                           "dificultad":  "media",
-                          "pregunta":  "Que es la matriculacion en el examen A2?",
+                          "pregunta":  "Que cadena describe mejor el acceso hasta el certificado A2?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Tramite telematico en la Sede Electronica de AESA para solicitar acceso a la prueba teorica adicional.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "SMOWL, BVLOS, STS, operador y radiofonista.",
+                                             "Certificado, examen, practicas y A1/A3.",
+                                             "A1/A3 y practicas, inscripcion, credenciales, SMOWL, examen y certificado.",
+                                             "Meteorologia, dron C3, SORA y certificado."
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "Activa el expediente de certificacion.",
-                          "error_habitual":  "Confundir estudio con expediente activo.",
-                          "referencia_concepto":  "Tramite"
+                          "explicacion":  "El proceso integra requisitos previos, inscripcion, examen televigilado y resultado.",
+                          "error_habitual":  "Alterar el orden de dependencias administrativas.",
+                          "referencia_concepto":  "Itinerario A2"
                       },
                       {
                           "id":  "B8-T-32",
-                          "tema":  "Acceso",
-                          "subtema":  "Dependencias",
+                          "tema":  "ESP-RP",
+                          "subtema":  "Expediente",
                           "dificultad":  "media",
-                          "pregunta":  "Que requisitos desbloquean el acceso al examen A2?",
+                          "pregunta":  "Que conecta el identificador ESP-RP en el proceso A2?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque.",
-                                             "A1/A3 superado y declaracion de autoformacion practica presentada."
+                                             "La bateria con el centro de gravedad.",
+                                             "La nube con la presion atmosferica.",
+                                             "El UAS con la clase C3.",
+                                             "La identidad del piloto con su expediente academico."
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "Son dependencias criticas.",
-                          "error_habitual":  "Omitir la declaracion.",
-                          "referencia_concepto":  "Dependencias"
+                          "explicacion":  "ESP-RP identifica al piloto en el expediente, por eso no debe confundirse.",
+                          "error_habitual":  "Usar el numero de operador donde corresponde ESP-RP.",
+                          "referencia_concepto":  "ESP-RP y expediente"
                       },
                       {
                           "id":  "B8-T-33",
-                          "tema":  "ESP-RP",
-                          "subtema":  "Identidad",
+                          "tema":  "Proctoring",
+                          "subtema":  "Entorno",
                           "dificultad":  "media",
-                          "pregunta":  "Que error administrativo debe evitarse con el ESP-RP?",
+                          "pregunta":  "Que entorno debe preparar el aspirante para un examen televigilado?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque.",
-                                             "No confundir el identificador de piloto ESP-RP con el numero de operador UAS."
+                                             "Una zona de vuelo A3.",
+                                             "Una pista STS con examinador.",
+                                             "Una sala con material de consulta visible.",
+                                             "Un espacio privado, sin terceros ni dispositivos no autorizados."
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "Conecta identidad y expediente.",
-                          "error_habitual":  "Introducir el operador UAS.",
-                          "referencia_concepto":  "Identidad"
+                          "explicacion":  "La integridad exige controlar el entorno fisico de la prueba.",
+                          "error_habitual":  "Preparar solo el ordenador y olvidar la habitacion.",
+                          "referencia_concepto":  "Entorno de examen"
                       },
                       {
                           "id":  "B8-T-34",
-                          "tema":  "Proctoring",
-                          "subtema":  "SMOWL",
+                          "tema":  "Conducta",
+                          "subtema":  "Mirada",
                           "dificultad":  "media",
-                          "pregunta":  "Que requiere el sistema de televigilancia?",
+                          "pregunta":  "Por que desviar reiteradamente la mirada puede generar incidencia?",
                           "respuestas":  [
-                                             "Acceso a webcam, microfono y pantalla durante el examen.",
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Porque puede interpretarse como consulta o ayuda no autorizada.",
+                                             "Porque cambia la meteorologia local.",
+                                             "Porque reduce el MTOM.",
+                                             "Porque anula la matriculacion."
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "Garantiza integridad academica.",
-                          "error_habitual":  "No conceder permisos tecnicos.",
-                          "referencia_concepto":  "SMOWL"
+                          "explicacion":  "La monitorizacion remota evalua patrones de conducta durante la prueba.",
+                          "error_habitual":  "No cuidar las reglas de comportamiento ante la camara.",
+                          "referencia_concepto":  "Desvio de mirada"
                       },
                       {
                           "id":  "B8-T-35",
-                          "tema":  "Integridad",
-                          "subtema":  "Conducta",
+                          "tema":  "Conducta",
+                          "subtema":  "Dispositivos",
                           "dificultad":  "media",
-                          "pregunta":  "Que conductas estan prohibidas durante la prueba?",
+                          "pregunta":  "Que debe hacerse con dispositivos no autorizados durante la prueba?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Presencia de terceros, dispositivos no autorizados o desvio de la mirada.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Usarlos solo para confirmar respuestas.",
+                                             "Colocarlos fuera de camara pero encendidos.",
+                                             "Mantenerlos fuera del entorno de examen.",
+                                             "Usarlos si el microfono falla."
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "Pueden invalidar el intento.",
-                          "error_habitual":  "Hablar o mirar fuera.",
-                          "referencia_concepto":  "Conducta"
+                          "explicacion":  "Los dispositivos no autorizados comprometen la integridad de la evaluacion.",
+                          "error_habitual":  "Pensar que un movil cercano no importa si no se toca.",
+                          "referencia_concepto":  "Dispositivos no autorizados"
                       },
                       {
                           "id":  "B8-T-36",
                           "tema":  "Estructura",
-                          "subtema":  "Examen",
+                          "subtema":  "Opcion multiple",
                           "dificultad":  "media",
-                          "pregunta":  "Cuantas preguntas tiene el examen A2?",
+                          "pregunta":  "Que tipo de formato tiene el examen A2 indicado?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque.",
-                                             "30 preguntas tipo test de opcion multiple."
+                                             "Entrevista oral con examinador.",
+                                             "Vuelo practico STS.",
+                                             "Redaccion libre sin opciones.",
+                                             "Preguntas de opcion multiple."
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "Dato estable del formato.",
-                          "error_habitual":  "Confundir numero de preguntas.",
-                          "referencia_concepto":  "Examen"
+                          "explicacion":  "La estructura citada es de 30 preguntas de opcion multiple.",
+                          "error_habitual":  "Prepararse para un formato distinto al indicado.",
+                          "referencia_concepto":  "Formato de examen"
                       },
                       {
                           "id":  "B8-T-37",
-                          "tema":  "Tiempo",
-                          "subtema":  "Examen",
+                          "tema":  "Aprobado",
+                          "subtema":  "Calculo",
                           "dificultad":  "media",
-                          "pregunta":  "Cuanto dura el examen A2?",
+                          "pregunta":  "Si una prueba A2 tiene 30 preguntas, que dato se asocia al aprobado?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "30 minutos.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "50% de aciertos, indicado como 15 respuestas.",
+                                             "75% de aciertos, indicado como 23 respuestas correctas.",
+                                             "30 dias habiles sin nota minima.",
+                                             "2 intentos equivalen al aprobado."
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "Dato estable de logistica.",
-                          "error_habitual":  "No controlar tiempo.",
-                          "referencia_concepto":  "Examen"
+                          "explicacion":  "El aprobado combina porcentaje y equivalencia indicada.",
+                          "error_habitual":  "Confundir intentos o plazos con nota de corte.",
+                          "referencia_concepto":  "Aprobado A2"
                       },
                       {
                           "id":  "B8-T-38",
-                          "tema":  "Aprobado",
-                          "subtema":  "Umbral",
+                          "tema":  "Materias",
+                          "subtema":  "Sintesis",
                           "dificultad":  "media",
-                          "pregunta":  "Que nota de corte exige la prueba?",
+                          "pregunta":  "Que trio resume las materias especificas del examen A2?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "75% de aciertos, indicado como 23 preguntas correctas.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "A1/A3, STS y radiofonista.",
+                                             "Matricula, certificado y tasas.",
+                                             "Meteorologia, rendimiento de vuelo y atenuaciones del riesgo en tierra.",
+                                             "BVLOS, SORA y categoria certificada."
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "Dato critico del apto.",
-                          "error_habitual":  "Confundir porcentaje y respuestas.",
-                          "referencia_concepto":  "Umbral"
+                          "explicacion":  "Ese trio recoge el contenido teorico adicional A2.",
+                          "error_habitual":  "Sustituir materias A2 por marcos ajenos.",
+                          "referencia_concepto":  "Sintesis de materias"
                       },
                       {
                           "id":  "B8-T-39",
-                          "tema":  "Materias",
-                          "subtema":  "Temario",
+                          "tema":  "Software",
+                          "subtema":  "Actualizacion",
                           "dificultad":  "media",
-                          "pregunta":  "Que materias evalua el examen?",
+                          "pregunta":  "Por que el nombre del sistema de proctoring no debe tratarse como permanente?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque.",
-                                             "Meteorologia, rendimiento de vuelo y atenuaciones del riesgo en tierra."
+                                             "Porque depende del fabricante del dron.",
+                                             "Porque lo elige libremente cada aspirante.",
+                                             "Porque cambia con la meteorologia.",
+                                             "Porque AESA puede designar otro software por actualizaciones tecnologicas."
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "Tres materias especificas.",
-                          "error_habitual":  "Anadir materias externas.",
-                          "referencia_concepto":  "Temario"
+                          "explicacion":  "SMOWL es el software indicado, pero la fuente advierte que puede variar.",
+                          "error_habitual":  "Aprender solo una marca y no el requisito funcional.",
+                          "referencia_concepto":  "Software variable"
                       },
                       {
                           "id":  "B8-T-40",
-                          "tema":  "Plazo",
-                          "subtema":  "Convocatoria",
+                          "tema":  "Certificado",
+                          "subtema":  "Vigencia",
                           "dificultad":  "media",
-                          "pregunta":  "Que plazo post-inscripcion aparece en la ingenieria?",
+                          "pregunta":  "Que contenido complementario se asocia al certificado tras aprobar?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "30 dias habiles segun guias de examen.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Formacion STS obligatoria inmediata.",
+                                             "Calculo SORA completo.",
+                                             "Descarga del certificado y revalidacion a los 5 anos.",
+                                             "Examen de radiofonista."
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "Dato logistico variable segun convocatoria.",
-                          "error_habitual":  "Dejar pasar el plazo.",
-                          "referencia_concepto":  "Convocatoria"
+                          "explicacion":  "La descarga y revalidacion son aspectos complementarios posteriores al aprobado.",
+                          "error_habitual":  "Confundir resultado del examen con contenidos de categoria especifica.",
+                          "referencia_concepto":  "Certificado y revalidacion"
                       },
                       {
                           "id":  "B8-T-41",
-                          "tema":  "Intentos",
-                          "subtema":  "Convocatoria",
+                          "tema":  "Riesgo",
+                          "subtema":  "Administrativo",
                           "dificultad":  "dificil",
-                          "pregunta":  "Cuantos intentos estandar aparecen?",
+                          "pregunta":  "Que fallo administrativo puede impedir una matriculacion correcta?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque.",
-                                             "2 intentos."
+                                             "Responder 23 preguntas correctas.",
+                                             "Usar webcam y microfono.",
+                                             "Preparar meteorologia y rendimiento.",
+                                             "Introducir el numero de operador en lugar del ESP-RP."
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "Dato critico de logistica.",
-                          "error_habitual":  "Pensar en intentos ilimitados.",
-                          "referencia_concepto":  "Convocatoria"
+                          "explicacion":  "El identificador incorrecto rompe la relacion con el expediente del piloto.",
+                          "error_habitual":  "No distinguir identificador de piloto y operador.",
+                          "referencia_concepto":  "Error administrativo"
                       },
                       {
                           "id":  "B8-T-42",
-                          "tema":  "Software",
-                          "subtema":  "Variable",
+                          "tema":  "Riesgo",
+                          "subtema":  "Examen",
                           "dificultad":  "dificil",
-                          "pregunta":  "Como debe citarse SMOWL?",
+                          "pregunta":  "Que combinacion describe riesgos de integridad durante el examen?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "SMOWL u otro software designado, porque puede cambiar segun actualizaciones de AESA.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Revisar credenciales y webcam.",
+                                             "Hablar, desviar la mirada o tener otra persona en la habitacion.",
+                                             "Estudiar meteorologia y rendimiento.",
+                                             "Realizar la prueba dentro de plazo."
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "Actualmente se cita SMOWL.",
-                          "error_habitual":  "Tratar SMOWL como inmutable.",
-                          "referencia_concepto":  "Variable"
+                          "explicacion":  "Esas conductas pueden activar incidencias de proctoring.",
+                          "error_habitual":  "Centrarse solo en conocimientos e ignorar reglas de prueba.",
+                          "referencia_concepto":  "Riesgo de examen"
                       },
                       {
                           "id":  "B8-T-43",
-                          "tema":  "Conexion",
-                          "subtema":  "Riesgo",
+                          "tema":  "Riesgo",
+                          "subtema":  "Logistico",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que hacer si se pregunta por perdida de conexion?",
+                          "pregunta":  "Que preparacion reduce incidencias tecnicas el dia del examen?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Indicar que la ingenieria plantea la pregunta pero no aporta procedimiento detallado.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Revisar helices del UAS.",
+                                             "Probar compatibilidad de webcam, microfono, pantalla y conexion.",
+                                             "Calcular densidad del aire.",
+                                             "Practicar modo lento a 3 m/s."
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "No se debe inventar.",
-                          "error_habitual":  "Inventar protocolo.",
-                          "referencia_concepto":  "Riesgo"
+                          "explicacion":  "El riesgo logistico principal es llegar al examen sin entorno tecnico probado.",
+                          "error_habitual":  "Suponer que cualquier ordenador funcionara sin comprobacion.",
+                          "referencia_concepto":  "Preparacion tecnica"
                       },
                       {
                           "id":  "B8-T-44",
-                          "tema":  "Certificado",
-                          "subtema":  "Resultado",
+                          "tema":  "Escenario",
+                          "subtema":  "Correo AESA",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que sucede tras superar el umbral?",
+                          "pregunta":  "Un aspirante recibe confirmacion de AESA y dispone del plazo indicado. Que debe priorizar?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Aplicacion: descarga del Certificado de Competencia A2.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Esperar a que caduque el plazo.",
+                                             "Iniciar un examen STS externo.",
+                                             "Preparar materias, credenciales y entorno tecnico antes de realizar la prueba.",
+                                             "Cambiar el ESP-RP por numero de operador."
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "Complementa el cierre del proceso.",
-                          "error_habitual":  "Olvidar descarga.",
-                          "referencia_concepto":  "Resultado"
+                          "explicacion":  "El escenario combina plazo, preparacion tecnica y acceso a examen.",
+                          "error_habitual":  "Usar el plazo sin planificar el entorno de prueba.",
+                          "referencia_concepto":  "Escenario de convocatoria"
                       },
                       {
                           "id":  "B8-T-45",
-                          "tema":  "Fuera de alcance",
-                          "subtema":  "STS",
+                          "tema":  "Escenario",
+                          "subtema":  "Objeto detectado",
                           "dificultad":  "dificil",
-                          "pregunta":  "Como se tratan examenes STS?",
+                          "pregunta":  "Si la IA detecta un movil cerca del aspirante, que tipo de alerta puede activar?",
                           "respuestas":  [
-                                             "Fuera del alcance del curso A2.",
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Una alerta de integridad por objeto o dispositivo no autorizado.",
+                                             "Una alerta meteorologica por viento local.",
+                                             "Una alerta de MTOM superada.",
+                                             "Una autorizacion automatica A2."
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "Requieren entidades designadas y otro sistema.",
-                          "error_habitual":  "Desarrollar STS.",
-                          "referencia_concepto":  "STS"
+                          "explicacion":  "Un objeto no identificado puede comprometer la integridad del examen remoto.",
+                          "error_habitual":  "Dejar objetos no permitidos dentro del area de examen.",
+                          "referencia_concepto":  "Escenario de integridad"
                       },
                       {
                           "id":  "B8-T-46",
-                          "tema":  "Matriculacion",
-                          "subtema":  "Tramite",
+                          "tema":  "Alcance",
+                          "subtema":  "Categoria especifica",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que es la matriculacion en el examen A2?",
+                          "pregunta":  "Por que los examenes de categoria especifica no se integran en la auto-matriculacion A2 simple?",
                           "respuestas":  [
-                                             "Tramite telematico en la Sede Electronica de AESA para solicitar acceso a la prueba teorica adicional.",
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Porque requieren otro sistema y entidades designadas.",
+                                             "Porque tienen solo 30 minutos.",
+                                             "Porque usan el mismo ESP-RP.",
+                                             "Porque se aprueban con 75% automaticamente."
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "Activa el expediente de certificacion.",
-                          "error_habitual":  "Confundir estudio con expediente activo.",
-                          "referencia_concepto":  "Tramite"
+                          "explicacion":  "La categoria especifica tiene un marco distinto al examen A2 ordinario.",
+                          "error_habitual":  "Meter STS o categoria especifica en el proceso A2.",
+                          "referencia_concepto":  "Categoria especifica"
                       },
                       {
                           "id":  "B8-T-47",
-                          "tema":  "Acceso",
-                          "subtema":  "Dependencias",
+                          "tema":  "Secuencia",
+                          "subtema":  "Validacion",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que requisitos desbloquean el acceso al examen A2?",
+                          "pregunta":  "Que paso une credenciales y examen televigilado?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "A1/A3 superado y declaracion de autoformacion practica presentada.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "La calibracion del UAS C2.",
+                                             "La evaluacion del Indice K.",
+                                             "La validacion de identidad y del entorno mediante el sistema de proctoring.",
+                                             "La practica de hover."
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "Son dependencias criticas.",
-                          "error_habitual":  "Omitir la declaracion.",
-                          "referencia_concepto":  "Dependencias"
+                          "explicacion":  "Antes o durante el examen remoto se valida identidad y entorno.",
+                          "error_habitual":  "Saltar la validacion por tener credenciales.",
+                          "referencia_concepto":  "Validacion proctoring"
                       },
                       {
                           "id":  "B8-T-48",
-                          "tema":  "ESP-RP",
-                          "subtema":  "Identidad",
+                          "tema":  "Sintesis",
+                          "subtema":  "Administrativa",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que error administrativo debe evitarse con el ESP-RP?",
+                          "pregunta":  "Que combinacion resume los elementos administrativos clave del examen A2?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "No confundir el identificador de piloto ESP-RP con el numero de operador UAS.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Modo lento, geofencing y bateria.",
+                                             "Nubes, viento y humedad.",
+                                             "A1/A3, declaracion de practicas, inscripcion telematica, ESP-RP y certificado.",
+                                             "SORA, EAS y transpondedor modo S."
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "Conecta identidad y expediente.",
-                          "error_habitual":  "Introducir el operador UAS.",
-                          "referencia_concepto":  "Identidad"
+                          "explicacion":  "La via administrativa A2 combina requisitos previos, identidad, inscripcion y resultado.",
+                          "error_habitual":  "Mezclar tramites A2 con contenidos tecnicos de vuelo.",
+                          "referencia_concepto":  "Sintesis administrativa"
                       },
                       {
                           "id":  "B8-T-49",
-                          "tema":  "Proctoring",
-                          "subtema":  "SMOWL",
+                          "tema":  "Sintesis",
+                          "subtema":  "Tecnica",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que requiere el sistema de televigilancia?",
+                          "pregunta":  "Que combinacion resume los elementos tecnicos del examen televigilado?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Acceso a webcam, microfono y pantalla durante el examen.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "MTOM, CG, sustentacion y resistencia.",
+                                             "30 m, 5 m y regla 1:1.",
+                                             "SMOWL o sistema designado, webcam, microfono, pantalla y conexion estable.",
+                                             "A1/A3, declaracion y certificado."
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "Garantiza integridad academica.",
-                          "error_habitual":  "No conceder permisos tecnicos.",
-                          "referencia_concepto":  "SMOWL"
+                          "explicacion":  "La evaluacion remota depende de un puesto tecnico compatible y monitorizable.",
+                          "error_habitual":  "Preparar solo contenidos y no el sistema de examen.",
+                          "referencia_concepto":  "Sintesis tecnica"
                       },
                       {
                           "id":  "B8-T-50",
-                          "tema":  "Integridad",
-                          "subtema":  "Conducta",
+                          "tema":  "Sintesis",
+                          "subtema":  "Integridad",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que conductas estan prohibidas durante la prueba?",
+                          "pregunta":  "Que principio debe guiar la conducta del aspirante durante el examen remoto?",
                           "respuestas":  [
-                                             "Un tramite exclusivo de categoria especifica STS.",
-                                             "Presencia de terceros, dispositivos no autorizados o desvio de la mirada.",
-                                             "Un paso opcional sin relacion con AESA.",
-                                             "Una respuesta no indicada por la ingenieria del bloque."
+                                             "Aprovechar material externo si no aparece en camara.",
+                                             "Mantener identidad verificable y un entorno sin ayudas ni interferencias.",
+                                             "Delegar respuestas en una tercera persona.",
+                                             "Cambiar de software sin indicacion oficial."
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "Pueden invalidar el intento.",
-                          "error_habitual":  "Hablar o mirar fuera.",
-                          "referencia_concepto":  "Conducta"
+                          "explicacion":  "La integridad del examen depende de identidad, entorno y conducta controlados.",
+                          "error_habitual":  "Tratar el proctoring como una barrera tecnica sin reglas de comportamiento.",
+                          "referencia_concepto":  "Sintesis de integridad"
                       }
                   ]
 }

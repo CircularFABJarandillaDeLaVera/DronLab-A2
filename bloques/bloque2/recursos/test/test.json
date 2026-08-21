@@ -14,7 +14,7 @@
                           "tema":  "UAS de Clase C2",
                           "subtema":  "Definicion",
                           "dificultad":  "facil",
-                          "pregunta":  "Que define a un UAS de clase C2 segun la ingenieria del bloque?",
+                          "pregunta":  "Que define a un UAS de clase C2?",
                           "respuestas":  [
                                              "MTOM inferior a 900 g y sin marcado de clase",
                                              "Cualquier UAS electrico con camara",
@@ -39,7 +39,7 @@
                                              "25 kg"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria marca como dato estable que la MTOM de C2 es inferior a 4 kg.",
+                          "explicacion":  "la materia A2 marca como dato estable que la MTOM de C2 es inferior a 4 kg.",
                           "error_habitual":  "Confundir C2 con C1 de 900 g o C3 de 25 kg.",
                           "referencia_concepto":  "Limite de masa Clase C2"
                       },
@@ -150,7 +150,7 @@
                           "tema":  "Modo de baja velocidad",
                           "subtema":  "Activacion",
                           "dificultad":  "facil",
-                          "pregunta":  "Como se activa el modo de baja velocidad segun la ingenieria?",
+                          "pregunta":  "Como se activa el modo de baja velocidad ?",
                           "respuestas":  [
                                              "Manual por el piloto a distancia, salvo ala fija donde no aplica esta reduccion",
                                              "Siempre de forma automatica al detectar personas",
@@ -192,7 +192,7 @@
                                              "Porque cambia la MTOM del UAS"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria marca el modo de baja velocidad como vital para la legalidad a menos de 30 m de personas ajenas.",
+                          "explicacion":  "la materia A2 marca el modo de baja velocidad como vital para la legalidad a menos de 30 m de personas ajenas.",
                           "error_habitual":  "Tratar la distancia reducida como regla aislada.",
                           "referencia_concepto":  "Importancia del modo de baja velocidad"
                       },
@@ -271,7 +271,7 @@
                           "dificultad":  "dificil",
                           "pregunta":  "Que ocurre si falta la carga del numero de operador o falla la DRI?",
                           "respuestas":  [
-                                             "La operacion queda invalidada segun la ingenieria",
+                                             "La operacion queda invalidada ",
                                              "El UAS pasa a C1",
                                              "La geoconsciencia lo compensa siempre",
                                              "Solo baja la velocidad"
@@ -396,7 +396,7 @@
                                              "Usar luces visibles de noche"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria cita como riesgo no verificar el enlace antes del despegue.",
+                          "explicacion":  "la materia A2 cita como riesgo no verificar el enlace antes del despegue.",
                           "error_habitual":  "Dar por hecho que el enlace esta operativo.",
                           "referencia_concepto":  "Riesgos operacionales"
                       },
@@ -439,7 +439,7 @@
                           "tema":  "Avisos de bateria",
                           "subtema":  "Margen variable",
                           "dificultad":  "media",
-                          "pregunta":  "Segun la ingenieria, de que depende el margen de aviso de bateria?",
+                          "pregunta":  "de que depende el margen de aviso de bateria?",
                           "respuestas":  [
                                              "Del numero de serie",
                                              "De la resistencia y distancia de la operacion",
@@ -464,7 +464,7 @@
                                              "4 kg"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "La ingenieria recoge un techo de altura de 120 metros limitado por software o configuracion.",
+                          "explicacion":  "la materia A2 recoge un techo de altura de 120 metros limitado por software o configuracion.",
                           "error_habitual":  "Confundir altura con distancia horizontal o masa.",
                           "referencia_concepto":  "Altura maxima"
                       },
@@ -515,7 +515,7 @@
                                              "Elimina la necesidad de geoconsciencia"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria incluye un escenario donde esa discrepancia impide el despegue por seguridad.",
+                          "explicacion":  "la materia A2 incluye un escenario donde esa discrepancia impide el despegue por seguridad.",
                           "error_habitual":  "Intentar volar sin resolver la discrepancia.",
                           "referencia_concepto":  "Escenario software RPS/UAS"
                       },
@@ -541,7 +541,7 @@
                           "tema":  "Errores de examen",
                           "subtema":  "Clases",
                           "dificultad":  "media",
-                          "pregunta":  "Que error de examen sobre MTOM cita la ingenieria?",
+                          "pregunta":  "Que error de examen sobre MTOM cita la materia A2?",
                           "respuestas":  [
                                              "Confundir DRI con luces nocturnas",
                                              "Confundir RPS con ENAIRE Drones",
@@ -567,7 +567,7 @@
                                          ],
                           "respuesta_correcta":  0,
                           "explicacion":  "Los datos criticos recogen Indice K inferior a 4 para operar.",
-                          "error_habitual":  "Intentar desarrollar el indice K mas alla de lo aportado por la ingenieria.",
+                          "error_habitual":  "Intentar desarrollar el indice K mas alla de lo aportado por la materia A2.",
                           "referencia_concepto":  "Datos criticos"
                       },
                       {
@@ -600,16 +600,16 @@
                                              "La nota del examen A2"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria cita peso, bateria y configuracion del modo de baja velocidad.",
+                          "explicacion":  "la materia A2 cita peso, bateria y configuracion del modo de baja velocidad.",
                           "error_habitual":  "No usar el manual para comprobar configuraciones criticas.",
                           "referencia_concepto":  "Conceptos puente"
                       },
                       {
                           "id":  "B2-T-036",
-                          "tema":  "Grafo de conocimiento",
-                          "subtema":  "Conceptos iniciales",
+                          "tema":  "Sistema UAS C2",
+                          "subtema":  "Base tecnica",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que conceptos iniciales abre el grafo del Bloque 2?",
+                          "pregunta":  "Que elementos deben verificarse al identificar la base tecnica de un UAS C2?",
                           "respuestas":  [
                                              "Casos, practicas y test",
                                              "STS, SORA y radiofonista",
@@ -617,16 +617,16 @@
                                              "Marcado C2, MTOM \u003c 4 kg y alimentacion electrica"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "El grafo comienza con marcado de clase C2, MTOM inferior a 4 kg y alimentacion electrica.",
+                          "explicacion":  "El secuencia conceptual comienza con marcado de clase C2, MTOM inferior a 4 kg y alimentacion electrica.",
                           "error_habitual":  "Empezar por la aplicacion sin verificar el sistema base.",
-                          "referencia_concepto":  "Grafo de conocimiento"
+                          "referencia_concepto":  "secuencia conceptual"
                       },
                       {
                           "id":  "B2-T-037",
-                          "tema":  "Grafo de conocimiento",
+                          "tema":  "secuencia conceptual",
                           "subtema":  "Intermedios",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que elementos aparecen como intermedios en el grafo?",
+                          "pregunta":  "Que elementos aparecen como intermedios en el secuencia conceptual?",
                           "respuestas":  [
                                              "Configuracion de Remote ID, carga de zonas en geoconsciencia y luces nocturnas",
                                              "Solo vuelo a 5 metros",
@@ -636,11 +636,11 @@
                           "respuesta_correcta":  0,
                           "explicacion":  "Los intermedios son Remote ID, geoconsciencia y luces nocturnas.",
                           "error_habitual":  "Saltar de marcado C2 directamente a operaciones.",
-                          "referencia_concepto":  "Grafo de conocimiento"
+                          "referencia_concepto":  "secuencia conceptual"
                       },
                       {
                           "id":  "B2-T-038",
-                          "tema":  "Grafo de conocimiento",
+                          "tema":  "secuencia conceptual",
                           "subtema":  "Conceptos centrales",
                           "dificultad":  "dificil",
                           "pregunta":  "Que conceptos centrales aparecen antes de la aplicacion?",
@@ -651,18 +651,18 @@
                                              "Solo altura maxima"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "El grafo situa modo lento y avisos de bateria como conceptos centrales.",
+                          "explicacion":  "El secuencia conceptual situa modo lento y avisos de bateria como conceptos centrales.",
                           "error_habitual":  "Tratar modo lento y bateria como detalles secundarios.",
-                          "referencia_concepto":  "Grafo de conocimiento"
+                          "referencia_concepto":  "secuencia conceptual"
                       },
                       {
                           "id":  "B2-T-039",
-                          "tema":  "Grafo de conocimiento",
+                          "tema":  "secuencia conceptual",
                           "subtema":  "Aplicacion",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que aplicacion final recoge el grafo?",
+                          "pregunta":  "Que aplicacion final recoge el secuencia conceptual?",
                           "respuestas":  [
-                                             "Publicacion del curso",
+                                             "Publicacion del formacion",
                                              "Radiofonista UAS",
                                              "Vuelo a 5 m de personas ajenas y gestion de fallos de sistema",
                                              "Examen A1/A3"
@@ -670,7 +670,7 @@
                           "respuesta_correcta":  2,
                           "explicacion":  "La aplicacion final indicada es vuelo a 5 m y gestion de fallos.",
                           "error_habitual":  "Aplicar sin comprender las dependencias previas.",
-                          "referencia_concepto":  "Grafo de conocimiento"
+                          "referencia_concepto":  "secuencia conceptual"
                       },
                       {
                           "id":  "B2-T-040",
@@ -728,7 +728,7 @@
                           "tema":  "Datos estables",
                           "subtema":  "Conjunto",
                           "dificultad":  "media",
-                          "pregunta":  "Que conjunto recoge solo conceptos estables citados en la ingenieria?",
+                          "pregunta":  "Que conjunto recoge solo conceptos estables citados en la materia A2?",
                           "respuestas":  [
                                              "MTOM \u003c 4 kg, modo lento 3 m/s, altura 120 m y luces visibles",
                                              "Software variable, SORA y STS-ES",
@@ -736,7 +736,7 @@
                                              "Numero ESP-RP, examen y certificado A2"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria clasifica esos elementos como conceptos estables.",
+                          "explicacion":  "la materia A2 clasifica esos elementos como conceptos estables.",
                           "error_habitual":  "Mezclar conceptos estables con variables.",
                           "referencia_concepto":  "Conceptos estables"
                       },
@@ -745,7 +745,7 @@
                           "tema":  "Conceptos variables",
                           "subtema":  "Conjunto",
                           "dificultad":  "media",
-                          "pregunta":  "Que conjunto recoge conceptos variables del Bloque 2?",
+                          "pregunta":  "Que conjunto recoge elementos variables en un sistema UAS C2?",
                           "respuestas":  [
                                              "MTOM, etiqueta C2 y numero de serie unico",
                                              "Altura 120 m, luces y 3 m/s",
@@ -753,7 +753,7 @@
                                              "C1, C3 y Categoria Certificada"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria clasifica software, informacion geografica y margen de bateria como variables.",
+                          "explicacion":  "la materia A2 clasifica software, informacion geografica y margen de bateria como variables.",
                           "error_habitual":  "Tratar versiones o bases de datos como datos permanentes.",
                           "referencia_concepto":  "Conceptos variables"
                       },
@@ -762,7 +762,7 @@
                           "tema":  "Riesgos",
                           "subtema":  "Habituales",
                           "dificultad":  "facil",
-                          "pregunta":  "Cual es un riesgo habitual citado en el bloque?",
+                          "pregunta":  "Cual es un riesgo habitual en la inspeccion de un UAS C2?",
                           "respuestas":  [
                                              "No generar prompts antes del test",
                                              "No asegurar correctamente helices o camaras",
@@ -779,24 +779,24 @@
                           "tema":  "Fuera de alcance",
                           "subtema":  "STS-ES",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que debe hacerse si aparece STS-ES durante el Bloque 2 A2?",
+                          "pregunta":  "Como debe tratarse STS-ES al evaluar un UAS C2 para A2?",
                           "respuestas":  [
                                              "Convertirlo en practica obligatoria",
-                                             "Marcarlo como fuera del alcance del curso A2 y no desarrollarlo",
+                                             "Considerarlo fuera del alcance de la subcategoria A2 y no desarrollarlo",
                                              "Usarlo para sustituir la clase C2",
                                              "Desarrollar requisitos STS-ES-02NE"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "La auditoria clasifica STS-ES y requisitos especificos como fuera del alcance del A2.",
-                          "error_habitual":  "Desviar el bloque hacia categoria especifica o STS.",
-                          "referencia_concepto":  "Auditoria de alcance"
+                          "explicacion":  "La alcance clasifica STS-ES y requisitos especificos como fuera del alcance del A2.",
+                          "error_habitual":  "Desviar el estudio del UAS C2 hacia categoria especifica o STS.",
+                          "referencia_concepto":  "alcance de alcance"
                       },
                       {
                           "id":  "B2-T-047",
-                          "tema":  "Auditoria del bloque",
+                          "tema":  "Sistema UAS C2",
                           "subtema":  "Imprescindible",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que contenidos son imprescindibles para el Bloque 2 A2?",
+                          "pregunta":  "Que contenidos tecnicos son imprescindibles para entender un UAS C2 en A2?",
                           "respuestas":  [
                                              "Solo STS-ES y C3",
                                              "Unicamente software de fabricante",
@@ -804,16 +804,16 @@
                                              "Solo instrucciones del fabricante"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La auditoria marca esos cinco elementos como imprescindibles.",
-                          "error_habitual":  "Dedicar el bloque a contenido complementario o fuera de alcance.",
-                          "referencia_concepto":  "Auditoria A"
+                          "explicacion":  "La alcance marca esos cinco elementos como imprescindibles.",
+                          "error_habitual":  "Centrarse en contenido complementario o fuera de alcance.",
+                          "referencia_concepto":  "alcance A"
                       },
                       {
                           "id":  "B2-T-048",
-                          "tema":  "Auditoria del bloque",
+                          "tema":  "Sistema UAS C2",
                           "subtema":  "Complementario",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que contenido aparece como complementario?",
+                          "pregunta":  "Que contenido tecnico es complementario al estudiar un UAS C2 en A2?",
                           "respuestas":  [
                                              "Definicion C2 y modo lento",
                                              "STS-ES-02NE de menos de 25 kg",
@@ -821,16 +821,16 @@
                                              "Categoria Certificada y radiofonista"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria clasifica esos metodos y procedimientos como complementarios.",
-                          "error_habitual":  "Convertir lo complementario en eje central del bloque.",
-                          "referencia_concepto":  "Auditoria B"
+                          "explicacion":  "la materia A2 clasifica esos metodos y procedimientos como complementarios.",
+                          "error_habitual":  "Convertir lo complementario en eje central del estudio.",
+                          "referencia_concepto":  "alcance B"
                       },
                       {
                           "id":  "B2-T-049",
                           "tema":  "Sistema UAS C2",
                           "subtema":  "Decision operativa",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que secuencia respeta mejor el grafo de conocimiento del Bloque 2?",
+                          "pregunta":  "Que secuencia tecnica describe mejor la evaluacion de un UAS C2 antes de aplicarlo en A2?",
                           "respuestas":  [
                                              "5 m/fallos -\u003e STS-ES -\u003e radiofonista -\u003e marcado C2",
                                              "Bateria -\u003e certificado A2 -\u003e examen A1/A3 -\u003e SORA",
@@ -838,26 +838,26 @@
                                              "Marcado/MTOM/alimentacion -\u003e DRI/geoconsciencia/luces -\u003e modo lento/bateria -\u003e 5 m/fallos"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "Esa secuencia reproduce el paso de iniciales a intermedios, centrales y aplicacion.",
-                          "error_habitual":  "Ordenar el bloque por ocurrencia y no por dependencias.",
-                          "referencia_concepto":  "Grafo de conocimiento"
+                          "explicacion":  "Esa secuencia avanza desde caracteristicas base hasta funciones tecnicas y aplicacion operativa.",
+                          "error_habitual":  "Ordenar los conceptos por ocurrencia y no por dependencias tecnicas.",
+                          "referencia_concepto":  "secuencia conceptual"
                       },
                       {
                           "id":  "B2-T-050",
                           "tema":  "Sistema UAS C2",
                           "subtema":  "Sintesis",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que afirmacion resume correctamente el Bloque 2?",
+                          "pregunta":  "Que afirmacion resume correctamente un UAS C2 para operaciones A2?",
                           "respuestas":  [
                                              "C2 elimina la necesidad de DRI si hay luces",
-                                             "C2 permite desarrollar STS-ES dentro del curso A2",
+                                             "C2 permite desarrollar STS-ES como requisito A2",
                                              "C2 se define solo por el numero de piloto ESP-RP",
                                              "C2 combina marcado, limites y funciones tecnicas para operar A2 con mitigaciones"
                                          ],
                           "respuesta_correcta":  3,
                           "explicacion":  "La sintesis integra marcado, MTOM, funciones tecnicas y finalidad A2.",
                           "error_habitual":  "Reducir C2 a un unico dato aislado.",
-                          "referencia_concepto":  "Sintesis Bloque 2"
+                          "referencia_concepto":  "Sintesis UAS C2"
                       }
                   ]
 }

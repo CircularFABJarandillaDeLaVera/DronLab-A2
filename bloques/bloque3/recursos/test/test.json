@@ -22,7 +22,7 @@
                                              "Ignorar el modo de baja velocidad"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria define A2 como operacion abierta que reduce distancia respecto a A3 con UAS C2.",
+                          "explicacion":  "la materia A2 define A2 como operacion abierta que reduce distancia respecto a A3 con UAS C2.",
                           "error_habitual":  "Creer que A2 elimina los limites de distancia.",
                           "referencia_concepto":  "Vuelo cerca de personas"
                       },
@@ -39,7 +39,7 @@
                                              "STS-01"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria cita certificado de competencia A2 como dependencia.",
+                          "explicacion":  "la materia A2 cita certificado de competencia A2 como dependencia.",
                           "error_habitual":  "Mezclar A2 con requisitos fuera de alcance.",
                           "referencia_concepto":  "Dependencias A2"
                       },
@@ -56,7 +56,7 @@
                                              "Categoria Certificada"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria vincula A2 con uso de UAS de clase C2.",
+                          "explicacion":  "la materia A2 vincula A2 con uso de UAS de clase C2.",
                           "error_habitual":  "Pensar que cualquier dron sirve por estar en categoria abierta.",
                           "referencia_concepto":  "UAS con marcado Clase C2"
                       },
@@ -90,7 +90,7 @@
                                              "5 metros horizontales"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La ingenieria cita 5 metros horizontales como minimo absoluto con modo lento.",
+                          "explicacion":  "la materia A2 cita 5 metros horizontales como minimo absoluto con modo lento.",
                           "error_habitual":  "Usar 5 m como regla general.",
                           "referencia_concepto":  "Distancia Reducida"
                       },
@@ -107,7 +107,7 @@
                                              "Sin limite"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria cita \u003c= 3 m/s para modo lento.",
+                          "explicacion":  "la materia A2 cita \u003c= 3 m/s para modo lento.",
                           "error_habitual":  "Separar 3 m/s del modo lento.",
                           "referencia_concepto":  "Modo de baja velocidad"
                       },
@@ -133,16 +133,16 @@
                           "tema":  "Sobrevuelo",
                           "subtema":  "Concentraciones",
                           "dificultad":  "facil",
-                          "pregunta":  "Que indica la ingenieria sobre sobrevolar concentraciones en categoria abierta?",
+                          "pregunta":  "Que regla aplica al sobrevuelo de concentraciones de personas en categoria abierta?",
                           "respuestas":  [
                                              "Esta prohibido",
                                              "Esta permitido con C2",
                                              "Esta permitido a 5 m",
-                                             "Depende de SORA en este bloque"
+                                             "Depende de una autorizacion SORA"
                                          ],
                           "respuesta_correcta":  0,
                           "explicacion":  "La prohibicion de concentraciones aparece como concepto estable.",
-                          "error_habitual":  "Buscar excepciones no presentes en la ingenieria.",
+                          "error_habitual":  "Buscar excepciones no presentes en la materia A2.",
                           "referencia_concepto":  "Prohibicion de concentraciones"
                       },
                       {
@@ -158,7 +158,7 @@
                                              "El operador si esta registrado"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria cita prioridad de paso para aeronaves tripuladas.",
+                          "explicacion":  "la materia A2 cita prioridad de paso para aeronaves tripuladas.",
                           "error_habitual":  "Centrarse solo en personas en tierra.",
                           "referencia_concepto":  "Prioridad de paso"
                       },
@@ -243,7 +243,7 @@
                                              "Espacios confinados o inspecciones detalladas"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La ingenieria cita espacios confinados e inspecciones detalladas.",
+                          "explicacion":  "la materia A2 cita espacios confinados e inspecciones detalladas.",
                           "error_habitual":  "Aplicar 5 m sin contexto.",
                           "referencia_concepto":  "Finalidad distancia reducida"
                       },
@@ -286,7 +286,7 @@
                           "tema":  "Sobrevuelo",
                           "subtema":  "Personas ajenas",
                           "dificultad":  "facil",
-                          "pregunta":  "Que error de examen cita la ingenieria sobre C2?",
+                          "pregunta":  "Que error de examen cita la materia A2 sobre C2?",
                           "respuestas":  [
                                              "Creer que C2 puede volar deliberadamente sobre personas ajenas",
                                              "Creer que C2 exige modo lento",
@@ -303,7 +303,7 @@
                           "tema":  "Datos criticos",
                           "subtema":  "Resumen",
                           "dificultad":  "facil",
-                          "pregunta":  "Que conjunto contiene solo datos criticos del bloque?",
+                          "pregunta":  "Que conjunto contiene solo datos criticos de operaciones A2 cerca de personas?",
                           "respuestas":  [
                                              "900 g, 120 m, ESP-RP, STS",
                                              "30 m, 5 m, \u003c=3 m/s, regla 1:1, concentraciones prohibidas",
@@ -311,8 +311,8 @@
                                              "40 preguntas, 30 dias, certificado digital"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "Son los datos criticos listados en la ingenieria.",
-                          "error_habitual":  "Mezclar datos de otros bloques o fuera de alcance.",
+                          "explicacion":  "Son los datos criticos listados en la materia A2.",
+                          "error_habitual":  "Mezclar datos de otras materias o de categoria especifica.",
                           "referencia_concepto":  "Datos criticos Operaciones A2"
                       },
                       {
@@ -328,7 +328,7 @@
                                              "Porque sustituye la evaluacion del entorno"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "La ingenieria califica este concepto como critico por seguridad publica.",
+                          "explicacion":  "la materia A2 califica este concepto como critico por seguridad publica.",
                           "error_habitual":  "Tratar la proximidad como una comodidad.",
                           "referencia_concepto":  "Importancia vuelo cerca de personas"
                       },
@@ -337,17 +337,17 @@
                           "tema":  "Alcance",
                           "subtema":  "Fuera de alcance",
                           "dificultad":  "facil",
-                          "pregunta":  "Que debe hacerse si aparece STS, SORA o Categoria Especifica en este bloque?",
+                          "pregunta":  "Como deben tratarse STS, SORA o categoria especifica al evaluar operaciones A2 estandar?",
                           "respuestas":  [
-                                             "Desarrollarlo como contenido central",
-                                             "Marcarlo como fuera del alcance del curso A2",
+                                             "Desarrollarlos como contenido central",
+                                             "Considerarlos fuera del alcance de la subcategoria A2",
                                              "Sustituir los 30 m por SORA",
                                              "Eliminar las distancias A2"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "La auditoria clasifica contenidos STS/SORA fuera del alcance.",
-                          "error_habitual":  "Desarrollar normativa no incluida en la ingenieria.",
-                          "referencia_concepto":  "Auditoria C fuera del alcance"
+                          "explicacion":  "La alcance clasifica contenidos STS/SORA fuera del alcance.",
+                          "error_habitual":  "Desarrollar normativa no incluida en la materia A2.",
+                          "referencia_concepto":  "alcance C fuera del alcance"
                       },
                       {
                           "id":  "B3-T-021",
@@ -368,10 +368,10 @@
                       },
                       {
                           "id":  "B3-T-022",
-                          "tema":  "Grafo",
-                          "subtema":  "Iniciales",
+                          "tema":  "Decision operacional",
+                          "subtema":  "Conceptos iniciales",
                           "dificultad":  "media",
-                          "pregunta":  "Que conceptos iniciales abre el grafo del Bloque 3?",
+                          "pregunta":  "Que conceptos deben identificarse antes de aplicar distancias en una operacion A2?",
                           "respuestas":  [
                                              "Modo lento y 5 m",
                                              "CTR y EARO",
@@ -379,16 +379,16 @@
                                              "Radiofonista y STS"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria inicia el grafo con identificacion de personas y volumen operacional.",
+                          "explicacion":  "La decision comienza con identificar personas no participantes y volumen operacional.",
                           "error_habitual":  "Saltar al dato de 5 m sin clasificar personas.",
-                          "referencia_concepto":  "Grafo de conocimiento"
+                          "referencia_concepto":  "secuencia conceptual"
                       },
                       {
                           "id":  "B3-T-023",
-                          "tema":  "Grafo",
+                          "tema":  "secuencia conceptual",
                           "subtema":  "Intermedios",
                           "dificultad":  "media",
-                          "pregunta":  "Que conceptos intermedios aparecen en el grafo?",
+                          "pregunta":  "Que conceptos intermedios aparecen en el secuencia conceptual?",
                           "respuestas":  [
                                              "Evaluacion del entorno y regla general de 30 m",
                                              "Solo sobrevuelo de concentraciones",
@@ -396,13 +396,13 @@
                                              "Buffer STS-01 y CTR"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "Tras los iniciales, el grafo incluye entorno y 30 m.",
+                          "explicacion":  "Tras los iniciales, el secuencia conceptual incluye entorno y 30 m.",
                           "error_habitual":  "Ignorar la evaluacion del entorno.",
-                          "referencia_concepto":  "Grafo de conocimiento"
+                          "referencia_concepto":  "secuencia conceptual"
                       },
                       {
                           "id":  "B3-T-024",
-                          "tema":  "Grafo",
+                          "tema":  "secuencia conceptual",
                           "subtema":  "Centrales",
                           "dificultad":  "media",
                           "pregunta":  "Que grupo corresponde a conceptos centrales?",
@@ -413,16 +413,16 @@
                                              "Modo de baja velocidad \u003c3 m/s, regla 1:1 y limite de 5 m"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La ingenieria lista esos tres como conceptos centrales.",
-                          "error_habitual":  "Mezclar con contenidos de otros bloques.",
-                          "referencia_concepto":  "Grafo de conocimiento"
+                          "explicacion":  "la materia A2 lista esos tres como conceptos centrales.",
+                          "error_habitual":  "Mezclar con contenidos de otras materias.",
+                          "referencia_concepto":  "secuencia conceptual"
                       },
                       {
                           "id":  "B3-T-025",
-                          "tema":  "Grafo",
+                          "tema":  "secuencia conceptual",
                           "subtema":  "Aplicacion",
                           "dificultad":  "media",
-                          "pregunta":  "Cual es la aplicacion final del grafo?",
+                          "pregunta":  "Cual es la aplicacion final del secuencia conceptual?",
                           "respuestas":  [
                                              "Solo memorizar la definicion C2",
                                              "Planificacion de trayectorias seguras y monitorizacion constante de distancias",
@@ -430,9 +430,9 @@
                                              "Calcular EARO de 60 m"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "El grafo culmina en planificacion y monitorizacion.",
+                          "explicacion":  "El secuencia conceptual culmina en planificacion y monitorizacion.",
                           "error_habitual":  "Quedarse en memoria de datos.",
-                          "referencia_concepto":  "Aplicacion del grafo"
+                          "referencia_concepto":  "Aplicacion del secuencia conceptual"
                       },
                       {
                           "id":  "B3-T-026",
@@ -494,8 +494,8 @@
                           "respuestas":  [
                                              "Como permiso para sobrevolar en A2",
                                              "Como sustituto del modo lento",
-                                             "Como requisito central del Bloque 3",
-                                             "Como contraste para no desarrollar sobrevuelo en A2"
+                                             "Como requisito central de A2",
+                                             "Como contraste para no desarrollar sobrevuelo de personas en A2"
                                          ],
                           "respuesta_correcta":  3,
                           "explicacion":  "La tabla cita A1, pero el sobrevuelo de personas se marca prohibido en A2.",
@@ -515,7 +515,7 @@
                                              "STS y radiofonista"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria cita densidad de personas y rafagas que desplacen el UAS.",
+                          "explicacion":  "la materia A2 cita densidad de personas y rafagas que desplacen el UAS.",
                           "error_habitual":  "Evaluar solo con numeros fijos.",
                           "referencia_concepto":  "Conceptos variables"
                       },
@@ -549,7 +549,7 @@
                                              "60 m EARO"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "La ingenieria asocia ese escenario al uso de 30 m.",
+                          "explicacion":  "la materia A2 asocia ese escenario al uso de 30 m.",
                           "error_habitual":  "Ignorar peatones de la acera.",
                           "referencia_concepto":  "Escenario edificio oficinas"
                       },
@@ -566,7 +566,7 @@
                                              "Modo lento y 5 m"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La ingenieria asocia el escenario a modo lento y 5 m.",
+                          "explicacion":  "la materia A2 asocia el escenario a modo lento y 5 m.",
                           "error_habitual":  "Tratar operarios no relacionados como participantes.",
                           "referencia_concepto":  "Escenario antena"
                       },
@@ -634,7 +634,7 @@
                                              "Radiofonista y CTR"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria lo define como puente tecnico entre Bloque 2 y reduccion de riesgo.",
+                          "explicacion":  "El modo de baja velocidad conecta el diseno tecnico del UAS con la reduccion del riesgo operativo.",
                           "error_habitual":  "Verlo como detalle tecnico aislado.",
                           "referencia_concepto":  "Conceptos puente"
                       },
@@ -651,7 +651,7 @@
                                              "SORA y STS"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "La ingenieria dice que conecta Factor Humano con Reglas de Operacion.",
+                          "explicacion":  "la materia A2 dice que conecta Factor Humano con Reglas de Operacion.",
                           "error_habitual":  "No saber que distancia aplicar por no clasificar personas.",
                           "referencia_concepto":  "Conceptos puente"
                       },
@@ -677,7 +677,7 @@
                           "tema":  "Riesgos",
                           "subtema":  "Examen",
                           "dificultad":  "media",
-                          "pregunta":  "Que frase seria una trampa de examen segun la ingenieria?",
+                          "pregunta":  "Que frase seria una trampa de examen ?",
                           "respuestas":  [
                                              "La distancia general es 30 m",
                                              "El modo lento limita a 3 m/s",
@@ -702,7 +702,7 @@
                                              "Fuera del alcance"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria asigna aplicacion y analisis.",
+                          "explicacion":  "la materia A2 asigna aplicacion y analisis.",
                           "error_habitual":  "Estudiar A2 como datos sueltos.",
                           "referencia_concepto":  "Nivel de aprendizaje"
                       },
@@ -738,7 +738,7 @@
                           "respuesta_correcta":  2,
                           "explicacion":  "La regla 1:1 vincula altura y distancia horizontal minima proporcional.",
                           "error_habitual":  "Usar 2 m para anular otras condiciones A2.",
-                          "referencia_concepto":  "Pregunta nacida del bloque"
+                          "referencia_concepto":  "Regla 1:1"
                       },
                       {
                           "id":  "B3-T-044",
@@ -753,26 +753,26 @@
                                              "Cambiar a SORA automaticamente"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La pregunta nace del bloque; el modo lento no elimina la necesidad de reaccionar ante intrusion.",
+                          "explicacion":  "El modo lento no elimina la necesidad de reaccionar ante la entrada de una persona no participante.",
                           "error_habitual":  "Creer que modo lento justifica permanecer en zona critica.",
-                          "referencia_concepto":  "Pregunta nacida del bloque"
+                          "referencia_concepto":  "Intrusion de terceros"
                       },
                       {
                           "id":  "B3-T-045",
                           "tema":  "Alcance",
                           "subtema":  "Aerodromos 8 km",
                           "dificultad":  "dificil",
-                          "pregunta":  "Como clasifica la auditoria las diferencias con zonas de seguridad de aerodromos de 8 km?",
+                          "pregunta":  "Como deben tratarse las zonas de seguridad de aerodromos de 8 km frente a las distancias A2?",
                           "respuestas":  [
-                                             "Imprescindible central del bloque",
-                                             "Fuera de alcance C igual que STS-01",
-                                             "Sustituto de la regla 1:1",
-                                             "Complementario para no confundir distancias operativas con geograficas"
+                                             "Como distancia central A2",
+                                             "Como sustituto de la regla 1:1",
+                                             "Como permiso automatico para operar cerca de personas",
+                                             "Como referencia complementaria para no confundir distancias geograficas y operativas"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La auditoria lo clasifica como complementario.",
+                          "explicacion":  "La alcance lo clasifica como complementario.",
                           "error_habitual":  "Mezclar 8 km con 30 m o 5 m.",
-                          "referencia_concepto":  "Auditoria B"
+                          "referencia_concepto":  "alcance B"
                       },
                       {
                           "id":  "B3-T-046",
@@ -787,16 +787,16 @@
                                              "Buffer de riesgo en tierra basado en 1xV_viento"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La auditoria C lo clasifica fuera del alcance.",
-                          "error_habitual":  "Desarrollar STS dentro del curso A2.",
-                          "referencia_concepto":  "Auditoria C"
+                          "explicacion":  "La alcance C lo clasifica fuera del alcance.",
+                          "error_habitual":  "Desarrollar STS dentro de la subcategoria A2.",
+                          "referencia_concepto":  "alcance C"
                       },
                       {
                           "id":  "B3-T-047",
                           "tema":  "Fuera de alcance",
                           "subtema":  "EARO CTR",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que atenuacion queda fuera del alcance segun la ingenieria?",
+                          "pregunta":  "Que atenuacion queda fuera del alcance ?",
                           "respuestas":  [
                                              "Distancia reducida de 5 m",
                                              "Regla 1:1",
@@ -804,9 +804,9 @@
                                              "Prioridad de tripuladas"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La auditoria C la clasifica fuera del alcance.",
+                          "explicacion":  "La alcance C la clasifica fuera del alcance.",
                           "error_habitual":  "Confundir CTR/EARO con distancias A2.",
-                          "referencia_concepto":  "Auditoria C"
+                          "referencia_concepto":  "alcance C"
                       },
                       {
                           "id":  "B3-T-048",
@@ -821,9 +821,9 @@
                                              "Usar A1 para cualquier persona ajena"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "Resume el grafo de conocimiento del bloque.",
+                          "explicacion":  "La secuencia integra identificacion de personas, entorno, distancias, modo lento, regla 1:1 y monitorizacion.",
                           "error_habitual":  "Saltar dependencias para llegar al dato deseado.",
-                          "referencia_concepto":  "Grafo de conocimiento"
+                          "referencia_concepto":  "secuencia conceptual"
                       },
                       {
                           "id":  "B3-T-049",
@@ -855,9 +855,9 @@
                                              "Porque sustituyen al certificado A2"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "El bloque exige aplicar datos dentro de condiciones y escenarios.",
+                          "explicacion":  "Los datos deben aplicarse dentro de condiciones y escenarios operativos.",
                           "error_habitual":  "Memorizar valores sin contexto operativo.",
-                          "referencia_concepto":  "Sintesis del bloque"
+                          "referencia_concepto":  "Sintesis de datos condicionados"
                       }
                   ]
 }

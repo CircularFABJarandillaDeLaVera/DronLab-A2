@@ -17,7 +17,7 @@
                                              "Sustentacion, peso, empuje y resistencia"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La ingenieria define las fuerzas como sustentacion, peso, empuje y resistencia.",
+                          "explicacion":  "la materia A2 define las fuerzas como sustentacion, peso, empuje y resistencia.",
                           "error_habitual":  "Olvidar resistencia o mezclar fuerzas con ejes.",
                           "referencia_concepto":  "Fuerzas que actuan sobre el UAS"
                       },
@@ -68,7 +68,7 @@
                                              "Tres lineas imaginarias que se cruzan en el CG"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La ingenieria define los ejes como tres lineas imaginarias que se cruzan en el CG.",
+                          "explicacion":  "la materia A2 define los ejes como tres lineas imaginarias que se cruzan en el CG.",
                           "error_habitual":  "Pensar que los ejes son componentes fisicos visibles.",
                           "referencia_concepto":  "Ejes de Vuelo y Rotacion"
                       },
@@ -102,7 +102,7 @@
                                              "Resistencia"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria asocia eje lateral/transversal con cabeceo/pitch.",
+                          "explicacion":  "la materia A2 asocia eje lateral/transversal con cabeceo/pitch.",
                           "error_habitual":  "Asociar cabeceo al eje vertical.",
                           "referencia_concepto":  "Ejes de Vuelo y Rotacion"
                       },
@@ -170,7 +170,7 @@
                                              "Version de software de la RPS"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria define perfil como forma transversal de ala o pala.",
+                          "explicacion":  "la materia A2 define perfil como forma transversal de ala o pala.",
                           "error_habitual":  "Pensar solo en ala fija y olvidar palas.",
                           "referencia_concepto":  "Perfil Aerodinamico y Principio de Bernoulli"
                       },
@@ -179,12 +179,12 @@
                           "tema":  "Bernoulli",
                           "subtema":  "Finalidad",
                           "dificultad":  "facil",
-                          "pregunta":  "Que ayuda a explicar Bernoulli en el Bloque 5?",
+                          "pregunta":  "Que ayuda a explicar el principio de Bernoulli en un UAS?",
                           "respuestas":  [
                                              "La matricula del piloto remoto",
                                              "La prohibicion de BVLOS",
                                              "La eficiencia del dron segun la velocidad del aire sobre sus palas",
-                                             "El contenido de Profesor Plus"
+                                             "El contenido de un visor de estudio"
                                          ],
                           "respuesta_correcta":  2,
                           "explicacion":  "La fuente conecta Bernoulli con presiones y eficiencia sobre las palas.",
@@ -213,7 +213,7 @@
                           "tema":  "MTOM",
                           "subtema":  "Dato C2",
                           "dificultad":  "facil",
-                          "pregunta":  "Que masa maxima C2 indica la ingenieria?",
+                          "pregunta":  "Que masa maxima C2 indica la materia A2?",
                           "respuestas":  [
                                              "4 kg exactos",
                                              "\u003c 4 kg",
@@ -281,7 +281,7 @@
                           "tema":  "Examen",
                           "subtema":  "Aprobado",
                           "dificultad":  "facil",
-                          "pregunta":  "Que umbral de aprobado aparece en la ingenieria?",
+                          "pregunta":  "Que porcentaje minimo de aciertos se exige en el examen A2?",
                           "respuestas":  [
                                              "\u003c 4 kg",
                                              "75% de aciertos",
@@ -290,7 +290,7 @@
                                          ],
                           "respuesta_correcta":  1,
                           "explicacion":  "Los datos criticos incluyen umbral de aprobado del 75% de aciertos.",
-                          "error_habitual":  "Mezclar porcentaje con otros bloques.",
+                          "error_habitual":  "Mezclar porcentaje de aprobado con limites tecnicos del UAS.",
                           "referencia_concepto":  "Datos criticos"
                       },
                       {
@@ -298,7 +298,7 @@
                           "tema":  "Alcance",
                           "subtema":  "Fuera de alcance",
                           "dificultad":  "facil",
-                          "pregunta":  "Que contenido queda fuera del alcance del A2 en este bloque?",
+                          "pregunta":  "Que contenido queda fuera del alcance del rendimiento A2?",
                           "respuestas":  [
                                              "Ejes de vuelo y CG",
                                              "MTOM y densidad del aire",
@@ -306,16 +306,16 @@
                                              "Performances BVLOS y calculos avanzados de centro de presiones para ala fija"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La auditoria clasifica BVLOS y calculos avanzados como fuera de alcance.",
-                          "error_habitual":  "Desarrollar BVLOS dentro de este bloque.",
-                          "referencia_concepto":  "Auditoria"
+                          "explicacion":  "La alcance clasifica BVLOS y calculos avanzados como fuera de alcance.",
+                          "error_habitual":  "Desarrollar BVLOS dentro del rendimiento A2.",
+                          "referencia_concepto":  "alcance"
                       },
                       {
                           "id":  "B5-T-019",
                           "tema":  "Carga util",
                           "subtema":  "Puente",
                           "dificultad":  "facil",
-                          "pregunta":  "Que otro nombre usa la ingenieria para carga util?",
+                          "pregunta":  "Que otro nombre usa la materia A2 para carga util?",
                           "respuestas":  [
                                              "Pitch",
                                              "Payload",
@@ -332,7 +332,7 @@
                           "tema":  "Calibracion",
                           "subtema":  "Sensores",
                           "dificultad":  "facil",
-                          "pregunta":  "Que sensores cita la ingenieria como ejemplo de instrumentos mal calibrados?",
+                          "pregunta":  "Que sensores cita la materia A2 como ejemplo de instrumentos mal calibrados?",
                           "respuestas":  [
                                              "Altimetro y microfono",
                                              "IMU y brujula",
@@ -434,7 +434,7 @@
                           "tema":  "Maniobrabilidad",
                           "subtema":  "Calibracion",
                           "dificultad":  "media",
-                          "pregunta":  "De que depende la maniobrabilidad segun el bloque?",
+                          "pregunta":  "De que depende la maniobrabilidad del UAS?",
                           "respuestas":  [
                                              "Umbral de aprobado",
                                              "Centro de presiones avanzado",
@@ -527,7 +527,7 @@
                                              "A la carga de documentos"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria afirma que afecta directamente al rendimiento de las helices.",
+                          "explicacion":  "la materia A2 afirma que afecta directamente al rendimiento de las helices.",
                           "error_habitual":  "Creer que solo afecta a alas fijas.",
                           "referencia_concepto":  "Densidad del aire"
                       },
@@ -536,7 +536,7 @@
                           "tema":  "Calor",
                           "subtema":  "Riesgo habitual",
                           "dificultad":  "media",
-                          "pregunta":  "Que error habitual cita la ingenieria sobre calor extremo?",
+                          "pregunta":  "Que error habitual cita la materia A2 sobre calor extremo?",
                           "respuestas":  [
                                              "Confundirlo con Indice K",
                                              "Pensar que aumenta siempre la bateria",
@@ -572,7 +572,7 @@
                           "dificultad":  "media",
                           "pregunta":  "De que varia la autonomia de bateria?",
                           "respuestas":  [
-                                             "Solo numero de pantallas del bloque",
+                                             "Solo numero de pantallas de estudio",
                                              "Solo altura maxima AGL",
                                              "Solo umbral de aprobado",
                                              "Peso de carga util y resistencia al viento enfrentada"
@@ -595,16 +595,16 @@
                                              "Para superar MTOM"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "Es una pregunta nacida del bloque y se relaciona con rendimiento.",
+                          "explicacion":  "La compatibilidad entre RPS y dron se relaciona con el rendimiento y el control seguro del vuelo.",
                           "error_habitual":  "Separar software de rendimiento.",
-                          "referencia_concepto":  "Preguntas que nacen del bloque"
+                          "referencia_concepto":  "Compatibilidad RPS/UAS"
                       },
                       {
                           "id":  "B5-T-036",
                           "tema":  "Efecto suelo",
                           "subtema":  "Escenario",
                           "dificultad":  "media",
-                          "pregunta":  "Que escenario cita la ingenieria sobre efecto suelo?",
+                          "pregunta":  "Que escenario cita la materia A2 sobre efecto suelo?",
                           "respuestas":  [
                                              "Operacion BVLOS nocturna",
                                              "Examen por televigilancia",
@@ -646,16 +646,16 @@
                                              "Centro de Gravedad"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La auditoria lo marca como complementario.",
+                          "explicacion":  "La alcance lo marca como complementario.",
                           "error_habitual":  "Convertir el detalle en eje principal.",
-                          "referencia_concepto":  "Auditoria"
+                          "referencia_concepto":  "alcance"
                       },
                       {
                           "id":  "B5-T-039",
                           "tema":  "Complementario",
                           "subtema":  "Humedad",
                           "dificultad":  "media",
-                          "pregunta":  "Como clasifica la auditoria el impacto especifico de la humedad?",
+                          "pregunta":  "Como clasifica la alcance el impacto especifico de la humedad?",
                           "respuestas":  [
                                              "Fuera del alcance siempre",
                                              "Complementario",
@@ -663,16 +663,16 @@
                                              "Sustituto de MTOM"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "La auditoria lo incluye como complementario.",
+                          "explicacion":  "La alcance lo incluye como complementario.",
                           "error_habitual":  "Inventar valores de humedad.",
-                          "referencia_concepto":  "Auditoria"
+                          "referencia_concepto":  "alcance"
                       },
                       {
                           "id":  "B5-T-040",
                           "tema":  "Aplicacion",
                           "subtema":  "Pre-vuelo",
                           "dificultad":  "media",
-                          "pregunta":  "Que aplicacion final aparece en el grafo de conocimiento?",
+                          "pregunta":  "Que aplicacion final aparece en el secuencia conceptual?",
                           "respuestas":  [
                                              "Generacion de normativa externa",
                                              "Gestion de estabilidad, evaluacion de carga util y calibracion pre-vuelo",
@@ -680,21 +680,21 @@
                                              "Calculo de centro de presiones para ala fija"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "El grafo termina en estabilidad, payload y calibracion pre-vuelo.",
+                          "explicacion":  "El secuencia conceptual termina en estabilidad, payload y calibracion pre-vuelo.",
                           "error_habitual":  "Saltar a contenidos fuera del alcance.",
-                          "referencia_concepto":  "Grafo de conocimiento"
+                          "referencia_concepto":  "secuencia conceptual"
                       },
                       {
                           "id":  "B5-T-041",
                           "tema":  "Ejes",
                           "subtema":  "Error de examen",
                           "dificultad":  "dificil",
-                          "pregunta":  "Cual es un error de examen citado literalmente en el bloque?",
+                          "pregunta":  "Que error de examen es habitual al estudiar los ejes de vuelo?",
                           "respuestas":  [
                                              "Asociar cabeceo al eje vertical en lugar de al lateral",
                                              "Confundir MTOM con ESP-RP",
                                              "Decir que VLOS no importa",
-                                             "Aplicar STS al Bloque 5"
+                                             "Aplicar STS al rendimiento A2"
                                          ],
                           "respuesta_correcta":  0,
                           "explicacion":  "La fuente cita ese ejemplo de confusion de ejes.",
@@ -714,7 +714,7 @@
                                              "Impide el control y puede causar la caida de la aeronave"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La ingenieria marca ese riesgo en la importancia del CG.",
+                          "explicacion":  "la materia A2 marca ese riesgo en la importancia del CG.",
                           "error_habitual":  "Pensar que basta con corregir con mando.",
                           "referencia_concepto":  "Centro de Gravedad"
                       },
@@ -740,7 +740,7 @@
                           "tema":  "Bernoulli",
                           "subtema":  "Presion",
                           "dificultad":  "dificil",
-                          "pregunta":  "Si aumenta la velocidad del aire sobre el perfil, con que debe relacionarlo el alumno?",
+                          "pregunta":  "Si aumenta la velocidad del aire sobre un perfil, con que concepto debe relacionarse?",
                           "respuestas":  [
                                              "Con Bernoulli y la diferencia de presiones estatica y dinamica",
                                              "Con tramites administrativos",
@@ -750,14 +750,14 @@
                           "respuesta_correcta":  0,
                           "explicacion":  "La fuente plantea esa pregunta sin pedir calculo numerico.",
                           "error_habitual":  "Inventar formulas no presentes.",
-                          "referencia_concepto":  "Preguntas que nacen del bloque"
+                          "referencia_concepto":  "Bernoulli y presiones"
                       },
                       {
                           "id":  "B5-T-045",
-                          "tema":  "Grafo",
+                          "tema":  "secuencia conceptual",
                           "subtema":  "Secuencia",
                           "dificultad":  "dificil",
-                          "pregunta":  "Cual es la secuencia correcta del grafo de conocimiento?",
+                          "pregunta":  "Cual es la secuencia correcta del secuencia conceptual?",
                           "respuestas":  [
                                              "MTOM -\u003e BVLOS -\u003e radiofonista -\u003e SORA",
                                              "Fuerzas/perfil/Bernoulli -\u003e ejes/CG -\u003e densidad/MTOM -\u003e estabilidad/carga/calibracion",
@@ -765,9 +765,9 @@
                                              "Indice K -\u003e certificado -\u003e matricula -\u003e firma"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "El grafo organiza aprendizaje desde fisica basica hasta aplicacion operacional.",
+                          "explicacion":  "El secuencia conceptual organiza aprendizaje desde fisica basica hasta aplicacion operacional.",
                           "error_habitual":  "Empezar por aplicacion sin conceptos iniciales.",
-                          "referencia_concepto":  "Grafo de conocimiento"
+                          "referencia_concepto":  "secuencia conceptual"
                       },
                       {
                           "id":  "B5-T-046",
@@ -791,7 +791,7 @@
                           "tema":  "Payload",
                           "subtema":  "Escenario",
                           "dificultad":  "dificil",
-                          "pregunta":  "Un piloto instala un sensor adicional. Que debe comprobar segun el bloque?",
+                          "pregunta":  "Un piloto instala un sensor adicional. Que debe comprobar antes del vuelo?",
                           "respuestas":  [
                                              "MTOM y posible efecto negativo en el CG",
                                              "Solo que el sensor tenga buena resolucion",
@@ -816,42 +816,42 @@
                                              "Solo numero de helices"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "El bloque presenta esos factores como conceptos, variables o puentes.",
+                          "explicacion":  "El rendimiento real depende de varios factores fisicos, tecnicos y ambientales.",
                           "error_habitual":  "Reducir rendimiento a bateria.",
                           "referencia_concepto":  "Conceptos principales y variables"
                       },
                       {
                           "id":  "B5-T-049",
-                          "tema":  "Auditoria",
+                          "tema":  "alcance",
                           "subtema":  "Imprescindible",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que conjunto es imprescindible para el Bloque 5 A2?",
+                          "pregunta":  "Que conjunto es imprescindible para comprender el rendimiento de vuelo de un UAS A2?",
                           "respuestas":  [
                                              "BVLOS, SORA y centro de presiones avanzado",
-                                             "Solo presiones detalladas e humedad especifica",
+                                             "Solo presiones detalladas y humedad especifica",
                                              "Ejes, CG, MTOM, fuerzas aerodinamicas y densidad del aire",
                                              "Solo flashcards y prompts"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La auditoria clasifica esos conceptos como imprescindibles.",
+                          "explicacion":  "La alcance clasifica esos conceptos como imprescindibles.",
                           "error_habitual":  "Priorizar contenidos complementarios o fuera de alcance.",
-                          "referencia_concepto":  "Auditoria"
+                          "referencia_concepto":  "alcance"
                       },
                       {
                           "id":  "B5-T-050",
                           "tema":  "Alcance",
                           "subtema":  "Fuera del A2",
                           "dificultad":  "dificil",
-                          "pregunta":  "Si aparece BVLOS al desarrollar rendimiento, que debe hacerse en este curso?",
+                          "pregunta":  "Como debe tratarse BVLOS al estudiar rendimiento en A2?",
                           "respuestas":  [
-                                             "Marcarlo fuera del alcance del curso A2 y no desarrollarlo",
+                                             "Considerarlo fuera del alcance de A2 y no desarrollarlo",
                                              "Desarrollarlo como parte central",
                                              "Sustituir MTOM por BVLOS",
                                              "Eliminar los ejes de vuelo"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La auditoria indica que performances BVLOS estan fuera del alcance A2.",
-                          "error_habitual":  "Abrir categoria fuera del alcance.",
+                          "explicacion":  "Las performances BVLOS estan fuera del alcance A2.",
+                          "error_habitual":  "Abrir categoria fuera del alcance de A2.",
                           "referencia_concepto":  "Fuera del alcance"
                       }
                   ]
